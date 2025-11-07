@@ -1,0 +1,8 @@
+# Ignore everything
+appsettings.*
+resources/bge*
+.*
+!.gitignore
+
+# But keep this specific file if it exists anywhere
+/Resources/bge.rtio.p12

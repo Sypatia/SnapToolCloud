@@ -1,0 +1,3361 @@
+WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
+30.0,N,,106,180k,Berth 02,MC1,Bow
+30.0,NNE,,118,180k,Berth 02,MC1,Bow
+30.0,NE,,121,180k,Berth 02,MC1,Bow
+30.0,ENE,,103,180k,Berth 02,MC1,Bow
+30.0,E,,86,180k,Berth 02,MC1,Bow
+30.0,ESE,,144,180k,Berth 02,MC1,Bow
+30.0,SE,,223,180k,Berth 02,MC1,Bow
+30.0,SSE,,242,180k,Berth 02,MC1,Bow
+30.0,S,,299,180k,Berth 02,MC1,Bow
+30.0,SSW,,267,180k,Berth 02,MC1,Bow
+30.0,SW,,252,180k,Berth 02,MC1,Bow
+30.0,WSW,,141,180k,Berth 02,MC1,Bow
+30.0,W,,133,180k,Berth 02,MC1,Bow
+30.0,WNW,,106,180k,Berth 02,MC1,Bow
+30.0,NW,,100,180k,Berth 02,MC1,Bow
+30.0,NNW,,93,180k,Berth 02,MC1,Bow
+20.0,N,,99,180k,Berth 02,MC1,Bow
+20.0,NNE,,121,180k,Berth 02,MC1,Bow
+20.0,NE,,124,180k,Berth 02,MC1,Bow
+20.0,ENE,,105,180k,Berth 02,MC1,Bow
+20.0,E,,105,180k,Berth 02,MC1,Bow
+20.0,ESE,,100,180k,Berth 02,MC1,Bow
+20.0,SE,,132,180k,Berth 02,MC1,Bow
+20.0,SSE,,152,180k,Berth 02,MC1,Bow
+20.0,S,,148,180k,Berth 02,MC1,Bow
+20.0,SSW,,140,180k,Berth 02,MC1,Bow
+20.0,SW,,133,180k,Berth 02,MC1,Bow
+20.0,WSW,,111,180k,Berth 02,MC1,Bow
+20.0,W,,107,180k,Berth 02,MC1,Bow
+20.0,WNW,,113,180k,Berth 02,MC1,Bow
+20.0,NW,,102,180k,Berth 02,MC1,Bow
+20.0,NNW,,102,180k,Berth 02,MC1,Bow
+20.0,NE,1,175,180k,Berth 02,MC1,Bow
+20.0,NE,2,92,180k,Berth 02,MC1,Bow
+20.0,NE,3,101,180k,Berth 02,MC1,Bow
+20.0,NE,4,145,180k,Berth 02,MC1,Bow
+20.0,NE,5,149,180k,Berth 02,MC1,Bow
+20.0,NE,6,187,180k,Berth 02,MC1,Bow
+20.0,NE,7,211,180k,Berth 02,MC1,Bow
+9.0,E,8,121,180k,Berth 02,MC1,Bow
+9.0,E,9,173,180k,Berth 02,MC1,Bow
+9.0,E,10,169,180k,Berth 02,MC1,Bow
+30.0,N,,72,180k,Berth 02,MC1,Fwd Spring
+30.0,NNE,,87,180k,Berth 02,MC1,Fwd Spring
+30.0,NE,,104,180k,Berth 02,MC1,Fwd Spring
+30.0,ENE,,118,180k,Berth 02,MC1,Fwd Spring
+30.0,E,,87,180k,Berth 02,MC1,Fwd Spring
+30.0,ESE,,97,180k,Berth 02,MC1,Fwd Spring
+30.0,SE,,90,180k,Berth 02,MC1,Fwd Spring
+30.0,SSE,,140,180k,Berth 02,MC1,Fwd Spring
+30.0,S,,165,180k,Berth 02,MC1,Fwd Spring
+30.0,SSW,,135,180k,Berth 02,MC1,Fwd Spring
+30.0,SW,,105,180k,Berth 02,MC1,Fwd Spring
+30.0,WSW,,83,180k,Berth 02,MC1,Fwd Spring
+30.0,W,,71,180k,Berth 02,MC1,Fwd Spring
+30.0,WNW,,57,180k,Berth 02,MC1,Fwd Spring
+30.0,NW,,59,180k,Berth 02,MC1,Fwd Spring
+30.0,NNW,,59,180k,Berth 02,MC1,Fwd Spring
+20.0,N,,68,180k,Berth 02,MC1,Fwd Spring
+20.0,NNE,,88,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,,101,180k,Berth 02,MC1,Fwd Spring
+20.0,ENE,,96,180k,Berth 02,MC1,Fwd Spring
+20.0,E,,91,180k,Berth 02,MC1,Fwd Spring
+20.0,ESE,,83,180k,Berth 02,MC1,Fwd Spring
+20.0,SE,,83,180k,Berth 02,MC1,Fwd Spring
+20.0,SSE,,87,180k,Berth 02,MC1,Fwd Spring
+20.0,S,,104,180k,Berth 02,MC1,Fwd Spring
+20.0,SSW,,111,180k,Berth 02,MC1,Fwd Spring
+20.0,SW,,110,180k,Berth 02,MC1,Fwd Spring
+20.0,WSW,,91,180k,Berth 02,MC1,Fwd Spring
+20.0,W,,82,180k,Berth 02,MC1,Fwd Spring
+20.0,WNW,,70,180k,Berth 02,MC1,Fwd Spring
+20.0,NW,,72,180k,Berth 02,MC1,Fwd Spring
+20.0,NNW,,74,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,1,176,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,2,79,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,3,87,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,4,109,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,5,144,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,6,168,180k,Berth 02,MC1,Fwd Spring
+20.0,NE,7,195,180k,Berth 02,MC1,Fwd Spring
+9.0,E,8,104,180k,Berth 02,MC1,Fwd Spring
+9.0,E,9,147,180k,Berth 02,MC1,Fwd Spring
+9.0,E,10,158,180k,Berth 02,MC1,Fwd Spring
+30.0,N,,50,180k,Berth 02,MC1,Aft Spring
+30.0,NNE,,45,180k,Berth 02,MC1,Aft Spring
+30.0,NE,,43,180k,Berth 02,MC1,Aft Spring
+30.0,ENE,,49,180k,Berth 02,MC1,Aft Spring
+30.0,E,,72,180k,Berth 02,MC1,Aft Spring
+30.0,ESE,,152,180k,Berth 02,MC1,Aft Spring
+30.0,SE,,213,180k,Berth 02,MC1,Aft Spring
+30.0,SSE,,231,180k,Berth 02,MC1,Aft Spring
+30.0,S,,207,180k,Berth 02,MC1,Aft Spring
+30.0,SSW,,156,180k,Berth 02,MC1,Aft Spring
+30.0,SW,,137,180k,Berth 02,MC1,Aft Spring
+30.0,WSW,,118,180k,Berth 02,MC1,Aft Spring
+30.0,W,,98,180k,Berth 02,MC1,Aft Spring
+30.0,WNW,,76,180k,Berth 02,MC1,Aft Spring
+30.0,NW,,59,180k,Berth 02,MC1,Aft Spring
+30.0,NNW,,54,180k,Berth 02,MC1,Aft Spring
+20.0,N,,54,180k,Berth 02,MC1,Aft Spring
+20.0,NNE,,55,180k,Berth 02,MC1,Aft Spring
+20.0,NE,,54,180k,Berth 02,MC1,Aft Spring
+20.0,ENE,,60,180k,Berth 02,MC1,Aft Spring
+20.0,E,,71,180k,Berth 02,MC1,Aft Spring
+20.0,ESE,,99,180k,Berth 02,MC1,Aft Spring
+20.0,SE,,131,180k,Berth 02,MC1,Aft Spring
+20.0,SSE,,151,180k,Berth 02,MC1,Aft Spring
+20.0,S,,136,180k,Berth 02,MC1,Aft Spring
+20.0,SSW,,115,180k,Berth 02,MC1,Aft Spring
+20.0,SW,,111,180k,Berth 02,MC1,Aft Spring
+20.0,WSW,,103,180k,Berth 02,MC1,Aft Spring
+20.0,W,,94,180k,Berth 02,MC1,Aft Spring
+20.0,WNW,,76,180k,Berth 02,MC1,Aft Spring
+20.0,NW,,63,180k,Berth 02,MC1,Aft Spring
+20.0,NNW,,58,180k,Berth 02,MC1,Aft Spring
+20.0,NE,1,120,180k,Berth 02,MC1,Aft Spring
+20.0,NE,2,58,180k,Berth 02,MC1,Aft Spring
+20.0,NE,3,59,180k,Berth 02,MC1,Aft Spring
+20.0,NE,4,67,180k,Berth 02,MC1,Aft Spring
+20.0,NE,5,101,180k,Berth 02,MC1,Aft Spring
+20.0,NE,6,94,180k,Berth 02,MC1,Aft Spring
+20.0,NE,7,108,180k,Berth 02,MC1,Aft Spring
+9.0,E,8,88,180k,Berth 02,MC1,Aft Spring
+9.0,E,9,125,180k,Berth 02,MC1,Aft Spring
+9.0,E,10,150,180k,Berth 02,MC1,Aft Spring
+30.0,N,,80,180k,Berth 02,MC1,Stern
+30.0,NNE,,80,180k,Berth 02,MC1,Stern
+30.0,NE,,76,180k,Berth 02,MC1,Stern
+30.0,ENE,,79,180k,Berth 02,MC1,Stern
+30.0,E,,113,180k,Berth 02,MC1,Stern
+30.0,ESE,,258,180k,Berth 02,MC1,Stern
+30.0,SE,,342,180k,Berth 02,MC1,Stern
+30.0,SSE,,376,180k,Berth 02,MC1,Stern
+30.0,S,,413,180k,Berth 02,MC1,Stern
+30.0,SSW,,343,180k,Berth 02,MC1,Stern
+30.0,SW,,302,180k,Berth 02,MC1,Stern
+30.0,WSW,,167,180k,Berth 02,MC1,Stern
+30.0,W,,109,180k,Berth 02,MC1,Stern
+30.0,WNW,,85,180k,Berth 02,MC1,Stern
+30.0,NW,,78,180k,Berth 02,MC1,Stern
+30.0,NNW,,81,180k,Berth 02,MC1,Stern
+20.0,N,,81,180k,Berth 02,MC1,Stern
+20.0,NNE,,83,180k,Berth 02,MC1,Stern
+20.0,NE,,88,180k,Berth 02,MC1,Stern
+20.0,ENE,,90,180k,Berth 02,MC1,Stern
+20.0,E,,103,180k,Berth 02,MC1,Stern
+20.0,ESE,,149,180k,Berth 02,MC1,Stern
+20.0,SE,,194,180k,Berth 02,MC1,Stern
+20.0,SSE,,202,180k,Berth 02,MC1,Stern
+20.0,S,,208,180k,Berth 02,MC1,Stern
+20.0,SSW,,182,180k,Berth 02,MC1,Stern
+20.0,SW,,160,180k,Berth 02,MC1,Stern
+20.0,WSW,,110,180k,Berth 02,MC1,Stern
+20.0,W,,100,180k,Berth 02,MC1,Stern
+20.0,WNW,,104,180k,Berth 02,MC1,Stern
+20.0,NW,,89,180k,Berth 02,MC1,Stern
+20.0,NNW,,89,180k,Berth 02,MC1,Stern
+20.0,NE,1,192,180k,Berth 02,MC1,Stern
+20.0,NE,2,94,180k,Berth 02,MC1,Stern
+20.0,NE,3,97,180k,Berth 02,MC1,Stern
+20.0,NE,4,130,180k,Berth 02,MC1,Stern
+20.0,NE,5,162,180k,Berth 02,MC1,Stern
+20.0,NE,6,170,180k,Berth 02,MC1,Stern
+20.0,NE,7,205,180k,Berth 02,MC1,Stern
+9.0,E,8,123,180k,Berth 02,MC1,Stern
+9.0,E,9,169,180k,Berth 02,MC1,Stern
+9.0,E,10,189,180k,Berth 02,MC1,Stern
+30.0,N,,114,180k,Berth 02,MC2,Bow
+30.0,NNE,,120,180k,Berth 02,MC2,Bow
+30.0,NE,,136,180k,Berth 02,MC2,Bow
+30.0,ENE,,94,180k,Berth 02,MC2,Bow
+30.0,E,,121,180k,Berth 02,MC2,Bow
+30.0,ESE,,143,180k,Berth 02,MC2,Bow
+30.0,SE,,249,180k,Berth 02,MC2,Bow
+30.0,SSE,,317,180k,Berth 02,MC2,Bow
+30.0,S,,369,180k,Berth 02,MC2,Bow
+30.0,SSW,,386,180k,Berth 02,MC2,Bow
+30.0,SW,,334,180k,Berth 02,MC2,Bow
+30.0,WSW,,206,180k,Berth 02,MC2,Bow
+30.0,W,,122,180k,Berth 02,MC2,Bow
+30.0,WNW,,117,180k,Berth 02,MC2,Bow
+30.0,NW,,108,180k,Berth 02,MC2,Bow
+30.0,NNW,,109,180k,Berth 02,MC2,Bow
+20.0,N,,122,180k,Berth 02,MC2,Bow
+20.0,NNE,,155,180k,Berth 02,MC2,Bow
+20.0,NE,,143,180k,Berth 02,MC2,Bow
+20.0,ENE,,116,180k,Berth 02,MC2,Bow
+20.0,E,,123,180k,Berth 02,MC2,Bow
+20.0,ESE,,92,180k,Berth 02,MC2,Bow
+20.0,SE,,128,180k,Berth 02,MC2,Bow
+20.0,SSE,,158,180k,Berth 02,MC2,Bow
+20.0,S,,191,180k,Berth 02,MC2,Bow
+20.0,SSW,,203,180k,Berth 02,MC2,Bow
+20.0,SW,,189,180k,Berth 02,MC2,Bow
+20.0,WSW,,141,180k,Berth 02,MC2,Bow
+20.0,W,,127,180k,Berth 02,MC2,Bow
+20.0,WNW,,121,180k,Berth 02,MC2,Bow
+20.0,NW,,119,180k,Berth 02,MC2,Bow
+20.0,NNW,,130,180k,Berth 02,MC2,Bow
+20.0,NE,1,207,180k,Berth 02,MC2,Bow
+20.0,NE,2,114,180k,Berth 02,MC2,Bow
+20.0,NE,3,150,180k,Berth 02,MC2,Bow
+20.0,NE,4,153,180k,Berth 02,MC2,Bow
+20.0,NE,5,179,180k,Berth 02,MC2,Bow
+20.0,NE,6,197,180k,Berth 02,MC2,Bow
+20.0,NE,7,243,180k,Berth 02,MC2,Bow
+9.0,E,8,155,180k,Berth 02,MC2,Bow
+9.0,E,9,160,180k,Berth 02,MC2,Bow
+9.0,E,10,228,180k,Berth 02,MC2,Bow
+30.0,N,,72,180k,Berth 02,MC2,Fwd Spring
+30.0,NNE,,82,180k,Berth 02,MC2,Fwd Spring
+30.0,NE,,114,180k,Berth 02,MC2,Fwd Spring
+30.0,ENE,,91,180k,Berth 02,MC2,Fwd Spring
+30.0,E,,124,180k,Berth 02,MC2,Fwd Spring
+30.0,ESE,,113,180k,Berth 02,MC2,Fwd Spring
+30.0,SE,,155,180k,Berth 02,MC2,Fwd Spring
+30.0,SSE,,232,180k,Berth 02,MC2,Fwd Spring
+30.0,S,,238,180k,Berth 02,MC2,Fwd Spring
+30.0,SSW,,160,180k,Berth 02,MC2,Fwd Spring
+30.0,SW,,213,180k,Berth 02,MC2,Fwd Spring
+30.0,WSW,,114,180k,Berth 02,MC2,Fwd Spring
+30.0,W,,70,180k,Berth 02,MC2,Fwd Spring
+30.0,WNW,,61,180k,Berth 02,MC2,Fwd Spring
+30.0,NW,,60,180k,Berth 02,MC2,Fwd Spring
+30.0,NNW,,63,180k,Berth 02,MC2,Fwd Spring
+20.0,N,,78,180k,Berth 02,MC2,Fwd Spring
+20.0,NNE,,103,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,,105,180k,Berth 02,MC2,Fwd Spring
+20.0,ENE,,104,180k,Berth 02,MC2,Fwd Spring
+20.0,E,,113,180k,Berth 02,MC2,Fwd Spring
+20.0,ESE,,88,180k,Berth 02,MC2,Fwd Spring
+20.0,SE,,97,180k,Berth 02,MC2,Fwd Spring
+20.0,SSE,,97,180k,Berth 02,MC2,Fwd Spring
+20.0,S,,122,180k,Berth 02,MC2,Fwd Spring
+20.0,SSW,,143,180k,Berth 02,MC2,Fwd Spring
+20.0,SW,,123,180k,Berth 02,MC2,Fwd Spring
+20.0,WSW,,105,180k,Berth 02,MC2,Fwd Spring
+20.0,W,,78,180k,Berth 02,MC2,Fwd Spring
+20.0,WNW,,71,180k,Berth 02,MC2,Fwd Spring
+20.0,NW,,66,180k,Berth 02,MC2,Fwd Spring
+20.0,NNW,,80,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,1,181,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,2,88,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,3,102,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,4,106,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,5,148,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,6,181,180k,Berth 02,MC2,Fwd Spring
+20.0,NE,7,193,180k,Berth 02,MC2,Fwd Spring
+9.0,E,8,105,180k,Berth 02,MC2,Fwd Spring
+9.0,E,9,144,180k,Berth 02,MC2,Fwd Spring
+9.0,E,10,185,180k,Berth 02,MC2,Fwd Spring
+30.0,N,,48,180k,Berth 02,MC2,Aft Spring
+30.0,NNE,,43,180k,Berth 02,MC2,Aft Spring
+30.0,NE,,43,180k,Berth 02,MC2,Aft Spring
+30.0,ENE,,40,180k,Berth 02,MC2,Aft Spring
+30.0,E,,62,180k,Berth 02,MC2,Aft Spring
+30.0,ESE,,143,180k,Berth 02,MC2,Aft Spring
+30.0,SE,,192,180k,Berth 02,MC2,Aft Spring
+30.0,SSE,,229,180k,Berth 02,MC2,Aft Spring
+30.0,S,,185,180k,Berth 02,MC2,Aft Spring
+30.0,SSW,,129,180k,Berth 02,MC2,Aft Spring
+30.0,SW,,144,180k,Berth 02,MC2,Aft Spring
+30.0,WSW,,98,180k,Berth 02,MC2,Aft Spring
+30.0,W,,98,180k,Berth 02,MC2,Aft Spring
+30.0,WNW,,67,180k,Berth 02,MC2,Aft Spring
+30.0,NW,,60,180k,Berth 02,MC2,Aft Spring
+30.0,NNW,,50,180k,Berth 02,MC2,Aft Spring
+20.0,N,,55,180k,Berth 02,MC2,Aft Spring
+20.0,NNE,,50,180k,Berth 02,MC2,Aft Spring
+20.0,NE,,54,180k,Berth 02,MC2,Aft Spring
+20.0,ENE,,52,180k,Berth 02,MC2,Aft Spring
+20.0,E,,64,180k,Berth 02,MC2,Aft Spring
+20.0,ESE,,92,180k,Berth 02,MC2,Aft Spring
+20.0,SE,,119,180k,Berth 02,MC2,Aft Spring
+20.0,SSE,,123,180k,Berth 02,MC2,Aft Spring
+20.0,S,,119,180k,Berth 02,MC2,Aft Spring
+20.0,SSW,,106,180k,Berth 02,MC2,Aft Spring
+20.0,SW,,90,180k,Berth 02,MC2,Aft Spring
+20.0,WSW,,85,180k,Berth 02,MC2,Aft Spring
+20.0,W,,81,180k,Berth 02,MC2,Aft Spring
+20.0,WNW,,71,180k,Berth 02,MC2,Aft Spring
+20.0,NW,,61,180k,Berth 02,MC2,Aft Spring
+20.0,NNW,,61,180k,Berth 02,MC2,Aft Spring
+20.0,NE,1,104,180k,Berth 02,MC2,Aft Spring
+20.0,NE,2,52,180k,Berth 02,MC2,Aft Spring
+20.0,NE,3,54,180k,Berth 02,MC2,Aft Spring
+20.0,NE,4,67,180k,Berth 02,MC2,Aft Spring
+20.0,NE,5,83,180k,Berth 02,MC2,Aft Spring
+20.0,NE,6,89,180k,Berth 02,MC2,Aft Spring
+20.0,NE,7,116,180k,Berth 02,MC2,Aft Spring
+9.0,E,8,76,180k,Berth 02,MC2,Aft Spring
+9.0,E,9,108,180k,Berth 02,MC2,Aft Spring
+9.0,E,10,129,180k,Berth 02,MC2,Aft Spring
+30.0,N,,75,180k,Berth 02,MC2,Stern
+30.0,NNE,,72,180k,Berth 02,MC2,Stern
+30.0,NE,,68,180k,Berth 02,MC2,Stern
+30.0,ENE,,72,180k,Berth 02,MC2,Stern
+30.0,E,,101,180k,Berth 02,MC2,Stern
+30.0,ESE,,236,180k,Berth 02,MC2,Stern
+30.0,SE,,336,180k,Berth 02,MC2,Stern
+30.0,SSE,,378,180k,Berth 02,MC2,Stern
+30.0,S,,362,180k,Berth 02,MC2,Stern
+30.0,SSW,,329,180k,Berth 02,MC2,Stern
+30.0,SW,,279,180k,Berth 02,MC2,Stern
+30.0,WSW,,160,180k,Berth 02,MC2,Stern
+30.0,W,,104,180k,Berth 02,MC2,Stern
+30.0,WNW,,85,180k,Berth 02,MC2,Stern
+30.0,NW,,75,180k,Berth 02,MC2,Stern
+30.0,NNW,,70,180k,Berth 02,MC2,Stern
+20.0,N,,81,180k,Berth 02,MC2,Stern
+20.0,NNE,,78,180k,Berth 02,MC2,Stern
+20.0,NE,,83,180k,Berth 02,MC2,Stern
+20.0,ENE,,87,180k,Berth 02,MC2,Stern
+20.0,E,,93,180k,Berth 02,MC2,Stern
+20.0,ESE,,138,180k,Berth 02,MC2,Stern
+20.0,SE,,175,180k,Berth 02,MC2,Stern
+20.0,SSE,,191,180k,Berth 02,MC2,Stern
+20.0,S,,194,180k,Berth 02,MC2,Stern
+20.0,SSW,,176,180k,Berth 02,MC2,Stern
+20.0,SW,,159,180k,Berth 02,MC2,Stern
+20.0,WSW,,104,180k,Berth 02,MC2,Stern
+20.0,W,,112,180k,Berth 02,MC2,Stern
+20.0,WNW,,101,180k,Berth 02,MC2,Stern
+20.0,NW,,91,180k,Berth 02,MC2,Stern
+20.0,NNW,,89,180k,Berth 02,MC2,Stern
+20.0,NE,1,156,180k,Berth 02,MC2,Stern
+20.0,NE,2,92,180k,Berth 02,MC2,Stern
+20.0,NE,3,94,180k,Berth 02,MC2,Stern
+20.0,NE,4,104,180k,Berth 02,MC2,Stern
+20.0,NE,5,150,180k,Berth 02,MC2,Stern
+20.0,NE,6,151,180k,Berth 02,MC2,Stern
+20.0,NE,7,196,180k,Berth 02,MC2,Stern
+9.0,E,8,126,180k,Berth 02,MC2,Stern
+9.0,E,9,129,180k,Berth 02,MC2,Stern
+9.0,E,10,221,180k,Berth 02,MC2,Stern
+30.0,N,,292,180k,Berth 03,MC1,Bow
+30.0,NNE,,249,180k,Berth 03,MC1,Bow
+30.0,NE,,192,180k,Berth 03,MC1,Bow
+30.0,ENE,,98,180k,Berth 03,MC1,Bow
+30.0,E,,79,180k,Berth 03,MC1,Bow
+30.0,ESE,,78,180k,Berth 03,MC1,Bow
+30.0,SE,,84,180k,Berth 03,MC1,Bow
+30.0,SSE,,79,180k,Berth 03,MC1,Bow
+30.0,S,,74,180k,Berth 03,MC1,Bow
+30.0,SSW,,69,180k,Berth 03,MC1,Bow
+30.0,SW,,73,180k,Berth 03,MC1,Bow
+30.0,WSW,,83,180k,Berth 03,MC1,Bow
+30.0,W,,96,180k,Berth 03,MC1,Bow
+30.0,WNW,,141,180k,Berth 03,MC1,Bow
+30.0,NW,,242,180k,Berth 03,MC1,Bow
+30.0,NNW,,291,180k,Berth 03,MC1,Bow
+20.0,N,,146,180k,Berth 03,MC1,Bow
+20.0,NNE,,133,180k,Berth 03,MC1,Bow
+20.0,NE,,100,180k,Berth 03,MC1,Bow
+20.0,ENE,,81,180k,Berth 03,MC1,Bow
+20.0,E,,86,180k,Berth 03,MC1,Bow
+20.0,ESE,,95,180k,Berth 03,MC1,Bow
+20.0,SE,,86,180k,Berth 03,MC1,Bow
+20.0,SSE,,83,180k,Berth 03,MC1,Bow
+20.0,S,,82,180k,Berth 03,MC1,Bow
+20.0,SSW,,79,180k,Berth 03,MC1,Bow
+20.0,SW,,83,180k,Berth 03,MC1,Bow
+20.0,WSW,,79,180k,Berth 03,MC1,Bow
+20.0,W,,90,180k,Berth 03,MC1,Bow
+20.0,WNW,,93,180k,Berth 03,MC1,Bow
+20.0,NW,,133,180k,Berth 03,MC1,Bow
+20.0,NNW,,147,180k,Berth 03,MC1,Bow
+20.0,NE,1,163,180k,Berth 03,MC1,Bow
+20.0,NE,2,127,180k,Berth 03,MC1,Bow
+20.0,NE,3,210,180k,Berth 03,MC1,Bow
+20.0,NE,4,286,180k,Berth 03,MC1,Bow
+20.0,NE,5,163,180k,Berth 03,MC1,Bow
+20.0,NE,6,219,180k,Berth 03,MC1,Bow
+20.0,NE,7,306,180k,Berth 03,MC1,Bow
+9.0,E,8,131,180k,Berth 03,MC1,Bow
+9.0,E,9,172,180k,Berth 03,MC1,Bow
+9.0,E,10,161,180k,Berth 03,MC1,Bow
+30.0,N,,246,180k,Berth 03,MC1,Fwd Spring
+30.0,NNE,,240,180k,Berth 03,MC1,Fwd Spring
+30.0,NE,,190,180k,Berth 03,MC1,Fwd Spring
+30.0,ENE,,93,180k,Berth 03,MC1,Fwd Spring
+30.0,E,,80,180k,Berth 03,MC1,Fwd Spring
+30.0,ESE,,84,180k,Berth 03,MC1,Fwd Spring
+30.0,SE,,75,180k,Berth 03,MC1,Fwd Spring
+30.0,SSE,,60,180k,Berth 03,MC1,Fwd Spring
+30.0,S,,51,180k,Berth 03,MC1,Fwd Spring
+30.0,SSW,,46,180k,Berth 03,MC1,Fwd Spring
+30.0,SW,,43,180k,Berth 03,MC1,Fwd Spring
+30.0,WSW,,43,180k,Berth 03,MC1,Fwd Spring
+30.0,W,,49,180k,Berth 03,MC1,Fwd Spring
+30.0,WNW,,101,180k,Berth 03,MC1,Fwd Spring
+30.0,NW,,191,180k,Berth 03,MC1,Fwd Spring
+30.0,NNW,,226,180k,Berth 03,MC1,Fwd Spring
+20.0,N,,122,180k,Berth 03,MC1,Fwd Spring
+20.0,NNE,,114,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,,94,180k,Berth 03,MC1,Fwd Spring
+20.0,ENE,,66,180k,Berth 03,MC1,Fwd Spring
+20.0,E,,68,180k,Berth 03,MC1,Fwd Spring
+20.0,ESE,,77,180k,Berth 03,MC1,Fwd Spring
+20.0,SE,,69,180k,Berth 03,MC1,Fwd Spring
+20.0,SSE,,65,180k,Berth 03,MC1,Fwd Spring
+20.0,S,,57,180k,Berth 03,MC1,Fwd Spring
+20.0,SSW,,56,180k,Berth 03,MC1,Fwd Spring
+20.0,SW,,56,180k,Berth 03,MC1,Fwd Spring
+20.0,WSW,,51,180k,Berth 03,MC1,Fwd Spring
+20.0,W,,57,180k,Berth 03,MC1,Fwd Spring
+20.0,WNW,,73,180k,Berth 03,MC1,Fwd Spring
+20.0,NW,,107,180k,Berth 03,MC1,Fwd Spring
+20.0,NNW,,117,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,1,152,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,2,122,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,3,169,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,4,231,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,5,146,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,6,190,180k,Berth 03,MC1,Fwd Spring
+20.0,NE,7,275,180k,Berth 03,MC1,Fwd Spring
+9.0,E,8,88,180k,Berth 03,MC1,Fwd Spring
+9.0,E,9,149,180k,Berth 03,MC1,Fwd Spring
+9.0,E,10,180,180k,Berth 03,MC1,Fwd Spring
+30.0,N,,470,180k,Berth 03,MC1,Aft Spring
+30.0,NNE,,534,180k,Berth 03,MC1,Aft Spring
+30.0,NE,,457,180k,Berth 03,MC1,Aft Spring
+30.0,ENE,,253,180k,Berth 03,MC1,Aft Spring
+30.0,E,,71,180k,Berth 03,MC1,Aft Spring
+30.0,ESE,,46,180k,Berth 03,MC1,Aft Spring
+30.0,SE,,43,180k,Berth 03,MC1,Aft Spring
+30.0,SSE,,47,180k,Berth 03,MC1,Aft Spring
+30.0,S,,51,180k,Berth 03,MC1,Aft Spring
+30.0,SSW,,56,180k,Berth 03,MC1,Aft Spring
+30.0,SW,,75,180k,Berth 03,MC1,Aft Spring
+30.0,WSW,,93,180k,Berth 03,MC1,Aft Spring
+30.0,W,,146,180k,Berth 03,MC1,Aft Spring
+30.0,WNW,,188,180k,Berth 03,MC1,Aft Spring
+30.0,NW,,350,180k,Berth 03,MC1,Aft Spring
+30.0,NNW,,401,180k,Berth 03,MC1,Aft Spring
+20.0,N,,260,180k,Berth 03,MC1,Aft Spring
+20.0,NNE,,291,180k,Berth 03,MC1,Aft Spring
+20.0,NE,,227,180k,Berth 03,MC1,Aft Spring
+20.0,ENE,,143,180k,Berth 03,MC1,Aft Spring
+20.0,E,,69,180k,Berth 03,MC1,Aft Spring
+20.0,ESE,,61,180k,Berth 03,MC1,Aft Spring
+20.0,SE,,56,180k,Berth 03,MC1,Aft Spring
+20.0,SSE,,55,180k,Berth 03,MC1,Aft Spring
+20.0,S,,62,180k,Berth 03,MC1,Aft Spring
+20.0,SSW,,65,180k,Berth 03,MC1,Aft Spring
+20.0,SW,,89,180k,Berth 03,MC1,Aft Spring
+20.0,WSW,,86,180k,Berth 03,MC1,Aft Spring
+20.0,W,,123,180k,Berth 03,MC1,Aft Spring
+20.0,WNW,,141,180k,Berth 03,MC1,Aft Spring
+20.0,NW,,207,180k,Berth 03,MC1,Aft Spring
+20.0,NNW,,226,180k,Berth 03,MC1,Aft Spring
+20.0,NE,1,355,180k,Berth 03,MC1,Aft Spring
+20.0,NE,2,285,180k,Berth 03,MC1,Aft Spring
+20.0,NE,3,409,180k,Berth 03,MC1,Aft Spring
+20.0,NE,4,510,180k,Berth 03,MC1,Aft Spring
+20.0,NE,5,345,180k,Berth 03,MC1,Aft Spring
+20.0,NE,6,425,180k,Berth 03,MC1,Aft Spring
+20.0,NE,7,561,180k,Berth 03,MC1,Aft Spring
+9.0,E,8,153,180k,Berth 03,MC1,Aft Spring
+9.0,E,9,243,180k,Berth 03,MC1,Aft Spring
+9.0,E,10,296,180k,Berth 03,MC1,Aft Spring
+30.0,N,,325,180k,Berth 03,MC1,Stern
+30.0,NNE,,325,180k,Berth 03,MC1,Stern
+30.0,NE,,289,180k,Berth 03,MC1,Stern
+30.0,ENE,,200,180k,Berth 03,MC1,Stern
+30.0,E,,86,180k,Berth 03,MC1,Stern
+30.0,ESE,,68,180k,Berth 03,MC1,Stern
+30.0,SE,,61,180k,Berth 03,MC1,Stern
+30.0,SSE,,60,180k,Berth 03,MC1,Stern
+30.0,S,,54,180k,Berth 03,MC1,Stern
+30.0,SSW,,56,180k,Berth 03,MC1,Stern
+30.0,SW,,63,180k,Berth 03,MC1,Stern
+30.0,WSW,,63,180k,Berth 03,MC1,Stern
+30.0,W,,87,180k,Berth 03,MC1,Stern
+30.0,WNW,,129,180k,Berth 03,MC1,Stern
+30.0,NW,,239,180k,Berth 03,MC1,Stern
+30.0,NNW,,303,180k,Berth 03,MC1,Stern
+20.0,N,,176,180k,Berth 03,MC1,Stern
+20.0,NNE,,183,180k,Berth 03,MC1,Stern
+20.0,NE,,163,180k,Berth 03,MC1,Stern
+20.0,ENE,,112,180k,Berth 03,MC1,Stern
+20.0,E,,84,180k,Berth 03,MC1,Stern
+20.0,ESE,,71,180k,Berth 03,MC1,Stern
+20.0,SE,,65,180k,Berth 03,MC1,Stern
+20.0,SSE,,60,180k,Berth 03,MC1,Stern
+20.0,S,,66,180k,Berth 03,MC1,Stern
+20.0,SSW,,64,180k,Berth 03,MC1,Stern
+20.0,SW,,78,180k,Berth 03,MC1,Stern
+20.0,WSW,,74,180k,Berth 03,MC1,Stern
+20.0,W,,92,180k,Berth 03,MC1,Stern
+20.0,WNW,,101,180k,Berth 03,MC1,Stern
+20.0,NW,,143,180k,Berth 03,MC1,Stern
+20.0,NNW,,152,180k,Berth 03,MC1,Stern
+20.0,NE,1,234,180k,Berth 03,MC1,Stern
+20.0,NE,2,192,180k,Berth 03,MC1,Stern
+20.0,NE,3,279,180k,Berth 03,MC1,Stern
+20.0,NE,4,348,180k,Berth 03,MC1,Stern
+20.0,NE,5,219,180k,Berth 03,MC1,Stern
+20.0,NE,6,276,180k,Berth 03,MC1,Stern
+20.0,NE,7,365,180k,Berth 03,MC1,Stern
+9.0,E,8,133,180k,Berth 03,MC1,Stern
+9.0,E,9,181,180k,Berth 03,MC1,Stern
+9.0,E,10,185,180k,Berth 03,MC1,Stern
+30.0,N,,443,180k,Berth 03,MC2,Bow
+30.0,NNE,,356,180k,Berth 03,MC2,Bow
+30.0,NE,,285,180k,Berth 03,MC2,Bow
+30.0,ENE,,116,180k,Berth 03,MC2,Bow
+30.0,E,,87,180k,Berth 03,MC2,Bow
+30.0,ESE,,90,180k,Berth 03,MC2,Bow
+30.0,SE,,92,180k,Berth 03,MC2,Bow
+30.0,SSE,,88,180k,Berth 03,MC2,Bow
+30.0,S,,83,180k,Berth 03,MC2,Bow
+30.0,SSW,,74,180k,Berth 03,MC2,Bow
+30.0,SW,,81,180k,Berth 03,MC2,Bow
+30.0,WSW,,89,180k,Berth 03,MC2,Bow
+30.0,W,,128,180k,Berth 03,MC2,Bow
+30.0,WNW,,205,180k,Berth 03,MC2,Bow
+30.0,NW,,347,180k,Berth 03,MC2,Bow
+30.0,NNW,,435,180k,Berth 03,MC2,Bow
+20.0,N,,207,180k,Berth 03,MC2,Bow
+20.0,NNE,,184,180k,Berth 03,MC2,Bow
+20.0,NE,,136,180k,Berth 03,MC2,Bow
+20.0,ENE,,89,180k,Berth 03,MC2,Bow
+20.0,E,,96,180k,Berth 03,MC2,Bow
+20.0,ESE,,92,180k,Berth 03,MC2,Bow
+20.0,SE,,95,180k,Berth 03,MC2,Bow
+20.0,SSE,,95,180k,Berth 03,MC2,Bow
+20.0,S,,92,180k,Berth 03,MC2,Bow
+20.0,SSW,,79,180k,Berth 03,MC2,Bow
+20.0,SW,,92,180k,Berth 03,MC2,Bow
+20.0,WSW,,92,180k,Berth 03,MC2,Bow
+20.0,W,,120,180k,Berth 03,MC2,Bow
+20.0,WNW,,119,180k,Berth 03,MC2,Bow
+20.0,NW,,188,180k,Berth 03,MC2,Bow
+20.0,NNW,,197,180k,Berth 03,MC2,Bow
+20.0,NE,1,187,180k,Berth 03,MC2,Bow
+20.0,NE,2,184,180k,Berth 03,MC2,Bow
+20.0,NE,3,237,180k,Berth 03,MC2,Bow
+20.0,NE,4,420,180k,Berth 03,MC2,Bow
+20.0,NE,5,206,180k,Berth 03,MC2,Bow
+20.0,NE,6,257,180k,Berth 03,MC2,Bow
+20.0,NE,7,415,180k,Berth 03,MC2,Bow
+9.0,E,8,141,180k,Berth 03,MC2,Bow
+9.0,E,9,199,180k,Berth 03,MC2,Bow
+9.0,E,10,248,180k,Berth 03,MC2,Bow
+30.0,N,,290,180k,Berth 03,MC2,Fwd Spring
+30.0,NNE,,262,180k,Berth 03,MC2,Fwd Spring
+30.0,NE,,222,180k,Berth 03,MC2,Fwd Spring
+30.0,ENE,,116,180k,Berth 03,MC2,Fwd Spring
+30.0,E,,79,180k,Berth 03,MC2,Fwd Spring
+30.0,ESE,,83,180k,Berth 03,MC2,Fwd Spring
+30.0,SE,,77,180k,Berth 03,MC2,Fwd Spring
+30.0,SSE,,63,180k,Berth 03,MC2,Fwd Spring
+30.0,S,,54,180k,Berth 03,MC2,Fwd Spring
+30.0,SSW,,47,180k,Berth 03,MC2,Fwd Spring
+30.0,SW,,47,180k,Berth 03,MC2,Fwd Spring
+30.0,WSW,,50,180k,Berth 03,MC2,Fwd Spring
+30.0,W,,65,180k,Berth 03,MC2,Fwd Spring
+30.0,WNW,,132,180k,Berth 03,MC2,Fwd Spring
+30.0,NW,,212,180k,Berth 03,MC2,Fwd Spring
+30.0,NNW,,266,180k,Berth 03,MC2,Fwd Spring
+20.0,N,,151,180k,Berth 03,MC2,Fwd Spring
+20.0,NNE,,135,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,,105,180k,Berth 03,MC2,Fwd Spring
+20.0,ENE,,75,180k,Berth 03,MC2,Fwd Spring
+20.0,E,,79,180k,Berth 03,MC2,Fwd Spring
+20.0,ESE,,87,180k,Berth 03,MC2,Fwd Spring
+20.0,SE,,83,180k,Berth 03,MC2,Fwd Spring
+20.0,SSE,,68,180k,Berth 03,MC2,Fwd Spring
+20.0,S,,61,180k,Berth 03,MC2,Fwd Spring
+20.0,SSW,,54,180k,Berth 03,MC2,Fwd Spring
+20.0,SW,,58,180k,Berth 03,MC2,Fwd Spring
+20.0,WSW,,57,180k,Berth 03,MC2,Fwd Spring
+20.0,W,,74,180k,Berth 03,MC2,Fwd Spring
+20.0,WNW,,91,180k,Berth 03,MC2,Fwd Spring
+20.0,NW,,136,180k,Berth 03,MC2,Fwd Spring
+20.0,NNW,,128,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,1,175,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,2,145,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,3,181,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,4,300,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,5,166,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,6,189,180k,Berth 03,MC2,Fwd Spring
+20.0,NE,7,326,180k,Berth 03,MC2,Fwd Spring
+9.0,E,8,123,180k,Berth 03,MC2,Fwd Spring
+9.0,E,9,162,180k,Berth 03,MC2,Fwd Spring
+9.0,E,10,197,180k,Berth 03,MC2,Fwd Spring
+30.0,N,,515,180k,Berth 03,MC2,Aft Spring
+30.0,NNE,,511,180k,Berth 03,MC2,Aft Spring
+30.0,NE,,476,180k,Berth 03,MC2,Aft Spring
+30.0,ENE,,249,180k,Berth 03,MC2,Aft Spring
+30.0,E,,55,180k,Berth 03,MC2,Aft Spring
+30.0,ESE,,40,180k,Berth 03,MC2,Aft Spring
+30.0,SE,,37,180k,Berth 03,MC2,Aft Spring
+30.0,SSE,,40,180k,Berth 03,MC2,Aft Spring
+30.0,S,,49,180k,Berth 03,MC2,Aft Spring
+30.0,SSW,,54,180k,Berth 03,MC2,Aft Spring
+30.0,SW,,68,180k,Berth 03,MC2,Aft Spring
+30.0,WSW,,87,180k,Berth 03,MC2,Aft Spring
+30.0,W,,120,180k,Berth 03,MC2,Aft Spring
+30.0,WNW,,185,180k,Berth 03,MC2,Aft Spring
+30.0,NW,,298,180k,Berth 03,MC2,Aft Spring
+30.0,NNW,,401,180k,Berth 03,MC2,Aft Spring
+20.0,N,,260,180k,Berth 03,MC2,Aft Spring
+20.0,NNE,,260,180k,Berth 03,MC2,Aft Spring
+20.0,NE,,232,180k,Berth 03,MC2,Aft Spring
+20.0,ENE,,123,180k,Berth 03,MC2,Aft Spring
+20.0,E,,63,180k,Berth 03,MC2,Aft Spring
+20.0,ESE,,57,180k,Berth 03,MC2,Aft Spring
+20.0,SE,,53,180k,Berth 03,MC2,Aft Spring
+20.0,SSE,,57,180k,Berth 03,MC2,Aft Spring
+20.0,S,,59,180k,Berth 03,MC2,Aft Spring
+20.0,SSW,,62,180k,Berth 03,MC2,Aft Spring
+20.0,SW,,68,180k,Berth 03,MC2,Aft Spring
+20.0,WSW,,82,180k,Berth 03,MC2,Aft Spring
+20.0,W,,102,180k,Berth 03,MC2,Aft Spring
+20.0,WNW,,111,180k,Berth 03,MC2,Aft Spring
+20.0,NW,,174,180k,Berth 03,MC2,Aft Spring
+20.0,NNW,,191,180k,Berth 03,MC2,Aft Spring
+20.0,NE,1,306,180k,Berth 03,MC2,Aft Spring
+20.0,NE,2,262,180k,Berth 03,MC2,Aft Spring
+20.0,NE,3,326,180k,Berth 03,MC2,Aft Spring
+20.0,NE,4,533,180k,Berth 03,MC2,Aft Spring
+20.0,NE,5,356,180k,Berth 03,MC2,Aft Spring
+20.0,NE,6,374,180k,Berth 03,MC2,Aft Spring
+20.0,NE,7,579,180k,Berth 03,MC2,Aft Spring
+9.0,E,8,134,180k,Berth 03,MC2,Aft Spring
+9.0,E,9,180,180k,Berth 03,MC2,Aft Spring
+9.0,E,10,239,180k,Berth 03,MC2,Aft Spring
+30.0,N,,344,180k,Berth 03,MC2,Stern
+30.0,NNE,,328,180k,Berth 03,MC2,Stern
+30.0,NE,,302,180k,Berth 03,MC2,Stern
+30.0,ENE,,201,180k,Berth 03,MC2,Stern
+30.0,E,,84,180k,Berth 03,MC2,Stern
+30.0,ESE,,58,180k,Berth 03,MC2,Stern
+30.0,SE,,57,180k,Berth 03,MC2,Stern
+30.0,SSE,,55,180k,Berth 03,MC2,Stern
+30.0,S,,54,180k,Berth 03,MC2,Stern
+30.0,SSW,,56,180k,Berth 03,MC2,Stern
+30.0,SW,,62,180k,Berth 03,MC2,Stern
+30.0,WSW,,69,180k,Berth 03,MC2,Stern
+30.0,W,,90,180k,Berth 03,MC2,Stern
+30.0,WNW,,125,180k,Berth 03,MC2,Stern
+30.0,NW,,245,180k,Berth 03,MC2,Stern
+30.0,NNW,,300,180k,Berth 03,MC2,Stern
+20.0,N,,176,180k,Berth 03,MC2,Stern
+20.0,NNE,,172,180k,Berth 03,MC2,Stern
+20.0,NE,,159,180k,Berth 03,MC2,Stern
+20.0,ENE,,110,180k,Berth 03,MC2,Stern
+20.0,E,,75,180k,Berth 03,MC2,Stern
+20.0,ESE,,64,180k,Berth 03,MC2,Stern
+20.0,SE,,63,180k,Berth 03,MC2,Stern
+20.0,SSE,,62,180k,Berth 03,MC2,Stern
+20.0,S,,61,180k,Berth 03,MC2,Stern
+20.0,SSW,,63,180k,Berth 03,MC2,Stern
+20.0,SW,,65,180k,Berth 03,MC2,Stern
+20.0,WSW,,71,180k,Berth 03,MC2,Stern
+20.0,W,,86,180k,Berth 03,MC2,Stern
+20.0,WNW,,76,180k,Berth 03,MC2,Stern
+20.0,NW,,135,180k,Berth 03,MC2,Stern
+20.0,NNW,,150,180k,Berth 03,MC2,Stern
+20.0,NE,1,183,180k,Berth 03,MC2,Stern
+20.0,NE,2,185,180k,Berth 03,MC2,Stern
+20.0,NE,3,222,180k,Berth 03,MC2,Stern
+20.0,NE,4,351,180k,Berth 03,MC2,Stern
+20.0,NE,5,203,180k,Berth 03,MC2,Stern
+20.0,NE,6,236,180k,Berth 03,MC2,Stern
+20.0,NE,7,361,180k,Berth 03,MC2,Stern
+9.0,E,8,116,180k,Berth 03,MC2,Stern
+9.0,E,9,137,180k,Berth 03,MC2,Stern
+9.0,E,10,187,180k,Berth 03,MC2,Stern
+30.0,N,,75,180k,Berth 04,MC1,Bow
+30.0,NNE,,79,180k,Berth 04,MC1,Bow
+30.0,NE,,94,180k,Berth 04,MC1,Bow
+30.0,ENE,,113,180k,Berth 04,MC1,Bow
+30.0,E,,109,180k,Berth 04,MC1,Bow
+30.0,ESE,,109,180k,Berth 04,MC1,Bow
+30.0,SE,,174,180k,Berth 04,MC1,Bow
+30.0,SSE,,248,180k,Berth 04,MC1,Bow
+30.0,S,,290,180k,Berth 04,MC1,Bow
+30.0,SSW,,277,180k,Berth 04,MC1,Bow
+30.0,SW,,224,180k,Berth 04,MC1,Bow
+30.0,WSW,,141,180k,Berth 04,MC1,Bow
+30.0,W,,110,180k,Berth 04,MC1,Bow
+30.0,WNW,,106,180k,Berth 04,MC1,Bow
+30.0,NW,,82,180k,Berth 04,MC1,Bow
+30.0,NNW,,79,180k,Berth 04,MC1,Bow
+20.0,N,,106,180k,Berth 04,MC1,Bow
+20.0,NNE,,118,180k,Berth 04,MC1,Bow
+20.0,NE,,126,180k,Berth 04,MC1,Bow
+20.0,ENE,,114,180k,Berth 04,MC1,Bow
+20.0,E,,113,180k,Berth 04,MC1,Bow
+20.0,ESE,,92,180k,Berth 04,MC1,Bow
+20.0,SE,,101,180k,Berth 04,MC1,Bow
+20.0,SSE,,108,180k,Berth 04,MC1,Bow
+20.0,S,,136,180k,Berth 04,MC1,Bow
+20.0,SSW,,145,180k,Berth 04,MC1,Bow
+20.0,SW,,133,180k,Berth 04,MC1,Bow
+20.0,WSW,,132,180k,Berth 04,MC1,Bow
+20.0,W,,111,180k,Berth 04,MC1,Bow
+20.0,WNW,,105,180k,Berth 04,MC1,Bow
+20.0,NW,,101,180k,Berth 04,MC1,Bow
+20.0,NNW,,101,180k,Berth 04,MC1,Bow
+20.0,NE,1,274,180k,Berth 04,MC1,Bow
+20.0,NE,2,101,180k,Berth 04,MC1,Bow
+20.0,NE,3,120,180k,Berth 04,MC1,Bow
+20.0,NE,4,129,180k,Berth 04,MC1,Bow
+20.0,NE,5,178,180k,Berth 04,MC1,Bow
+20.0,NE,6,250,180k,Berth 04,MC1,Bow
+20.0,NE,7,243,180k,Berth 04,MC1,Bow
+9.0,E,8,155,180k,Berth 04,MC1,Bow
+9.0,E,9,237,180k,Berth 04,MC1,Bow
+9.0,E,10,294,180k,Berth 04,MC1,Bow
+30.0,N,,48,180k,Berth 04,MC1,Fwd Spring
+30.0,NNE,,54,180k,Berth 04,MC1,Fwd Spring
+30.0,NE,,70,180k,Berth 04,MC1,Fwd Spring
+30.0,ENE,,85,180k,Berth 04,MC1,Fwd Spring
+30.0,E,,81,180k,Berth 04,MC1,Fwd Spring
+30.0,ESE,,78,180k,Berth 04,MC1,Fwd Spring
+30.0,SE,,83,180k,Berth 04,MC1,Fwd Spring
+30.0,SSE,,93,180k,Berth 04,MC1,Fwd Spring
+30.0,S,,120,180k,Berth 04,MC1,Fwd Spring
+30.0,SSW,,107,180k,Berth 04,MC1,Fwd Spring
+30.0,SW,,98,180k,Berth 04,MC1,Fwd Spring
+30.0,WSW,,81,180k,Berth 04,MC1,Fwd Spring
+30.0,W,,55,180k,Berth 04,MC1,Fwd Spring
+30.0,WNW,,46,180k,Berth 04,MC1,Fwd Spring
+30.0,NW,,41,180k,Berth 04,MC1,Fwd Spring
+30.0,NNW,,45,180k,Berth 04,MC1,Fwd Spring
+20.0,N,,62,180k,Berth 04,MC1,Fwd Spring
+20.0,NNE,,76,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,,72,180k,Berth 04,MC1,Fwd Spring
+20.0,ENE,,75,180k,Berth 04,MC1,Fwd Spring
+20.0,E,,75,180k,Berth 04,MC1,Fwd Spring
+20.0,ESE,,77,180k,Berth 04,MC1,Fwd Spring
+20.0,SE,,75,180k,Berth 04,MC1,Fwd Spring
+20.0,SSE,,79,180k,Berth 04,MC1,Fwd Spring
+20.0,S,,71,180k,Berth 04,MC1,Fwd Spring
+20.0,SSW,,81,180k,Berth 04,MC1,Fwd Spring
+20.0,SW,,91,180k,Berth 04,MC1,Fwd Spring
+20.0,WSW,,69,180k,Berth 04,MC1,Fwd Spring
+20.0,W,,58,180k,Berth 04,MC1,Fwd Spring
+20.0,WNW,,58,180k,Berth 04,MC1,Fwd Spring
+20.0,NW,,57,180k,Berth 04,MC1,Fwd Spring
+20.0,NNW,,57,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,1,127,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,2,69,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,3,74,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,4,83,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,5,93,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,6,121,180k,Berth 04,MC1,Fwd Spring
+20.0,NE,7,126,180k,Berth 04,MC1,Fwd Spring
+9.0,E,8,81,180k,Berth 04,MC1,Fwd Spring
+9.0,E,9,105,180k,Berth 04,MC1,Fwd Spring
+9.0,E,10,116,180k,Berth 04,MC1,Fwd Spring
+30.0,N,,57,180k,Berth 04,MC1,Aft Spring
+30.0,NNE,,49,180k,Berth 04,MC1,Aft Spring
+30.0,NE,,49,180k,Berth 04,MC1,Aft Spring
+30.0,ENE,,50,180k,Berth 04,MC1,Aft Spring
+30.0,E,,57,180k,Berth 04,MC1,Aft Spring
+30.0,ESE,,124,180k,Berth 04,MC1,Aft Spring
+30.0,SE,,177,180k,Berth 04,MC1,Aft Spring
+30.0,SSE,,170,180k,Berth 04,MC1,Aft Spring
+30.0,S,,152,180k,Berth 04,MC1,Aft Spring
+30.0,SSW,,110,180k,Berth 04,MC1,Aft Spring
+30.0,SW,,102,180k,Berth 04,MC1,Aft Spring
+30.0,WSW,,113,180k,Berth 04,MC1,Aft Spring
+30.0,W,,100,180k,Berth 04,MC1,Aft Spring
+30.0,WNW,,88,180k,Berth 04,MC1,Aft Spring
+30.0,NW,,74,180k,Berth 04,MC1,Aft Spring
+30.0,NNW,,60,180k,Berth 04,MC1,Aft Spring
+20.0,N,,82,180k,Berth 04,MC1,Aft Spring
+20.0,NNE,,70,180k,Berth 04,MC1,Aft Spring
+20.0,NE,,70,180k,Berth 04,MC1,Aft Spring
+20.0,ENE,,67,180k,Berth 04,MC1,Aft Spring
+20.0,E,,76,180k,Berth 04,MC1,Aft Spring
+20.0,ESE,,94,180k,Berth 04,MC1,Aft Spring
+20.0,SE,,112,180k,Berth 04,MC1,Aft Spring
+20.0,SSE,,109,180k,Berth 04,MC1,Aft Spring
+20.0,S,,107,180k,Berth 04,MC1,Aft Spring
+20.0,SSW,,91,180k,Berth 04,MC1,Aft Spring
+20.0,SW,,120,180k,Berth 04,MC1,Aft Spring
+20.0,WSW,,95,180k,Berth 04,MC1,Aft Spring
+20.0,W,,88,180k,Berth 04,MC1,Aft Spring
+20.0,WNW,,84,180k,Berth 04,MC1,Aft Spring
+20.0,NW,,82,180k,Berth 04,MC1,Aft Spring
+20.0,NNW,,76,180k,Berth 04,MC1,Aft Spring
+20.0,NE,1,152,180k,Berth 04,MC1,Aft Spring
+20.0,NE,2,70,180k,Berth 04,MC1,Aft Spring
+20.0,NE,3,88,180k,Berth 04,MC1,Aft Spring
+20.0,NE,4,97,180k,Berth 04,MC1,Aft Spring
+20.0,NE,5,111,180k,Berth 04,MC1,Aft Spring
+20.0,NE,6,135,180k,Berth 04,MC1,Aft Spring
+20.0,NE,7,153,180k,Berth 04,MC1,Aft Spring
+9.0,E,8,90,180k,Berth 04,MC1,Aft Spring
+9.0,E,9,123,180k,Berth 04,MC1,Aft Spring
+9.0,E,10,142,180k,Berth 04,MC1,Aft Spring
+30.0,N,,97,180k,Berth 04,MC1,Stern
+30.0,NNE,,91,180k,Berth 04,MC1,Stern
+30.0,NE,,96,180k,Berth 04,MC1,Stern
+30.0,ENE,,127,180k,Berth 04,MC1,Stern
+30.0,E,,130,180k,Berth 04,MC1,Stern
+30.0,ESE,,203,180k,Berth 04,MC1,Stern
+30.0,SE,,319,180k,Berth 04,MC1,Stern
+30.0,SSE,,354,180k,Berth 04,MC1,Stern
+30.0,S,,362,180k,Berth 04,MC1,Stern
+30.0,SSW,,292,180k,Berth 04,MC1,Stern
+30.0,SW,,234,180k,Berth 04,MC1,Stern
+30.0,WSW,,138,180k,Berth 04,MC1,Stern
+30.0,W,,119,180k,Berth 04,MC1,Stern
+30.0,WNW,,130,180k,Berth 04,MC1,Stern
+30.0,NW,,118,180k,Berth 04,MC1,Stern
+30.0,NNW,,102,180k,Berth 04,MC1,Stern
+20.0,N,,153,180k,Berth 04,MC1,Stern
+20.0,NNE,,133,180k,Berth 04,MC1,Stern
+20.0,NE,,146,180k,Berth 04,MC1,Stern
+20.0,ENE,,127,180k,Berth 04,MC1,Stern
+20.0,E,,142,180k,Berth 04,MC1,Stern
+20.0,ESE,,149,180k,Berth 04,MC1,Stern
+20.0,SE,,159,180k,Berth 04,MC1,Stern
+20.0,SSE,,163,180k,Berth 04,MC1,Stern
+20.0,S,,169,180k,Berth 04,MC1,Stern
+20.0,SSW,,157,180k,Berth 04,MC1,Stern
+20.0,SW,,139,180k,Berth 04,MC1,Stern
+20.0,WSW,,132,180k,Berth 04,MC1,Stern
+20.0,W,,128,180k,Berth 04,MC1,Stern
+20.0,WNW,,141,180k,Berth 04,MC1,Stern
+20.0,NW,,160,180k,Berth 04,MC1,Stern
+20.0,NNW,,142,180k,Berth 04,MC1,Stern
+20.0,NE,1,280,180k,Berth 04,MC1,Stern
+20.0,NE,2,138,180k,Berth 04,MC1,Stern
+20.0,NE,3,176,180k,Berth 04,MC1,Stern
+20.0,NE,4,200,180k,Berth 04,MC1,Stern
+20.0,NE,5,243,180k,Berth 04,MC1,Stern
+20.0,NE,6,306,180k,Berth 04,MC1,Stern
+20.0,NE,7,350,180k,Berth 04,MC1,Stern
+9.0,E,8,167,180k,Berth 04,MC1,Stern
+9.0,E,9,231,180k,Berth 04,MC1,Stern
+9.0,E,10,278,180k,Berth 04,MC1,Stern
+30.0,N,,83,180k,Berth 04,MC2,Bow
+30.0,NNE,,88,180k,Berth 04,MC2,Bow
+30.0,NE,,107,180k,Berth 04,MC2,Bow
+30.0,ENE,,112,180k,Berth 04,MC2,Bow
+30.0,E,,119,180k,Berth 04,MC2,Bow
+30.0,ESE,,118,180k,Berth 04,MC2,Bow
+30.0,SE,,240,180k,Berth 04,MC2,Bow
+30.0,SSE,,331,180k,Berth 04,MC2,Bow
+30.0,S,,415,180k,Berth 04,MC2,Bow
+30.0,SSW,,420,180k,Berth 04,MC2,Bow
+30.0,SW,,371,180k,Berth 04,MC2,Bow
+30.0,WSW,,214,180k,Berth 04,MC2,Bow
+30.0,W,,158,180k,Berth 04,MC2,Bow
+30.0,WNW,,131,180k,Berth 04,MC2,Bow
+30.0,NW,,83,180k,Berth 04,MC2,Bow
+30.0,NNW,,80,180k,Berth 04,MC2,Bow
+20.0,N,,127,180k,Berth 04,MC2,Bow
+20.0,NNE,,114,180k,Berth 04,MC2,Bow
+20.0,NE,,128,180k,Berth 04,MC2,Bow
+20.0,ENE,,118,180k,Berth 04,MC2,Bow
+20.0,E,,132,180k,Berth 04,MC2,Bow
+20.0,ESE,,123,180k,Berth 04,MC2,Bow
+20.0,SE,,121,180k,Berth 04,MC2,Bow
+20.0,SSE,,135,180k,Berth 04,MC2,Bow
+20.0,S,,194,180k,Berth 04,MC2,Bow
+20.0,SSW,,197,180k,Berth 04,MC2,Bow
+20.0,SW,,199,180k,Berth 04,MC2,Bow
+20.0,WSW,,172,180k,Berth 04,MC2,Bow
+20.0,W,,134,180k,Berth 04,MC2,Bow
+20.0,WNW,,134,180k,Berth 04,MC2,Bow
+20.0,NW,,106,180k,Berth 04,MC2,Bow
+20.0,NNW,,110,180k,Berth 04,MC2,Bow
+20.0,NE,1,245,180k,Berth 04,MC2,Bow
+20.0,NE,2,91,180k,Berth 04,MC2,Bow
+20.0,NE,3,104,180k,Berth 04,MC2,Bow
+20.0,NE,4,155,180k,Berth 04,MC2,Bow
+20.0,NE,5,215,180k,Berth 04,MC2,Bow
+20.0,NE,6,242,180k,Berth 04,MC2,Bow
+20.0,NE,7,289,180k,Berth 04,MC2,Bow
+9.0,E,8,156,180k,Berth 04,MC2,Bow
+9.0,E,9,229,180k,Berth 04,MC2,Bow
+9.0,E,10,279,180k,Berth 04,MC2,Bow
+30.0,N,,51,180k,Berth 04,MC2,Fwd Spring
+30.0,NNE,,57,180k,Berth 04,MC2,Fwd Spring
+30.0,NE,,73,180k,Berth 04,MC2,Fwd Spring
+30.0,ENE,,86,180k,Berth 04,MC2,Fwd Spring
+30.0,E,,90,180k,Berth 04,MC2,Fwd Spring
+30.0,ESE,,91,180k,Berth 04,MC2,Fwd Spring
+30.0,SE,,109,180k,Berth 04,MC2,Fwd Spring
+30.0,SSE,,139,180k,Berth 04,MC2,Fwd Spring
+30.0,S,,145,180k,Berth 04,MC2,Fwd Spring
+30.0,SSW,,159,180k,Berth 04,MC2,Fwd Spring
+30.0,SW,,164,180k,Berth 04,MC2,Fwd Spring
+30.0,WSW,,104,180k,Berth 04,MC2,Fwd Spring
+30.0,W,,69,180k,Berth 04,MC2,Fwd Spring
+30.0,WNW,,56,180k,Berth 04,MC2,Fwd Spring
+30.0,NW,,48,180k,Berth 04,MC2,Fwd Spring
+30.0,NNW,,46,180k,Berth 04,MC2,Fwd Spring
+20.0,N,,64,180k,Berth 04,MC2,Fwd Spring
+20.0,NNE,,69,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,,81,180k,Berth 04,MC2,Fwd Spring
+20.0,ENE,,83,180k,Berth 04,MC2,Fwd Spring
+20.0,E,,85,180k,Berth 04,MC2,Fwd Spring
+20.0,ESE,,83,180k,Berth 04,MC2,Fwd Spring
+20.0,SE,,83,180k,Berth 04,MC2,Fwd Spring
+20.0,SSE,,79,180k,Berth 04,MC2,Fwd Spring
+20.0,S,,101,180k,Berth 04,MC2,Fwd Spring
+20.0,SSW,,110,180k,Berth 04,MC2,Fwd Spring
+20.0,SW,,105,180k,Berth 04,MC2,Fwd Spring
+20.0,WSW,,98,180k,Berth 04,MC2,Fwd Spring
+20.0,W,,71,180k,Berth 04,MC2,Fwd Spring
+20.0,WNW,,65,180k,Berth 04,MC2,Fwd Spring
+20.0,NW,,55,180k,Berth 04,MC2,Fwd Spring
+20.0,NNW,,64,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,1,155,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,2,64,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,3,69,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,4,86,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,5,118,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,6,130,180k,Berth 04,MC2,Fwd Spring
+20.0,NE,7,138,180k,Berth 04,MC2,Fwd Spring
+9.0,E,8,102,180k,Berth 04,MC2,Fwd Spring
+9.0,E,9,131,180k,Berth 04,MC2,Fwd Spring
+9.0,E,10,163,180k,Berth 04,MC2,Fwd Spring
+30.0,N,,54,180k,Berth 04,MC2,Aft Spring
+30.0,NNE,,47,180k,Berth 04,MC2,Aft Spring
+30.0,NE,,43,180k,Berth 04,MC2,Aft Spring
+30.0,ENE,,47,180k,Berth 04,MC2,Aft Spring
+30.0,E,,63,180k,Berth 04,MC2,Aft Spring
+30.0,ESE,,104,180k,Berth 04,MC2,Aft Spring
+30.0,SE,,158,180k,Berth 04,MC2,Aft Spring
+30.0,SSE,,188,180k,Berth 04,MC2,Aft Spring
+30.0,S,,141,180k,Berth 04,MC2,Aft Spring
+30.0,SSW,,128,180k,Berth 04,MC2,Aft Spring
+30.0,SW,,118,180k,Berth 04,MC2,Aft Spring
+30.0,WSW,,94,180k,Berth 04,MC2,Aft Spring
+30.0,W,,99,180k,Berth 04,MC2,Aft Spring
+30.0,WNW,,80,180k,Berth 04,MC2,Aft Spring
+30.0,NW,,68,180k,Berth 04,MC2,Aft Spring
+30.0,NNW,,59,180k,Berth 04,MC2,Aft Spring
+20.0,N,,69,180k,Berth 04,MC2,Aft Spring
+20.0,NNE,,62,180k,Berth 04,MC2,Aft Spring
+20.0,NE,,59,180k,Berth 04,MC2,Aft Spring
+20.0,ENE,,63,180k,Berth 04,MC2,Aft Spring
+20.0,E,,64,180k,Berth 04,MC2,Aft Spring
+20.0,ESE,,80,180k,Berth 04,MC2,Aft Spring
+20.0,SE,,106,180k,Berth 04,MC2,Aft Spring
+20.0,SSE,,94,180k,Berth 04,MC2,Aft Spring
+20.0,S,,90,180k,Berth 04,MC2,Aft Spring
+20.0,SSW,,81,180k,Berth 04,MC2,Aft Spring
+20.0,SW,,78,180k,Berth 04,MC2,Aft Spring
+20.0,WSW,,85,180k,Berth 04,MC2,Aft Spring
+20.0,W,,83,180k,Berth 04,MC2,Aft Spring
+20.0,WNW,,74,180k,Berth 04,MC2,Aft Spring
+20.0,NW,,74,180k,Berth 04,MC2,Aft Spring
+20.0,NNW,,75,180k,Berth 04,MC2,Aft Spring
+20.0,NE,1,148,180k,Berth 04,MC2,Aft Spring
+20.0,NE,2,65,180k,Berth 04,MC2,Aft Spring
+20.0,NE,3,71,180k,Berth 04,MC2,Aft Spring
+20.0,NE,4,79,180k,Berth 04,MC2,Aft Spring
+20.0,NE,5,110,180k,Berth 04,MC2,Aft Spring
+20.0,NE,6,119,180k,Berth 04,MC2,Aft Spring
+20.0,NE,7,140,180k,Berth 04,MC2,Aft Spring
+9.0,E,8,82,180k,Berth 04,MC2,Aft Spring
+9.0,E,9,115,180k,Berth 04,MC2,Aft Spring
+9.0,E,10,143,180k,Berth 04,MC2,Aft Spring
+30.0,N,,96,180k,Berth 04,MC2,Stern
+30.0,NNE,,86,180k,Berth 04,MC2,Stern
+30.0,NE,,92,180k,Berth 04,MC2,Stern
+30.0,ENE,,110,180k,Berth 04,MC2,Stern
+30.0,E,,134,180k,Berth 04,MC2,Stern
+30.0,ESE,,194,180k,Berth 04,MC2,Stern
+30.0,SE,,309,180k,Berth 04,MC2,Stern
+30.0,SSE,,355,180k,Berth 04,MC2,Stern
+30.0,S,,337,180k,Berth 04,MC2,Stern
+30.0,SSW,,305,180k,Berth 04,MC2,Stern
+30.0,SW,,256,180k,Berth 04,MC2,Stern
+30.0,WSW,,131,180k,Berth 04,MC2,Stern
+30.0,W,,140,180k,Berth 04,MC2,Stern
+30.0,WNW,,129,180k,Berth 04,MC2,Stern
+30.0,NW,,119,180k,Berth 04,MC2,Stern
+30.0,NNW,,103,180k,Berth 04,MC2,Stern
+20.0,N,,138,180k,Berth 04,MC2,Stern
+20.0,NNE,,131,180k,Berth 04,MC2,Stern
+20.0,NE,,115,180k,Berth 04,MC2,Stern
+20.0,ENE,,124,180k,Berth 04,MC2,Stern
+20.0,E,,128,180k,Berth 04,MC2,Stern
+20.0,ESE,,146,180k,Berth 04,MC2,Stern
+20.0,SE,,157,180k,Berth 04,MC2,Stern
+20.0,SSE,,159,180k,Berth 04,MC2,Stern
+20.0,S,,158,180k,Berth 04,MC2,Stern
+20.0,SSW,,142,180k,Berth 04,MC2,Stern
+20.0,SW,,134,180k,Berth 04,MC2,Stern
+20.0,WSW,,131,180k,Berth 04,MC2,Stern
+20.0,W,,133,180k,Berth 04,MC2,Stern
+20.0,WNW,,120,180k,Berth 04,MC2,Stern
+20.0,NW,,138,180k,Berth 04,MC2,Stern
+20.0,NNW,,143,180k,Berth 04,MC2,Stern
+20.0,NE,1,295,180k,Berth 04,MC2,Stern
+20.0,NE,2,121,180k,Berth 04,MC2,Stern
+20.0,NE,3,157,180k,Berth 04,MC2,Stern
+20.0,NE,4,185,180k,Berth 04,MC2,Stern
+20.0,NE,5,237,180k,Berth 04,MC2,Stern
+20.0,NE,6,278,180k,Berth 04,MC2,Stern
+20.0,NE,7,338,180k,Berth 04,MC2,Stern
+9.0,E,8,163,180k,Berth 04,MC2,Stern
+9.0,E,9,231,180k,Berth 04,MC2,Stern
+9.0,E,10,280,180k,Berth 04,MC2,Stern
+30.0,N,,314,180k,Berth 05,MC1,Bow
+30.0,NNE,,264,180k,Berth 05,MC1,Bow
+30.0,NE,,207,180k,Berth 05,MC1,Bow
+30.0,ENE,,109,180k,Berth 05,MC1,Bow
+30.0,E,,114,180k,Berth 05,MC1,Bow
+30.0,ESE,,103,180k,Berth 05,MC1,Bow
+30.0,SE,,95,180k,Berth 05,MC1,Bow
+30.0,SSE,,85,180k,Berth 05,MC1,Bow
+30.0,S,,86,180k,Berth 05,MC1,Bow
+30.0,SSW,,90,180k,Berth 05,MC1,Bow
+30.0,SW,,95,180k,Berth 05,MC1,Bow
+30.0,WSW,,93,180k,Berth 05,MC1,Bow
+30.0,W,,114,180k,Berth 05,MC1,Bow
+30.0,WNW,,153,180k,Berth 05,MC1,Bow
+30.0,NW,,271,180k,Berth 05,MC1,Bow
+30.0,NNW,,317,180k,Berth 05,MC1,Bow
+20.0,N,,154,180k,Berth 05,MC1,Bow
+20.0,NNE,,132,180k,Berth 05,MC1,Bow
+20.0,NE,,133,180k,Berth 05,MC1,Bow
+20.0,ENE,,100,180k,Berth 05,MC1,Bow
+20.0,E,,98,180k,Berth 05,MC1,Bow
+20.0,ESE,,99,180k,Berth 05,MC1,Bow
+20.0,SE,,99,180k,Berth 05,MC1,Bow
+20.0,SSE,,101,180k,Berth 05,MC1,Bow
+20.0,S,,94,180k,Berth 05,MC1,Bow
+20.0,SSW,,99,180k,Berth 05,MC1,Bow
+20.0,SW,,102,180k,Berth 05,MC1,Bow
+20.0,WSW,,99,180k,Berth 05,MC1,Bow
+20.0,W,,114,180k,Berth 05,MC1,Bow
+20.0,WNW,,118,180k,Berth 05,MC1,Bow
+20.0,NW,,133,180k,Berth 05,MC1,Bow
+20.0,NNW,,172,180k,Berth 05,MC1,Bow
+20.0,NE,1,168,180k,Berth 05,MC1,Bow
+20.0,NE,2,140,180k,Berth 05,MC1,Bow
+20.0,NE,3,202,180k,Berth 05,MC1,Bow
+20.0,NE,4,343,180k,Berth 05,MC1,Bow
+20.0,NE,5,169,180k,Berth 05,MC1,Bow
+20.0,NE,6,272,180k,Berth 05,MC1,Bow
+20.0,NE,7,392,180k,Berth 05,MC1,Bow
+9.0,E,8,161,180k,Berth 05,MC1,Bow
+9.0,E,9,215,180k,Berth 05,MC1,Bow
+9.0,E,10,261,180k,Berth 05,MC1,Bow
+30.0,N,,120,180k,Berth 05,MC1,Fwd Spring
+30.0,NNE,,94,180k,Berth 05,MC1,Fwd Spring
+30.0,NE,,99,180k,Berth 05,MC1,Fwd Spring
+30.0,ENE,,77,180k,Berth 05,MC1,Fwd Spring
+30.0,E,,79,180k,Berth 05,MC1,Fwd Spring
+30.0,ESE,,90,180k,Berth 05,MC1,Fwd Spring
+30.0,SE,,69,180k,Berth 05,MC1,Fwd Spring
+30.0,SSE,,60,180k,Berth 05,MC1,Fwd Spring
+30.0,S,,53,180k,Berth 05,MC1,Fwd Spring
+30.0,SSW,,44,180k,Berth 05,MC1,Fwd Spring
+30.0,SW,,47,180k,Berth 05,MC1,Fwd Spring
+30.0,WSW,,41,180k,Berth 05,MC1,Fwd Spring
+30.0,W,,58,180k,Berth 05,MC1,Fwd Spring
+30.0,WNW,,77,180k,Berth 05,MC1,Fwd Spring
+30.0,NW,,110,180k,Berth 05,MC1,Fwd Spring
+30.0,NNW,,118,180k,Berth 05,MC1,Fwd Spring
+20.0,N,,88,180k,Berth 05,MC1,Fwd Spring
+20.0,NNE,,82,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,,89,180k,Berth 05,MC1,Fwd Spring
+20.0,ENE,,82,180k,Berth 05,MC1,Fwd Spring
+20.0,E,,69,180k,Berth 05,MC1,Fwd Spring
+20.0,ESE,,72,180k,Berth 05,MC1,Fwd Spring
+20.0,SE,,68,180k,Berth 05,MC1,Fwd Spring
+20.0,SSE,,62,180k,Berth 05,MC1,Fwd Spring
+20.0,S,,61,180k,Berth 05,MC1,Fwd Spring
+20.0,SSW,,55,180k,Berth 05,MC1,Fwd Spring
+20.0,SW,,53,180k,Berth 05,MC1,Fwd Spring
+20.0,WSW,,61,180k,Berth 05,MC1,Fwd Spring
+20.0,W,,63,180k,Berth 05,MC1,Fwd Spring
+20.0,WNW,,69,180k,Berth 05,MC1,Fwd Spring
+20.0,NW,,88,180k,Berth 05,MC1,Fwd Spring
+20.0,NNW,,86,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,1,116,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,2,77,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,3,93,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,4,117,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,5,129,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,6,138,180k,Berth 05,MC1,Fwd Spring
+20.0,NE,7,176,180k,Berth 05,MC1,Fwd Spring
+9.0,E,8,90,180k,Berth 05,MC1,Fwd Spring
+9.0,E,9,104,180k,Berth 05,MC1,Fwd Spring
+9.0,E,10,112,180k,Berth 05,MC1,Fwd Spring
+30.0,N,,173,180k,Berth 05,MC1,Aft Spring
+30.0,NNE,,169,180k,Berth 05,MC1,Aft Spring
+30.0,NE,,192,180k,Berth 05,MC1,Aft Spring
+30.0,ENE,,120,180k,Berth 05,MC1,Aft Spring
+30.0,E,,64,180k,Berth 05,MC1,Aft Spring
+30.0,ESE,,47,180k,Berth 05,MC1,Aft Spring
+30.0,SE,,44,180k,Berth 05,MC1,Aft Spring
+30.0,SSE,,47,180k,Berth 05,MC1,Aft Spring
+30.0,S,,54,180k,Berth 05,MC1,Aft Spring
+30.0,SSW,,61,180k,Berth 05,MC1,Aft Spring
+30.0,SW,,73,180k,Berth 05,MC1,Aft Spring
+30.0,WSW,,86,180k,Berth 05,MC1,Aft Spring
+30.0,W,,103,180k,Berth 05,MC1,Aft Spring
+30.0,WNW,,112,180k,Berth 05,MC1,Aft Spring
+30.0,NW,,103,180k,Berth 05,MC1,Aft Spring
+30.0,NNW,,122,180k,Berth 05,MC1,Aft Spring
+20.0,N,,114,180k,Berth 05,MC1,Aft Spring
+20.0,NNE,,135,180k,Berth 05,MC1,Aft Spring
+20.0,NE,,127,180k,Berth 05,MC1,Aft Spring
+20.0,ENE,,86,180k,Berth 05,MC1,Aft Spring
+20.0,E,,66,180k,Berth 05,MC1,Aft Spring
+20.0,ESE,,60,180k,Berth 05,MC1,Aft Spring
+20.0,SE,,57,180k,Berth 05,MC1,Aft Spring
+20.0,SSE,,57,180k,Berth 05,MC1,Aft Spring
+20.0,S,,61,180k,Berth 05,MC1,Aft Spring
+20.0,SSW,,71,180k,Berth 05,MC1,Aft Spring
+20.0,SW,,69,180k,Berth 05,MC1,Aft Spring
+20.0,WSW,,79,180k,Berth 05,MC1,Aft Spring
+20.0,W,,90,180k,Berth 05,MC1,Aft Spring
+20.0,WNW,,90,180k,Berth 05,MC1,Aft Spring
+20.0,NW,,97,180k,Berth 05,MC1,Aft Spring
+20.0,NNW,,93,180k,Berth 05,MC1,Aft Spring
+20.0,NE,1,157,180k,Berth 05,MC1,Aft Spring
+20.0,NE,2,130,180k,Berth 05,MC1,Aft Spring
+20.0,NE,3,128,180k,Berth 05,MC1,Aft Spring
+20.0,NE,4,143,180k,Berth 05,MC1,Aft Spring
+20.0,NE,5,161,180k,Berth 05,MC1,Aft Spring
+20.0,NE,6,212,180k,Berth 05,MC1,Aft Spring
+20.0,NE,7,196,180k,Berth 05,MC1,Aft Spring
+9.0,E,8,82,180k,Berth 05,MC1,Aft Spring
+9.0,E,9,108,180k,Berth 05,MC1,Aft Spring
+9.0,E,10,159,180k,Berth 05,MC1,Aft Spring
+30.0,N,,357,180k,Berth 05,MC1,Stern
+30.0,NNE,,362,180k,Berth 05,MC1,Stern
+30.0,NE,,334,180k,Berth 05,MC1,Stern
+30.0,ENE,,204,180k,Berth 05,MC1,Stern
+30.0,E,,126,180k,Berth 05,MC1,Stern
+30.0,ESE,,108,180k,Berth 05,MC1,Stern
+30.0,SE,,102,180k,Berth 05,MC1,Stern
+30.0,SSE,,93,180k,Berth 05,MC1,Stern
+30.0,S,,108,180k,Berth 05,MC1,Stern
+30.0,SSW,,118,180k,Berth 05,MC1,Stern
+30.0,SW,,121,180k,Berth 05,MC1,Stern
+30.0,WSW,,126,180k,Berth 05,MC1,Stern
+30.0,W,,143,180k,Berth 05,MC1,Stern
+30.0,WNW,,152,180k,Berth 05,MC1,Stern
+30.0,NW,,267,180k,Berth 05,MC1,Stern
+30.0,NNW,,339,180k,Berth 05,MC1,Stern
+20.0,N,,194,180k,Berth 05,MC1,Stern
+20.0,NNE,,190,180k,Berth 05,MC1,Stern
+20.0,NE,,196,180k,Berth 05,MC1,Stern
+20.0,ENE,,162,180k,Berth 05,MC1,Stern
+20.0,E,,126,180k,Berth 05,MC1,Stern
+20.0,ESE,,122,180k,Berth 05,MC1,Stern
+20.0,SE,,123,180k,Berth 05,MC1,Stern
+20.0,SSE,,113,180k,Berth 05,MC1,Stern
+20.0,S,,114,180k,Berth 05,MC1,Stern
+20.0,SSW,,119,180k,Berth 05,MC1,Stern
+20.0,SW,,123,180k,Berth 05,MC1,Stern
+20.0,WSW,,115,180k,Berth 05,MC1,Stern
+20.0,W,,133,180k,Berth 05,MC1,Stern
+20.0,WNW,,119,180k,Berth 05,MC1,Stern
+20.0,NW,,140,180k,Berth 05,MC1,Stern
+20.0,NNW,,177,180k,Berth 05,MC1,Stern
+20.0,NE,1,223,180k,Berth 05,MC1,Stern
+20.0,NE,2,199,180k,Berth 05,MC1,Stern
+20.0,NE,3,273,180k,Berth 05,MC1,Stern
+20.0,NE,4,394,180k,Berth 05,MC1,Stern
+20.0,NE,5,235,180k,Berth 05,MC1,Stern
+20.0,NE,6,326,180k,Berth 05,MC1,Stern
+20.0,NE,7,433,180k,Berth 05,MC1,Stern
+9.0,E,8,152,180k,Berth 05,MC1,Stern
+9.0,E,9,216,180k,Berth 05,MC1,Stern
+9.0,E,10,261,180k,Berth 05,MC1,Stern
+30.0,N,,442,180k,Berth 05,MC2,Bow
+30.0,NNE,,345,180k,Berth 05,MC2,Bow
+30.0,NE,,261,180k,Berth 05,MC2,Bow
+30.0,ENE,,128,180k,Berth 05,MC2,Bow
+30.0,E,,102,180k,Berth 05,MC2,Bow
+30.0,ESE,,98,180k,Berth 05,MC2,Bow
+30.0,SE,,105,180k,Berth 05,MC2,Bow
+30.0,SSE,,101,180k,Berth 05,MC2,Bow
+30.0,S,,88,180k,Berth 05,MC2,Bow
+30.0,SSW,,92,180k,Berth 05,MC2,Bow
+30.0,SW,,95,180k,Berth 05,MC2,Bow
+30.0,WSW,,111,180k,Berth 05,MC2,Bow
+30.0,W,,150,180k,Berth 05,MC2,Bow
+30.0,WNW,,215,180k,Berth 05,MC2,Bow
+30.0,NW,,356,180k,Berth 05,MC2,Bow
+30.0,NNW,,416,180k,Berth 05,MC2,Bow
+20.0,N,,230,180k,Berth 05,MC2,Bow
+20.0,NNE,,203,180k,Berth 05,MC2,Bow
+20.0,NE,,151,180k,Berth 05,MC2,Bow
+20.0,ENE,,109,180k,Berth 05,MC2,Bow
+20.0,E,,116,180k,Berth 05,MC2,Bow
+20.0,ESE,,124,180k,Berth 05,MC2,Bow
+20.0,SE,,119,180k,Berth 05,MC2,Bow
+20.0,SSE,,112,180k,Berth 05,MC2,Bow
+20.0,S,,95,180k,Berth 05,MC2,Bow
+20.0,SSW,,99,180k,Berth 05,MC2,Bow
+20.0,SW,,105,180k,Berth 05,MC2,Bow
+20.0,WSW,,107,180k,Berth 05,MC2,Bow
+20.0,W,,123,180k,Berth 05,MC2,Bow
+20.0,WNW,,179,180k,Berth 05,MC2,Bow
+20.0,NW,,221,180k,Berth 05,MC2,Bow
+20.0,NNW,,221,180k,Berth 05,MC2,Bow
+20.0,NE,1,243,180k,Berth 05,MC2,Bow
+20.0,NE,2,190,180k,Berth 05,MC2,Bow
+20.0,NE,3,333,180k,Berth 05,MC2,Bow
+20.0,NE,4,425,180k,Berth 05,MC2,Bow
+20.0,NE,5,211,180k,Berth 05,MC2,Bow
+20.0,NE,6,295,180k,Berth 05,MC2,Bow
+20.0,NE,7,453,180k,Berth 05,MC2,Bow
+9.0,E,8,169,180k,Berth 05,MC2,Bow
+9.0,E,9,232,180k,Berth 05,MC2,Bow
+9.0,E,10,264,180k,Berth 05,MC2,Bow
+30.0,N,,145,180k,Berth 05,MC2,Fwd Spring
+30.0,NNE,,152,180k,Berth 05,MC2,Fwd Spring
+30.0,NE,,123,180k,Berth 05,MC2,Fwd Spring
+30.0,ENE,,93,180k,Berth 05,MC2,Fwd Spring
+30.0,E,,82,180k,Berth 05,MC2,Fwd Spring
+30.0,ESE,,80,180k,Berth 05,MC2,Fwd Spring
+30.0,SE,,72,180k,Berth 05,MC2,Fwd Spring
+30.0,SSE,,66,180k,Berth 05,MC2,Fwd Spring
+30.0,S,,54,180k,Berth 05,MC2,Fwd Spring
+30.0,SSW,,49,180k,Berth 05,MC2,Fwd Spring
+30.0,SW,,46,180k,Berth 05,MC2,Fwd Spring
+30.0,WSW,,51,180k,Berth 05,MC2,Fwd Spring
+30.0,W,,61,180k,Berth 05,MC2,Fwd Spring
+30.0,WNW,,102,180k,Berth 05,MC2,Fwd Spring
+30.0,NW,,147,180k,Berth 05,MC2,Fwd Spring
+30.0,NNW,,176,180k,Berth 05,MC2,Fwd Spring
+20.0,N,,110,180k,Berth 05,MC2,Fwd Spring
+20.0,NNE,,104,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,,95,180k,Berth 05,MC2,Fwd Spring
+20.0,ENE,,73,180k,Berth 05,MC2,Fwd Spring
+20.0,E,,75,180k,Berth 05,MC2,Fwd Spring
+20.0,ESE,,97,180k,Berth 05,MC2,Fwd Spring
+20.0,SE,,80,180k,Berth 05,MC2,Fwd Spring
+20.0,SSE,,68,180k,Berth 05,MC2,Fwd Spring
+20.0,S,,55,180k,Berth 05,MC2,Fwd Spring
+20.0,SSW,,56,180k,Berth 05,MC2,Fwd Spring
+20.0,SW,,59,180k,Berth 05,MC2,Fwd Spring
+20.0,WSW,,58,180k,Berth 05,MC2,Fwd Spring
+20.0,W,,67,180k,Berth 05,MC2,Fwd Spring
+20.0,WNW,,98,180k,Berth 05,MC2,Fwd Spring
+20.0,NW,,120,180k,Berth 05,MC2,Fwd Spring
+20.0,NNW,,119,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,1,141,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,2,107,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,3,130,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,4,155,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,5,117,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,6,144,180k,Berth 05,MC2,Fwd Spring
+20.0,NE,7,185,180k,Berth 05,MC2,Fwd Spring
+9.0,E,8,101,180k,Berth 05,MC2,Fwd Spring
+9.0,E,9,144,180k,Berth 05,MC2,Fwd Spring
+9.0,E,10,133,180k,Berth 05,MC2,Fwd Spring
+30.0,N,,142,180k,Berth 05,MC2,Aft Spring
+30.0,NNE,,202,180k,Berth 05,MC2,Aft Spring
+30.0,NE,,185,180k,Berth 05,MC2,Aft Spring
+30.0,ENE,,120,180k,Berth 05,MC2,Aft Spring
+30.0,E,,61,180k,Berth 05,MC2,Aft Spring
+30.0,ESE,,46,180k,Berth 05,MC2,Aft Spring
+30.0,SE,,41,180k,Berth 05,MC2,Aft Spring
+30.0,SSE,,43,180k,Berth 05,MC2,Aft Spring
+30.0,S,,50,180k,Berth 05,MC2,Aft Spring
+30.0,SSW,,54,180k,Berth 05,MC2,Aft Spring
+30.0,SW,,61,180k,Berth 05,MC2,Aft Spring
+30.0,WSW,,77,180k,Berth 05,MC2,Aft Spring
+30.0,W,,89,180k,Berth 05,MC2,Aft Spring
+30.0,WNW,,95,180k,Berth 05,MC2,Aft Spring
+30.0,NW,,109,180k,Berth 05,MC2,Aft Spring
+30.0,NNW,,137,180k,Berth 05,MC2,Aft Spring
+20.0,N,,103,180k,Berth 05,MC2,Aft Spring
+20.0,NNE,,116,180k,Berth 05,MC2,Aft Spring
+20.0,NE,,108,180k,Berth 05,MC2,Aft Spring
+20.0,ENE,,75,180k,Berth 05,MC2,Aft Spring
+20.0,E,,66,180k,Berth 05,MC2,Aft Spring
+20.0,ESE,,62,180k,Berth 05,MC2,Aft Spring
+20.0,SE,,50,180k,Berth 05,MC2,Aft Spring
+20.0,SSE,,51,180k,Berth 05,MC2,Aft Spring
+20.0,S,,59,180k,Berth 05,MC2,Aft Spring
+20.0,SSW,,60,180k,Berth 05,MC2,Aft Spring
+20.0,SW,,69,180k,Berth 05,MC2,Aft Spring
+20.0,WSW,,70,180k,Berth 05,MC2,Aft Spring
+20.0,W,,80,180k,Berth 05,MC2,Aft Spring
+20.0,WNW,,81,180k,Berth 05,MC2,Aft Spring
+20.0,NW,,90,180k,Berth 05,MC2,Aft Spring
+20.0,NNW,,108,180k,Berth 05,MC2,Aft Spring
+20.0,NE,1,168,180k,Berth 05,MC2,Aft Spring
+20.0,NE,2,118,180k,Berth 05,MC2,Aft Spring
+20.0,NE,3,127,180k,Berth 05,MC2,Aft Spring
+20.0,NE,4,147,180k,Berth 05,MC2,Aft Spring
+20.0,NE,5,137,180k,Berth 05,MC2,Aft Spring
+20.0,NE,6,151,180k,Berth 05,MC2,Aft Spring
+20.0,NE,7,163,180k,Berth 05,MC2,Aft Spring
+9.0,E,8,86,180k,Berth 05,MC2,Aft Spring
+9.0,E,9,115,180k,Berth 05,MC2,Aft Spring
+9.0,E,10,141,180k,Berth 05,MC2,Aft Spring
+30.0,N,,353,180k,Berth 05,MC2,Stern
+30.0,NNE,,394,180k,Berth 05,MC2,Stern
+30.0,NE,,357,180k,Berth 05,MC2,Stern
+30.0,ENE,,208,180k,Berth 05,MC2,Stern
+30.0,E,,139,180k,Berth 05,MC2,Stern
+30.0,ESE,,111,180k,Berth 05,MC2,Stern
+30.0,SE,,93,180k,Berth 05,MC2,Stern
+30.0,SSE,,96,180k,Berth 05,MC2,Stern
+30.0,S,,90,180k,Berth 05,MC2,Stern
+30.0,SSW,,98,180k,Berth 05,MC2,Stern
+30.0,SW,,103,180k,Berth 05,MC2,Stern
+30.0,WSW,,121,180k,Berth 05,MC2,Stern
+30.0,W,,118,180k,Berth 05,MC2,Stern
+30.0,WNW,,145,180k,Berth 05,MC2,Stern
+30.0,NW,,256,180k,Berth 05,MC2,Stern
+30.0,NNW,,322,180k,Berth 05,MC2,Stern
+20.0,N,,203,180k,Berth 05,MC2,Stern
+20.0,NNE,,207,180k,Berth 05,MC2,Stern
+20.0,NE,,187,180k,Berth 05,MC2,Stern
+20.0,ENE,,122,180k,Berth 05,MC2,Stern
+20.0,E,,119,180k,Berth 05,MC2,Stern
+20.0,ESE,,116,180k,Berth 05,MC2,Stern
+20.0,SE,,108,180k,Berth 05,MC2,Stern
+20.0,SSE,,106,180k,Berth 05,MC2,Stern
+20.0,S,,116,180k,Berth 05,MC2,Stern
+20.0,SSW,,113,180k,Berth 05,MC2,Stern
+20.0,SW,,110,180k,Berth 05,MC2,Stern
+20.0,WSW,,139,180k,Berth 05,MC2,Stern
+20.0,W,,130,180k,Berth 05,MC2,Stern
+20.0,WNW,,115,180k,Berth 05,MC2,Stern
+20.0,NW,,153,180k,Berth 05,MC2,Stern
+20.0,NNW,,176,180k,Berth 05,MC2,Stern
+20.0,NE,1,240,180k,Berth 05,MC2,Stern
+20.0,NE,2,195,180k,Berth 05,MC2,Stern
+20.0,NE,3,310,180k,Berth 05,MC2,Stern
+20.0,NE,4,384,180k,Berth 05,MC2,Stern
+20.0,NE,5,233,180k,Berth 05,MC2,Stern
+20.0,NE,6,290,180k,Berth 05,MC2,Stern
+20.0,NE,7,437,180k,Berth 05,MC2,Stern
+9.0,E,8,152,180k,Berth 05,MC2,Stern
+9.0,E,9,246,180k,Berth 05,MC2,Stern
+9.0,E,10,327,180k,Berth 05,MC2,Stern
+30.0,N,,96,210k,Berth 02,MC1,Bow
+30.0,NNE,,99,210k,Berth 02,MC1,Bow
+30.0,NE,,108,210k,Berth 02,MC1,Bow
+30.0,ENE,,96,210k,Berth 02,MC1,Bow
+30.0,E,,94,210k,Berth 02,MC1,Bow
+30.0,ESE,,140,210k,Berth 02,MC1,Bow
+30.0,SE,,229,210k,Berth 02,MC1,Bow
+30.0,SSE,,275,210k,Berth 02,MC1,Bow
+30.0,S,,272,210k,Berth 02,MC1,Bow
+30.0,SSW,,257,210k,Berth 02,MC1,Bow
+30.0,SW,,236,210k,Berth 02,MC1,Bow
+30.0,WSW,,146,210k,Berth 02,MC1,Bow
+30.0,W,,118,210k,Berth 02,MC1,Bow
+30.0,WNW,,104,210k,Berth 02,MC1,Bow
+30.0,NW,,88,210k,Berth 02,MC1,Bow
+30.0,NNW,,91,210k,Berth 02,MC1,Bow
+20.0,N,,105,210k,Berth 02,MC1,Bow
+20.0,NNE,,111,210k,Berth 02,MC1,Bow
+20.0,NE,,115,210k,Berth 02,MC1,Bow
+20.0,ENE,,104,210k,Berth 02,MC1,Bow
+20.0,E,,91,210k,Berth 02,MC1,Bow
+20.0,ESE,,110,210k,Berth 02,MC1,Bow
+20.0,SE,,127,210k,Berth 02,MC1,Bow
+20.0,SSE,,145,210k,Berth 02,MC1,Bow
+20.0,S,,139,210k,Berth 02,MC1,Bow
+20.0,SSW,,141,210k,Berth 02,MC1,Bow
+20.0,SW,,123,210k,Berth 02,MC1,Bow
+20.0,WSW,,104,210k,Berth 02,MC1,Bow
+20.0,W,,113,210k,Berth 02,MC1,Bow
+20.0,WNW,,104,210k,Berth 02,MC1,Bow
+20.0,NW,,102,210k,Berth 02,MC1,Bow
+20.0,NNW,,107,210k,Berth 02,MC1,Bow
+20.0,NE,1,166,210k,Berth 02,MC1,Bow
+20.0,NE,2,88,210k,Berth 02,MC1,Bow
+20.0,NE,3,98,210k,Berth 02,MC1,Bow
+20.0,NE,4,115,210k,Berth 02,MC1,Bow
+20.0,NE,5,126,210k,Berth 02,MC1,Bow
+20.0,NE,6,162,210k,Berth 02,MC1,Bow
+20.0,NE,7,185,210k,Berth 02,MC1,Bow
+9.0,E,8,127,210k,Berth 02,MC1,Bow
+9.0,E,9,161,210k,Berth 02,MC1,Bow
+9.0,E,10,184,210k,Berth 02,MC1,Bow
+30.0,N,,59,210k,Berth 02,MC1,Fwd Spring
+30.0,NNE,,76,210k,Berth 02,MC1,Fwd Spring
+30.0,NE,,93,210k,Berth 02,MC1,Fwd Spring
+30.0,ENE,,105,210k,Berth 02,MC1,Fwd Spring
+30.0,E,,87,210k,Berth 02,MC1,Fwd Spring
+30.0,ESE,,92,210k,Berth 02,MC1,Fwd Spring
+30.0,SE,,93,210k,Berth 02,MC1,Fwd Spring
+30.0,SSE,,109,210k,Berth 02,MC1,Fwd Spring
+30.0,S,,143,210k,Berth 02,MC1,Fwd Spring
+30.0,SSW,,116,210k,Berth 02,MC1,Fwd Spring
+30.0,SW,,126,210k,Berth 02,MC1,Fwd Spring
+30.0,WSW,,69,210k,Berth 02,MC1,Fwd Spring
+30.0,W,,58,210k,Berth 02,MC1,Fwd Spring
+30.0,WNW,,47,210k,Berth 02,MC1,Fwd Spring
+30.0,NW,,49,210k,Berth 02,MC1,Fwd Spring
+30.0,NNW,,55,210k,Berth 02,MC1,Fwd Spring
+20.0,N,,72,210k,Berth 02,MC1,Fwd Spring
+20.0,NNE,,83,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,,82,210k,Berth 02,MC1,Fwd Spring
+20.0,ENE,,84,210k,Berth 02,MC1,Fwd Spring
+20.0,E,,81,210k,Berth 02,MC1,Fwd Spring
+20.0,ESE,,80,210k,Berth 02,MC1,Fwd Spring
+20.0,SE,,83,210k,Berth 02,MC1,Fwd Spring
+20.0,SSE,,72,210k,Berth 02,MC1,Fwd Spring
+20.0,S,,82,210k,Berth 02,MC1,Fwd Spring
+20.0,SSW,,100,210k,Berth 02,MC1,Fwd Spring
+20.0,SW,,86,210k,Berth 02,MC1,Fwd Spring
+20.0,WSW,,72,210k,Berth 02,MC1,Fwd Spring
+20.0,W,,74,210k,Berth 02,MC1,Fwd Spring
+20.0,WNW,,63,210k,Berth 02,MC1,Fwd Spring
+20.0,NW,,63,210k,Berth 02,MC1,Fwd Spring
+20.0,NNW,,67,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,1,135,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,2,73,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,3,81,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,4,95,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,5,105,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,6,133,210k,Berth 02,MC1,Fwd Spring
+20.0,NE,7,166,210k,Berth 02,MC1,Fwd Spring
+9.0,E,8,105,210k,Berth 02,MC1,Fwd Spring
+9.0,E,9,133,210k,Berth 02,MC1,Fwd Spring
+9.0,E,10,167,210k,Berth 02,MC1,Fwd Spring
+30.0,N,,47,210k,Berth 02,MC1,Aft Spring
+30.0,NNE,,46,210k,Berth 02,MC1,Aft Spring
+30.0,NE,,44,210k,Berth 02,MC1,Aft Spring
+30.0,ENE,,42,210k,Berth 02,MC1,Aft Spring
+30.0,E,,60,210k,Berth 02,MC1,Aft Spring
+30.0,ESE,,140,210k,Berth 02,MC1,Aft Spring
+30.0,SE,,203,210k,Berth 02,MC1,Aft Spring
+30.0,SSE,,207,210k,Berth 02,MC1,Aft Spring
+30.0,S,,183,210k,Berth 02,MC1,Aft Spring
+30.0,SSW,,133,210k,Berth 02,MC1,Aft Spring
+30.0,SW,,140,210k,Berth 02,MC1,Aft Spring
+30.0,WSW,,107,210k,Berth 02,MC1,Aft Spring
+30.0,W,,94,210k,Berth 02,MC1,Aft Spring
+30.0,WNW,,66,210k,Berth 02,MC1,Aft Spring
+30.0,NW,,58,210k,Berth 02,MC1,Aft Spring
+30.0,NNW,,53,210k,Berth 02,MC1,Aft Spring
+20.0,N,,51,210k,Berth 02,MC1,Aft Spring
+20.0,NNE,,53,210k,Berth 02,MC1,Aft Spring
+20.0,NE,,51,210k,Berth 02,MC1,Aft Spring
+20.0,ENE,,58,210k,Berth 02,MC1,Aft Spring
+20.0,E,,61,210k,Berth 02,MC1,Aft Spring
+20.0,ESE,,91,210k,Berth 02,MC1,Aft Spring
+20.0,SE,,121,210k,Berth 02,MC1,Aft Spring
+20.0,SSE,,140,210k,Berth 02,MC1,Aft Spring
+20.0,S,,123,210k,Berth 02,MC1,Aft Spring
+20.0,SSW,,111,210k,Berth 02,MC1,Aft Spring
+20.0,SW,,97,210k,Berth 02,MC1,Aft Spring
+20.0,WSW,,92,210k,Berth 02,MC1,Aft Spring
+20.0,W,,86,210k,Berth 02,MC1,Aft Spring
+20.0,WNW,,71,210k,Berth 02,MC1,Aft Spring
+20.0,NW,,64,210k,Berth 02,MC1,Aft Spring
+20.0,NNW,,62,210k,Berth 02,MC1,Aft Spring
+20.0,NE,1,95,210k,Berth 02,MC1,Aft Spring
+20.0,NE,2,50,210k,Berth 02,MC1,Aft Spring
+20.0,NE,3,56,210k,Berth 02,MC1,Aft Spring
+20.0,NE,4,57,210k,Berth 02,MC1,Aft Spring
+20.0,NE,5,68,210k,Berth 02,MC1,Aft Spring
+20.0,NE,6,86,210k,Berth 02,MC1,Aft Spring
+20.0,NE,7,85,210k,Berth 02,MC1,Aft Spring
+9.0,E,8,86,210k,Berth 02,MC1,Aft Spring
+9.0,E,9,109,210k,Berth 02,MC1,Aft Spring
+9.0,E,10,122,210k,Berth 02,MC1,Aft Spring
+30.0,N,,76,210k,Berth 02,MC1,Stern
+30.0,NNE,,80,210k,Berth 02,MC1,Stern
+30.0,NE,,81,210k,Berth 02,MC1,Stern
+30.0,ENE,,77,210k,Berth 02,MC1,Stern
+30.0,E,,112,210k,Berth 02,MC1,Stern
+30.0,ESE,,240,210k,Berth 02,MC1,Stern
+30.0,SE,,341,210k,Berth 02,MC1,Stern
+30.0,SSE,,388,210k,Berth 02,MC1,Stern
+30.0,S,,385,210k,Berth 02,MC1,Stern
+30.0,SSW,,340,210k,Berth 02,MC1,Stern
+30.0,SW,,286,210k,Berth 02,MC1,Stern
+30.0,WSW,,152,210k,Berth 02,MC1,Stern
+30.0,W,,97,210k,Berth 02,MC1,Stern
+30.0,WNW,,79,210k,Berth 02,MC1,Stern
+30.0,NW,,83,210k,Berth 02,MC1,Stern
+30.0,NNW,,79,210k,Berth 02,MC1,Stern
+20.0,N,,80,210k,Berth 02,MC1,Stern
+20.0,NNE,,82,210k,Berth 02,MC1,Stern
+20.0,NE,,81,210k,Berth 02,MC1,Stern
+20.0,ENE,,89,210k,Berth 02,MC1,Stern
+20.0,E,,105,210k,Berth 02,MC1,Stern
+20.0,ESE,,145,210k,Berth 02,MC1,Stern
+20.0,SE,,182,210k,Berth 02,MC1,Stern
+20.0,SSE,,199,210k,Berth 02,MC1,Stern
+20.0,S,,178,210k,Berth 02,MC1,Stern
+20.0,SSW,,168,210k,Berth 02,MC1,Stern
+20.0,SW,,140,210k,Berth 02,MC1,Stern
+20.0,WSW,,109,210k,Berth 02,MC1,Stern
+20.0,W,,107,210k,Berth 02,MC1,Stern
+20.0,WNW,,101,210k,Berth 02,MC1,Stern
+20.0,NW,,100,210k,Berth 02,MC1,Stern
+20.0,NNW,,91,210k,Berth 02,MC1,Stern
+20.0,NE,1,180,210k,Berth 02,MC1,Stern
+20.0,NE,2,82,210k,Berth 02,MC1,Stern
+20.0,NE,3,100,210k,Berth 02,MC1,Stern
+20.0,NE,4,97,210k,Berth 02,MC1,Stern
+20.0,NE,5,133,210k,Berth 02,MC1,Stern
+20.0,NE,6,165,210k,Berth 02,MC1,Stern
+20.0,NE,7,164,210k,Berth 02,MC1,Stern
+9.0,E,8,146,210k,Berth 02,MC1,Stern
+9.0,E,9,197,210k,Berth 02,MC1,Stern
+9.0,E,10,211,210k,Berth 02,MC1,Stern
+30.0,N,,110,210k,Berth 02,MC2,Bow
+30.0,NNE,,135,210k,Berth 02,MC2,Bow
+30.0,NE,,116,210k,Berth 02,MC2,Bow
+30.0,ENE,,95,210k,Berth 02,MC2,Bow
+30.0,E,,111,210k,Berth 02,MC2,Bow
+30.0,ESE,,139,210k,Berth 02,MC2,Bow
+30.0,SE,,233,210k,Berth 02,MC2,Bow
+30.0,SSE,,337,210k,Berth 02,MC2,Bow
+30.0,S,,341,210k,Berth 02,MC2,Bow
+30.0,SSW,,346,210k,Berth 02,MC2,Bow
+30.0,SW,,306,210k,Berth 02,MC2,Bow
+30.0,WSW,,186,210k,Berth 02,MC2,Bow
+30.0,W,,127,210k,Berth 02,MC2,Bow
+30.0,WNW,,120,210k,Berth 02,MC2,Bow
+30.0,NW,,97,210k,Berth 02,MC2,Bow
+30.0,NNW,,109,210k,Berth 02,MC2,Bow
+20.0,N,,82,210k,Berth 02,MC2,Bow
+20.0,NNE,,78,210k,Berth 02,MC2,Bow
+20.0,NE,,85,210k,Berth 02,MC2,Bow
+20.0,ENE,,82,210k,Berth 02,MC2,Bow
+20.0,E,,98,210k,Berth 02,MC2,Bow
+20.0,ESE,,143,210k,Berth 02,MC2,Bow
+20.0,SE,,163,210k,Berth 02,MC2,Bow
+20.0,SSE,,193,210k,Berth 02,MC2,Bow
+20.0,S,,177,210k,Berth 02,MC2,Bow
+20.0,SSW,,146,210k,Berth 02,MC2,Bow
+20.0,SW,,135,210k,Berth 02,MC2,Bow
+20.0,WSW,,98,210k,Berth 02,MC2,Bow
+20.0,W,,115,210k,Berth 02,MC2,Bow
+20.0,WNW,,97,210k,Berth 02,MC2,Bow
+20.0,NW,,97,210k,Berth 02,MC2,Bow
+20.0,NNW,,79,210k,Berth 02,MC2,Bow
+20.0,NE,1,209,210k,Berth 02,MC2,Bow
+20.0,NE,2,93,210k,Berth 02,MC2,Bow
+20.0,NE,3,139,210k,Berth 02,MC2,Bow
+20.0,NE,4,127,210k,Berth 02,MC2,Bow
+20.0,NE,5,160,210k,Berth 02,MC2,Bow
+20.0,NE,6,179,210k,Berth 02,MC2,Bow
+20.0,NE,7,208,210k,Berth 02,MC2,Bow
+9.0,E,8,142,210k,Berth 02,MC2,Bow
+9.0,E,9,198,210k,Berth 02,MC2,Bow
+9.0,E,10,253,210k,Berth 02,MC2,Bow
+30.0,N,,67,210k,Berth 02,MC2,Fwd Spring
+30.0,NNE,,88,210k,Berth 02,MC2,Fwd Spring
+30.0,NE,,96,210k,Berth 02,MC2,Fwd Spring
+30.0,ENE,,97,210k,Berth 02,MC2,Fwd Spring
+30.0,E,,109,210k,Berth 02,MC2,Fwd Spring
+30.0,ESE,,97,210k,Berth 02,MC2,Fwd Spring
+30.0,SE,,116,210k,Berth 02,MC2,Fwd Spring
+30.0,SSE,,180,210k,Berth 02,MC2,Fwd Spring
+30.0,S,,192,210k,Berth 02,MC2,Fwd Spring
+30.0,SSW,,145,210k,Berth 02,MC2,Fwd Spring
+30.0,SW,,169,210k,Berth 02,MC2,Fwd Spring
+30.0,WSW,,104,210k,Berth 02,MC2,Fwd Spring
+30.0,W,,61,210k,Berth 02,MC2,Fwd Spring
+30.0,WNW,,60,210k,Berth 02,MC2,Fwd Spring
+30.0,NW,,54,210k,Berth 02,MC2,Fwd Spring
+30.0,NNW,,63,210k,Berth 02,MC2,Fwd Spring
+20.0,N,,52,210k,Berth 02,MC2,Fwd Spring
+20.0,NNE,,47,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,,51,210k,Berth 02,MC2,Fwd Spring
+20.0,ENE,,51,210k,Berth 02,MC2,Fwd Spring
+20.0,E,,58,210k,Berth 02,MC2,Fwd Spring
+20.0,ESE,,87,210k,Berth 02,MC2,Fwd Spring
+20.0,SE,,109,210k,Berth 02,MC2,Fwd Spring
+20.0,SSE,,122,210k,Berth 02,MC2,Fwd Spring
+20.0,S,,105,210k,Berth 02,MC2,Fwd Spring
+20.0,SSW,,88,210k,Berth 02,MC2,Fwd Spring
+20.0,SW,,85,210k,Berth 02,MC2,Fwd Spring
+20.0,WSW,,82,210k,Berth 02,MC2,Fwd Spring
+20.0,W,,75,210k,Berth 02,MC2,Fwd Spring
+20.0,WNW,,65,210k,Berth 02,MC2,Fwd Spring
+20.0,NW,,60,210k,Berth 02,MC2,Fwd Spring
+20.0,NNW,,53,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,1,191,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,2,78,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,3,90,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,4,100,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,5,115,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,6,124,210k,Berth 02,MC2,Fwd Spring
+20.0,NE,7,165,210k,Berth 02,MC2,Fwd Spring
+9.0,E,8,119,210k,Berth 02,MC2,Fwd Spring
+9.0,E,9,170,210k,Berth 02,MC2,Fwd Spring
+9.0,E,10,195,210k,Berth 02,MC2,Fwd Spring
+30.0,N,,46,210k,Berth 02,MC2,Aft Spring
+30.0,NNE,,41,210k,Berth 02,MC2,Aft Spring
+30.0,NE,,39,210k,Berth 02,MC2,Aft Spring
+30.0,ENE,,38,210k,Berth 02,MC2,Aft Spring
+30.0,E,,51,210k,Berth 02,MC2,Aft Spring
+30.0,ESE,,120,210k,Berth 02,MC2,Aft Spring
+30.0,SE,,167,210k,Berth 02,MC2,Aft Spring
+30.0,SSE,,193,210k,Berth 02,MC2,Aft Spring
+30.0,S,,175,210k,Berth 02,MC2,Aft Spring
+30.0,SSW,,116,210k,Berth 02,MC2,Aft Spring
+30.0,SW,,123,210k,Berth 02,MC2,Aft Spring
+30.0,WSW,,95,210k,Berth 02,MC2,Aft Spring
+30.0,W,,91,210k,Berth 02,MC2,Aft Spring
+30.0,WNW,,71,210k,Berth 02,MC2,Aft Spring
+30.0,NW,,54,210k,Berth 02,MC2,Aft Spring
+30.0,NNW,,52,210k,Berth 02,MC2,Aft Spring
+20.0,N,,77,210k,Berth 02,MC2,Aft Spring
+20.0,NNE,,78,210k,Berth 02,MC2,Aft Spring
+20.0,NE,,95,210k,Berth 02,MC2,Aft Spring
+20.0,ENE,,93,210k,Berth 02,MC2,Aft Spring
+20.0,E,,94,210k,Berth 02,MC2,Aft Spring
+20.0,ESE,,84,210k,Berth 02,MC2,Aft Spring
+20.0,SE,,84,210k,Berth 02,MC2,Aft Spring
+20.0,SSE,,107,210k,Berth 02,MC2,Aft Spring
+20.0,S,,109,210k,Berth 02,MC2,Aft Spring
+20.0,SSW,,109,210k,Berth 02,MC2,Aft Spring
+20.0,SW,,108,210k,Berth 02,MC2,Aft Spring
+20.0,WSW,,86,210k,Berth 02,MC2,Aft Spring
+20.0,W,,84,210k,Berth 02,MC2,Aft Spring
+20.0,WNW,,70,210k,Berth 02,MC2,Aft Spring
+20.0,NW,,65,210k,Berth 02,MC2,Aft Spring
+20.0,NNW,,65,210k,Berth 02,MC2,Aft Spring
+20.0,NE,1,95,210k,Berth 02,MC2,Aft Spring
+20.0,NE,2,51,210k,Berth 02,MC2,Aft Spring
+20.0,NE,3,56,210k,Berth 02,MC2,Aft Spring
+20.0,NE,4,56,210k,Berth 02,MC2,Aft Spring
+20.0,NE,5,70,210k,Berth 02,MC2,Aft Spring
+20.0,NE,6,80,210k,Berth 02,MC2,Aft Spring
+20.0,NE,7,87,210k,Berth 02,MC2,Aft Spring
+9.0,E,8,75,210k,Berth 02,MC2,Aft Spring
+9.0,E,9,97,210k,Berth 02,MC2,Aft Spring
+9.0,E,10,109,210k,Berth 02,MC2,Aft Spring
+30.0,N,,71,210k,Berth 02,MC2,Stern
+30.0,NNE,,74,210k,Berth 02,MC2,Stern
+30.0,NE,,70,210k,Berth 02,MC2,Stern
+30.0,ENE,,74,210k,Berth 02,MC2,Stern
+30.0,E,,94,210k,Berth 02,MC2,Stern
+30.0,ESE,,230,210k,Berth 02,MC2,Stern
+30.0,SE,,347,210k,Berth 02,MC2,Stern
+30.0,SSE,,378,210k,Berth 02,MC2,Stern
+30.0,S,,353,210k,Berth 02,MC2,Stern
+30.0,SSW,,297,210k,Berth 02,MC2,Stern
+30.0,SW,,242,210k,Berth 02,MC2,Stern
+30.0,WSW,,152,210k,Berth 02,MC2,Stern
+30.0,W,,111,210k,Berth 02,MC2,Stern
+30.0,WNW,,95,210k,Berth 02,MC2,Stern
+30.0,NW,,73,210k,Berth 02,MC2,Stern
+30.0,NNW,,76,210k,Berth 02,MC2,Stern
+20.0,N,,117,210k,Berth 02,MC2,Stern
+20.0,NNE,,113,210k,Berth 02,MC2,Stern
+20.0,NE,,129,210k,Berth 02,MC2,Stern
+20.0,ENE,,109,210k,Berth 02,MC2,Stern
+20.0,E,,112,210k,Berth 02,MC2,Stern
+20.0,ESE,,96,210k,Berth 02,MC2,Stern
+20.0,SE,,115,210k,Berth 02,MC2,Stern
+20.0,SSE,,154,210k,Berth 02,MC2,Stern
+20.0,S,,173,210k,Berth 02,MC2,Stern
+20.0,SSW,,160,210k,Berth 02,MC2,Stern
+20.0,SW,,167,210k,Berth 02,MC2,Stern
+20.0,WSW,,120,210k,Berth 02,MC2,Stern
+20.0,W,,126,210k,Berth 02,MC2,Stern
+20.0,WNW,,116,210k,Berth 02,MC2,Stern
+20.0,NW,,110,210k,Berth 02,MC2,Stern
+20.0,NNW,,102,210k,Berth 02,MC2,Stern
+20.0,NE,1,173,210k,Berth 02,MC2,Stern
+20.0,NE,2,77,210k,Berth 02,MC2,Stern
+20.0,NE,3,93,210k,Berth 02,MC2,Stern
+20.0,NE,4,105,210k,Berth 02,MC2,Stern
+20.0,NE,5,131,210k,Berth 02,MC2,Stern
+20.0,NE,6,133,210k,Berth 02,MC2,Stern
+20.0,NE,7,172,210k,Berth 02,MC2,Stern
+9.0,E,8,121,210k,Berth 02,MC2,Stern
+9.0,E,9,153,210k,Berth 02,MC2,Stern
+9.0,E,10,202,210k,Berth 02,MC2,Stern
+30.0,N,,291,210k,Berth 03,MC1,Bow
+30.0,NNE,,249,210k,Berth 03,MC1,Bow
+30.0,NE,,185,210k,Berth 03,MC1,Bow
+30.0,ENE,,100,210k,Berth 03,MC1,Bow
+30.0,E,,79,210k,Berth 03,MC1,Bow
+30.0,ESE,,79,210k,Berth 03,MC1,Bow
+30.0,SE,,82,210k,Berth 03,MC1,Bow
+30.0,SSE,,76,210k,Berth 03,MC1,Bow
+30.0,S,,75,210k,Berth 03,MC1,Bow
+30.0,SSW,,70,210k,Berth 03,MC1,Bow
+30.0,SW,,72,210k,Berth 03,MC1,Bow
+30.0,WSW,,83,210k,Berth 03,MC1,Bow
+30.0,W,,97,210k,Berth 03,MC1,Bow
+30.0,WNW,,123,210k,Berth 03,MC1,Bow
+30.0,NW,,225,210k,Berth 03,MC1,Bow
+30.0,NNW,,309,210k,Berth 03,MC1,Bow
+20.0,N,,145,210k,Berth 03,MC1,Bow
+20.0,NNE,,124,210k,Berth 03,MC1,Bow
+20.0,NE,,98,210k,Berth 03,MC1,Bow
+20.0,ENE,,75,210k,Berth 03,MC1,Bow
+20.0,E,,76,210k,Berth 03,MC1,Bow
+20.0,ESE,,81,210k,Berth 03,MC1,Bow
+20.0,SE,,84,210k,Berth 03,MC1,Bow
+20.0,SSE,,81,210k,Berth 03,MC1,Bow
+20.0,S,,77,210k,Berth 03,MC1,Bow
+20.0,SSW,,78,210k,Berth 03,MC1,Bow
+20.0,SW,,79,210k,Berth 03,MC1,Bow
+20.0,WSW,,75,210k,Berth 03,MC1,Bow
+20.0,W,,87,210k,Berth 03,MC1,Bow
+20.0,WNW,,87,210k,Berth 03,MC1,Bow
+20.0,NW,,123,210k,Berth 03,MC1,Bow
+20.0,NNW,,139,210k,Berth 03,MC1,Bow
+20.0,NE,1,128,210k,Berth 03,MC1,Bow
+20.0,NE,2,121,210k,Berth 03,MC1,Bow
+20.0,NE,3,205,210k,Berth 03,MC1,Bow
+20.0,NE,4,302,210k,Berth 03,MC1,Bow
+20.0,NE,5,140,210k,Berth 03,MC1,Bow
+20.0,NE,6,229,210k,Berth 03,MC1,Bow
+20.0,NE,7,345,210k,Berth 03,MC1,Bow
+9.0,E,8,120,210k,Berth 03,MC1,Bow
+9.0,E,9,157,210k,Berth 03,MC1,Bow
+9.0,E,10,189,210k,Berth 03,MC1,Bow
+30.0,N,,200,210k,Berth 03,MC1,Fwd Spring
+30.0,NNE,,190,210k,Berth 03,MC1,Fwd Spring
+30.0,NE,,144,210k,Berth 03,MC1,Fwd Spring
+30.0,ENE,,86,210k,Berth 03,MC1,Fwd Spring
+30.0,E,,74,210k,Berth 03,MC1,Fwd Spring
+30.0,ESE,,82,210k,Berth 03,MC1,Fwd Spring
+30.0,SE,,73,210k,Berth 03,MC1,Fwd Spring
+30.0,SSE,,62,210k,Berth 03,MC1,Fwd Spring
+30.0,S,,52,210k,Berth 03,MC1,Fwd Spring
+30.0,SSW,,46,210k,Berth 03,MC1,Fwd Spring
+30.0,SW,,42,210k,Berth 03,MC1,Fwd Spring
+30.0,WSW,,37,210k,Berth 03,MC1,Fwd Spring
+30.0,W,,46,210k,Berth 03,MC1,Fwd Spring
+30.0,WNW,,85,210k,Berth 03,MC1,Fwd Spring
+30.0,NW,,140,210k,Berth 03,MC1,Fwd Spring
+30.0,NNW,,184,210k,Berth 03,MC1,Fwd Spring
+20.0,N,,115,210k,Berth 03,MC1,Fwd Spring
+20.0,NNE,,94,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,,73,210k,Berth 03,MC1,Fwd Spring
+20.0,ENE,,65,210k,Berth 03,MC1,Fwd Spring
+20.0,E,,63,210k,Berth 03,MC1,Fwd Spring
+20.0,ESE,,69,210k,Berth 03,MC1,Fwd Spring
+20.0,SE,,66,210k,Berth 03,MC1,Fwd Spring
+20.0,SSE,,59,210k,Berth 03,MC1,Fwd Spring
+20.0,S,,54,210k,Berth 03,MC1,Fwd Spring
+20.0,SSW,,50,210k,Berth 03,MC1,Fwd Spring
+20.0,SW,,49,210k,Berth 03,MC1,Fwd Spring
+20.0,WSW,,47,210k,Berth 03,MC1,Fwd Spring
+20.0,W,,53,210k,Berth 03,MC1,Fwd Spring
+20.0,WNW,,68,210k,Berth 03,MC1,Fwd Spring
+20.0,NW,,99,210k,Berth 03,MC1,Fwd Spring
+20.0,NNW,,106,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,1,109,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,2,97,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,3,135,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,4,210,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,5,109,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,6,160,210k,Berth 03,MC1,Fwd Spring
+20.0,NE,7,220,210k,Berth 03,MC1,Fwd Spring
+9.0,E,8,81,210k,Berth 03,MC1,Fwd Spring
+9.0,E,9,126,210k,Berth 03,MC1,Fwd Spring
+9.0,E,10,159,210k,Berth 03,MC1,Fwd Spring
+30.0,N,,403,210k,Berth 03,MC1,Aft Spring
+30.0,NNE,,440,210k,Berth 03,MC1,Aft Spring
+30.0,NE,,360,210k,Berth 03,MC1,Aft Spring
+30.0,ENE,,219,210k,Berth 03,MC1,Aft Spring
+30.0,E,,64,210k,Berth 03,MC1,Aft Spring
+30.0,ESE,,37,210k,Berth 03,MC1,Aft Spring
+30.0,SE,,36,210k,Berth 03,MC1,Aft Spring
+30.0,SSE,,40,210k,Berth 03,MC1,Aft Spring
+30.0,S,,47,210k,Berth 03,MC1,Aft Spring
+30.0,SSW,,55,210k,Berth 03,MC1,Aft Spring
+30.0,SW,,65,210k,Berth 03,MC1,Aft Spring
+30.0,WSW,,84,210k,Berth 03,MC1,Aft Spring
+30.0,W,,118,210k,Berth 03,MC1,Aft Spring
+30.0,WNW,,175,210k,Berth 03,MC1,Aft Spring
+30.0,NW,,248,210k,Berth 03,MC1,Aft Spring
+30.0,NNW,,350,210k,Berth 03,MC1,Aft Spring
+20.0,N,,223,210k,Berth 03,MC1,Aft Spring
+20.0,NNE,,230,210k,Berth 03,MC1,Aft Spring
+20.0,NE,,190,210k,Berth 03,MC1,Aft Spring
+20.0,ENE,,118,210k,Berth 03,MC1,Aft Spring
+20.0,E,,71,210k,Berth 03,MC1,Aft Spring
+20.0,ESE,,52,210k,Berth 03,MC1,Aft Spring
+20.0,SE,,51,210k,Berth 03,MC1,Aft Spring
+20.0,SSE,,53,210k,Berth 03,MC1,Aft Spring
+20.0,S,,56,210k,Berth 03,MC1,Aft Spring
+20.0,SSW,,65,210k,Berth 03,MC1,Aft Spring
+20.0,SW,,64,210k,Berth 03,MC1,Aft Spring
+20.0,WSW,,86,210k,Berth 03,MC1,Aft Spring
+20.0,W,,103,210k,Berth 03,MC1,Aft Spring
+20.0,WNW,,119,210k,Berth 03,MC1,Aft Spring
+20.0,NW,,167,210k,Berth 03,MC1,Aft Spring
+20.0,NNW,,194,210k,Berth 03,MC1,Aft Spring
+20.0,NE,1,250,210k,Berth 03,MC1,Aft Spring
+20.0,NE,2,228,210k,Berth 03,MC1,Aft Spring
+20.0,NE,3,299,210k,Berth 03,MC1,Aft Spring
+20.0,NE,4,423,210k,Berth 03,MC1,Aft Spring
+20.0,NE,5,255,210k,Berth 03,MC1,Aft Spring
+20.0,NE,6,356,210k,Berth 03,MC1,Aft Spring
+20.0,NE,7,449,210k,Berth 03,MC1,Aft Spring
+9.0,E,8,119,210k,Berth 03,MC1,Aft Spring
+9.0,E,9,154,210k,Berth 03,MC1,Aft Spring
+9.0,E,10,209,210k,Berth 03,MC1,Aft Spring
+30.0,N,,329,210k,Berth 03,MC1,Stern
+30.0,NNE,,334,210k,Berth 03,MC1,Stern
+30.0,NE,,313,210k,Berth 03,MC1,Stern
+30.0,ENE,,207,210k,Berth 03,MC1,Stern
+30.0,E,,87,210k,Berth 03,MC1,Stern
+30.0,ESE,,66,210k,Berth 03,MC1,Stern
+30.0,SE,,65,210k,Berth 03,MC1,Stern
+30.0,SSE,,59,210k,Berth 03,MC1,Stern
+30.0,S,,54,210k,Berth 03,MC1,Stern
+30.0,SSW,,54,210k,Berth 03,MC1,Stern
+30.0,SW,,60,210k,Berth 03,MC1,Stern
+30.0,WSW,,65,210k,Berth 03,MC1,Stern
+30.0,W,,73,210k,Berth 03,MC1,Stern
+30.0,WNW,,119,210k,Berth 03,MC1,Stern
+30.0,NW,,217,210k,Berth 03,MC1,Stern
+30.0,NNW,,310,210k,Berth 03,MC1,Stern
+20.0,N,,179,210k,Berth 03,MC1,Stern
+20.0,NNE,,191,210k,Berth 03,MC1,Stern
+20.0,NE,,168,210k,Berth 03,MC1,Stern
+20.0,ENE,,111,210k,Berth 03,MC1,Stern
+20.0,E,,91,210k,Berth 03,MC1,Stern
+20.0,ESE,,68,210k,Berth 03,MC1,Stern
+20.0,SE,,64,210k,Berth 03,MC1,Stern
+20.0,SSE,,64,210k,Berth 03,MC1,Stern
+20.0,S,,63,210k,Berth 03,MC1,Stern
+20.0,SSW,,75,210k,Berth 03,MC1,Stern
+20.0,SW,,65,210k,Berth 03,MC1,Stern
+20.0,WSW,,75,210k,Berth 03,MC1,Stern
+20.0,W,,89,210k,Berth 03,MC1,Stern
+20.0,WNW,,90,210k,Berth 03,MC1,Stern
+20.0,NW,,132,210k,Berth 03,MC1,Stern
+20.0,NNW,,152,210k,Berth 03,MC1,Stern
+20.0,NE,1,186,210k,Berth 03,MC1,Stern
+20.0,NE,2,185,210k,Berth 03,MC1,Stern
+20.0,NE,3,262,210k,Berth 03,MC1,Stern
+20.0,NE,4,359,210k,Berth 03,MC1,Stern
+20.0,NE,5,199,210k,Berth 03,MC1,Stern
+20.0,NE,6,272,210k,Berth 03,MC1,Stern
+20.0,NE,7,377,210k,Berth 03,MC1,Stern
+9.0,E,8,141,210k,Berth 03,MC1,Stern
+9.0,E,9,179,210k,Berth 03,MC1,Stern
+9.0,E,10,222,210k,Berth 03,MC1,Stern
+30.0,N,,428,210k,Berth 03,MC2,Bow
+30.0,NNE,,355,210k,Berth 03,MC2,Bow
+30.0,NE,,243,210k,Berth 03,MC2,Bow
+30.0,ENE,,112,210k,Berth 03,MC2,Bow
+30.0,E,,84,210k,Berth 03,MC2,Bow
+30.0,ESE,,78,210k,Berth 03,MC2,Bow
+30.0,SE,,93,210k,Berth 03,MC2,Bow
+30.0,SSE,,87,210k,Berth 03,MC2,Bow
+30.0,S,,72,210k,Berth 03,MC2,Bow
+30.0,SSW,,80,210k,Berth 03,MC2,Bow
+30.0,SW,,79,210k,Berth 03,MC2,Bow
+30.0,WSW,,91,210k,Berth 03,MC2,Bow
+30.0,W,,107,210k,Berth 03,MC2,Bow
+30.0,WNW,,175,210k,Berth 03,MC2,Bow
+30.0,NW,,306,210k,Berth 03,MC2,Bow
+30.0,NNW,,395,210k,Berth 03,MC2,Bow
+20.0,N,,188,210k,Berth 03,MC2,Bow
+20.0,NNE,,178,210k,Berth 03,MC2,Bow
+20.0,NE,,133,210k,Berth 03,MC2,Bow
+20.0,ENE,,79,210k,Berth 03,MC2,Bow
+20.0,E,,99,210k,Berth 03,MC2,Bow
+20.0,ESE,,88,210k,Berth 03,MC2,Bow
+20.0,SE,,92,210k,Berth 03,MC2,Bow
+20.0,SSE,,93,210k,Berth 03,MC2,Bow
+20.0,S,,85,210k,Berth 03,MC2,Bow
+20.0,SSW,,82,210k,Berth 03,MC2,Bow
+20.0,SW,,77,210k,Berth 03,MC2,Bow
+20.0,WSW,,99,210k,Berth 03,MC2,Bow
+20.0,W,,103,210k,Berth 03,MC2,Bow
+20.0,WNW,,125,210k,Berth 03,MC2,Bow
+20.0,NW,,170,210k,Berth 03,MC2,Bow
+20.0,NNW,,198,210k,Berth 03,MC2,Bow
+20.0,NE,1,165,210k,Berth 03,MC2,Bow
+20.0,NE,2,161,210k,Berth 03,MC2,Bow
+20.0,NE,3,244,210k,Berth 03,MC2,Bow
+20.0,NE,4,377,210k,Berth 03,MC2,Bow
+20.0,NE,5,188,210k,Berth 03,MC2,Bow
+20.0,NE,6,263,210k,Berth 03,MC2,Bow
+20.0,NE,7,412,210k,Berth 03,MC2,Bow
+9.0,E,8,167,210k,Berth 03,MC2,Bow
+9.0,E,9,194,210k,Berth 03,MC2,Bow
+9.0,E,10,225,210k,Berth 03,MC2,Bow
+30.0,N,,245,210k,Berth 03,MC2,Fwd Spring
+30.0,NNE,,237,210k,Berth 03,MC2,Fwd Spring
+30.0,NE,,182,210k,Berth 03,MC2,Fwd Spring
+30.0,ENE,,97,210k,Berth 03,MC2,Fwd Spring
+30.0,E,,82,210k,Berth 03,MC2,Fwd Spring
+30.0,ESE,,81,210k,Berth 03,MC2,Fwd Spring
+30.0,SE,,75,210k,Berth 03,MC2,Fwd Spring
+30.0,SSE,,65,210k,Berth 03,MC2,Fwd Spring
+30.0,S,,51,210k,Berth 03,MC2,Fwd Spring
+30.0,SSW,,50,210k,Berth 03,MC2,Fwd Spring
+30.0,SW,,44,210k,Berth 03,MC2,Fwd Spring
+30.0,WSW,,44,210k,Berth 03,MC2,Fwd Spring
+30.0,W,,50,210k,Berth 03,MC2,Fwd Spring
+30.0,WNW,,109,210k,Berth 03,MC2,Fwd Spring
+30.0,NW,,171,210k,Berth 03,MC2,Fwd Spring
+30.0,NNW,,232,210k,Berth 03,MC2,Fwd Spring
+20.0,N,,119,210k,Berth 03,MC2,Fwd Spring
+20.0,NNE,,139,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,,98,210k,Berth 03,MC2,Fwd Spring
+20.0,ENE,,66,210k,Berth 03,MC2,Fwd Spring
+20.0,E,,79,210k,Berth 03,MC2,Fwd Spring
+20.0,ESE,,79,210k,Berth 03,MC2,Fwd Spring
+20.0,SE,,71,210k,Berth 03,MC2,Fwd Spring
+20.0,SSE,,65,210k,Berth 03,MC2,Fwd Spring
+20.0,S,,55,210k,Berth 03,MC2,Fwd Spring
+20.0,SSW,,55,210k,Berth 03,MC2,Fwd Spring
+20.0,SW,,52,210k,Berth 03,MC2,Fwd Spring
+20.0,WSW,,57,210k,Berth 03,MC2,Fwd Spring
+20.0,W,,54,210k,Berth 03,MC2,Fwd Spring
+20.0,WNW,,83,210k,Berth 03,MC2,Fwd Spring
+20.0,NW,,113,210k,Berth 03,MC2,Fwd Spring
+20.0,NNW,,117,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,1,136,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,2,109,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,3,158,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,4,229,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,5,142,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,6,188,210k,Berth 03,MC2,Fwd Spring
+20.0,NE,7,261,210k,Berth 03,MC2,Fwd Spring
+9.0,E,8,108,210k,Berth 03,MC2,Fwd Spring
+9.0,E,9,149,210k,Berth 03,MC2,Fwd Spring
+9.0,E,10,194,210k,Berth 03,MC2,Fwd Spring
+30.0,N,,396,210k,Berth 03,MC2,Aft Spring
+30.0,NNE,,444,210k,Berth 03,MC2,Aft Spring
+30.0,NE,,377,210k,Berth 03,MC2,Aft Spring
+30.0,ENE,,203,210k,Berth 03,MC2,Aft Spring
+30.0,E,,55,210k,Berth 03,MC2,Aft Spring
+30.0,ESE,,34,210k,Berth 03,MC2,Aft Spring
+30.0,SE,,33,210k,Berth 03,MC2,Aft Spring
+30.0,SSE,,38,210k,Berth 03,MC2,Aft Spring
+30.0,S,,46,210k,Berth 03,MC2,Aft Spring
+30.0,SSW,,52,210k,Berth 03,MC2,Aft Spring
+30.0,SW,,64,210k,Berth 03,MC2,Aft Spring
+30.0,WSW,,79,210k,Berth 03,MC2,Aft Spring
+30.0,W,,102,210k,Berth 03,MC2,Aft Spring
+30.0,WNW,,141,210k,Berth 03,MC2,Aft Spring
+30.0,NW,,214,210k,Berth 03,MC2,Aft Spring
+30.0,NNW,,300,210k,Berth 03,MC2,Aft Spring
+20.0,N,,193,210k,Berth 03,MC2,Aft Spring
+20.0,NNE,,230,210k,Berth 03,MC2,Aft Spring
+20.0,NE,,190,210k,Berth 03,MC2,Aft Spring
+20.0,ENE,,106,210k,Berth 03,MC2,Aft Spring
+20.0,E,,59,210k,Berth 03,MC2,Aft Spring
+20.0,ESE,,50,210k,Berth 03,MC2,Aft Spring
+20.0,SE,,47,210k,Berth 03,MC2,Aft Spring
+20.0,SSE,,46,210k,Berth 03,MC2,Aft Spring
+20.0,S,,51,210k,Berth 03,MC2,Aft Spring
+20.0,SSW,,55,210k,Berth 03,MC2,Aft Spring
+20.0,SW,,70,210k,Berth 03,MC2,Aft Spring
+20.0,WSW,,77,210k,Berth 03,MC2,Aft Spring
+20.0,W,,83,210k,Berth 03,MC2,Aft Spring
+20.0,WNW,,96,210k,Berth 03,MC2,Aft Spring
+20.0,NW,,135,210k,Berth 03,MC2,Aft Spring
+20.0,NNW,,170,210k,Berth 03,MC2,Aft Spring
+20.0,NE,1,240,210k,Berth 03,MC2,Aft Spring
+20.0,NE,2,205,210k,Berth 03,MC2,Aft Spring
+20.0,NE,3,287,210k,Berth 03,MC2,Aft Spring
+20.0,NE,4,357,210k,Berth 03,MC2,Aft Spring
+20.0,NE,5,243,210k,Berth 03,MC2,Aft Spring
+20.0,NE,6,347,210k,Berth 03,MC2,Aft Spring
+20.0,NE,7,453,210k,Berth 03,MC2,Aft Spring
+9.0,E,8,112,210k,Berth 03,MC2,Aft Spring
+9.0,E,9,152,210k,Berth 03,MC2,Aft Spring
+9.0,E,10,230,210k,Berth 03,MC2,Aft Spring
+30.0,N,,355,210k,Berth 03,MC2,Stern
+30.0,NNE,,356,210k,Berth 03,MC2,Stern
+30.0,NE,,302,210k,Berth 03,MC2,Stern
+30.0,ENE,,205,210k,Berth 03,MC2,Stern
+30.0,E,,76,210k,Berth 03,MC2,Stern
+30.0,ESE,,59,210k,Berth 03,MC2,Stern
+30.0,SE,,57,210k,Berth 03,MC2,Stern
+30.0,SSE,,59,210k,Berth 03,MC2,Stern
+30.0,S,,55,210k,Berth 03,MC2,Stern
+30.0,SSW,,57,210k,Berth 03,MC2,Stern
+30.0,SW,,58,210k,Berth 03,MC2,Stern
+30.0,WSW,,70,210k,Berth 03,MC2,Stern
+30.0,W,,81,210k,Berth 03,MC2,Stern
+30.0,WNW,,118,210k,Berth 03,MC2,Stern
+30.0,NW,,224,210k,Berth 03,MC2,Stern
+30.0,NNW,,296,210k,Berth 03,MC2,Stern
+20.0,N,,165,210k,Berth 03,MC2,Stern
+20.0,NNE,,185,210k,Berth 03,MC2,Stern
+20.0,NE,,170,210k,Berth 03,MC2,Stern
+20.0,ENE,,109,210k,Berth 03,MC2,Stern
+20.0,E,,72,210k,Berth 03,MC2,Stern
+20.0,ESE,,65,210k,Berth 03,MC2,Stern
+20.0,SE,,62,210k,Berth 03,MC2,Stern
+20.0,SSE,,58,210k,Berth 03,MC2,Stern
+20.0,S,,60,210k,Berth 03,MC2,Stern
+20.0,SSW,,63,210k,Berth 03,MC2,Stern
+20.0,SW,,69,210k,Berth 03,MC2,Stern
+20.0,WSW,,69,210k,Berth 03,MC2,Stern
+20.0,W,,83,210k,Berth 03,MC2,Stern
+20.0,WNW,,83,210k,Berth 03,MC2,Stern
+20.0,NW,,127,210k,Berth 03,MC2,Stern
+20.0,NNW,,158,210k,Berth 03,MC2,Stern
+20.0,NE,1,189,210k,Berth 03,MC2,Stern
+20.0,NE,2,171,210k,Berth 03,MC2,Stern
+20.0,NE,3,251,210k,Berth 03,MC2,Stern
+20.0,NE,4,332,210k,Berth 03,MC2,Stern
+20.0,NE,5,194,210k,Berth 03,MC2,Stern
+20.0,NE,6,251,210k,Berth 03,MC2,Stern
+20.0,NE,7,359,210k,Berth 03,MC2,Stern
+9.0,E,8,127,210k,Berth 03,MC2,Stern
+9.0,E,9,159,210k,Berth 03,MC2,Stern
+9.0,E,10,169,210k,Berth 03,MC2,Stern
+30.0,N,,78,210k,Berth 04,MC1,Bow
+30.0,NNE,,84,210k,Berth 04,MC1,Bow
+30.0,NE,,86,210k,Berth 04,MC1,Bow
+30.0,ENE,,113,210k,Berth 04,MC1,Bow
+30.0,E,,100,210k,Berth 04,MC1,Bow
+30.0,ESE,,98,210k,Berth 04,MC1,Bow
+30.0,SE,,167,210k,Berth 04,MC1,Bow
+30.0,SSE,,225,210k,Berth 04,MC1,Bow
+30.0,S,,279,210k,Berth 04,MC1,Bow
+30.0,SSW,,262,210k,Berth 04,MC1,Bow
+30.0,SW,,217,210k,Berth 04,MC1,Bow
+30.0,WSW,,156,210k,Berth 04,MC1,Bow
+30.0,W,,117,210k,Berth 04,MC1,Bow
+30.0,WNW,,98,210k,Berth 04,MC1,Bow
+30.0,NW,,79,210k,Berth 04,MC1,Bow
+30.0,NNW,,75,210k,Berth 04,MC1,Bow
+20.0,N,,102,210k,Berth 04,MC1,Bow
+20.0,NNE,,100,210k,Berth 04,MC1,Bow
+20.0,NE,,132,210k,Berth 04,MC1,Bow
+20.0,ENE,,103,210k,Berth 04,MC1,Bow
+20.0,E,,107,210k,Berth 04,MC1,Bow
+20.0,ESE,,94,210k,Berth 04,MC1,Bow
+20.0,SE,,92,210k,Berth 04,MC1,Bow
+20.0,SSE,,105,210k,Berth 04,MC1,Bow
+20.0,S,,122,210k,Berth 04,MC1,Bow
+20.0,SSW,,134,210k,Berth 04,MC1,Bow
+20.0,SW,,133,210k,Berth 04,MC1,Bow
+20.0,WSW,,140,210k,Berth 04,MC1,Bow
+20.0,W,,108,210k,Berth 04,MC1,Bow
+20.0,WNW,,94,210k,Berth 04,MC1,Bow
+20.0,NW,,103,210k,Berth 04,MC1,Bow
+20.0,NNW,,108,210k,Berth 04,MC1,Bow
+20.0,NE,1,282,210k,Berth 04,MC1,Bow
+20.0,NE,2,85,210k,Berth 04,MC1,Bow
+20.0,NE,3,87,210k,Berth 04,MC1,Bow
+20.0,NE,4,110,210k,Berth 04,MC1,Bow
+20.0,NE,5,160,210k,Berth 04,MC1,Bow
+20.0,NE,6,181,210k,Berth 04,MC1,Bow
+20.0,NE,7,198,210k,Berth 04,MC1,Bow
+9.0,E,8,153,210k,Berth 04,MC1,Bow
+9.0,E,9,241,210k,Berth 04,MC1,Bow
+9.0,E,10,285,210k,Berth 04,MC1,Bow
+30.0,N,,49,210k,Berth 04,MC1,Fwd Spring
+30.0,NNE,,58,210k,Berth 04,MC1,Fwd Spring
+30.0,NE,,69,210k,Berth 04,MC1,Fwd Spring
+30.0,ENE,,94,210k,Berth 04,MC1,Fwd Spring
+30.0,E,,86,210k,Berth 04,MC1,Fwd Spring
+30.0,ESE,,74,210k,Berth 04,MC1,Fwd Spring
+30.0,SE,,88,210k,Berth 04,MC1,Fwd Spring
+30.0,SSE,,98,210k,Berth 04,MC1,Fwd Spring
+30.0,S,,110,210k,Berth 04,MC1,Fwd Spring
+30.0,SSW,,122,210k,Berth 04,MC1,Fwd Spring
+30.0,SW,,95,210k,Berth 04,MC1,Fwd Spring
+30.0,WSW,,76,210k,Berth 04,MC1,Fwd Spring
+30.0,W,,52,210k,Berth 04,MC1,Fwd Spring
+30.0,WNW,,38,210k,Berth 04,MC1,Fwd Spring
+30.0,NW,,38,210k,Berth 04,MC1,Fwd Spring
+30.0,NNW,,43,210k,Berth 04,MC1,Fwd Spring
+20.0,N,,60,210k,Berth 04,MC1,Fwd Spring
+20.0,NNE,,68,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,,78,210k,Berth 04,MC1,Fwd Spring
+20.0,ENE,,74,210k,Berth 04,MC1,Fwd Spring
+20.0,E,,71,210k,Berth 04,MC1,Fwd Spring
+20.0,ESE,,70,210k,Berth 04,MC1,Fwd Spring
+20.0,SE,,69,210k,Berth 04,MC1,Fwd Spring
+20.0,SSE,,81,210k,Berth 04,MC1,Fwd Spring
+20.0,S,,78,210k,Berth 04,MC1,Fwd Spring
+20.0,SSW,,85,210k,Berth 04,MC1,Fwd Spring
+20.0,SW,,81,210k,Berth 04,MC1,Fwd Spring
+20.0,WSW,,65,210k,Berth 04,MC1,Fwd Spring
+20.0,W,,56,210k,Berth 04,MC1,Fwd Spring
+20.0,WNW,,47,210k,Berth 04,MC1,Fwd Spring
+20.0,NW,,53,210k,Berth 04,MC1,Fwd Spring
+20.0,NNW,,56,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,1,113,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,2,66,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,3,69,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,4,81,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,5,99,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,6,113,210k,Berth 04,MC1,Fwd Spring
+20.0,NE,7,120,210k,Berth 04,MC1,Fwd Spring
+9.0,E,8,81,210k,Berth 04,MC1,Fwd Spring
+9.0,E,9,104,210k,Berth 04,MC1,Fwd Spring
+9.0,E,10,134,210k,Berth 04,MC1,Fwd Spring
+30.0,N,,53,210k,Berth 04,MC1,Aft Spring
+30.0,NNE,,46,210k,Berth 04,MC1,Aft Spring
+30.0,NE,,45,210k,Berth 04,MC1,Aft Spring
+30.0,ENE,,46,210k,Berth 04,MC1,Aft Spring
+30.0,E,,56,210k,Berth 04,MC1,Aft Spring
+30.0,ESE,,100,210k,Berth 04,MC1,Aft Spring
+30.0,SE,,161,210k,Berth 04,MC1,Aft Spring
+30.0,SSE,,164,210k,Berth 04,MC1,Aft Spring
+30.0,S,,130,210k,Berth 04,MC1,Aft Spring
+30.0,SSW,,118,210k,Berth 04,MC1,Aft Spring
+30.0,SW,,98,210k,Berth 04,MC1,Aft Spring
+30.0,WSW,,116,210k,Berth 04,MC1,Aft Spring
+30.0,W,,106,210k,Berth 04,MC1,Aft Spring
+30.0,WNW,,79,210k,Berth 04,MC1,Aft Spring
+30.0,NW,,65,210k,Berth 04,MC1,Aft Spring
+30.0,NNW,,60,210k,Berth 04,MC1,Aft Spring
+20.0,N,,70,210k,Berth 04,MC1,Aft Spring
+20.0,NNE,,64,210k,Berth 04,MC1,Aft Spring
+20.0,NE,,61,210k,Berth 04,MC1,Aft Spring
+20.0,ENE,,57,210k,Berth 04,MC1,Aft Spring
+20.0,E,,63,210k,Berth 04,MC1,Aft Spring
+20.0,ESE,,77,210k,Berth 04,MC1,Aft Spring
+20.0,SE,,89,210k,Berth 04,MC1,Aft Spring
+20.0,SSE,,104,210k,Berth 04,MC1,Aft Spring
+20.0,S,,102,210k,Berth 04,MC1,Aft Spring
+20.0,SSW,,114,210k,Berth 04,MC1,Aft Spring
+20.0,SW,,96,210k,Berth 04,MC1,Aft Spring
+20.0,WSW,,82,210k,Berth 04,MC1,Aft Spring
+20.0,W,,86,210k,Berth 04,MC1,Aft Spring
+20.0,WNW,,77,210k,Berth 04,MC1,Aft Spring
+20.0,NW,,76,210k,Berth 04,MC1,Aft Spring
+20.0,NNW,,72,210k,Berth 04,MC1,Aft Spring
+20.0,NE,1,121,210k,Berth 04,MC1,Aft Spring
+20.0,NE,2,63,210k,Berth 04,MC1,Aft Spring
+20.0,NE,3,65,210k,Berth 04,MC1,Aft Spring
+20.0,NE,4,75,210k,Berth 04,MC1,Aft Spring
+20.0,NE,5,103,210k,Berth 04,MC1,Aft Spring
+20.0,NE,6,114,210k,Berth 04,MC1,Aft Spring
+20.0,NE,7,113,210k,Berth 04,MC1,Aft Spring
+9.0,E,8,85,210k,Berth 04,MC1,Aft Spring
+9.0,E,9,103,210k,Berth 04,MC1,Aft Spring
+9.0,E,10,134,210k,Berth 04,MC1,Aft Spring
+30.0,N,,87,210k,Berth 04,MC1,Stern
+30.0,NNE,,82,210k,Berth 04,MC1,Stern
+30.0,NE,,89,210k,Berth 04,MC1,Stern
+30.0,ENE,,124,210k,Berth 04,MC1,Stern
+30.0,E,,133,210k,Berth 04,MC1,Stern
+30.0,ESE,,177,210k,Berth 04,MC1,Stern
+30.0,SE,,301,210k,Berth 04,MC1,Stern
+30.0,SSE,,322,210k,Berth 04,MC1,Stern
+30.0,S,,323,210k,Berth 04,MC1,Stern
+30.0,SSW,,278,210k,Berth 04,MC1,Stern
+30.0,SW,,209,210k,Berth 04,MC1,Stern
+30.0,WSW,,153,210k,Berth 04,MC1,Stern
+30.0,W,,136,210k,Berth 04,MC1,Stern
+30.0,WNW,,112,210k,Berth 04,MC1,Stern
+30.0,NW,,103,210k,Berth 04,MC1,Stern
+30.0,NNW,,94,210k,Berth 04,MC1,Stern
+20.0,N,,134,210k,Berth 04,MC1,Stern
+20.0,NNE,,142,210k,Berth 04,MC1,Stern
+20.0,NE,,129,210k,Berth 04,MC1,Stern
+20.0,ENE,,115,210k,Berth 04,MC1,Stern
+20.0,E,,136,210k,Berth 04,MC1,Stern
+20.0,ESE,,151,210k,Berth 04,MC1,Stern
+20.0,SE,,157,210k,Berth 04,MC1,Stern
+20.0,SSE,,152,210k,Berth 04,MC1,Stern
+20.0,S,,149,210k,Berth 04,MC1,Stern
+20.0,SSW,,153,210k,Berth 04,MC1,Stern
+20.0,SW,,135,210k,Berth 04,MC1,Stern
+20.0,WSW,,141,210k,Berth 04,MC1,Stern
+20.0,W,,135,210k,Berth 04,MC1,Stern
+20.0,WNW,,138,210k,Berth 04,MC1,Stern
+20.0,NW,,148,210k,Berth 04,MC1,Stern
+20.0,NNW,,146,210k,Berth 04,MC1,Stern
+20.0,NE,1,340,210k,Berth 04,MC1,Stern
+20.0,NE,2,127,210k,Berth 04,MC1,Stern
+20.0,NE,3,125,210k,Berth 04,MC1,Stern
+20.0,NE,4,166,210k,Berth 04,MC1,Stern
+20.0,NE,5,247,210k,Berth 04,MC1,Stern
+20.0,NE,6,271,210k,Berth 04,MC1,Stern
+20.0,NE,7,287,210k,Berth 04,MC1,Stern
+9.0,E,8,184,210k,Berth 04,MC1,Stern
+9.0,E,9,257,210k,Berth 04,MC1,Stern
+9.0,E,10,350,210k,Berth 04,MC1,Stern
+30.0,N,,78,210k,Berth 04,MC2,Bow
+30.0,NNE,,78,210k,Berth 04,MC2,Bow
+30.0,NE,,102,210k,Berth 04,MC2,Bow
+30.0,ENE,,116,210k,Berth 04,MC2,Bow
+30.0,E,,103,210k,Berth 04,MC2,Bow
+30.0,ESE,,132,210k,Berth 04,MC2,Bow
+30.0,SE,,198,210k,Berth 04,MC2,Bow
+30.0,SSE,,283,210k,Berth 04,MC2,Bow
+30.0,S,,368,210k,Berth 04,MC2,Bow
+30.0,SSW,,353,210k,Berth 04,MC2,Bow
+30.0,SW,,302,210k,Berth 04,MC2,Bow
+30.0,WSW,,202,210k,Berth 04,MC2,Bow
+30.0,W,,143,210k,Berth 04,MC2,Bow
+30.0,WNW,,110,210k,Berth 04,MC2,Bow
+30.0,NW,,74,210k,Berth 04,MC2,Bow
+30.0,NNW,,75,210k,Berth 04,MC2,Bow
+20.0,N,,107,210k,Berth 04,MC2,Bow
+20.0,NNE,,115,210k,Berth 04,MC2,Bow
+20.0,NE,,124,210k,Berth 04,MC2,Bow
+20.0,ENE,,127,210k,Berth 04,MC2,Bow
+20.0,E,,118,210k,Berth 04,MC2,Bow
+20.0,ESE,,120,210k,Berth 04,MC2,Bow
+20.0,SE,,112,210k,Berth 04,MC2,Bow
+20.0,SSE,,149,210k,Berth 04,MC2,Bow
+20.0,S,,165,210k,Berth 04,MC2,Bow
+20.0,SSW,,165,210k,Berth 04,MC2,Bow
+20.0,SW,,186,210k,Berth 04,MC2,Bow
+20.0,WSW,,128,210k,Berth 04,MC2,Bow
+20.0,W,,139,210k,Berth 04,MC2,Bow
+20.0,WNW,,128,210k,Berth 04,MC2,Bow
+20.0,NW,,112,210k,Berth 04,MC2,Bow
+20.0,NNW,,108,210k,Berth 04,MC2,Bow
+20.0,NE,1,218,210k,Berth 04,MC2,Bow
+20.0,NE,2,90,210k,Berth 04,MC2,Bow
+20.0,NE,3,102,210k,Berth 04,MC2,Bow
+20.0,NE,4,127,210k,Berth 04,MC2,Bow
+20.0,NE,5,166,210k,Berth 04,MC2,Bow
+20.0,NE,6,219,210k,Berth 04,MC2,Bow
+20.0,NE,7,248,210k,Berth 04,MC2,Bow
+9.0,E,8,147,210k,Berth 04,MC2,Bow
+9.0,E,9,227,210k,Berth 04,MC2,Bow
+9.0,E,10,315,210k,Berth 04,MC2,Bow
+30.0,N,,52,210k,Berth 04,MC2,Fwd Spring
+30.0,NNE,,60,210k,Berth 04,MC2,Fwd Spring
+30.0,NE,,74,210k,Berth 04,MC2,Fwd Spring
+30.0,ENE,,101,210k,Berth 04,MC2,Fwd Spring
+30.0,E,,85,210k,Berth 04,MC2,Fwd Spring
+30.0,ESE,,83,210k,Berth 04,MC2,Fwd Spring
+30.0,SE,,101,210k,Berth 04,MC2,Fwd Spring
+30.0,SSE,,138,210k,Berth 04,MC2,Fwd Spring
+30.0,S,,173,210k,Berth 04,MC2,Fwd Spring
+30.0,SSW,,163,210k,Berth 04,MC2,Fwd Spring
+30.0,SW,,149,210k,Berth 04,MC2,Fwd Spring
+30.0,WSW,,111,210k,Berth 04,MC2,Fwd Spring
+30.0,W,,59,210k,Berth 04,MC2,Fwd Spring
+30.0,WNW,,55,210k,Berth 04,MC2,Fwd Spring
+30.0,NW,,43,210k,Berth 04,MC2,Fwd Spring
+30.0,NNW,,48,210k,Berth 04,MC2,Fwd Spring
+20.0,N,,69,210k,Berth 04,MC2,Fwd Spring
+20.0,NNE,,78,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,,74,210k,Berth 04,MC2,Fwd Spring
+20.0,ENE,,89,210k,Berth 04,MC2,Fwd Spring
+20.0,E,,78,210k,Berth 04,MC2,Fwd Spring
+20.0,ESE,,79,210k,Berth 04,MC2,Fwd Spring
+20.0,SE,,80,210k,Berth 04,MC2,Fwd Spring
+20.0,SSE,,104,210k,Berth 04,MC2,Fwd Spring
+20.0,S,,98,210k,Berth 04,MC2,Fwd Spring
+20.0,SSW,,115,210k,Berth 04,MC2,Fwd Spring
+20.0,SW,,118,210k,Berth 04,MC2,Fwd Spring
+20.0,WSW,,88,210k,Berth 04,MC2,Fwd Spring
+20.0,W,,65,210k,Berth 04,MC2,Fwd Spring
+20.0,WNW,,62,210k,Berth 04,MC2,Fwd Spring
+20.0,NW,,59,210k,Berth 04,MC2,Fwd Spring
+20.0,NNW,,60,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,1,125,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,2,68,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,3,77,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,4,85,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,5,101,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,6,110,210k,Berth 04,MC2,Fwd Spring
+20.0,NE,7,128,210k,Berth 04,MC2,Fwd Spring
+9.0,E,8,79,210k,Berth 04,MC2,Fwd Spring
+9.0,E,9,129,210k,Berth 04,MC2,Fwd Spring
+9.0,E,10,150,210k,Berth 04,MC2,Fwd Spring
+30.0,N,,51,210k,Berth 04,MC2,Aft Spring
+30.0,NNE,,45,210k,Berth 04,MC2,Aft Spring
+30.0,NE,,41,210k,Berth 04,MC2,Aft Spring
+30.0,ENE,,44,210k,Berth 04,MC2,Aft Spring
+30.0,E,,57,210k,Berth 04,MC2,Aft Spring
+30.0,ESE,,84,210k,Berth 04,MC2,Aft Spring
+30.0,SE,,119,210k,Berth 04,MC2,Aft Spring
+30.0,SSE,,148,210k,Berth 04,MC2,Aft Spring
+30.0,S,,141,210k,Berth 04,MC2,Aft Spring
+30.0,SSW,,98,210k,Berth 04,MC2,Aft Spring
+30.0,SW,,91,210k,Berth 04,MC2,Aft Spring
+30.0,WSW,,105,210k,Berth 04,MC2,Aft Spring
+30.0,W,,92,210k,Berth 04,MC2,Aft Spring
+30.0,WNW,,77,210k,Berth 04,MC2,Aft Spring
+30.0,NW,,61,210k,Berth 04,MC2,Aft Spring
+30.0,NNW,,55,210k,Berth 04,MC2,Aft Spring
+20.0,N,,63,210k,Berth 04,MC2,Aft Spring
+20.0,NNE,,61,210k,Berth 04,MC2,Aft Spring
+20.0,NE,,59,210k,Berth 04,MC2,Aft Spring
+20.0,ENE,,55,210k,Berth 04,MC2,Aft Spring
+20.0,E,,61,210k,Berth 04,MC2,Aft Spring
+20.0,ESE,,67,210k,Berth 04,MC2,Aft Spring
+20.0,SE,,85,210k,Berth 04,MC2,Aft Spring
+20.0,SSE,,115,210k,Berth 04,MC2,Aft Spring
+20.0,S,,77,210k,Berth 04,MC2,Aft Spring
+20.0,SSW,,87,210k,Berth 04,MC2,Aft Spring
+20.0,SW,,90,210k,Berth 04,MC2,Aft Spring
+20.0,WSW,,86,210k,Berth 04,MC2,Aft Spring
+20.0,W,,71,210k,Berth 04,MC2,Aft Spring
+20.0,WNW,,72,210k,Berth 04,MC2,Aft Spring
+20.0,NW,,68,210k,Berth 04,MC2,Aft Spring
+20.0,NNW,,63,210k,Berth 04,MC2,Aft Spring
+20.0,NE,1,118,210k,Berth 04,MC2,Aft Spring
+20.0,NE,2,58,210k,Berth 04,MC2,Aft Spring
+20.0,NE,3,62,210k,Berth 04,MC2,Aft Spring
+20.0,NE,4,79,210k,Berth 04,MC2,Aft Spring
+20.0,NE,5,82,210k,Berth 04,MC2,Aft Spring
+20.0,NE,6,96,210k,Berth 04,MC2,Aft Spring
+20.0,NE,7,115,210k,Berth 04,MC2,Aft Spring
+9.0,E,8,69,210k,Berth 04,MC2,Aft Spring
+9.0,E,9,110,210k,Berth 04,MC2,Aft Spring
+9.0,E,10,131,210k,Berth 04,MC2,Aft Spring
+30.0,N,,92,210k,Berth 04,MC2,Stern
+30.0,NNE,,86,210k,Berth 04,MC2,Stern
+30.0,NE,,95,210k,Berth 04,MC2,Stern
+30.0,ENE,,115,210k,Berth 04,MC2,Stern
+30.0,E,,142,210k,Berth 04,MC2,Stern
+30.0,ESE,,196,210k,Berth 04,MC2,Stern
+30.0,SE,,300,210k,Berth 04,MC2,Stern
+30.0,SSE,,326,210k,Berth 04,MC2,Stern
+30.0,S,,328,210k,Berth 04,MC2,Stern
+30.0,SSW,,257,210k,Berth 04,MC2,Stern
+30.0,SW,,221,210k,Berth 04,MC2,Stern
+30.0,WSW,,155,210k,Berth 04,MC2,Stern
+30.0,W,,134,210k,Berth 04,MC2,Stern
+30.0,WNW,,133,210k,Berth 04,MC2,Stern
+30.0,NW,,87,210k,Berth 04,MC2,Stern
+30.0,NNW,,93,210k,Berth 04,MC2,Stern
+20.0,N,,125,210k,Berth 04,MC2,Stern
+20.0,NNE,,137,210k,Berth 04,MC2,Stern
+20.0,NE,,145,210k,Berth 04,MC2,Stern
+20.0,ENE,,128,210k,Berth 04,MC2,Stern
+20.0,E,,136,210k,Berth 04,MC2,Stern
+20.0,ESE,,147,210k,Berth 04,MC2,Stern
+20.0,SE,,160,210k,Berth 04,MC2,Stern
+20.0,SSE,,174,210k,Berth 04,MC2,Stern
+20.0,S,,151,210k,Berth 04,MC2,Stern
+20.0,SSW,,139,210k,Berth 04,MC2,Stern
+20.0,SW,,137,210k,Berth 04,MC2,Stern
+20.0,WSW,,140,210k,Berth 04,MC2,Stern
+20.0,W,,131,210k,Berth 04,MC2,Stern
+20.0,WNW,,139,210k,Berth 04,MC2,Stern
+20.0,NW,,140,210k,Berth 04,MC2,Stern
+20.0,NNW,,127,210k,Berth 04,MC2,Stern
+20.0,NE,1,262,210k,Berth 04,MC2,Stern
+20.0,NE,2,125,210k,Berth 04,MC2,Stern
+20.0,NE,3,126,210k,Berth 04,MC2,Stern
+20.0,NE,4,174,210k,Berth 04,MC2,Stern
+20.0,NE,5,221,210k,Berth 04,MC2,Stern
+20.0,NE,6,276,210k,Berth 04,MC2,Stern
+20.0,NE,7,342,210k,Berth 04,MC2,Stern
+9.0,E,8,154,210k,Berth 04,MC2,Stern
+9.0,E,9,261,210k,Berth 04,MC2,Stern
+9.0,E,10,320,210k,Berth 04,MC2,Stern
+30.0,N,,305,210k,Berth 05,MC1,Bow
+30.0,NNE,,234,210k,Berth 05,MC1,Bow
+30.0,NE,,199,210k,Berth 05,MC1,Bow
+30.0,ENE,,95,210k,Berth 05,MC1,Bow
+30.0,E,,97,210k,Berth 05,MC1,Bow
+30.0,ESE,,109,210k,Berth 05,MC1,Bow
+30.0,SE,,111,210k,Berth 05,MC1,Bow
+30.0,SSE,,83,210k,Berth 05,MC1,Bow
+30.0,S,,88,210k,Berth 05,MC1,Bow
+30.0,SSW,,87,210k,Berth 05,MC1,Bow
+30.0,SW,,87,210k,Berth 05,MC1,Bow
+30.0,WSW,,94,210k,Berth 05,MC1,Bow
+30.0,W,,113,210k,Berth 05,MC1,Bow
+30.0,WNW,,154,210k,Berth 05,MC1,Bow
+30.0,NW,,236,210k,Berth 05,MC1,Bow
+30.0,NNW,,285,210k,Berth 05,MC1,Bow
+20.0,N,,136,210k,Berth 05,MC1,Bow
+20.0,NNE,,125,210k,Berth 05,MC1,Bow
+20.0,NE,,117,210k,Berth 05,MC1,Bow
+20.0,ENE,,94,210k,Berth 05,MC1,Bow
+20.0,E,,100,210k,Berth 05,MC1,Bow
+20.0,ESE,,95,210k,Berth 05,MC1,Bow
+20.0,SE,,104,210k,Berth 05,MC1,Bow
+20.0,SSE,,102,210k,Berth 05,MC1,Bow
+20.0,S,,88,210k,Berth 05,MC1,Bow
+20.0,SSW,,88,210k,Berth 05,MC1,Bow
+20.0,SW,,96,210k,Berth 05,MC1,Bow
+20.0,WSW,,101,210k,Berth 05,MC1,Bow
+20.0,W,,104,210k,Berth 05,MC1,Bow
+20.0,WNW,,131,210k,Berth 05,MC1,Bow
+20.0,NW,,148,210k,Berth 05,MC1,Bow
+20.0,NNW,,147,210k,Berth 05,MC1,Bow
+20.0,NE,1,174,210k,Berth 05,MC1,Bow
+20.0,NE,2,121,210k,Berth 05,MC1,Bow
+20.0,NE,3,209,210k,Berth 05,MC1,Bow
+20.0,NE,4,358,210k,Berth 05,MC1,Bow
+20.0,NE,5,146,210k,Berth 05,MC1,Bow
+20.0,NE,6,257,210k,Berth 05,MC1,Bow
+20.0,NE,7,417,210k,Berth 05,MC1,Bow
+9.0,E,8,143,210k,Berth 05,MC1,Bow
+9.0,E,9,220,210k,Berth 05,MC1,Bow
+9.0,E,10,256,210k,Berth 05,MC1,Bow
+30.0,N,,134,210k,Berth 05,MC1,Fwd Spring
+30.0,NNE,,126,210k,Berth 05,MC1,Fwd Spring
+30.0,NE,,92,210k,Berth 05,MC1,Fwd Spring
+30.0,ENE,,70,210k,Berth 05,MC1,Fwd Spring
+30.0,E,,76,210k,Berth 05,MC1,Fwd Spring
+30.0,ESE,,90,210k,Berth 05,MC1,Fwd Spring
+30.0,SE,,83,210k,Berth 05,MC1,Fwd Spring
+30.0,SSE,,61,210k,Berth 05,MC1,Fwd Spring
+30.0,S,,53,210k,Berth 05,MC1,Fwd Spring
+30.0,SSW,,46,210k,Berth 05,MC1,Fwd Spring
+30.0,SW,,42,210k,Berth 05,MC1,Fwd Spring
+30.0,WSW,,37,210k,Berth 05,MC1,Fwd Spring
+30.0,W,,44,210k,Berth 05,MC1,Fwd Spring
+30.0,WNW,,69,210k,Berth 05,MC1,Fwd Spring
+30.0,NW,,95,210k,Berth 05,MC1,Fwd Spring
+30.0,NNW,,109,210k,Berth 05,MC1,Fwd Spring
+20.0,N,,74,210k,Berth 05,MC1,Fwd Spring
+20.0,NNE,,79,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,,83,210k,Berth 05,MC1,Fwd Spring
+20.0,ENE,,64,210k,Berth 05,MC1,Fwd Spring
+20.0,E,,69,210k,Berth 05,MC1,Fwd Spring
+20.0,ESE,,69,210k,Berth 05,MC1,Fwd Spring
+20.0,SE,,69,210k,Berth 05,MC1,Fwd Spring
+20.0,SSE,,66,210k,Berth 05,MC1,Fwd Spring
+20.0,S,,55,210k,Berth 05,MC1,Fwd Spring
+20.0,SSW,,48,210k,Berth 05,MC1,Fwd Spring
+20.0,SW,,49,210k,Berth 05,MC1,Fwd Spring
+20.0,WSW,,53,210k,Berth 05,MC1,Fwd Spring
+20.0,W,,59,210k,Berth 05,MC1,Fwd Spring
+20.0,WNW,,66,210k,Berth 05,MC1,Fwd Spring
+20.0,NW,,95,210k,Berth 05,MC1,Fwd Spring
+20.0,NNW,,97,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,1,110,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,2,76,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,3,122,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,4,132,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,5,113,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,6,150,210k,Berth 05,MC1,Fwd Spring
+20.0,NE,7,211,210k,Berth 05,MC1,Fwd Spring
+9.0,E,8,82,210k,Berth 05,MC1,Fwd Spring
+9.0,E,9,105,210k,Berth 05,MC1,Fwd Spring
+9.0,E,10,121,210k,Berth 05,MC1,Fwd Spring
+30.0,N,,159,210k,Berth 05,MC1,Aft Spring
+30.0,NNE,,198,210k,Berth 05,MC1,Aft Spring
+30.0,NE,,178,210k,Berth 05,MC1,Aft Spring
+30.0,ENE,,94,210k,Berth 05,MC1,Aft Spring
+30.0,E,,54,210k,Berth 05,MC1,Aft Spring
+30.0,ESE,,46,210k,Berth 05,MC1,Aft Spring
+30.0,SE,,43,210k,Berth 05,MC1,Aft Spring
+30.0,SSE,,47,210k,Berth 05,MC1,Aft Spring
+30.0,S,,50,210k,Berth 05,MC1,Aft Spring
+30.0,SSW,,58,210k,Berth 05,MC1,Aft Spring
+30.0,SW,,67,210k,Berth 05,MC1,Aft Spring
+30.0,WSW,,82,210k,Berth 05,MC1,Aft Spring
+30.0,W,,97,210k,Berth 05,MC1,Aft Spring
+30.0,WNW,,102,210k,Berth 05,MC1,Aft Spring
+30.0,NW,,91,210k,Berth 05,MC1,Aft Spring
+30.0,NNW,,102,210k,Berth 05,MC1,Aft Spring
+20.0,N,,96,210k,Berth 05,MC1,Aft Spring
+20.0,NNE,,112,210k,Berth 05,MC1,Aft Spring
+20.0,NE,,107,210k,Berth 05,MC1,Aft Spring
+20.0,ENE,,77,210k,Berth 05,MC1,Aft Spring
+20.0,E,,63,210k,Berth 05,MC1,Aft Spring
+20.0,ESE,,54,210k,Berth 05,MC1,Aft Spring
+20.0,SE,,52,210k,Berth 05,MC1,Aft Spring
+20.0,SSE,,55,210k,Berth 05,MC1,Aft Spring
+20.0,S,,61,210k,Berth 05,MC1,Aft Spring
+20.0,SSW,,61,210k,Berth 05,MC1,Aft Spring
+20.0,SW,,71,210k,Berth 05,MC1,Aft Spring
+20.0,WSW,,80,210k,Berth 05,MC1,Aft Spring
+20.0,W,,86,210k,Berth 05,MC1,Aft Spring
+20.0,WNW,,83,210k,Berth 05,MC1,Aft Spring
+20.0,NW,,105,210k,Berth 05,MC1,Aft Spring
+20.0,NNW,,95,210k,Berth 05,MC1,Aft Spring
+20.0,NE,1,126,210k,Berth 05,MC1,Aft Spring
+20.0,NE,2,109,210k,Berth 05,MC1,Aft Spring
+20.0,NE,3,150,210k,Berth 05,MC1,Aft Spring
+20.0,NE,4,121,210k,Berth 05,MC1,Aft Spring
+20.0,NE,5,135,210k,Berth 05,MC1,Aft Spring
+20.0,NE,6,188,210k,Berth 05,MC1,Aft Spring
+20.0,NE,7,222,210k,Berth 05,MC1,Aft Spring
+9.0,E,8,92,210k,Berth 05,MC1,Aft Spring
+9.0,E,9,104,210k,Berth 05,MC1,Aft Spring
+9.0,E,10,114,210k,Berth 05,MC1,Aft Spring
+30.0,N,,333,210k,Berth 05,MC1,Stern
+30.0,NNE,,342,210k,Berth 05,MC1,Stern
+30.0,NE,,303,210k,Berth 05,MC1,Stern
+30.0,ENE,,187,210k,Berth 05,MC1,Stern
+30.0,E,,133,210k,Berth 05,MC1,Stern
+30.0,ESE,,114,210k,Berth 05,MC1,Stern
+30.0,SE,,103,210k,Berth 05,MC1,Stern
+30.0,SSE,,97,210k,Berth 05,MC1,Stern
+30.0,S,,97,210k,Berth 05,MC1,Stern
+30.0,SSW,,112,210k,Berth 05,MC1,Stern
+30.0,SW,,114,210k,Berth 05,MC1,Stern
+30.0,WSW,,132,210k,Berth 05,MC1,Stern
+30.0,W,,129,210k,Berth 05,MC1,Stern
+30.0,WNW,,148,210k,Berth 05,MC1,Stern
+30.0,NW,,223,210k,Berth 05,MC1,Stern
+30.0,NNW,,282,210k,Berth 05,MC1,Stern
+20.0,N,,168,210k,Berth 05,MC1,Stern
+20.0,NNE,,169,210k,Berth 05,MC1,Stern
+20.0,NE,,174,210k,Berth 05,MC1,Stern
+20.0,ENE,,152,210k,Berth 05,MC1,Stern
+20.0,E,,129,210k,Berth 05,MC1,Stern
+20.0,ESE,,116,210k,Berth 05,MC1,Stern
+20.0,SE,,120,210k,Berth 05,MC1,Stern
+20.0,SSE,,105,210k,Berth 05,MC1,Stern
+20.0,S,,114,210k,Berth 05,MC1,Stern
+20.0,SSW,,116,210k,Berth 05,MC1,Stern
+20.0,SW,,130,210k,Berth 05,MC1,Stern
+20.0,WSW,,137,210k,Berth 05,MC1,Stern
+20.0,W,,129,210k,Berth 05,MC1,Stern
+20.0,WNW,,132,210k,Berth 05,MC1,Stern
+20.0,NW,,148,210k,Berth 05,MC1,Stern
+20.0,NNW,,165,210k,Berth 05,MC1,Stern
+20.0,NE,1,242,210k,Berth 05,MC1,Stern
+20.0,NE,2,184,210k,Berth 05,MC1,Stern
+20.0,NE,3,247,210k,Berth 05,MC1,Stern
+20.0,NE,4,404,210k,Berth 05,MC1,Stern
+20.0,NE,5,208,210k,Berth 05,MC1,Stern
+20.0,NE,6,290,210k,Berth 05,MC1,Stern
+20.0,NE,7,454,210k,Berth 05,MC1,Stern
+9.0,E,8,177,210k,Berth 05,MC1,Stern
+9.0,E,9,233,210k,Berth 05,MC1,Stern
+9.0,E,10,314,210k,Berth 05,MC1,Stern
+30.0,N,,384,210k,Berth 05,MC2,Bow
+30.0,NNE,,299,210k,Berth 05,MC2,Bow
+30.0,NE,,227,210k,Berth 05,MC2,Bow
+30.0,ENE,,123,210k,Berth 05,MC2,Bow
+30.0,E,,104,210k,Berth 05,MC2,Bow
+30.0,ESE,,105,210k,Berth 05,MC2,Bow
+30.0,SE,,109,210k,Berth 05,MC2,Bow
+30.0,SSE,,105,210k,Berth 05,MC2,Bow
+30.0,S,,90,210k,Berth 05,MC2,Bow
+30.0,SSW,,83,210k,Berth 05,MC2,Bow
+30.0,SW,,93,210k,Berth 05,MC2,Bow
+30.0,WSW,,110,210k,Berth 05,MC2,Bow
+30.0,W,,120,210k,Berth 05,MC2,Bow
+30.0,WNW,,191,210k,Berth 05,MC2,Bow
+30.0,NW,,319,210k,Berth 05,MC2,Bow
+30.0,NNW,,367,210k,Berth 05,MC2,Bow
+20.0,N,,174,210k,Berth 05,MC2,Bow
+20.0,NNE,,181,210k,Berth 05,MC2,Bow
+20.0,NE,,143,210k,Berth 05,MC2,Bow
+20.0,ENE,,139,210k,Berth 05,MC2,Bow
+20.0,E,,116,210k,Berth 05,MC2,Bow
+20.0,ESE,,104,210k,Berth 05,MC2,Bow
+20.0,SE,,116,210k,Berth 05,MC2,Bow
+20.0,SSE,,107,210k,Berth 05,MC2,Bow
+20.0,S,,91,210k,Berth 05,MC2,Bow
+20.0,SSW,,96,210k,Berth 05,MC2,Bow
+20.0,SW,,105,210k,Berth 05,MC2,Bow
+20.0,WSW,,103,210k,Berth 05,MC2,Bow
+20.0,W,,123,210k,Berth 05,MC2,Bow
+20.0,WNW,,143,210k,Berth 05,MC2,Bow
+20.0,NW,,170,210k,Berth 05,MC2,Bow
+20.0,NNW,,210,210k,Berth 05,MC2,Bow
+20.0,NE,1,205,210k,Berth 05,MC2,Bow
+20.0,NE,2,152,210k,Berth 05,MC2,Bow
+20.0,NE,3,247,210k,Berth 05,MC2,Bow
+20.0,NE,4,405,210k,Berth 05,MC2,Bow
+20.0,NE,5,192,210k,Berth 05,MC2,Bow
+20.0,NE,6,287,210k,Berth 05,MC2,Bow
+20.0,NE,7,431,210k,Berth 05,MC2,Bow
+9.0,E,8,132,210k,Berth 05,MC2,Bow
+9.0,E,9,230,210k,Berth 05,MC2,Bow
+9.0,E,10,294,210k,Berth 05,MC2,Bow
+30.0,N,,181,210k,Berth 05,MC2,Fwd Spring
+30.0,NNE,,158,210k,Berth 05,MC2,Fwd Spring
+30.0,NE,,133,210k,Berth 05,MC2,Fwd Spring
+30.0,ENE,,82,210k,Berth 05,MC2,Fwd Spring
+30.0,E,,78,210k,Berth 05,MC2,Fwd Spring
+30.0,ESE,,91,210k,Berth 05,MC2,Fwd Spring
+30.0,SE,,79,210k,Berth 05,MC2,Fwd Spring
+30.0,SSE,,71,210k,Berth 05,MC2,Fwd Spring
+30.0,S,,56,210k,Berth 05,MC2,Fwd Spring
+30.0,SSW,,48,210k,Berth 05,MC2,Fwd Spring
+30.0,SW,,48,210k,Berth 05,MC2,Fwd Spring
+30.0,WSW,,47,210k,Berth 05,MC2,Fwd Spring
+30.0,W,,56,210k,Berth 05,MC2,Fwd Spring
+30.0,WNW,,104,210k,Berth 05,MC2,Fwd Spring
+30.0,NW,,146,210k,Berth 05,MC2,Fwd Spring
+30.0,NNW,,171,210k,Berth 05,MC2,Fwd Spring
+20.0,N,,102,210k,Berth 05,MC2,Fwd Spring
+20.0,NNE,,105,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,,100,210k,Berth 05,MC2,Fwd Spring
+20.0,ENE,,79,210k,Berth 05,MC2,Fwd Spring
+20.0,E,,75,210k,Berth 05,MC2,Fwd Spring
+20.0,ESE,,82,210k,Berth 05,MC2,Fwd Spring
+20.0,SE,,79,210k,Berth 05,MC2,Fwd Spring
+20.0,SSE,,69,210k,Berth 05,MC2,Fwd Spring
+20.0,S,,59,210k,Berth 05,MC2,Fwd Spring
+20.0,SSW,,57,210k,Berth 05,MC2,Fwd Spring
+20.0,SW,,55,210k,Berth 05,MC2,Fwd Spring
+20.0,WSW,,56,210k,Berth 05,MC2,Fwd Spring
+20.0,W,,65,210k,Berth 05,MC2,Fwd Spring
+20.0,WNW,,81,210k,Berth 05,MC2,Fwd Spring
+20.0,NW,,113,210k,Berth 05,MC2,Fwd Spring
+20.0,NNW,,128,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,1,132,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,2,95,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,3,133,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,4,196,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,5,138,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,6,170,210k,Berth 05,MC2,Fwd Spring
+20.0,NE,7,194,210k,Berth 05,MC2,Fwd Spring
+9.0,E,8,75,210k,Berth 05,MC2,Fwd Spring
+9.0,E,9,105,210k,Berth 05,MC2,Fwd Spring
+9.0,E,10,148,210k,Berth 05,MC2,Fwd Spring
+30.0,N,,131,210k,Berth 05,MC2,Aft Spring
+30.0,NNE,,175,210k,Berth 05,MC2,Aft Spring
+30.0,NE,,157,210k,Berth 05,MC2,Aft Spring
+30.0,ENE,,85,210k,Berth 05,MC2,Aft Spring
+30.0,E,,56,210k,Berth 05,MC2,Aft Spring
+30.0,ESE,,42,210k,Berth 05,MC2,Aft Spring
+30.0,SE,,39,210k,Berth 05,MC2,Aft Spring
+30.0,SSE,,42,210k,Berth 05,MC2,Aft Spring
+30.0,S,,48,210k,Berth 05,MC2,Aft Spring
+30.0,SSW,,53,210k,Berth 05,MC2,Aft Spring
+30.0,SW,,65,210k,Berth 05,MC2,Aft Spring
+30.0,WSW,,74,210k,Berth 05,MC2,Aft Spring
+30.0,W,,90,210k,Berth 05,MC2,Aft Spring
+30.0,WNW,,101,210k,Berth 05,MC2,Aft Spring
+30.0,NW,,98,210k,Berth 05,MC2,Aft Spring
+30.0,NNW,,112,210k,Berth 05,MC2,Aft Spring
+20.0,N,,96,210k,Berth 05,MC2,Aft Spring
+20.0,NNE,,96,210k,Berth 05,MC2,Aft Spring
+20.0,NE,,105,210k,Berth 05,MC2,Aft Spring
+20.0,ENE,,69,210k,Berth 05,MC2,Aft Spring
+20.0,E,,57,210k,Berth 05,MC2,Aft Spring
+20.0,ESE,,50,210k,Berth 05,MC2,Aft Spring
+20.0,SE,,50,210k,Berth 05,MC2,Aft Spring
+20.0,SSE,,50,210k,Berth 05,MC2,Aft Spring
+20.0,S,,53,210k,Berth 05,MC2,Aft Spring
+20.0,SSW,,57,210k,Berth 05,MC2,Aft Spring
+20.0,SW,,62,210k,Berth 05,MC2,Aft Spring
+20.0,WSW,,68,210k,Berth 05,MC2,Aft Spring
+20.0,W,,74,210k,Berth 05,MC2,Aft Spring
+20.0,WNW,,81,210k,Berth 05,MC2,Aft Spring
+20.0,NW,,84,210k,Berth 05,MC2,Aft Spring
+20.0,NNW,,89,210k,Berth 05,MC2,Aft Spring
+20.0,NE,1,141,210k,Berth 05,MC2,Aft Spring
+20.0,NE,2,95,210k,Berth 05,MC2,Aft Spring
+20.0,NE,3,120,210k,Berth 05,MC2,Aft Spring
+20.0,NE,4,144,210k,Berth 05,MC2,Aft Spring
+20.0,NE,5,128,210k,Berth 05,MC2,Aft Spring
+20.0,NE,6,133,210k,Berth 05,MC2,Aft Spring
+20.0,NE,7,144,210k,Berth 05,MC2,Aft Spring
+9.0,E,8,76,210k,Berth 05,MC2,Aft Spring
+9.0,E,9,97,210k,Berth 05,MC2,Aft Spring
+9.0,E,10,129,210k,Berth 05,MC2,Aft Spring
+30.0,N,,333,210k,Berth 05,MC2,Stern
+30.0,NNE,,351,210k,Berth 05,MC2,Stern
+30.0,NE,,328,210k,Berth 05,MC2,Stern
+30.0,ENE,,191,210k,Berth 05,MC2,Stern
+30.0,E,,141,210k,Berth 05,MC2,Stern
+30.0,ESE,,103,210k,Berth 05,MC2,Stern
+30.0,SE,,96,210k,Berth 05,MC2,Stern
+30.0,SSE,,91,210k,Berth 05,MC2,Stern
+30.0,S,,93,210k,Berth 05,MC2,Stern
+30.0,SSW,,99,210k,Berth 05,MC2,Stern
+30.0,SW,,115,210k,Berth 05,MC2,Stern
+30.0,WSW,,129,210k,Berth 05,MC2,Stern
+30.0,W,,116,210k,Berth 05,MC2,Stern
+30.0,WNW,,125,210k,Berth 05,MC2,Stern
+30.0,NW,,228,210k,Berth 05,MC2,Stern
+30.0,NNW,,278,210k,Berth 05,MC2,Stern
+20.0,N,,163,210k,Berth 05,MC2,Stern
+20.0,NNE,,192,210k,Berth 05,MC2,Stern
+20.0,NE,,175,210k,Berth 05,MC2,Stern
+20.0,ENE,,153,210k,Berth 05,MC2,Stern
+20.0,E,,127,210k,Berth 05,MC2,Stern
+20.0,ESE,,105,210k,Berth 05,MC2,Stern
+20.0,SE,,109,210k,Berth 05,MC2,Stern
+20.0,SSE,,105,210k,Berth 05,MC2,Stern
+20.0,S,,106,210k,Berth 05,MC2,Stern
+20.0,SSW,,115,210k,Berth 05,MC2,Stern
+20.0,SW,,110,210k,Berth 05,MC2,Stern
+20.0,WSW,,130,210k,Berth 05,MC2,Stern
+20.0,W,,125,210k,Berth 05,MC2,Stern
+20.0,WNW,,135,210k,Berth 05,MC2,Stern
+20.0,NW,,129,210k,Berth 05,MC2,Stern
+20.0,NNW,,164,210k,Berth 05,MC2,Stern
+20.0,NE,1,250,210k,Berth 05,MC2,Stern
+20.0,NE,2,177,210k,Berth 05,MC2,Stern
+20.0,NE,3,252,210k,Berth 05,MC2,Stern
+20.0,NE,4,373,210k,Berth 05,MC2,Stern
+20.0,NE,5,230,210k,Berth 05,MC2,Stern
+20.0,NE,6,280,210k,Berth 05,MC2,Stern
+20.0,NE,7,401,210k,Berth 05,MC2,Stern
+9.0,E,8,156,210k,Berth 05,MC2,Stern
+9.0,E,9,243,210k,Berth 05,MC2,Stern
+9.0,E,10,283,210k,Berth 05,MC2,Stern
+30.0,N,,82,230k,Berth 04,MC1,Bow
+30.0,NNE,,88,230k,Berth 04,MC1,Bow
+30.0,NE,,83,230k,Berth 04,MC1,Bow
+30.0,ENE,,117,230k,Berth 04,MC1,Bow
+30.0,E,,116,230k,Berth 04,MC1,Bow
+30.0,ESE,,97,230k,Berth 04,MC1,Bow
+30.0,SE,,154,230k,Berth 04,MC1,Bow
+30.0,SSE,,227,230k,Berth 04,MC1,Bow
+30.0,S,,243,230k,Berth 04,MC1,Bow
+30.0,SSW,,243,230k,Berth 04,MC1,Bow
+30.0,SW,,213,230k,Berth 04,MC1,Bow
+30.0,WSW,,154,230k,Berth 04,MC1,Bow
+30.0,W,,127,230k,Berth 04,MC1,Bow
+30.0,WNW,,117,230k,Berth 04,MC1,Bow
+30.0,NW,,82,230k,Berth 04,MC1,Bow
+30.0,NNW,,77,230k,Berth 04,MC1,Bow
+20.0,N,,115,230k,Berth 04,MC1,Bow
+20.0,NNE,,114,230k,Berth 04,MC1,Bow
+20.0,NE,,115,230k,Berth 04,MC1,Bow
+20.0,ENE,,135,230k,Berth 04,MC1,Bow
+20.0,E,,117,230k,Berth 04,MC1,Bow
+20.0,ESE,,95,230k,Berth 04,MC1,Bow
+20.0,SE,,112,230k,Berth 04,MC1,Bow
+20.0,SSE,,117,230k,Berth 04,MC1,Bow
+20.0,S,,131,230k,Berth 04,MC1,Bow
+20.0,SSW,,128,230k,Berth 04,MC1,Bow
+20.0,SW,,144,230k,Berth 04,MC1,Bow
+20.0,WSW,,128,230k,Berth 04,MC1,Bow
+20.0,W,,111,230k,Berth 04,MC1,Bow
+20.0,WNW,,112,230k,Berth 04,MC1,Bow
+20.0,NW,,96,230k,Berth 04,MC1,Bow
+20.0,NNW,,97,230k,Berth 04,MC1,Bow
+20.0,NE,1,217,230k,Berth 04,MC1,Bow
+20.0,NE,2,80,230k,Berth 04,MC1,Bow
+20.0,NE,3,93,230k,Berth 04,MC1,Bow
+20.0,NE,4,119,230k,Berth 04,MC1,Bow
+20.0,NE,5,143,230k,Berth 04,MC1,Bow
+20.0,NE,6,171,230k,Berth 04,MC1,Bow
+20.0,NE,7,204,230k,Berth 04,MC1,Bow
+9.0,E,8,167,230k,Berth 04,MC1,Bow
+9.0,E,9,225,230k,Berth 04,MC1,Bow
+9.0,E,10,272,230k,Berth 04,MC1,Bow
+30.0,N,,47,230k,Berth 04,MC1,Fwd Spring
+30.0,NNE,,56,230k,Berth 04,MC1,Fwd Spring
+30.0,NE,,63,230k,Berth 04,MC1,Fwd Spring
+30.0,ENE,,82,230k,Berth 04,MC1,Fwd Spring
+30.0,E,,71,230k,Berth 04,MC1,Fwd Spring
+30.0,ESE,,55,230k,Berth 04,MC1,Fwd Spring
+30.0,SE,,62,230k,Berth 04,MC1,Fwd Spring
+30.0,SSE,,70,230k,Berth 04,MC1,Fwd Spring
+30.0,S,,67,230k,Berth 04,MC1,Fwd Spring
+30.0,SSW,,77,230k,Berth 04,MC1,Fwd Spring
+30.0,SW,,66,230k,Berth 04,MC1,Fwd Spring
+30.0,WSW,,58,230k,Berth 04,MC1,Fwd Spring
+30.0,W,,35,230k,Berth 04,MC1,Fwd Spring
+30.0,WNW,,35,230k,Berth 04,MC1,Fwd Spring
+30.0,NW,,37,230k,Berth 04,MC1,Fwd Spring
+30.0,NNW,,41,230k,Berth 04,MC1,Fwd Spring
+20.0,N,,56,230k,Berth 04,MC1,Fwd Spring
+20.0,NNE,,58,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,,61,230k,Berth 04,MC1,Fwd Spring
+20.0,ENE,,65,230k,Berth 04,MC1,Fwd Spring
+20.0,E,,64,230k,Berth 04,MC1,Fwd Spring
+20.0,ESE,,53,230k,Berth 04,MC1,Fwd Spring
+20.0,SE,,58,230k,Berth 04,MC1,Fwd Spring
+20.0,SSE,,56,230k,Berth 04,MC1,Fwd Spring
+20.0,S,,61,230k,Berth 04,MC1,Fwd Spring
+20.0,SSW,,59,230k,Berth 04,MC1,Fwd Spring
+20.0,SW,,58,230k,Berth 04,MC1,Fwd Spring
+20.0,WSW,,49,230k,Berth 04,MC1,Fwd Spring
+20.0,W,,41,230k,Berth 04,MC1,Fwd Spring
+20.0,WNW,,44,230k,Berth 04,MC1,Fwd Spring
+20.0,NW,,43,230k,Berth 04,MC1,Fwd Spring
+20.0,NNW,,49,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,1,98,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,2,57,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,3,64,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,4,70,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,5,77,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,6,89,230k,Berth 04,MC1,Fwd Spring
+20.0,NE,7,107,230k,Berth 04,MC1,Fwd Spring
+9.0,E,8,68,230k,Berth 04,MC1,Fwd Spring
+9.0,E,9,79,230k,Berth 04,MC1,Fwd Spring
+9.0,E,10,87,230k,Berth 04,MC1,Fwd Spring
+30.0,N,,53,230k,Berth 04,MC1,Aft Spring
+30.0,NNE,,46,230k,Berth 04,MC1,Aft Spring
+30.0,NE,,43,230k,Berth 04,MC1,Aft Spring
+30.0,ENE,,42,230k,Berth 04,MC1,Aft Spring
+30.0,E,,51,230k,Berth 04,MC1,Aft Spring
+30.0,ESE,,71,230k,Berth 04,MC1,Aft Spring
+30.0,SE,,119,230k,Berth 04,MC1,Aft Spring
+30.0,SSE,,139,230k,Berth 04,MC1,Aft Spring
+30.0,S,,126,230k,Berth 04,MC1,Aft Spring
+30.0,SSW,,106,230k,Berth 04,MC1,Aft Spring
+30.0,SW,,106,230k,Berth 04,MC1,Aft Spring
+30.0,WSW,,118,230k,Berth 04,MC1,Aft Spring
+30.0,W,,112,230k,Berth 04,MC1,Aft Spring
+30.0,WNW,,89,230k,Berth 04,MC1,Aft Spring
+30.0,NW,,71,230k,Berth 04,MC1,Aft Spring
+30.0,NNW,,60,230k,Berth 04,MC1,Aft Spring
+20.0,N,,66,230k,Berth 04,MC1,Aft Spring
+20.0,NNE,,61,230k,Berth 04,MC1,Aft Spring
+20.0,NE,,60,230k,Berth 04,MC1,Aft Spring
+20.0,ENE,,57,230k,Berth 04,MC1,Aft Spring
+20.0,E,,61,230k,Berth 04,MC1,Aft Spring
+20.0,ESE,,68,230k,Berth 04,MC1,Aft Spring
+20.0,SE,,85,230k,Berth 04,MC1,Aft Spring
+20.0,SSE,,88,230k,Berth 04,MC1,Aft Spring
+20.0,S,,87,230k,Berth 04,MC1,Aft Spring
+20.0,SSW,,78,230k,Berth 04,MC1,Aft Spring
+20.0,SW,,82,230k,Berth 04,MC1,Aft Spring
+20.0,WSW,,86,230k,Berth 04,MC1,Aft Spring
+20.0,W,,85,230k,Berth 04,MC1,Aft Spring
+20.0,WNW,,80,230k,Berth 04,MC1,Aft Spring
+20.0,NW,,80,230k,Berth 04,MC1,Aft Spring
+20.0,NNW,,69,230k,Berth 04,MC1,Aft Spring
+20.0,NE,1,105,230k,Berth 04,MC1,Aft Spring
+20.0,NE,2,62,230k,Berth 04,MC1,Aft Spring
+20.0,NE,3,63,230k,Berth 04,MC1,Aft Spring
+20.0,NE,4,71,230k,Berth 04,MC1,Aft Spring
+20.0,NE,5,88,230k,Berth 04,MC1,Aft Spring
+20.0,NE,6,102,230k,Berth 04,MC1,Aft Spring
+20.0,NE,7,129,230k,Berth 04,MC1,Aft Spring
+9.0,E,8,82,230k,Berth 04,MC1,Aft Spring
+9.0,E,9,98,230k,Berth 04,MC1,Aft Spring
+9.0,E,10,106,230k,Berth 04,MC1,Aft Spring
+30.0,N,,80,230k,Berth 04,MC1,Stern
+30.0,NNE,,83,230k,Berth 04,MC1,Stern
+30.0,NE,,93,230k,Berth 04,MC1,Stern
+30.0,ENE,,117,230k,Berth 04,MC1,Stern
+30.0,E,,137,230k,Berth 04,MC1,Stern
+30.0,ESE,,183,230k,Berth 04,MC1,Stern
+30.0,SE,,271,230k,Berth 04,MC1,Stern
+30.0,SSE,,312,230k,Berth 04,MC1,Stern
+30.0,S,,315,230k,Berth 04,MC1,Stern
+30.0,SSW,,263,230k,Berth 04,MC1,Stern
+30.0,SW,,228,230k,Berth 04,MC1,Stern
+30.0,WSW,,163,230k,Berth 04,MC1,Stern
+30.0,W,,144,230k,Berth 04,MC1,Stern
+30.0,WNW,,122,230k,Berth 04,MC1,Stern
+30.0,NW,,97,230k,Berth 04,MC1,Stern
+30.0,NNW,,88,230k,Berth 04,MC1,Stern
+20.0,N,,133,230k,Berth 04,MC1,Stern
+20.0,NNE,,111,230k,Berth 04,MC1,Stern
+20.0,NE,,141,230k,Berth 04,MC1,Stern
+20.0,ENE,,128,230k,Berth 04,MC1,Stern
+20.0,E,,136,230k,Berth 04,MC1,Stern
+20.0,ESE,,155,230k,Berth 04,MC1,Stern
+20.0,SE,,177,230k,Berth 04,MC1,Stern
+20.0,SSE,,178,230k,Berth 04,MC1,Stern
+20.0,S,,180,230k,Berth 04,MC1,Stern
+20.0,SSW,,144,230k,Berth 04,MC1,Stern
+20.0,SW,,153,230k,Berth 04,MC1,Stern
+20.0,WSW,,157,230k,Berth 04,MC1,Stern
+20.0,W,,145,230k,Berth 04,MC1,Stern
+20.0,WNW,,150,230k,Berth 04,MC1,Stern
+20.0,NW,,138,230k,Berth 04,MC1,Stern
+20.0,NNW,,122,230k,Berth 04,MC1,Stern
+20.0,NE,1,268,230k,Berth 04,MC1,Stern
+20.0,NE,2,126,230k,Berth 04,MC1,Stern
+20.0,NE,3,120,230k,Berth 04,MC1,Stern
+20.0,NE,4,141,230k,Berth 04,MC1,Stern
+20.0,NE,5,188,230k,Berth 04,MC1,Stern
+20.0,NE,6,230,230k,Berth 04,MC1,Stern
+20.0,NE,7,273,230k,Berth 04,MC1,Stern
+9.0,E,8,184,230k,Berth 04,MC1,Stern
+9.0,E,9,247,230k,Berth 04,MC1,Stern
+9.0,E,10,303,230k,Berth 04,MC1,Stern
+30.0,N,,78,230k,Berth 04,MC2,Bow
+30.0,NNE,,82,230k,Berth 04,MC2,Bow
+30.0,NE,,103,230k,Berth 04,MC2,Bow
+30.0,ENE,,147,230k,Berth 04,MC2,Bow
+30.0,E,,117,230k,Berth 04,MC2,Bow
+30.0,ESE,,123,230k,Berth 04,MC2,Bow
+30.0,SE,,193,230k,Berth 04,MC2,Bow
+30.0,SSE,,244,230k,Berth 04,MC2,Bow
+30.0,S,,330,230k,Berth 04,MC2,Bow
+30.0,SSW,,315,230k,Berth 04,MC2,Bow
+30.0,SW,,274,230k,Berth 04,MC2,Bow
+30.0,WSW,,175,230k,Berth 04,MC2,Bow
+30.0,W,,142,230k,Berth 04,MC2,Bow
+30.0,WNW,,117,230k,Berth 04,MC2,Bow
+30.0,NW,,74,230k,Berth 04,MC2,Bow
+30.0,NNW,,75,230k,Berth 04,MC2,Bow
+20.0,N,,118,230k,Berth 04,MC2,Bow
+20.0,NNE,,107,230k,Berth 04,MC2,Bow
+20.0,NE,,117,230k,Berth 04,MC2,Bow
+20.0,ENE,,155,230k,Berth 04,MC2,Bow
+20.0,E,,124,230k,Berth 04,MC2,Bow
+20.0,ESE,,124,230k,Berth 04,MC2,Bow
+20.0,SE,,131,230k,Berth 04,MC2,Bow
+20.0,SSE,,141,230k,Berth 04,MC2,Bow
+20.0,S,,156,230k,Berth 04,MC2,Bow
+20.0,SSW,,168,230k,Berth 04,MC2,Bow
+20.0,SW,,167,230k,Berth 04,MC2,Bow
+20.0,WSW,,162,230k,Berth 04,MC2,Bow
+20.0,W,,138,230k,Berth 04,MC2,Bow
+20.0,WNW,,121,230k,Berth 04,MC2,Bow
+20.0,NW,,108,230k,Berth 04,MC2,Bow
+20.0,NNW,,107,230k,Berth 04,MC2,Bow
+20.0,NE,1,218,230k,Berth 04,MC2,Bow
+20.0,NE,2,88,230k,Berth 04,MC2,Bow
+20.0,NE,3,90,230k,Berth 04,MC2,Bow
+20.0,NE,4,116,230k,Berth 04,MC2,Bow
+20.0,NE,5,164,230k,Berth 04,MC2,Bow
+20.0,NE,6,176,230k,Berth 04,MC2,Bow
+20.0,NE,7,250,230k,Berth 04,MC2,Bow
+9.0,E,8,181,230k,Berth 04,MC2,Bow
+9.0,E,9,257,230k,Berth 04,MC2,Bow
+9.0,E,10,325,230k,Berth 04,MC2,Bow
+30.0,N,,51,230k,Berth 04,MC2,Fwd Spring
+30.0,NNE,,56,230k,Berth 04,MC2,Fwd Spring
+30.0,NE,,69,230k,Berth 04,MC2,Fwd Spring
+30.0,ENE,,92,230k,Berth 04,MC2,Fwd Spring
+30.0,E,,77,230k,Berth 04,MC2,Fwd Spring
+30.0,ESE,,70,230k,Berth 04,MC2,Fwd Spring
+30.0,SE,,83,230k,Berth 04,MC2,Fwd Spring
+30.0,SSE,,121,230k,Berth 04,MC2,Fwd Spring
+30.0,S,,116,230k,Berth 04,MC2,Fwd Spring
+30.0,SSW,,120,230k,Berth 04,MC2,Fwd Spring
+30.0,SW,,115,230k,Berth 04,MC2,Fwd Spring
+30.0,WSW,,81,230k,Berth 04,MC2,Fwd Spring
+30.0,W,,43,230k,Berth 04,MC2,Fwd Spring
+30.0,WNW,,41,230k,Berth 04,MC2,Fwd Spring
+30.0,NW,,41,230k,Berth 04,MC2,Fwd Spring
+30.0,NNW,,45,230k,Berth 04,MC2,Fwd Spring
+20.0,N,,60,230k,Berth 04,MC2,Fwd Spring
+20.0,NNE,,61,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,,68,230k,Berth 04,MC2,Fwd Spring
+20.0,ENE,,76,230k,Berth 04,MC2,Fwd Spring
+20.0,E,,68,230k,Berth 04,MC2,Fwd Spring
+20.0,ESE,,63,230k,Berth 04,MC2,Fwd Spring
+20.0,SE,,63,230k,Berth 04,MC2,Fwd Spring
+20.0,SSE,,65,230k,Berth 04,MC2,Fwd Spring
+20.0,S,,78,230k,Berth 04,MC2,Fwd Spring
+20.0,SSW,,89,230k,Berth 04,MC2,Fwd Spring
+20.0,SW,,83,230k,Berth 04,MC2,Fwd Spring
+20.0,WSW,,63,230k,Berth 04,MC2,Fwd Spring
+20.0,W,,55,230k,Berth 04,MC2,Fwd Spring
+20.0,WNW,,49,230k,Berth 04,MC2,Fwd Spring
+20.0,NW,,54,230k,Berth 04,MC2,Fwd Spring
+20.0,NNW,,57,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,1,102,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,2,64,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,3,63,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,4,76,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,5,83,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,6,97,230k,Berth 04,MC2,Fwd Spring
+20.0,NE,7,110,230k,Berth 04,MC2,Fwd Spring
+9.0,E,8,78,230k,Berth 04,MC2,Fwd Spring
+9.0,E,9,97,230k,Berth 04,MC2,Fwd Spring
+9.0,E,10,102,230k,Berth 04,MC2,Fwd Spring
+30.0,N,,48,230k,Berth 04,MC2,Aft Spring
+30.0,NNE,,42,230k,Berth 04,MC2,Aft Spring
+30.0,NE,,37,230k,Berth 04,MC2,Aft Spring
+30.0,ENE,,36,230k,Berth 04,MC2,Aft Spring
+30.0,E,,51,230k,Berth 04,MC2,Aft Spring
+30.0,ESE,,70,230k,Berth 04,MC2,Aft Spring
+30.0,SE,,111,230k,Berth 04,MC2,Aft Spring
+30.0,SSE,,153,230k,Berth 04,MC2,Aft Spring
+30.0,S,,131,230k,Berth 04,MC2,Aft Spring
+30.0,SSW,,99,230k,Berth 04,MC2,Aft Spring
+30.0,SW,,99,230k,Berth 04,MC2,Aft Spring
+30.0,WSW,,111,230k,Berth 04,MC2,Aft Spring
+30.0,W,,93,230k,Berth 04,MC2,Aft Spring
+30.0,WNW,,76,230k,Berth 04,MC2,Aft Spring
+30.0,NW,,60,230k,Berth 04,MC2,Aft Spring
+30.0,NNW,,54,230k,Berth 04,MC2,Aft Spring
+20.0,N,,58,230k,Berth 04,MC2,Aft Spring
+20.0,NNE,,53,230k,Berth 04,MC2,Aft Spring
+20.0,NE,,53,230k,Berth 04,MC2,Aft Spring
+20.0,ENE,,51,230k,Berth 04,MC2,Aft Spring
+20.0,E,,54,230k,Berth 04,MC2,Aft Spring
+20.0,ESE,,61,230k,Berth 04,MC2,Aft Spring
+20.0,SE,,72,230k,Berth 04,MC2,Aft Spring
+20.0,SSE,,77,230k,Berth 04,MC2,Aft Spring
+20.0,S,,88,230k,Berth 04,MC2,Aft Spring
+20.0,SSW,,95,230k,Berth 04,MC2,Aft Spring
+20.0,SW,,88,230k,Berth 04,MC2,Aft Spring
+20.0,WSW,,72,230k,Berth 04,MC2,Aft Spring
+20.0,W,,79,230k,Berth 04,MC2,Aft Spring
+20.0,WNW,,72,230k,Berth 04,MC2,Aft Spring
+20.0,NW,,67,230k,Berth 04,MC2,Aft Spring
+20.0,NNW,,63,230k,Berth 04,MC2,Aft Spring
+20.0,NE,1,94,230k,Berth 04,MC2,Aft Spring
+20.0,NE,2,51,230k,Berth 04,MC2,Aft Spring
+20.0,NE,3,57,230k,Berth 04,MC2,Aft Spring
+20.0,NE,4,69,230k,Berth 04,MC2,Aft Spring
+20.0,NE,5,80,230k,Berth 04,MC2,Aft Spring
+20.0,NE,6,88,230k,Berth 04,MC2,Aft Spring
+20.0,NE,7,100,230k,Berth 04,MC2,Aft Spring
+9.0,E,8,74,230k,Berth 04,MC2,Aft Spring
+9.0,E,9,87,230k,Berth 04,MC2,Aft Spring
+9.0,E,10,106,230k,Berth 04,MC2,Aft Spring
+30.0,N,,77,230k,Berth 04,MC2,Stern
+30.0,NNE,,80,230k,Berth 04,MC2,Stern
+30.0,NE,,91,230k,Berth 04,MC2,Stern
+30.0,ENE,,122,230k,Berth 04,MC2,Stern
+30.0,E,,148,230k,Berth 04,MC2,Stern
+30.0,ESE,,214,230k,Berth 04,MC2,Stern
+30.0,SE,,279,230k,Berth 04,MC2,Stern
+30.0,SSE,,320,230k,Berth 04,MC2,Stern
+30.0,S,,302,230k,Berth 04,MC2,Stern
+30.0,SSW,,249,230k,Berth 04,MC2,Stern
+30.0,SW,,216,230k,Berth 04,MC2,Stern
+30.0,WSW,,133,230k,Berth 04,MC2,Stern
+30.0,W,,149,230k,Berth 04,MC2,Stern
+30.0,WNW,,119,230k,Berth 04,MC2,Stern
+30.0,NW,,89,230k,Berth 04,MC2,Stern
+30.0,NNW,,84,230k,Berth 04,MC2,Stern
+20.0,N,,109,230k,Berth 04,MC2,Stern
+20.0,NNE,,107,230k,Berth 04,MC2,Stern
+20.0,NE,,115,230k,Berth 04,MC2,Stern
+20.0,ENE,,130,230k,Berth 04,MC2,Stern
+20.0,E,,139,230k,Berth 04,MC2,Stern
+20.0,ESE,,150,230k,Berth 04,MC2,Stern
+20.0,SE,,169,230k,Berth 04,MC2,Stern
+20.0,SSE,,159,230k,Berth 04,MC2,Stern
+20.0,S,,158,230k,Berth 04,MC2,Stern
+20.0,SSW,,143,230k,Berth 04,MC2,Stern
+20.0,SW,,140,230k,Berth 04,MC2,Stern
+20.0,WSW,,137,230k,Berth 04,MC2,Stern
+20.0,W,,152,230k,Berth 04,MC2,Stern
+20.0,WNW,,139,230k,Berth 04,MC2,Stern
+20.0,NW,,133,230k,Berth 04,MC2,Stern
+20.0,NNW,,134,230k,Berth 04,MC2,Stern
+20.0,NE,1,226,230k,Berth 04,MC2,Stern
+20.0,NE,2,103,230k,Berth 04,MC2,Stern
+20.0,NE,3,116,230k,Berth 04,MC2,Stern
+20.0,NE,4,144,230k,Berth 04,MC2,Stern
+20.0,NE,5,203,230k,Berth 04,MC2,Stern
+20.0,NE,6,215,230k,Berth 04,MC2,Stern
+20.0,NE,7,283,230k,Berth 04,MC2,Stern
+9.0,E,8,187,230k,Berth 04,MC2,Stern
+9.0,E,9,237,230k,Berth 04,MC2,Stern
+9.0,E,10,298,230k,Berth 04,MC2,Stern
+30.0,N,,75,250k,Berth 04,MC1,Bow
+30.0,NNE,,71,250k,Berth 04,MC1,Bow
+30.0,NE,,77,250k,Berth 04,MC1,Bow
+30.0,ENE,,96,250k,Berth 04,MC1,Bow
+30.0,E,,99,250k,Berth 04,MC1,Bow
+30.0,ESE,,95,250k,Berth 04,MC1,Bow
+30.0,SE,,169,250k,Berth 04,MC1,Bow
+30.0,SSE,,195,250k,Berth 04,MC1,Bow
+30.0,S,,209,250k,Berth 04,MC1,Bow
+30.0,SSW,,207,250k,Berth 04,MC1,Bow
+30.0,SW,,186,250k,Berth 04,MC1,Bow
+30.0,WSW,,124,250k,Berth 04,MC1,Bow
+30.0,W,,120,250k,Berth 04,MC1,Bow
+30.0,WNW,,101,250k,Berth 04,MC1,Bow
+30.0,NW,,80,250k,Berth 04,MC1,Bow
+30.0,NNW,,72,250k,Berth 04,MC1,Bow
+20.0,N,,88,250k,Berth 04,MC1,Bow
+20.0,NNE,,104,250k,Berth 04,MC1,Bow
+20.0,NE,,91,250k,Berth 04,MC1,Bow
+20.0,ENE,,103,250k,Berth 04,MC1,Bow
+20.0,E,,87,250k,Berth 04,MC1,Bow
+20.0,ESE,,108,250k,Berth 04,MC1,Bow
+20.0,SE,,96,250k,Berth 04,MC1,Bow
+20.0,SSE,,101,250k,Berth 04,MC1,Bow
+20.0,S,,94,250k,Berth 04,MC1,Bow
+20.0,SSW,,113,250k,Berth 04,MC1,Bow
+20.0,SW,,116,250k,Berth 04,MC1,Bow
+20.0,WSW,,121,250k,Berth 04,MC1,Bow
+20.0,W,,109,250k,Berth 04,MC1,Bow
+20.0,WNW,,91,250k,Berth 04,MC1,Bow
+20.0,NW,,93,250k,Berth 04,MC1,Bow
+20.0,NNW,,93,250k,Berth 04,MC1,Bow
+20.0,NE,1,193,250k,Berth 04,MC1,Bow
+20.0,NE,2,68,250k,Berth 04,MC1,Bow
+20.0,NE,3,85,250k,Berth 04,MC1,Bow
+20.0,NE,4,104,250k,Berth 04,MC1,Bow
+20.0,NE,5,109,250k,Berth 04,MC1,Bow
+20.0,NE,6,143,250k,Berth 04,MC1,Bow
+20.0,NE,7,159,250k,Berth 04,MC1,Bow
+9.0,E,8,142,250k,Berth 04,MC1,Bow
+9.0,E,9,197,250k,Berth 04,MC1,Bow
+9.0,E,10,230,250k,Berth 04,MC1,Bow
+30.0,N,,47,250k,Berth 04,MC1,Fwd Spring
+30.0,NNE,,56,250k,Berth 04,MC1,Fwd Spring
+30.0,NE,,68,250k,Berth 04,MC1,Fwd Spring
+30.0,ENE,,80,250k,Berth 04,MC1,Fwd Spring
+30.0,E,,77,250k,Berth 04,MC1,Fwd Spring
+30.0,ESE,,55,250k,Berth 04,MC1,Fwd Spring
+30.0,SE,,56,250k,Berth 04,MC1,Fwd Spring
+30.0,SSE,,54,250k,Berth 04,MC1,Fwd Spring
+30.0,S,,54,250k,Berth 04,MC1,Fwd Spring
+30.0,SSW,,56,250k,Berth 04,MC1,Fwd Spring
+30.0,SW,,48,250k,Berth 04,MC1,Fwd Spring
+30.0,WSW,,36,250k,Berth 04,MC1,Fwd Spring
+30.0,W,,19,250k,Berth 04,MC1,Fwd Spring
+30.0,WNW,,22,250k,Berth 04,MC1,Fwd Spring
+30.0,NW,,31,250k,Berth 04,MC1,Fwd Spring
+30.0,NNW,,39,250k,Berth 04,MC1,Fwd Spring
+20.0,N,,49,250k,Berth 04,MC1,Fwd Spring
+20.0,NNE,,56,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,,59,250k,Berth 04,MC1,Fwd Spring
+20.0,ENE,,62,250k,Berth 04,MC1,Fwd Spring
+20.0,E,,58,250k,Berth 04,MC1,Fwd Spring
+20.0,ESE,,53,250k,Berth 04,MC1,Fwd Spring
+20.0,SE,,46,250k,Berth 04,MC1,Fwd Spring
+20.0,SSE,,48,250k,Berth 04,MC1,Fwd Spring
+20.0,S,,45,250k,Berth 04,MC1,Fwd Spring
+20.0,SSW,,52,250k,Berth 04,MC1,Fwd Spring
+20.0,SW,,44,250k,Berth 04,MC1,Fwd Spring
+20.0,WSW,,44,250k,Berth 04,MC1,Fwd Spring
+20.0,W,,31,250k,Berth 04,MC1,Fwd Spring
+20.0,WNW,,32,250k,Berth 04,MC1,Fwd Spring
+20.0,NW,,41,250k,Berth 04,MC1,Fwd Spring
+20.0,NNW,,45,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,1,93,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,2,58,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,3,63,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,4,75,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,5,74,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,6,89,250k,Berth 04,MC1,Fwd Spring
+20.0,NE,7,107,250k,Berth 04,MC1,Fwd Spring
+9.0,E,8,61,250k,Berth 04,MC1,Fwd Spring
+9.0,E,9,72,250k,Berth 04,MC1,Fwd Spring
+9.0,E,10,78,250k,Berth 04,MC1,Fwd Spring
+30.0,N,,53,250k,Berth 04,MC1,Aft Spring
+30.0,NNE,,45,250k,Berth 04,MC1,Aft Spring
+30.0,NE,,39,250k,Berth 04,MC1,Aft Spring
+30.0,ENE,,39,250k,Berth 04,MC1,Aft Spring
+30.0,E,,46,250k,Berth 04,MC1,Aft Spring
+30.0,ESE,,61,250k,Berth 04,MC1,Aft Spring
+30.0,SE,,94,250k,Berth 04,MC1,Aft Spring
+30.0,SSE,,107,250k,Berth 04,MC1,Aft Spring
+30.0,S,,96,250k,Berth 04,MC1,Aft Spring
+30.0,SSW,,88,250k,Berth 04,MC1,Aft Spring
+30.0,SW,,94,250k,Berth 04,MC1,Aft Spring
+30.0,WSW,,103,250k,Berth 04,MC1,Aft Spring
+30.0,W,,110,250k,Berth 04,MC1,Aft Spring
+30.0,WNW,,93,250k,Berth 04,MC1,Aft Spring
+30.0,NW,,68,250k,Berth 04,MC1,Aft Spring
+30.0,NNW,,58,250k,Berth 04,MC1,Aft Spring
+20.0,N,,64,250k,Berth 04,MC1,Aft Spring
+20.0,NNE,,58,250k,Berth 04,MC1,Aft Spring
+20.0,NE,,55,250k,Berth 04,MC1,Aft Spring
+20.0,ENE,,56,250k,Berth 04,MC1,Aft Spring
+20.0,E,,56,250k,Berth 04,MC1,Aft Spring
+20.0,ESE,,63,250k,Berth 04,MC1,Aft Spring
+20.0,SE,,71,250k,Berth 04,MC1,Aft Spring
+20.0,SSE,,74,250k,Berth 04,MC1,Aft Spring
+20.0,S,,67,250k,Berth 04,MC1,Aft Spring
+20.0,SSW,,70,250k,Berth 04,MC1,Aft Spring
+20.0,SW,,74,250k,Berth 04,MC1,Aft Spring
+20.0,WSW,,82,250k,Berth 04,MC1,Aft Spring
+20.0,W,,86,250k,Berth 04,MC1,Aft Spring
+20.0,WNW,,76,250k,Berth 04,MC1,Aft Spring
+20.0,NW,,79,250k,Berth 04,MC1,Aft Spring
+20.0,NNW,,70,250k,Berth 04,MC1,Aft Spring
+20.0,NE,1,86,250k,Berth 04,MC1,Aft Spring
+20.0,NE,2,52,250k,Berth 04,MC1,Aft Spring
+20.0,NE,3,59,250k,Berth 04,MC1,Aft Spring
+20.0,NE,4,66,250k,Berth 04,MC1,Aft Spring
+20.0,NE,5,73,250k,Berth 04,MC1,Aft Spring
+20.0,NE,6,87,250k,Berth 04,MC1,Aft Spring
+20.0,NE,7,102,250k,Berth 04,MC1,Aft Spring
+9.0,E,8,72,250k,Berth 04,MC1,Aft Spring
+9.0,E,9,82,250k,Berth 04,MC1,Aft Spring
+9.0,E,10,99,250k,Berth 04,MC1,Aft Spring
+30.0,N,,77,250k,Berth 04,MC1,Stern
+30.0,NNE,,79,250k,Berth 04,MC1,Stern
+30.0,NE,,86,250k,Berth 04,MC1,Stern
+30.0,ENE,,124,250k,Berth 04,MC1,Stern
+30.0,E,,135,250k,Berth 04,MC1,Stern
+30.0,ESE,,197,250k,Berth 04,MC1,Stern
+30.0,SE,,314,250k,Berth 04,MC1,Stern
+30.0,SSE,,317,250k,Berth 04,MC1,Stern
+30.0,S,,289,250k,Berth 04,MC1,Stern
+30.0,SSW,,271,250k,Berth 04,MC1,Stern
+30.0,SW,,234,250k,Berth 04,MC1,Stern
+30.0,WSW,,144,250k,Berth 04,MC1,Stern
+30.0,W,,148,250k,Berth 04,MC1,Stern
+30.0,WNW,,144,250k,Berth 04,MC1,Stern
+30.0,NW,,88,250k,Berth 04,MC1,Stern
+30.0,NNW,,77,250k,Berth 04,MC1,Stern
+20.0,N,,130,250k,Berth 04,MC1,Stern
+20.0,NNE,,123,250k,Berth 04,MC1,Stern
+20.0,NE,,124,250k,Berth 04,MC1,Stern
+20.0,ENE,,136,250k,Berth 04,MC1,Stern
+20.0,E,,131,250k,Berth 04,MC1,Stern
+20.0,ESE,,168,250k,Berth 04,MC1,Stern
+20.0,SE,,169,250k,Berth 04,MC1,Stern
+20.0,SSE,,165,250k,Berth 04,MC1,Stern
+20.0,S,,137,250k,Berth 04,MC1,Stern
+20.0,SSW,,146,250k,Berth 04,MC1,Stern
+20.0,SW,,138,250k,Berth 04,MC1,Stern
+20.0,WSW,,146,250k,Berth 04,MC1,Stern
+20.0,W,,159,250k,Berth 04,MC1,Stern
+20.0,WNW,,138,250k,Berth 04,MC1,Stern
+20.0,NW,,149,250k,Berth 04,MC1,Stern
+20.0,NNW,,137,250k,Berth 04,MC1,Stern
+20.0,NE,1,282,250k,Berth 04,MC1,Stern
+20.0,NE,2,98,250k,Berth 04,MC1,Stern
+20.0,NE,3,131,250k,Berth 04,MC1,Stern
+20.0,NE,4,145,250k,Berth 04,MC1,Stern
+20.0,NE,5,180,250k,Berth 04,MC1,Stern
+20.0,NE,6,232,250k,Berth 04,MC1,Stern
+20.0,NE,7,267,250k,Berth 04,MC1,Stern
+9.0,E,8,177,250k,Berth 04,MC1,Stern
+9.0,E,9,244,250k,Berth 04,MC1,Stern
+9.0,E,10,327,250k,Berth 04,MC1,Stern
+30.0,N,,71,250k,Berth 04,MC2,Bow
+30.0,NNE,,75,250k,Berth 04,MC2,Bow
+30.0,NE,,89,250k,Berth 04,MC2,Bow
+30.0,ENE,,125,250k,Berth 04,MC2,Bow
+30.0,E,,132,250k,Berth 04,MC2,Bow
+30.0,ESE,,127,250k,Berth 04,MC2,Bow
+30.0,SE,,194,250k,Berth 04,MC2,Bow
+30.0,SSE,,220,250k,Berth 04,MC2,Bow
+30.0,S,,299,250k,Berth 04,MC2,Bow
+30.0,SSW,,250,250k,Berth 04,MC2,Bow
+30.0,SW,,215,250k,Berth 04,MC2,Bow
+30.0,WSW,,173,250k,Berth 04,MC2,Bow
+30.0,W,,133,250k,Berth 04,MC2,Bow
+30.0,WNW,,105,250k,Berth 04,MC2,Bow
+30.0,NW,,78,250k,Berth 04,MC2,Bow
+30.0,NNW,,73,250k,Berth 04,MC2,Bow
+20.0,N,,101,250k,Berth 04,MC2,Bow
+20.0,NNE,,122,250k,Berth 04,MC2,Bow
+20.0,NE,,106,250k,Berth 04,MC2,Bow
+20.0,ENE,,106,250k,Berth 04,MC2,Bow
+20.0,E,,143,250k,Berth 04,MC2,Bow
+20.0,ESE,,103,250k,Berth 04,MC2,Bow
+20.0,SE,,133,250k,Berth 04,MC2,Bow
+20.0,SSE,,130,250k,Berth 04,MC2,Bow
+20.0,S,,157,250k,Berth 04,MC2,Bow
+20.0,SSW,,154,250k,Berth 04,MC2,Bow
+20.0,SW,,180,250k,Berth 04,MC2,Bow
+20.0,WSW,,139,250k,Berth 04,MC2,Bow
+20.0,W,,118,250k,Berth 04,MC2,Bow
+20.0,WNW,,109,250k,Berth 04,MC2,Bow
+20.0,NW,,104,250k,Berth 04,MC2,Bow
+20.0,NNW,,103,250k,Berth 04,MC2,Bow
+20.0,NE,1,180,250k,Berth 04,MC2,Bow
+20.0,NE,2,69,250k,Berth 04,MC2,Bow
+20.0,NE,3,84,250k,Berth 04,MC2,Bow
+20.0,NE,4,98,250k,Berth 04,MC2,Bow
+20.0,NE,5,142,250k,Berth 04,MC2,Bow
+20.0,NE,6,172,250k,Berth 04,MC2,Bow
+20.0,NE,7,184,250k,Berth 04,MC2,Bow
+9.0,E,8,179,250k,Berth 04,MC2,Bow
+9.0,E,9,258,250k,Berth 04,MC2,Bow
+9.0,E,10,341,250k,Berth 04,MC2,Bow
+30.0,N,,51,250k,Berth 04,MC2,Fwd Spring
+30.0,NNE,,59,250k,Berth 04,MC2,Fwd Spring
+30.0,NE,,71,250k,Berth 04,MC2,Fwd Spring
+30.0,ENE,,87,250k,Berth 04,MC2,Fwd Spring
+30.0,E,,83,250k,Berth 04,MC2,Fwd Spring
+30.0,ESE,,68,250k,Berth 04,MC2,Fwd Spring
+30.0,SE,,69,250k,Berth 04,MC2,Fwd Spring
+30.0,SSE,,87,250k,Berth 04,MC2,Fwd Spring
+30.0,S,,109,250k,Berth 04,MC2,Fwd Spring
+30.0,SSW,,100,250k,Berth 04,MC2,Fwd Spring
+30.0,SW,,90,250k,Berth 04,MC2,Fwd Spring
+30.0,WSW,,51,250k,Berth 04,MC2,Fwd Spring
+30.0,W,,35,250k,Berth 04,MC2,Fwd Spring
+30.0,WNW,,33,250k,Berth 04,MC2,Fwd Spring
+30.0,NW,,38,250k,Berth 04,MC2,Fwd Spring
+30.0,NNW,,44,250k,Berth 04,MC2,Fwd Spring
+20.0,N,,58,250k,Berth 04,MC2,Fwd Spring
+20.0,NNE,,64,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,,65,250k,Berth 04,MC2,Fwd Spring
+20.0,ENE,,71,250k,Berth 04,MC2,Fwd Spring
+20.0,E,,71,250k,Berth 04,MC2,Fwd Spring
+20.0,ESE,,62,250k,Berth 04,MC2,Fwd Spring
+20.0,SE,,59,250k,Berth 04,MC2,Fwd Spring
+20.0,SSE,,60,250k,Berth 04,MC2,Fwd Spring
+20.0,S,,61,250k,Berth 04,MC2,Fwd Spring
+20.0,SSW,,68,250k,Berth 04,MC2,Fwd Spring
+20.0,SW,,61,250k,Berth 04,MC2,Fwd Spring
+20.0,WSW,,52,250k,Berth 04,MC2,Fwd Spring
+20.0,W,,48,250k,Berth 04,MC2,Fwd Spring
+20.0,WNW,,45,250k,Berth 04,MC2,Fwd Spring
+20.0,NW,,53,250k,Berth 04,MC2,Fwd Spring
+20.0,NNW,,54,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,1,89,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,2,63,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,3,68,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,4,76,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,5,87,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,6,98,250k,Berth 04,MC2,Fwd Spring
+20.0,NE,7,113,250k,Berth 04,MC2,Fwd Spring
+9.0,E,8,73,250k,Berth 04,MC2,Fwd Spring
+9.0,E,9,84,250k,Berth 04,MC2,Fwd Spring
+9.0,E,10,95,250k,Berth 04,MC2,Fwd Spring
+30.0,N,,48,250k,Berth 04,MC2,Aft Spring
+30.0,NNE,,41,250k,Berth 04,MC2,Aft Spring
+30.0,NE,,36,250k,Berth 04,MC2,Aft Spring
+30.0,ENE,,33,250k,Berth 04,MC2,Aft Spring
+30.0,E,,43,250k,Berth 04,MC2,Aft Spring
+30.0,ESE,,57,250k,Berth 04,MC2,Aft Spring
+30.0,SE,,84,250k,Berth 04,MC2,Aft Spring
+30.0,SSE,,100,250k,Berth 04,MC2,Aft Spring
+30.0,S,,111,250k,Berth 04,MC2,Aft Spring
+30.0,SSW,,89,250k,Berth 04,MC2,Aft Spring
+30.0,SW,,101,250k,Berth 04,MC2,Aft Spring
+30.0,WSW,,83,250k,Berth 04,MC2,Aft Spring
+30.0,W,,96,250k,Berth 04,MC2,Aft Spring
+30.0,WNW,,77,250k,Berth 04,MC2,Aft Spring
+30.0,NW,,60,250k,Berth 04,MC2,Aft Spring
+30.0,NNW,,53,250k,Berth 04,MC2,Aft Spring
+20.0,N,,54,250k,Berth 04,MC2,Aft Spring
+20.0,NNE,,51,250k,Berth 04,MC2,Aft Spring
+20.0,NE,,49,250k,Berth 04,MC2,Aft Spring
+20.0,ENE,,49,250k,Berth 04,MC2,Aft Spring
+20.0,E,,48,250k,Berth 04,MC2,Aft Spring
+20.0,ESE,,57,250k,Berth 04,MC2,Aft Spring
+20.0,SE,,62,250k,Berth 04,MC2,Aft Spring
+20.0,SSE,,66,250k,Berth 04,MC2,Aft Spring
+20.0,S,,62,250k,Berth 04,MC2,Aft Spring
+20.0,SSW,,66,250k,Berth 04,MC2,Aft Spring
+20.0,SW,,66,250k,Berth 04,MC2,Aft Spring
+20.0,WSW,,67,250k,Berth 04,MC2,Aft Spring
+20.0,W,,70,250k,Berth 04,MC2,Aft Spring
+20.0,WNW,,67,250k,Berth 04,MC2,Aft Spring
+20.0,NW,,63,250k,Berth 04,MC2,Aft Spring
+20.0,NNW,,60,250k,Berth 04,MC2,Aft Spring
+20.0,NE,1,77,250k,Berth 04,MC2,Aft Spring
+20.0,NE,2,47,250k,Berth 04,MC2,Aft Spring
+20.0,NE,3,52,250k,Berth 04,MC2,Aft Spring
+20.0,NE,4,58,250k,Berth 04,MC2,Aft Spring
+20.0,NE,5,69,250k,Berth 04,MC2,Aft Spring
+20.0,NE,6,79,250k,Berth 04,MC2,Aft Spring
+20.0,NE,7,89,250k,Berth 04,MC2,Aft Spring
+9.0,E,8,61,250k,Berth 04,MC2,Aft Spring
+9.0,E,9,76,250k,Berth 04,MC2,Aft Spring
+9.0,E,10,89,250k,Berth 04,MC2,Aft Spring
+30.0,N,,83,250k,Berth 04,MC2,Stern
+30.0,NNE,,83,250k,Berth 04,MC2,Stern
+30.0,NE,,93,250k,Berth 04,MC2,Stern
+30.0,ENE,,119,250k,Berth 04,MC2,Stern
+30.0,E,,159,250k,Berth 04,MC2,Stern
+30.0,ESE,,211,250k,Berth 04,MC2,Stern
+30.0,SE,,295,250k,Berth 04,MC2,Stern
+30.0,SSE,,298,250k,Berth 04,MC2,Stern
+30.0,S,,320,250k,Berth 04,MC2,Stern
+30.0,SSW,,272,250k,Berth 04,MC2,Stern
+30.0,SW,,191,250k,Berth 04,MC2,Stern
+30.0,WSW,,144,250k,Berth 04,MC2,Stern
+30.0,W,,149,250k,Berth 04,MC2,Stern
+30.0,WNW,,123,250k,Berth 04,MC2,Stern
+30.0,NW,,79,250k,Berth 04,MC2,Stern
+30.0,NNW,,78,250k,Berth 04,MC2,Stern
+20.0,N,,117,250k,Berth 04,MC2,Stern
+20.0,NNE,,120,250k,Berth 04,MC2,Stern
+20.0,NE,,119,250k,Berth 04,MC2,Stern
+20.0,ENE,,129,250k,Berth 04,MC2,Stern
+20.0,E,,134,250k,Berth 04,MC2,Stern
+20.0,ESE,,167,250k,Berth 04,MC2,Stern
+20.0,SE,,182,250k,Berth 04,MC2,Stern
+20.0,SSE,,174,250k,Berth 04,MC2,Stern
+20.0,S,,160,250k,Berth 04,MC2,Stern
+20.0,SSW,,143,250k,Berth 04,MC2,Stern
+20.0,SW,,151,250k,Berth 04,MC2,Stern
+20.0,WSW,,138,250k,Berth 04,MC2,Stern
+20.0,W,,125,250k,Berth 04,MC2,Stern
+20.0,WNW,,125,250k,Berth 04,MC2,Stern
+20.0,NW,,126,250k,Berth 04,MC2,Stern
+20.0,NNW,,132,250k,Berth 04,MC2,Stern
+20.0,NE,1,271,250k,Berth 04,MC2,Stern
+20.0,NE,2,98,250k,Berth 04,MC2,Stern
+20.0,NE,3,122,250k,Berth 04,MC2,Stern
+20.0,NE,4,153,250k,Berth 04,MC2,Stern
+20.0,NE,5,205,250k,Berth 04,MC2,Stern
+20.0,NE,6,236,250k,Berth 04,MC2,Stern
+20.0,NE,7,270,250k,Berth 04,MC2,Stern
+9.0,E,8,183,250k,Berth 04,MC2,Stern
+9.0,E,9,275,250k,Berth 04,MC2,Stern
+9.0,E,10,348,250k,Berth 04,MC2,Stern
