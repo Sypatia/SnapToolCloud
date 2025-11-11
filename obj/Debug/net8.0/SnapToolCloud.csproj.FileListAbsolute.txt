@@ -59,3 +59,4 @@ C:\Users\moh.ismail\source\repos\SnapToolCloud\obj\Debug\net8.0\SnapToolCloud.pd
 C:\Users\moh.ismail\source\repos\SnapToolCloud\obj\Debug\net8.0\SnapToolCloud.genruntimeconfig.cache
 C:\Users\moh.ismail\source\repos\SnapToolCloud\obj\Debug\net8.0\ref\SnapToolCloud.dll
 C:\Users\moh.ismail\source\repos\SnapToolCloud\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\moh.ismail\source\repos\SnapToolCloud\obj\Debug\net8.0\SnapToolCloud.sourcelink.json

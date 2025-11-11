@@ -1,3 +1,4 @@
+using SnapToolCloud.Database;
 using SnapToolCloud.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,15 +19,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
+await SnapToolDB.InitializeAsync();
+
 // Optional: run once on startup to confirm connectivity
-await WeatherService.GetWeatherForecastFeedsAsync();
+await WeatherService.GetRTIOB10ForecastAsync();
 //await WeatherService.GetLambertWaveDataAsync();
 
 app.Run();

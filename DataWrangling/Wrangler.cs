@@ -1,22 +1,13 @@
 using CsvHelper;
 using CsvHelper.Configuration;
-using CsvHelper.Configuration.Attributes;
-using Microsoft.Extensions.Hosting;
 using SixLabors.ImageSharp;
 using SnapToolCloud.Properties;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Formats.Asn1;
 using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-
+using System.Text.Json;
+using System.Security.Cryptography;
+using System.Text.Json.Serialization;
 namespace SnapToolCloud.Data
 {
     public static class DictionaryExtensions
@@ -123,6 +114,21 @@ namespace SnapToolCloud.Data
             double conditionAngle = double.Parse(conditionDirection);
             return direction >= (conditionAngle - 5) && direction <= (conditionAngle + 5);
         }
+
+
+        public static string ConvertToCompass(double dirClockwiseFromNorth)
+        {
+            double degrees = dirClockwiseFromNorth;
+            if (degrees < 0 || degrees > 360)
+                return "N/A";
+
+            // Find closest match in DegreesToCompass
+            var closest = DegreesToCompass
+                .OrderBy(kv => Math.Abs(kv.Key - degrees))
+                .FirstOrDefault();
+
+            return closest.Value ?? "N/A";
+        }
     }
 
     public static class Globals
@@ -155,20 +161,59 @@ namespace SnapToolCloud.Data
     {
         public DateTime DateTime;
         public string WindDirection;
-        public double WindSpeed;
-        public double WindGustSpeed;
-        public double Wind50Speed;
-        public double SeaHeight;
+        public double WindSpeed; // KNOTS
+        public double WindGustSpeed; // KNOTS
+        public double Wind50Speed; // KNOTS
+        public double SeaHeight; // Metres
         public string SwellDirection1;
-        public double SwellPeriod1;
-        public double SwellHeight1;
+        public double SwellPeriod1; // Seconds
+        public double SwellHeight1; // Metres
         public string SwellDirection2;
-        public double SwellPeriod2;
-        public double SwellHeight2;
+        public double SwellPeriod2; // Seconds
+        public double SwellHeight2; // Metres
         public double TotalWaveSig;
         public double TotalWaveMax;
         public string WeatherDescription;
         public string ForecastConfidence;
+        public double RecordIntervalHours;
+        public string RecordHash => ComputeHash(this);
+
+        private static string ComputeHash(WeatherRecord record)
+        {
+            var clone = new
+            {
+                record.DateTime,
+                record.WindDirection,
+                record.WindSpeed,
+                record.WindGustSpeed,
+                record.Wind50Speed,
+                record.SeaHeight,
+                record.SwellDirection1,
+                record.SwellPeriod1,
+                record.SwellHeight1,
+                record.SwellDirection2,
+                record.SwellPeriod2,
+                record.SwellHeight2,
+                record.TotalWaveSig,
+                record.TotalWaveMax,
+                record.WeatherDescription,
+                record.ForecastConfidence,
+                record.RecordIntervalHours
+            };
+
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = false,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+
+            string json = JsonSerializer.Serialize(clone, options);
+            using var sha = SHA256.Create();
+            byte[] hashBytes = sha.ComputeHash(Encoding.UTF8.GetBytes(json));
+            return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+        }
+
+        public override string ToString() => $"WeatherRecord({DateTime:u})";
     }
 
     public record PileDolphinLocationRecord
@@ -265,6 +310,39 @@ namespace SnapToolCloud.Data
         public string VesselName { get; set; }
         public DateTime PlanToBerth { get; set; }
         public DateTime PlanToSail { get; set; }
+
+        [JsonIgnore]
+        public string RecordHash => ComputeHash(this);
+
+        private static string ComputeHash(DockingArrangementRecord record)
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = false,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault
+            };
+
+            // manually remove RecordHash recursion
+            var clone = new
+            {
+                record.Berth,
+                record.Vessel,
+                record.MC,
+                record.VesselName,
+                record.PlanToBerth,
+                record.PlanToSail
+            };
+
+            string json = JsonSerializer.Serialize(clone, options);
+            using var sha = SHA256.Create();
+            byte[] hashBytes = sha.ComputeHash(Encoding.UTF8.GetBytes(json));
+            return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+        }
+
+        public override string ToString() =>
+    $"DockingArrangementRecord(Vessel={Vessel}, Berth={Berth}, PlanToBerth={PlanToBerth:u}, PlanToSail={PlanToSail:u})";
+
     }
     public static class CsvDataLoader
     {

@@ -1,5 +1,4 @@
-﻿using iText.Commons.Utils;
-using iText.IO.Font.Constants;
+﻿using iText.IO.Font.Constants;
 using iText.Kernel.Colors;
 using iText.Kernel.Exceptions;
 using iText.Kernel.Font;
@@ -8,16 +7,10 @@ using iText.Kernel.Pdf;
 using iText.Kernel.Pdf.Canvas;
 using iText.Kernel.Pdf.Extgstate;
 using iText.Layout;
-using iText.Layout.Borders;
 using iText.Layout.Element;
 using iText.Layout.Properties;
 using SnapToolCloud.Data;
 using SnapToolCloud.Properties;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Linq;
 using System.Text;
 
 namespace SnapTool.PdfGenerator
@@ -130,189 +123,112 @@ namespace SnapTool.PdfGenerator
     }
     public class WharfPlanPdfGenerator
     {
-        public static void GenerateSnapbackPdf(
-    string outputPdfPath,
+        public static byte[] GenerateSnapbackPdfBytes(
     List<PileDolphinRecord> activePileDolphins,
     List<DockingArrangementRecord> arrangements,
     List<DateTime> timeSlots,
     List<WeatherRecord> weatherForecast,
-    List<GridRecord> activeGrids = null)
+    List<GridRecord>? activeGrids = null)
         {
-            // Get a distinct list of active piles/dolphins by their unique location
-            var distinctActivePileDolphins = activePileDolphins
-                .GroupBy(record => record.CombinedLocation) // Group by unique Location
-                .Select(group => group.First())     // Take the first record from each group
-                .ToList();
+            using var outputStream = new MemoryStream();
 
-            // Get the names of distinct active piles/dolphins
-            var activePileDolphinNames = new HashSet<string>(
-                distinctActivePileDolphins.Select(record => record.CombinedLocation),
-                StringComparer.OrdinalIgnoreCase);
+            using (var resourceStream = new MemoryStream(Resources.WharfPlan))
+            using (var pdfReader = new PdfReader(resourceStream))
+            using (var pdfWriter = new PdfWriter(outputStream))
+            using (var pdfDocument = new PdfDocument(pdfReader, pdfWriter))
+            {
+                if (pdfReader.IsEncrypted())
+                    throw new InvalidOperationException("The PDF is encrypted and cannot be processed without a password.");
 
+                // --- Distinct activations ---
+                var distinctPileDolphins = activePileDolphins
+                    .GroupBy(r => r.CombinedLocation)
+                    .Select(g => g.First())
+                    .ToList();
 
+                var activePileNames = new HashSet<string>(
+                    distinctPileDolphins.Select(r => r.CombinedLocation),
+                    StringComparer.OrdinalIgnoreCase);
 
-            var pileDolphinLocations = Definitions.PileDolphinPdfLocations;
-            var gridLocations = Definitions.GridPdfLocations;
-            string tempFile1 = System.IO.Path.GetTempFileName();
-            string tempFile2 = System.IO.Path.GetTempFileName();
-            string tempFile3 = System.IO.Path.GetTempFileName();
-            if (File.Exists(outputPdfPath))
+                var distinctGrids = activeGrids?
+                    .GroupBy(r => r.CombinedLocation)
+                    .Select(g => g.First())
+                    .ToList();
+
+                var activeGridNames = distinctGrids != null
+                    ? new HashSet<string>(distinctGrids.Select(r => r.CombinedLocation), StringComparer.OrdinalIgnoreCase)
+                    : new HashSet<string>();
+
+                var pileDolphinLocations = Definitions.PileDolphinPdfLocations;
+                var gridLocations = Definitions.GridPdfLocations;
+
+                // --- Draw pile/dolphins ---
+                foreach (var (name, value) in pileDolphinLocations)
+                {
+                    var (xCm, yCm, pageIndex) = value;
+                    var page = pdfDocument.GetPage(pageIndex);
+                    var size = page.GetPageSize();
+
+                    float adjustedX = size.GetWidth() - (yCm / 2.54f) * 72f;
+                    float adjustedY = size.GetHeight() - (xCm / 2.54f) * 72f;
+
+                    var color = activePileNames.Contains(name)
+                        ? System.Drawing.Color.Red
+                        : System.Drawing.Color.Green;
+
+                    AddCircleToPage(pdfDocument, pageIndex, adjustedX, adjustedY, radius: 0.5f, colour: color);
+                }
+
+                // --- Draw grids ---
+                if (activeGrids != null)
+                {
+                    foreach (var (name, value) in gridLocations)
+                    {
+                        var (xCm, yCm, widthCm, heightCm, pageIndex) = value;
+                        var page = pdfDocument.GetPage(pageIndex);
+                        var size = page.GetPageSize();
+
+                        float adjustedX = size.GetWidth() - ((yCm + heightCm) / 2.54f) * 72f;
+                        float adjustedY = size.GetHeight() - ((xCm + widthCm) / 2.54f) * 72f;
+                        float widthPts = (heightCm / 2.54f) * 72f;
+                        float heightPts = (widthCm / 2.54f) * 72f;
+
+                        var color = activeGridNames.Contains(name)
+                            ? System.Drawing.Color.Red
+                            : System.Drawing.Color.Green;
+
+                        AddTranslucentRectangleToPage(pdfDocument, pageIndex, adjustedX, adjustedY, widthPts, heightPts, color, opacity: 0.3f);
+                    }
+                }
+
+                AddSelectedVesselsToPage(pdfDocument, 1, arrangements, timeSlots);
+
+                // --- Add tables ---
+                var selectedWeather = weatherForecast.Where(x => timeSlots.Contains(x.DateTime)).ToList();
+                AddWeatherForecastTableToPage(selectedWeather, pdfDocument, 1);
+                AddDolphinTableToPagePdfDocument(pdfDocument, 1, arrangements, timeSlots, weatherForecast);
+            }
+
+            return outputStream.ToArray();
+        }
+
+        public static void SaveSnapbackPdf(byte[] pdfBytes, string outputPath)
+        {
+            if (File.Exists(outputPath))
             {
                 try
                 {
-                    using (var stream = File.OpenWrite(outputPdfPath))
-                    {
-                        // File is not locked
-                    }
+                    using (var stream = File.OpenWrite(outputPath))
+                    { }
                 }
                 catch (IOException)
                 {
-                    throw new IOException($"The file {outputPdfPath} is locked by another process.");
+                    throw new IOException($"The file {outputPath} is locked by another process.");
                 }
             }
 
-            try
-            {
-                // Open the source PDF
-                using (var resourceStream = new MemoryStream(Resources.WharfPlan))
-                using (var pdfReader = new PdfReader(resourceStream))
-                using (var pdfWriter = new PdfWriter(tempFile1))
-                using (var pdfDocument = new PdfDocument(pdfReader, pdfWriter))
-                {
-                    if (pdfReader.IsEncrypted())
-                    {
-                        throw new InvalidOperationException("The PDF is encrypted and cannot be processed without a password.");
-                    }
-                    float xCm = 0f, yCm = 0f;
-                    int pageIndex = 0;
-                    foreach (var location in pileDolphinLocations)
-                    {
-                        string name = location.Key;
-                        (xCm, yCm, pageIndex) = location.Value;
-
-                        // Get the page dimensions
-                        var pageSize = pdfDocument.GetPage(pageIndex).GetPageSize();
-                        float pageHeight = pageSize.GetHeight();
-                        float pageWidth = pageSize.GetWidth();
-
-                        // Swap X and Y coordinates
-                        // iText PDF generator uses a coordinate system top left as (0,0) with Y increasing to the right and X increasing down
-                        float adjustedXPoints = pageWidth - (yCm / 2.54f) * 72f;                    // flip X
-                        float adjustedYPoints = pageHeight - (xCm / 2.54f) * 72f;       // flip Y
-
-                        // Determine the colour: RED for active, GREEN otherwise
-                        System.Drawing.Color circleColour = activePileDolphinNames.Contains(name) ? System.Drawing.Color.Red : System.Drawing.Color.Green;
-
-                        // Add a circle to the specified page
-                        AddCircleToPage(pdfDocument, pageIndex, adjustedXPoints, adjustedYPoints, radius: 0.5f, colour: circleColour);
-
-                    }
-
-                    if (activeGrids != null)
-                    {
-                        var distinctActiveGrids = activeGrids
-                            .GroupBy(record => record.CombinedLocation) // Group by unique Location
-                            .Select(group => group.First())     // Take the first record from each group
-                            .ToList();
-
-                        // Get the names of distinct active grids
-                        var activeGridNames = new HashSet<string>(
-                            distinctActiveGrids.Select(record => record.CombinedLocation),
-                            StringComparer.OrdinalIgnoreCase);
-
-                        foreach (var location in gridLocations)
-                        {
-                            string name = location.Key;
-                            float widthCm, heightCm;
-
-                            (xCm, yCm, widthCm, heightCm, pageIndex) = location.Value;
-
-                            var page = pdfDocument.GetPage(pageIndex);
-                            var pageSize = page.GetPageSize();
-                            float pageHeight = pageSize.GetHeight();
-                            float pageWidth = pageSize.GetWidth();
-
-                            // Convert from cm to PDF points and adjust orientation
-                            float adjustedXPoints = pageWidth - ((yCm + heightCm) / 2.54f) * 72f;                    // normal
-                            float adjustedYPoints = pageHeight - ((xCm + widthCm) / 2.54f) * 72f;       // flip Y
-                            float widthPoints = (heightCm / 2.54f) * 72f;
-                            float heightPoints = (widthCm / 2.54f) * 72f;
-
-                            // Determine colour: RED for active, GREEN otherwise
-                            System.Drawing.Color rectColour = activeGridNames.Contains(name) ? System.Drawing.Color.Red : System.Drawing.Color.Green;
-
-                            // Draw translucent rectangle
-                            AddTranslucentRectangleToPage(
-                                pdfDocument,
-                                pageIndex,
-                                adjustedXPoints,
-                                adjustedYPoints,
-                                widthPoints,
-                                heightPoints,
-                                rectColour,
-                                opacity: 0.3f
-                            );
-                        }
-                    }
-
-                    AddSelectedVesselsToPage(pdfDocument, pageIndex, arrangements, timeSlots);
-
-                }
-
-                var selectedWeatherData = weatherForecast
-                    .Where(x => timeSlots.Contains(x.DateTime))
-                    .ToList();
-
-                // Open the source PDF
-                using (var pdfReader = new PdfReader(tempFile1))
-                using (var pdfWriter = new PdfWriter(tempFile2))
-                using (var pdfDocument = new PdfDocument(pdfReader, pdfWriter))
-                {
-                    if (pdfReader.IsEncrypted())
-                    {
-                        throw new InvalidOperationException("The PDF is encrypted and cannot be processed without a password.");
-                    }
-                    var pageIndex = 1;
-                    AddWeatherForecastTableToPage(selectedWeatherData, pdfDocument, pageIndex);
-
-                }
-
-                // Open the source PDF
-                using (var pdfReader = new PdfReader(tempFile2))
-                using (var pdfWriter = new PdfWriter(outputPdfPath))
-                using (var pdfDocument = new PdfDocument(pdfReader, pdfWriter))
-                {
-                    if (pdfReader.IsEncrypted())
-                    {
-                        throw new InvalidOperationException("The PDF is encrypted and cannot be processed without a password.");
-                    }
-                    var pageIndex = 1;
-                    AddDolphinTableToPagePdfDocument(pdfDocument, pageIndex, arrangements, timeSlots, weatherForecast);
-
-                }
-
-                // Cleanup temp file
-                if (File.Exists(tempFile1))
-                {
-                    File.Delete(tempFile1);
-                }
-                // Cleanup temp file
-                if (File.Exists(tempFile2))
-                {
-                    File.Delete(tempFile2);
-                }
-                // Cleanup temp file
-                if (File.Exists(tempFile3))
-                {
-                    File.Delete(tempFile3);
-                }
-            }
-            catch (PdfException ex)
-            {
-                Console.WriteLine($"PdfException occurred: {ex.Message}");
-            }
-
-            Console.WriteLine($"Annotated PDF generated: {outputPdfPath}");
+            File.WriteAllBytes(outputPath, pdfBytes);
+            Console.WriteLine($"✅ PDF saved: {outputPath}");
         }
 
         private static void AddTranslucentRectangleToPage(

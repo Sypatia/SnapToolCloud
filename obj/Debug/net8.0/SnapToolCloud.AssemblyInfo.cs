@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnapToolCloud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5153d2eed6ee07ebb75191518119a643546d5d66")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnapToolCloud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnapToolCloud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
