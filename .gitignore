@@ -1,8 +1,29 @@
-# Ignore everything
+# Ignore build outputs
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+*.vscode/
+
+# Ignore temporary files
+[Tt]emp/
+*.tmp
+*.bak
+*.ncb
+*.ilk
+*.pdb
+
+# Ignore published files
+publish/
+
+# Ignore sensitive files
 appsettings.*
 resources/bge*
 .*
 !.gitignore
 
-# But keep this specific file if it exists anywhere
 /Resources/bge.rtio.p12
