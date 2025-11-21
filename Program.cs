@@ -29,6 +29,8 @@ await SnapToolDB.InitializeAsync();
 
 // Optional: run once on startup to confirm connectivity
 await WeatherService.GetRTIOB10ForecastAsync();
+
+await SnapToolService.RunWorkflow();
 //await WeatherService.GetLambertWaveDataAsync();
 
 app.Run();

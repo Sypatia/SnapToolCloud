@@ -1,4 +1,4 @@
-using CsvHelper;
+ï»¿using CsvHelper;
 using CsvHelper.Configuration;
 using SixLabors.ImageSharp;
 using SnapToolCloud.Properties;
@@ -10,6 +10,20 @@ using System.Security.Cryptography;
 using System.Text.Json.Serialization;
 namespace SnapToolCloud.Data
 {
+
+    public static class TimeZoneParser
+    {
+        public static DateTime AsPerthLocal(DateTimeOffset dto)
+        {
+            return dto.ToOffset(TimeSpan.FromHours(8)).DateTime;
+        }
+        public static DateTime AsPerthLocal(DateTime dt)
+        {
+            // If coming as unspecified OR local, treat as Perth-local
+            return DateTime.SpecifyKind(dt, DateTimeKind.Unspecified);
+        }
+    }
+
     public static class DictionaryExtensions
     {
         public static SortedDictionary<TKey, TValue> ToSortedDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> source)
@@ -34,13 +48,13 @@ namespace SnapToolCloud.Data
 
             double baseDegrees = CompassToDegrees[direction];
 
-            // Calculate ±22.5° range, wrapping around 0-360°
+            // Calculate Â±22.5Â° range, wrapping around 0-360Â°
             double minDegrees = (baseDegrees - 22.5 + 360.0) % 360.0;
             double maxDegrees = (baseDegrees + 22.5) % 360.0;
 
             var result = new List<string>();
 
-            // Iterate through compass directions in the ±22.5° range
+            // Iterate through compass directions in the Â±22.5Â° range
             foreach (var entry in DegreesToCompass)
             {
                 double degrees = entry.Key;
@@ -105,7 +119,7 @@ namespace SnapToolCloud.Data
             return null; // Return null if the direction is not found in the dictionary
         }
 
-        // Helper method to check if a given angle falls within a direction range (±5 degrees tolerance)
+        // Helper method to check if a given angle falls within a direction range (Â±5 degrees tolerance)
         public static bool IsInDirectionRange(double direction, string conditionDirection)
         {
             if (string.IsNullOrEmpty(conditionDirection))
@@ -159,30 +173,37 @@ namespace SnapToolCloud.Data
 
     public record WeatherRecord
     {
-        public DateTime DateTime;
+        public DateTime DateTimeForecast;
+        public DateTime? LastModifiedApi;
         public string WindDirection;
         public double WindSpeed; // KNOTS
         public double WindGustSpeed; // KNOTS
         public double Wind50Speed; // KNOTS
         public double SeaHeight; // Metres
-        public string SwellDirection1;
-        public double SwellPeriod1; // Seconds
-        public double SwellHeight1; // Metres
-        public string SwellDirection2;
-        public double SwellPeriod2; // Seconds
-        public double SwellHeight2; // Metres
+        public string? SwellDirection1;
+        public double? SwellPeriod1; // Seconds
+        public double? SwellHeight1; // Metres
+        public string? SwellDirection2;
+        public double? SwellPeriod2; // Seconds
+        public double? SwellHeight2; // Metres
         public double TotalWaveSig;
         public double TotalWaveMax;
         public string WeatherDescription;
         public string ForecastConfidence;
         public double RecordIntervalHours;
+
+        [JsonIgnore]
         public string RecordHash => ComputeHash(this);
+
+        [JsonIgnore]
+        public bool IsLatest { get; set; }
 
         private static string ComputeHash(WeatherRecord record)
         {
             var clone = new
             {
-                record.DateTime,
+                record.DateTimeForecast,
+                record.LastModifiedApi,
                 record.WindDirection,
                 record.WindSpeed,
                 record.WindGustSpeed,
@@ -213,7 +234,7 @@ namespace SnapToolCloud.Data
             return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
         }
 
-        public override string ToString() => $"WeatherRecord({DateTime:u})";
+        public override string ToString() => $"WeatherRecord({DateTimeForecast:u})";
     }
 
     public record PileDolphinLocationRecord
@@ -254,13 +275,17 @@ namespace SnapToolCloud.Data
         public string Vessel { get; set; }
         public string MC { get; set; }
         public string ML { get; set; }
-        public string Active { get; set; }
+        public bool InEnvelope { get; set; }
+
+        public bool IsActive => InEnvelope && TriggeringTension >= Globals.TensionThreshold;
         public string Location { get; set; }
         public string Number { get; set; }
         public string CombinedLocation => Number + Location;
         public double? TriggeringTension { get; set; }  // Populated during filtering based on DMARecord data
-        public string? WeatherDateTime { get; set; }
+        public DateTime? WeatherDateTime { get; set; }
         public string? Cause { get; set; }
+
+        public bool IsLatest { get; set; }
     }
     public record PileDolphinRecord
     {
@@ -268,14 +293,17 @@ namespace SnapToolCloud.Data
         public string Vessel { get; set; }
         public string MC { get; set; }
         public string ML { get; set; }
-        public string Active { get; set; }
+        public bool InEnvelope { get; set; }
+        public bool IsActive => InEnvelope && TriggeringTension >= Globals.TensionThreshold;
         public string Type { get; set; }
         public string Location { get; set; }
         public string Number { get; set; }
         public double? TriggeringTension { get; set; }  // Populated during filtering based on DMARecord data
         public string? CombinedLocation => Number + Location;
-        public string? WeatherDateTime { get; set; }
+        public DateTime? WeatherDateTime { get; set; }
         public string? Cause { get; set; }
+
+        public bool IsLatest { get; set; }
     }
 
     public record MooringRecord
@@ -308,8 +336,13 @@ namespace SnapToolCloud.Data
         public string Vessel { get; set; }
         public string MC { get; set; }
         public string VesselName { get; set; }
-        public DateTime PlanToBerth { get; set; }
-        public DateTime PlanToSail { get; set; }
+        public string EventType { get; set; }
+        public DateTime AllSecureDateTime { get; set; }
+        public DateTime SailDateTime { get; set; }
+        public DateTime? LastModifiedApi { get; set; }
+
+        [JsonIgnore]
+        public bool IsLatest { get; set; }
 
         [JsonIgnore]
         public string RecordHash => ComputeHash(this);
@@ -330,8 +363,10 @@ namespace SnapToolCloud.Data
                 record.Vessel,
                 record.MC,
                 record.VesselName,
-                record.PlanToBerth,
-                record.PlanToSail
+                record.EventType,
+                record.AllSecureDateTime,
+                record.SailDateTime,
+                record.LastModifiedApi
             };
 
             string json = JsonSerializer.Serialize(clone, options);
@@ -341,7 +376,7 @@ namespace SnapToolCloud.Data
         }
 
         public override string ToString() =>
-    $"DockingArrangementRecord(Vessel={Vessel}, Berth={Berth}, PlanToBerth={PlanToBerth:u}, PlanToSail={PlanToSail:u})";
+    $"DockingArrangementRecord(Vessel={Vessel}, Berth={Berth})";
 
     }
     public static class CsvDataLoader
@@ -360,6 +395,8 @@ namespace SnapToolCloud.Data
                 var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
                     HasHeaderRecord = true,
+                    MissingFieldFound = null,
+                    HeaderValidated = null
                 };
 
                 using (var csv = new CsvReader(reader, config))
@@ -405,25 +442,24 @@ namespace SnapToolCloud.Data
     }
     public static class DataFilter
     {
-
-
-        public static List<T> FilterActiveRecords<T>(List<DMARecord> activeValues, Func<List<T>> recordLoader)
-        where T : class, new()
+        public static List<T> FilterActiveRecords<T>(
+    List<DMARecord> activeValues,
+    Func<List<T>> recordLoader)
+    where T : class, new()
         {
             var allRecords = recordLoader();
-            var filteredRecords = new List<T>();
+            var filtered = new List<T>();
+            var type = typeof(T);
 
             foreach (var record in allRecords)
             {
-                var recordType = typeof(T);
-                var berth = recordType.GetProperty("Berth")?.GetValue(record)?.ToString();
-                var vessel = recordType.GetProperty("Vessel")?.GetValue(record)?.ToString();
-                var mc = recordType.GetProperty("MC")?.GetValue(record)?.ToString();
-                var ml = recordType.GetProperty("ML")?.GetValue(record)?.ToString();
-                var activeFlag = recordType.GetProperty("Active")?.GetValue(record)?.ToString();
+                var berth = type.GetProperty("Berth")?.GetValue(record)?.ToString();
+                var vessel = type.GetProperty("Vessel")?.GetValue(record)?.ToString();
+                var mc = type.GetProperty("MC")?.GetValue(record)?.ToString();
+                var ml = type.GetProperty("ML")?.GetValue(record)?.ToString();
 
-                T bestMatch = null;
                 double maxTension = double.MinValue;
+                DMARecord bestActive = null;
 
                 foreach (var active in activeValues)
                 {
@@ -432,46 +468,54 @@ namespace SnapToolCloud.Data
                         active.MC == mc &&
                         active.ML == ml)
                     {
-                        if (double.TryParse(active.Tension, out double tension) && tension > maxTension)
+                        if (double.TryParse(active.Tension, out var tension) &&
+                            tension > maxTension)
                         {
                             maxTension = tension;
-                            bestMatch = record;
-
-                            recordType.GetProperty("TriggeringTension")?.SetValue(record, tension);
-                            recordType.GetProperty("WeatherDateTime")?.SetValue(record, active.WeatherDateTime);
-                            recordType.GetProperty("Cause")?.SetValue(record, active.Cause);
+                            bestActive = active;
                         }
                     }
                 }
 
-                if (bestMatch != null && activeFlag == "1")
+                // No match â†’ skip
+                if (bestActive == null)
+                    continue;
+
+                // ----------------------------------------------------
+                // Populate the T record output
+                // ----------------------------------------------------
+                type.GetProperty("TriggeringTension")?.SetValue(record, maxTension);
+                type.GetProperty("WeatherDateTime")?.SetValue(record, bestActive.WeatherDateTime);
+                type.GetProperty("Cause")?.SetValue(record, bestActive.Cause);
+
+
+                // Force InEnvelope = true/false/1/0
+                var activeProp = type.GetProperty("InEnvelope");
+                if (activeProp != null)
                 {
-                    filteredRecords.Add(bestMatch);
+                    var raw = activeProp.GetValue(record)?.ToString()?.Trim()?.ToLowerInvariant();
+
+                    bool newActive =
+                        raw == "false" || raw == "0" || string.IsNullOrWhiteSpace(raw)
+                        ? false
+                        : true;
+
+                    if (activeProp.PropertyType == typeof(bool))
+                        activeProp.SetValue(record, newActive);
+                    else if (activeProp.PropertyType == typeof(int))
+                        activeProp.SetValue(record, newActive ? 1 : 0);
+                    else
+                        activeProp.SetValue(record, newActive ? "1" : "0");
                 }
+
+                filtered.Add(record);   // <-- RETURN T
             }
 
-            return filteredRecords;
+            return filtered;
         }
 
-        public static bool WindExceedsThreshold(DateTime dateTime, List<WeatherRecord> weatherForecast, double threshold = 20)
-        {
 
-            // Filter the weather data by targetDate and targetTime
-            var filteredRows = weatherForecast.Where(x => x.DateTime == dateTime);
 
-            // If no rows match the targetDate and targetTime, return false
-            if (!filteredRows.Any())
-                return false;
-
-            // Check if any wind gust exceeds the threshold in the filtered rows
-            foreach (WeatherRecord row in filteredRows)
-            {
-                if (row.WindGustSpeed > threshold)
-                    return true;
-            }
-
-            return false;
-        }
 
         public static List<DMARecord> FilterDMADataWaveOnly(
     DockingArrangementRecord dockingArrangement,
@@ -483,7 +527,7 @@ namespace SnapToolCloud.Data
 
 
             // Parse and find matching weather data for the given date and time
-            var selectedWeatherData = weatherForecast.FirstOrDefault(x => x.DateTime == targetDateTime);
+            var selectedWeatherData = weatherForecast.FirstOrDefault(x => x.DateTimeForecast == targetDateTime);
 
             if (selectedWeatherData == null)
                 throw new Exception("Issue parsing weather data. Cannot find matching weather data for given date and time.");
@@ -536,48 +580,27 @@ namespace SnapToolCloud.Data
 
             List<DMARecord> allMatchingRecords = new List<DMARecord>();
 
-            if (filterTension)
-            {
-                allMatchingRecords = dmaRecords
-                    .Where(record => conditionToCauseMap.ContainsKey(record.WaveCondition) &&
-                                     record.Berth == dockingArrangement.Berth &&
-                                     record.Vessel == dockingArrangement.Vessel &&
-                                     record.MC == dockingArrangement.MC &&
-                                                 double.TryParse(record.Tension.Trim(), out double tension) &&
-                                                 tension >= Globals.TensionThreshold)
-                    .Select(record =>
-                    {
-                        record.WeatherDateTime = targetDateTime;
-                        record.Cause = conditionToCauseMap[record.WaveCondition]; // Use precomputed cause
-                        return record;
-                    })
-                    .ToList();
+
+            allMatchingRecords = dmaRecords
+                .Where(record => conditionToCauseMap.ContainsKey(record.WaveCondition) &&
+                                    record.Berth == dockingArrangement.Berth &&
+                                    record.Vessel == dockingArrangement.Vessel &&
+                                    record.MC == dockingArrangement.MC)
+                .Select(record =>
+                {
+                    record.WeatherDateTime = targetDateTime;
+                    record.Cause = conditionToCauseMap[record.WaveCondition]; // Use precomputed cause
+                    return record;
+                })
+                .ToList();
 
 
-                // Return the aggregated list of all matching records
-                return allMatchingRecords;
-            }
-            else
-            {
-                allMatchingRecords = dmaRecords
-                    .Where(record => conditionToCauseMap.ContainsKey(record.WaveCondition) &&
-                                        record.Berth == dockingArrangement.Berth &&
-                                        record.Vessel == dockingArrangement.Vessel &&
-                                        record.MC == dockingArrangement.MC)
-                    .Select(record =>
-                    {
-                        record.WeatherDateTime = targetDateTime;
-                        record.Cause = conditionToCauseMap[record.WaveCondition]; // Use precomputed cause
-                        return record;
-                    })
-                    .ToList();
-
-
-                // Return the aggregated list of all matching records
-                return allMatchingRecords;
-            }
+            // Return the aggregated list of all matching records
+            return allMatchingRecords;
         }
+        
 
+        // Finds DMA records 
         public static List<DMARecord> FilterDMADataWindOnly(
 DockingArrangementRecord dockingArrangement,
 DateTime targetDateTime,
@@ -589,7 +612,7 @@ bool filterTension = true)
 
             // Parse and find matching weather data for the given date and time
             var selectedWeatherData = weatherForecast.FirstOrDefault(row =>
-                    row.DateTime == targetDateTime);
+                    row.DateTimeForecast == targetDateTime);
 
             if (selectedWeatherData == null)
             {
@@ -614,13 +637,46 @@ bool filterTension = true)
 
                         // Extract relevant weather data
                         string windDirection = selectedWeatherData.WindDirection;
-                        double windGust = selectedWeatherData.WindGustSpeed;
+                        double windSpd = selectedWeatherData.WindSpeed;
 
                         // Convert wind direction to range (+/- 15 degrees)
                         var directionRange = CardinalService.GetWindDirectionRange(windDirection);
                         bool matches;
 
-                        if (windGust > 20)
+                        if (windSpd < 17)
+                        {
+                            matches = record.Berth == dockingArrangement.Berth &&
+                                        record.MC == dockingArrangement.MC &&
+                                        record.Vessel == dockingArrangement.Vessel &&
+                                        record.WindSpeed == "20.0" &&
+                                        directionRange.Contains(record.WindDirection) &&
+                                        record.WaveCondition == "";
+                            if (matches)
+                                record.Cause = "Wind <17";
+                        }
+                        else if (windSpd < 22)
+                        {
+                            matches = record.Berth == dockingArrangement.Berth &&
+                                        record.MC == dockingArrangement.MC &&
+                                        record.Vessel == dockingArrangement.Vessel &&
+                                        record.WindSpeed == "30.0" &&
+                                        directionRange.Contains(record.WindDirection) &&
+                                        record.WaveCondition == "";
+                            if (matches)
+                                record.Cause = "Wind <22";
+                        }
+                        else if (windSpd < 28)
+                        {
+                            matches = record.Berth == dockingArrangement.Berth &&
+                                        record.MC == dockingArrangement.MC &&
+                                        record.Vessel == dockingArrangement.Vessel &&
+                                        record.WindSpeed == "50.0" &&
+                                        directionRange.Contains(record.WindDirection) &&
+                                        record.WaveCondition == "";
+                            if (matches)
+                                record.Cause = "Wind <28";
+                        }
+                        else
                         {
                             // Include all mooring lines for given Berth and MC, regardless of speed, direction or tension force
                             matches = record.Berth == dockingArrangement.Berth &&
@@ -628,20 +684,7 @@ bool filterTension = true)
                                         record.Vessel == dockingArrangement.Vessel &&
                                         record.WaveCondition == "";
                             if (matches)
-                                record.Cause = "Wind >20";
-                        }
-                        else
-                        {
-                            windGust = 30;
-                            matches = record.Berth == dockingArrangement.Berth &&
-                                        record.MC == dockingArrangement.MC &&
-                                        record.Vessel == dockingArrangement.Vessel &&
-                                        directionRange.Contains(record.WindDirection) &&
-                                        windSpeed >= windGust &&
-                                        tension >= Globals.TensionThreshold &&
-                                        record.WaveCondition == "";
-                            if (matches)
-                                record.Cause = "Wind";
+                                record.Cause = "Wind >=28";
                         }
 
                         if (matches)
@@ -669,13 +712,13 @@ bool filterTension = true)
 
                         // Extract relevant weather data
                         string windDirection = selectedWeatherData.WindDirection;
-                        double windGust = selectedWeatherData.WindGustSpeed;
+                        double windSpd = selectedWeatherData.WindGustSpeed;
 
                         // Convert wind direction to range (+/- 15 degrees)
                         var directionRange = CardinalService.GetWindDirectionRange(windDirection);
                         bool matches;
 
-                        if (windGust > 20)
+                        if (windSpd > 20)
                         {
                             // Include all mooring lines for given Berth and MC, regardless of speed, direction or tension force
                             matches = record.Berth == dockingArrangement.Berth &&
@@ -687,12 +730,12 @@ bool filterTension = true)
                         }
                         else
                         {
-                            windGust = 30;
+                            windSpd = 30;
                             matches = record.Berth == dockingArrangement.Berth &&
                             record.Vessel == dockingArrangement.Vessel &&
                                         record.MC == dockingArrangement.MC &&
                                         directionRange.Contains(record.WindDirection) &&
-                                        windSpeed >= windGust &&
+                                        windSpeed >= windSpd &&
                                         record.WaveCondition == "";
                             if (matches)
                                 record.Cause = "Wind";

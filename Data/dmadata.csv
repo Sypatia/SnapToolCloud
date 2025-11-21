@@ -1,4 +1,20 @@
 WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
+50.0,N,,65,180k,Berth 02,MC1,Bow
+50.0,NNE,,67,180k,Berth 02,MC1,Bow
+50.0,NE,,90,180k,Berth 02,MC1,Bow
+50.0,ENE,,82,180k,Berth 02,MC1,Bow
+50.0,E,,68,180k,Berth 02,MC1,Bow
+50.0,ESE,,269,180k,Berth 02,MC1,Bow
+50.0,SE,,418,180k,Berth 02,MC1,Bow
+50.0,SSE,,578,180k,Berth 02,MC1,Bow
+50.0,S,,619,180k,Berth 02,MC1,Bow
+50.0,SSW,,617,180k,Berth 02,MC1,Bow
+50.0,SW,,501,180k,Berth 02,MC1,Bow
+50.0,WSW,,304,180k,Berth 02,MC1,Bow
+50.0,W,,134,180k,Berth 02,MC1,Bow
+50.0,WNW,,84,180k,Berth 02,MC1,Bow
+50.0,NW,,70,180k,Berth 02,MC1,Bow
+50.0,NNW,,64,180k,Berth 02,MC1,Bow
 30.0,N,,106,180k,Berth 02,MC1,Bow
 30.0,NNE,,118,180k,Berth 02,MC1,Bow
 30.0,NE,,121,180k,Berth 02,MC1,Bow
@@ -41,6 +57,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,121,180k,Berth 02,MC1,Bow
 9.0,E,9,173,180k,Berth 02,MC1,Bow
 9.0,E,10,169,180k,Berth 02,MC1,Bow
+50.0,N,,48,180k,Berth 02,MC1,Fwd Spring
+50.0,NNE,,66,180k,Berth 02,MC1,Fwd Spring
+50.0,NE,,95,180k,Berth 02,MC1,Fwd Spring
+50.0,ENE,,115,180k,Berth 02,MC1,Fwd Spring
+50.0,E,,109,180k,Berth 02,MC1,Fwd Spring
+50.0,ESE,,128,180k,Berth 02,MC1,Fwd Spring
+50.0,SE,,225,180k,Berth 02,MC1,Fwd Spring
+50.0,SSE,,287,180k,Berth 02,MC1,Fwd Spring
+50.0,S,,270,180k,Berth 02,MC1,Fwd Spring
+50.0,SSW,,242,180k,Berth 02,MC1,Fwd Spring
+50.0,SW,,220,180k,Berth 02,MC1,Fwd Spring
+50.0,WSW,,144,180k,Berth 02,MC1,Fwd Spring
+50.0,W,,45,180k,Berth 02,MC1,Fwd Spring
+50.0,WNW,,25,180k,Berth 02,MC1,Fwd Spring
+50.0,NW,,32,180k,Berth 02,MC1,Fwd Spring
+50.0,NNW,,40,180k,Berth 02,MC1,Fwd Spring
 30.0,N,,72,180k,Berth 02,MC1,Fwd Spring
 30.0,NNE,,87,180k,Berth 02,MC1,Fwd Spring
 30.0,NE,,104,180k,Berth 02,MC1,Fwd Spring
@@ -83,6 +115,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,104,180k,Berth 02,MC1,Fwd Spring
 9.0,E,9,147,180k,Berth 02,MC1,Fwd Spring
 9.0,E,10,158,180k,Berth 02,MC1,Fwd Spring
+50.0,N,,42,180k,Berth 02,MC1,Aft Spring
+50.0,NNE,,34,180k,Berth 02,MC1,Aft Spring
+50.0,NE,,27,180k,Berth 02,MC1,Aft Spring
+50.0,ENE,,25,180k,Berth 02,MC1,Aft Spring
+50.0,E,,46,180k,Berth 02,MC1,Aft Spring
+50.0,ESE,,261,180k,Berth 02,MC1,Aft Spring
+50.0,SE,,368,180k,Berth 02,MC1,Aft Spring
+50.0,SSE,,369,180k,Berth 02,MC1,Aft Spring
+50.0,S,,277,180k,Berth 02,MC1,Aft Spring
+50.0,SSW,,250,180k,Berth 02,MC1,Aft Spring
+50.0,SW,,240,180k,Berth 02,MC1,Aft Spring
+50.0,WSW,,193,180k,Berth 02,MC1,Aft Spring
+50.0,W,,119,180k,Berth 02,MC1,Aft Spring
+50.0,WNW,,67,180k,Berth 02,MC1,Aft Spring
+50.0,NW,,57,180k,Berth 02,MC1,Aft Spring
+50.0,NNW,,49,180k,Berth 02,MC1,Aft Spring
 30.0,N,,50,180k,Berth 02,MC1,Aft Spring
 30.0,NNE,,45,180k,Berth 02,MC1,Aft Spring
 30.0,NE,,43,180k,Berth 02,MC1,Aft Spring
@@ -125,6 +173,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,88,180k,Berth 02,MC1,Aft Spring
 9.0,E,9,125,180k,Berth 02,MC1,Aft Spring
 9.0,E,10,150,180k,Berth 02,MC1,Aft Spring
+50.0,N,,48,180k,Berth 02,MC1,Stern
+50.0,NNE,,57,180k,Berth 02,MC1,Stern
+50.0,NE,,70,180k,Berth 02,MC1,Stern
+50.0,ENE,,71,180k,Berth 02,MC1,Stern
+50.0,E,,97,180k,Berth 02,MC1,Stern
+50.0,ESE,,489,180k,Berth 02,MC1,Stern
+50.0,SE,,709,180k,Berth 02,MC1,Stern
+50.0,SSE,,793,180k,Berth 02,MC1,Stern
+50.0,S,,750,180k,Berth 02,MC1,Stern
+50.0,SSW,,706,180k,Berth 02,MC1,Stern
+50.0,SW,,562,180k,Berth 02,MC1,Stern
+50.0,WSW,,324,180k,Berth 02,MC1,Stern
+50.0,W,,86,180k,Berth 02,MC1,Stern
+50.0,WNW,,44,180k,Berth 02,MC1,Stern
+50.0,NW,,44,180k,Berth 02,MC1,Stern
+50.0,NNW,,49,180k,Berth 02,MC1,Stern
 30.0,N,,80,180k,Berth 02,MC1,Stern
 30.0,NNE,,80,180k,Berth 02,MC1,Stern
 30.0,NE,,76,180k,Berth 02,MC1,Stern
@@ -167,6 +231,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,123,180k,Berth 02,MC1,Stern
 9.0,E,9,169,180k,Berth 02,MC1,Stern
 9.0,E,10,189,180k,Berth 02,MC1,Stern
+50.0,N,,64,180k,Berth 02,MC2,Bow
+50.0,NNE,,78,180k,Berth 02,MC2,Bow
+50.0,NE,,103,180k,Berth 02,MC2,Bow
+50.0,ENE,,112,180k,Berth 02,MC2,Bow
+50.0,E,,78,180k,Berth 02,MC2,Bow
+50.0,ESE,,310,180k,Berth 02,MC2,Bow
+50.0,SE,,494,180k,Berth 02,MC2,Bow
+50.0,SSE,,733,180k,Berth 02,MC2,Bow
+50.0,S,,880,180k,Berth 02,MC2,Bow
+50.0,SSW,,844,180k,Berth 02,MC2,Bow
+50.0,SW,,675,180k,Berth 02,MC2,Bow
+50.0,WSW,,394,180k,Berth 02,MC2,Bow
+50.0,W,,137,180k,Berth 02,MC2,Bow
+50.0,WNW,,81,180k,Berth 02,MC2,Bow
+50.0,NW,,70,180k,Berth 02,MC2,Bow
+50.0,NNW,,65,180k,Berth 02,MC2,Bow
 30.0,N,,114,180k,Berth 02,MC2,Bow
 30.0,NNE,,120,180k,Berth 02,MC2,Bow
 30.0,NE,,136,180k,Berth 02,MC2,Bow
@@ -209,6 +289,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,155,180k,Berth 02,MC2,Bow
 9.0,E,9,160,180k,Berth 02,MC2,Bow
 9.0,E,10,228,180k,Berth 02,MC2,Bow
+50.0,N,,49,180k,Berth 02,MC2,Fwd Spring
+50.0,NNE,,68,180k,Berth 02,MC2,Fwd Spring
+50.0,NE,,100,180k,Berth 02,MC2,Fwd Spring
+50.0,ENE,,128,180k,Berth 02,MC2,Fwd Spring
+50.0,E,,118,180k,Berth 02,MC2,Fwd Spring
+50.0,ESE,,210,180k,Berth 02,MC2,Fwd Spring
+50.0,SE,,324,180k,Berth 02,MC2,Fwd Spring
+50.0,SSE,,408,180k,Berth 02,MC2,Fwd Spring
+50.0,S,,395,180k,Berth 02,MC2,Fwd Spring
+50.0,SSW,,367,180k,Berth 02,MC2,Fwd Spring
+50.0,SW,,345,180k,Berth 02,MC2,Fwd Spring
+50.0,WSW,,187,180k,Berth 02,MC2,Fwd Spring
+50.0,W,,54,180k,Berth 02,MC2,Fwd Spring
+50.0,WNW,,26,180k,Berth 02,MC2,Fwd Spring
+50.0,NW,,34,180k,Berth 02,MC2,Fwd Spring
+50.0,NNW,,42,180k,Berth 02,MC2,Fwd Spring
 30.0,N,,72,180k,Berth 02,MC2,Fwd Spring
 30.0,NNE,,82,180k,Berth 02,MC2,Fwd Spring
 30.0,NE,,114,180k,Berth 02,MC2,Fwd Spring
@@ -251,6 +347,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,105,180k,Berth 02,MC2,Fwd Spring
 9.0,E,9,144,180k,Berth 02,MC2,Fwd Spring
 9.0,E,10,185,180k,Berth 02,MC2,Fwd Spring
+50.0,N,,42,180k,Berth 02,MC2,Aft Spring
+50.0,NNE,,33,180k,Berth 02,MC2,Aft Spring
+50.0,NE,,26,180k,Berth 02,MC2,Aft Spring
+50.0,ENE,,22,180k,Berth 02,MC2,Aft Spring
+50.0,E,,45,180k,Berth 02,MC2,Aft Spring
+50.0,ESE,,245,180k,Berth 02,MC2,Aft Spring
+50.0,SE,,335,180k,Berth 02,MC2,Aft Spring
+50.0,SSE,,354,180k,Berth 02,MC2,Aft Spring
+50.0,S,,309,180k,Berth 02,MC2,Aft Spring
+50.0,SSW,,250,180k,Berth 02,MC2,Aft Spring
+50.0,SW,,242,180k,Berth 02,MC2,Aft Spring
+50.0,WSW,,153,180k,Berth 02,MC2,Aft Spring
+50.0,W,,114,180k,Berth 02,MC2,Aft Spring
+50.0,WNW,,65,180k,Berth 02,MC2,Aft Spring
+50.0,NW,,55,180k,Berth 02,MC2,Aft Spring
+50.0,NNW,,47,180k,Berth 02,MC2,Aft Spring
 30.0,N,,48,180k,Berth 02,MC2,Aft Spring
 30.0,NNE,,43,180k,Berth 02,MC2,Aft Spring
 30.0,NE,,43,180k,Berth 02,MC2,Aft Spring
@@ -293,6 +405,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,76,180k,Berth 02,MC2,Aft Spring
 9.0,E,9,108,180k,Berth 02,MC2,Aft Spring
 9.0,E,10,129,180k,Berth 02,MC2,Aft Spring
+50.0,N,,49,180k,Berth 02,MC2,Stern
+50.0,NNE,,57,180k,Berth 02,MC2,Stern
+50.0,NE,,67,180k,Berth 02,MC2,Stern
+50.0,ENE,,72,180k,Berth 02,MC2,Stern
+50.0,E,,92,180k,Berth 02,MC2,Stern
+50.0,ESE,,528,180k,Berth 02,MC2,Stern
+50.0,SE,,683,180k,Berth 02,MC2,Stern
+50.0,SSE,,765,180k,Berth 02,MC2,Stern
+50.0,S,,801,180k,Berth 02,MC2,Stern
+50.0,SSW,,707,180k,Berth 02,MC2,Stern
+50.0,SW,,553,180k,Berth 02,MC2,Stern
+50.0,WSW,,308,180k,Berth 02,MC2,Stern
+50.0,W,,74,180k,Berth 02,MC2,Stern
+50.0,WNW,,44,180k,Berth 02,MC2,Stern
+50.0,NW,,47,180k,Berth 02,MC2,Stern
+50.0,NNW,,50,180k,Berth 02,MC2,Stern
 30.0,N,,75,180k,Berth 02,MC2,Stern
 30.0,NNE,,72,180k,Berth 02,MC2,Stern
 30.0,NE,,68,180k,Berth 02,MC2,Stern
@@ -335,6 +463,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,126,180k,Berth 02,MC2,Stern
 9.0,E,9,129,180k,Berth 02,MC2,Stern
 9.0,E,10,221,180k,Berth 02,MC2,Stern
+50.0,N,,552,180k,Berth 03,MC1,Bow
+50.0,NNE,,477,180k,Berth 03,MC1,Bow
+50.0,NE,,351,180k,Berth 03,MC1,Bow
+50.0,ENE,,202,180k,Berth 03,MC1,Bow
+50.0,E,,69,180k,Berth 03,MC1,Bow
+50.0,ESE,,81,180k,Berth 03,MC1,Bow
+50.0,SE,,80,180k,Berth 03,MC1,Bow
+50.0,SSE,,66,180k,Berth 03,MC1,Bow
+50.0,S,,59,180k,Berth 03,MC1,Bow
+50.0,SSW,,56,180k,Berth 03,MC1,Bow
+50.0,SW,,62,180k,Berth 03,MC1,Bow
+50.0,WSW,,74,180k,Berth 03,MC1,Bow
+50.0,W,,124,180k,Berth 03,MC1,Bow
+50.0,WNW,,281,180k,Berth 03,MC1,Bow
+50.0,NW,,477,180k,Berth 03,MC1,Bow
+50.0,NNW,,527,180k,Berth 03,MC1,Bow
 30.0,N,,292,180k,Berth 03,MC1,Bow
 30.0,NNE,,249,180k,Berth 03,MC1,Bow
 30.0,NE,,192,180k,Berth 03,MC1,Bow
@@ -377,6 +521,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,131,180k,Berth 03,MC1,Bow
 9.0,E,9,172,180k,Berth 03,MC1,Bow
 9.0,E,10,161,180k,Berth 03,MC1,Bow
+50.0,N,,530,180k,Berth 03,MC1,Fwd Spring
+50.0,NNE,,480,180k,Berth 03,MC1,Fwd Spring
+50.0,NE,,354,180k,Berth 03,MC1,Fwd Spring
+50.0,ENE,,202,180k,Berth 03,MC1,Fwd Spring
+50.0,E,,103,180k,Berth 03,MC1,Fwd Spring
+50.0,ESE,,113,180k,Berth 03,MC1,Fwd Spring
+50.0,SE,,83,180k,Berth 03,MC1,Fwd Spring
+50.0,SSE,,58,180k,Berth 03,MC1,Fwd Spring
+50.0,S,,44,180k,Berth 03,MC1,Fwd Spring
+50.0,SSW,,37,180k,Berth 03,MC1,Fwd Spring
+50.0,SW,,31,180k,Berth 03,MC1,Fwd Spring
+50.0,WSW,,25,180k,Berth 03,MC1,Fwd Spring
+50.0,W,,42,180k,Berth 03,MC1,Fwd Spring
+50.0,WNW,,192,180k,Berth 03,MC1,Fwd Spring
+50.0,NW,,375,180k,Berth 03,MC1,Fwd Spring
+50.0,NNW,,423,180k,Berth 03,MC1,Fwd Spring
 30.0,N,,246,180k,Berth 03,MC1,Fwd Spring
 30.0,NNE,,240,180k,Berth 03,MC1,Fwd Spring
 30.0,NE,,190,180k,Berth 03,MC1,Fwd Spring
@@ -419,6 +579,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,88,180k,Berth 03,MC1,Fwd Spring
 9.0,E,9,149,180k,Berth 03,MC1,Fwd Spring
 9.0,E,10,180,180k,Berth 03,MC1,Fwd Spring
+50.0,N,,921,180k,Berth 03,MC1,Aft Spring
+50.0,NNE,,967,180k,Berth 03,MC1,Aft Spring
+50.0,NE,,922,180k,Berth 03,MC1,Aft Spring
+50.0,ENE,,587,180k,Berth 03,MC1,Aft Spring
+50.0,E,,60,180k,Berth 03,MC1,Aft Spring
+50.0,ESE,,17,180k,Berth 03,MC1,Aft Spring
+50.0,SE,,17,180k,Berth 03,MC1,Aft Spring
+50.0,SSE,,28,180k,Berth 03,MC1,Aft Spring
+50.0,S,,42,180k,Berth 03,MC1,Aft Spring
+50.0,SSW,,51,180k,Berth 03,MC1,Aft Spring
+50.0,SW,,64,180k,Berth 03,MC1,Aft Spring
+50.0,WSW,,88,180k,Berth 03,MC1,Aft Spring
+50.0,W,,193,180k,Berth 03,MC1,Aft Spring
+50.0,WNW,,394,180k,Berth 03,MC1,Aft Spring
+50.0,NW,,689,180k,Berth 03,MC1,Aft Spring
+50.0,NNW,,765,180k,Berth 03,MC1,Aft Spring
 30.0,N,,470,180k,Berth 03,MC1,Aft Spring
 30.0,NNE,,534,180k,Berth 03,MC1,Aft Spring
 30.0,NE,,457,180k,Berth 03,MC1,Aft Spring
@@ -461,6 +637,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,153,180k,Berth 03,MC1,Aft Spring
 9.0,E,9,243,180k,Berth 03,MC1,Aft Spring
 9.0,E,10,296,180k,Berth 03,MC1,Aft Spring
+50.0,N,,594,180k,Berth 03,MC1,Stern
+50.0,NNE,,606,180k,Berth 03,MC1,Stern
+50.0,NE,,549,180k,Berth 03,MC1,Stern
+50.0,ENE,,404,180k,Berth 03,MC1,Stern
+50.0,E,,87,180k,Berth 03,MC1,Stern
+50.0,ESE,,70,180k,Berth 03,MC1,Stern
+50.0,SE,,61,180k,Berth 03,MC1,Stern
+50.0,SSE,,50,180k,Berth 03,MC1,Stern
+50.0,S,,45,180k,Berth 03,MC1,Stern
+50.0,SSW,,43,180k,Berth 03,MC1,Stern
+50.0,SW,,43,180k,Berth 03,MC1,Stern
+50.0,WSW,,42,180k,Berth 03,MC1,Stern
+50.0,W,,78,180k,Berth 03,MC1,Stern
+50.0,WNW,,256,180k,Berth 03,MC1,Stern
+50.0,NW,,475,180k,Berth 03,MC1,Stern
+50.0,NNW,,554,180k,Berth 03,MC1,Stern
 30.0,N,,325,180k,Berth 03,MC1,Stern
 30.0,NNE,,325,180k,Berth 03,MC1,Stern
 30.0,NE,,289,180k,Berth 03,MC1,Stern
@@ -503,6 +695,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,133,180k,Berth 03,MC1,Stern
 9.0,E,9,181,180k,Berth 03,MC1,Stern
 9.0,E,10,185,180k,Berth 03,MC1,Stern
+50.0,N,,727,180k,Berth 03,MC2,Bow
+50.0,NNE,,673,180k,Berth 03,MC2,Bow
+50.0,NE,,466,180k,Berth 03,MC2,Bow
+50.0,ENE,,282,180k,Berth 03,MC2,Bow
+50.0,E,,73,180k,Berth 03,MC2,Bow
+50.0,ESE,,113,180k,Berth 03,MC2,Bow
+50.0,SE,,85,180k,Berth 03,MC2,Bow
+50.0,SSE,,66,180k,Berth 03,MC2,Bow
+50.0,S,,57,180k,Berth 03,MC2,Bow
+50.0,SSW,,58,180k,Berth 03,MC2,Bow
+50.0,SW,,63,180k,Berth 03,MC2,Bow
+50.0,WSW,,73,180k,Berth 03,MC2,Bow
+50.0,W,,122,180k,Berth 03,MC2,Bow
+50.0,WNW,,397,180k,Berth 03,MC2,Bow
+50.0,NW,,695,180k,Berth 03,MC2,Bow
+50.0,NNW,,728,180k,Berth 03,MC2,Bow
 30.0,N,,443,180k,Berth 03,MC2,Bow
 30.0,NNE,,356,180k,Berth 03,MC2,Bow
 30.0,NE,,285,180k,Berth 03,MC2,Bow
@@ -545,6 +753,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,141,180k,Berth 03,MC2,Bow
 9.0,E,9,199,180k,Berth 03,MC2,Bow
 9.0,E,10,248,180k,Berth 03,MC2,Bow
+50.0,N,,568,180k,Berth 03,MC2,Fwd Spring
+50.0,NNE,,545,180k,Berth 03,MC2,Fwd Spring
+50.0,NE,,434,180k,Berth 03,MC2,Fwd Spring
+50.0,ENE,,246,180k,Berth 03,MC2,Fwd Spring
+50.0,E,,111,180k,Berth 03,MC2,Fwd Spring
+50.0,ESE,,126,180k,Berth 03,MC2,Fwd Spring
+50.0,SE,,85,180k,Berth 03,MC2,Fwd Spring
+50.0,SSE,,58,180k,Berth 03,MC2,Fwd Spring
+50.0,S,,45,180k,Berth 03,MC2,Fwd Spring
+50.0,SSW,,39,180k,Berth 03,MC2,Fwd Spring
+50.0,SW,,33,180k,Berth 03,MC2,Fwd Spring
+50.0,WSW,,30,180k,Berth 03,MC2,Fwd Spring
+50.0,W,,50,180k,Berth 03,MC2,Fwd Spring
+50.0,WNW,,232,180k,Berth 03,MC2,Fwd Spring
+50.0,NW,,467,180k,Berth 03,MC2,Fwd Spring
+50.0,NNW,,543,180k,Berth 03,MC2,Fwd Spring
 30.0,N,,290,180k,Berth 03,MC2,Fwd Spring
 30.0,NNE,,262,180k,Berth 03,MC2,Fwd Spring
 30.0,NE,,222,180k,Berth 03,MC2,Fwd Spring
@@ -587,6 +811,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,123,180k,Berth 03,MC2,Fwd Spring
 9.0,E,9,162,180k,Berth 03,MC2,Fwd Spring
 9.0,E,10,197,180k,Berth 03,MC2,Fwd Spring
+50.0,N,,905,180k,Berth 03,MC2,Aft Spring
+50.0,NNE,,962,180k,Berth 03,MC2,Aft Spring
+50.0,NE,,969,180k,Berth 03,MC2,Aft Spring
+50.0,ENE,,569,180k,Berth 03,MC2,Aft Spring
+50.0,E,,53,180k,Berth 03,MC2,Aft Spring
+50.0,ESE,,11,180k,Berth 03,MC2,Aft Spring
+50.0,SE,,16,180k,Berth 03,MC2,Aft Spring
+50.0,SSE,,28,180k,Berth 03,MC2,Aft Spring
+50.0,S,,40,180k,Berth 03,MC2,Aft Spring
+50.0,SSW,,52,180k,Berth 03,MC2,Aft Spring
+50.0,SW,,63,180k,Berth 03,MC2,Aft Spring
+50.0,WSW,,85,180k,Berth 03,MC2,Aft Spring
+50.0,W,,177,180k,Berth 03,MC2,Aft Spring
+50.0,WNW,,361,180k,Berth 03,MC2,Aft Spring
+50.0,NW,,720,180k,Berth 03,MC2,Aft Spring
+50.0,NNW,,755,180k,Berth 03,MC2,Aft Spring
 30.0,N,,515,180k,Berth 03,MC2,Aft Spring
 30.0,NNE,,511,180k,Berth 03,MC2,Aft Spring
 30.0,NE,,476,180k,Berth 03,MC2,Aft Spring
@@ -629,6 +869,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,134,180k,Berth 03,MC2,Aft Spring
 9.0,E,9,180,180k,Berth 03,MC2,Aft Spring
 9.0,E,10,239,180k,Berth 03,MC2,Aft Spring
+50.0,N,,553,180k,Berth 03,MC2,Stern
+50.0,NNE,,610,180k,Berth 03,MC2,Stern
+50.0,NE,,584,180k,Berth 03,MC2,Stern
+50.0,ENE,,390,180k,Berth 03,MC2,Stern
+50.0,E,,90,180k,Berth 03,MC2,Stern
+50.0,ESE,,71,180k,Berth 03,MC2,Stern
+50.0,SE,,58,180k,Berth 03,MC2,Stern
+50.0,SSE,,51,180k,Berth 03,MC2,Stern
+50.0,S,,44,180k,Berth 03,MC2,Stern
+50.0,SSW,,46,180k,Berth 03,MC2,Stern
+50.0,SW,,44,180k,Berth 03,MC2,Stern
+50.0,WSW,,39,180k,Berth 03,MC2,Stern
+50.0,W,,66,180k,Berth 03,MC2,Stern
+50.0,WNW,,251,180k,Berth 03,MC2,Stern
+50.0,NW,,475,180k,Berth 03,MC2,Stern
+50.0,NNW,,498,180k,Berth 03,MC2,Stern
 30.0,N,,344,180k,Berth 03,MC2,Stern
 30.0,NNE,,328,180k,Berth 03,MC2,Stern
 30.0,NE,,302,180k,Berth 03,MC2,Stern
@@ -671,6 +927,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,116,180k,Berth 03,MC2,Stern
 9.0,E,9,137,180k,Berth 03,MC2,Stern
 9.0,E,10,187,180k,Berth 03,MC2,Stern
+50.0,N,,61,180k,Berth 04,MC1,Bow
+50.0,NNE,,57,180k,Berth 04,MC1,Bow
+50.0,NE,,65,180k,Berth 04,MC1,Bow
+50.0,ENE,,58,180k,Berth 04,MC1,Bow
+50.0,E,,66,180k,Berth 04,MC1,Bow
+50.0,ESE,,203,180k,Berth 04,MC1,Bow
+50.0,SE,,394,180k,Berth 04,MC1,Bow
+50.0,SSE,,560,180k,Berth 04,MC1,Bow
+50.0,S,,661,180k,Berth 04,MC1,Bow
+50.0,SSW,,652,180k,Berth 04,MC1,Bow
+50.0,SW,,549,180k,Berth 04,MC1,Bow
+50.0,WSW,,279,180k,Berth 04,MC1,Bow
+50.0,W,,130,180k,Berth 04,MC1,Bow
+50.0,WNW,,85,180k,Berth 04,MC1,Bow
+50.0,NW,,65,180k,Berth 04,MC1,Bow
+50.0,NNW,,64,180k,Berth 04,MC1,Bow
 30.0,N,,75,180k,Berth 04,MC1,Bow
 30.0,NNE,,79,180k,Berth 04,MC1,Bow
 30.0,NE,,94,180k,Berth 04,MC1,Bow
@@ -713,6 +985,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,155,180k,Berth 04,MC1,Bow
 9.0,E,9,237,180k,Berth 04,MC1,Bow
 9.0,E,10,294,180k,Berth 04,MC1,Bow
+50.0,N,,46,180k,Berth 04,MC1,Fwd Spring
+50.0,NNE,,57,180k,Berth 04,MC1,Fwd Spring
+50.0,NE,,71,180k,Berth 04,MC1,Fwd Spring
+50.0,ENE,,79,180k,Berth 04,MC1,Fwd Spring
+50.0,E,,88,180k,Berth 04,MC1,Fwd Spring
+50.0,ESE,,95,180k,Berth 04,MC1,Fwd Spring
+50.0,SE,,161,180k,Berth 04,MC1,Fwd Spring
+50.0,SSE,,197,180k,Berth 04,MC1,Fwd Spring
+50.0,S,,200,180k,Berth 04,MC1,Fwd Spring
+50.0,SSW,,200,180k,Berth 04,MC1,Fwd Spring
+50.0,SW,,156,180k,Berth 04,MC1,Fwd Spring
+50.0,WSW,,90,180k,Berth 04,MC1,Fwd Spring
+50.0,W,,33,180k,Berth 04,MC1,Fwd Spring
+50.0,WNW,,24,180k,Berth 04,MC1,Fwd Spring
+50.0,NW,,30,180k,Berth 04,MC1,Fwd Spring
+50.0,NNW,,37,180k,Berth 04,MC1,Fwd Spring
 30.0,N,,48,180k,Berth 04,MC1,Fwd Spring
 30.0,NNE,,54,180k,Berth 04,MC1,Fwd Spring
 30.0,NE,,70,180k,Berth 04,MC1,Fwd Spring
@@ -755,6 +1043,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,81,180k,Berth 04,MC1,Fwd Spring
 9.0,E,9,105,180k,Berth 04,MC1,Fwd Spring
 9.0,E,10,116,180k,Berth 04,MC1,Fwd Spring
+50.0,N,,44,180k,Berth 04,MC1,Aft Spring
+50.0,NNE,,36,180k,Berth 04,MC1,Aft Spring
+50.0,NE,,28,180k,Berth 04,MC1,Aft Spring
+50.0,ENE,,25,180k,Berth 04,MC1,Aft Spring
+50.0,E,,41,180k,Berth 04,MC1,Aft Spring
+50.0,ESE,,203,180k,Berth 04,MC1,Aft Spring
+50.0,SE,,369,180k,Berth 04,MC1,Aft Spring
+50.0,SSE,,360,180k,Berth 04,MC1,Aft Spring
+50.0,S,,264,180k,Berth 04,MC1,Aft Spring
+50.0,SSW,,190,180k,Berth 04,MC1,Aft Spring
+50.0,SW,,156,180k,Berth 04,MC1,Aft Spring
+50.0,WSW,,137,180k,Berth 04,MC1,Aft Spring
+50.0,W,,137,180k,Berth 04,MC1,Aft Spring
+50.0,WNW,,80,180k,Berth 04,MC1,Aft Spring
+50.0,NW,,62,180k,Berth 04,MC1,Aft Spring
+50.0,NNW,,53,180k,Berth 04,MC1,Aft Spring
 30.0,N,,57,180k,Berth 04,MC1,Aft Spring
 30.0,NNE,,49,180k,Berth 04,MC1,Aft Spring
 30.0,NE,,49,180k,Berth 04,MC1,Aft Spring
@@ -797,6 +1101,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,90,180k,Berth 04,MC1,Aft Spring
 9.0,E,9,123,180k,Berth 04,MC1,Aft Spring
 9.0,E,10,142,180k,Berth 04,MC1,Aft Spring
+50.0,N,,56,180k,Berth 04,MC1,Stern
+50.0,NNE,,63,180k,Berth 04,MC1,Stern
+50.0,NE,,76,180k,Berth 04,MC1,Stern
+50.0,ENE,,83,180k,Berth 04,MC1,Stern
+50.0,E,,103,180k,Berth 04,MC1,Stern
+50.0,ESE,,434,180k,Berth 04,MC1,Stern
+50.0,SE,,673,180k,Berth 04,MC1,Stern
+50.0,SSE,,759,180k,Berth 04,MC1,Stern
+50.0,S,,760,180k,Berth 04,MC1,Stern
+50.0,SSW,,711,180k,Berth 04,MC1,Stern
+50.0,SW,,537,180k,Berth 04,MC1,Stern
+50.0,WSW,,279,180k,Berth 04,MC1,Stern
+50.0,W,,85,180k,Berth 04,MC1,Stern
+50.0,WNW,,70,180k,Berth 04,MC1,Stern
+50.0,NW,,62,180k,Berth 04,MC1,Stern
+50.0,NNW,,66,180k,Berth 04,MC1,Stern
 30.0,N,,97,180k,Berth 04,MC1,Stern
 30.0,NNE,,91,180k,Berth 04,MC1,Stern
 30.0,NE,,96,180k,Berth 04,MC1,Stern
@@ -839,6 +1159,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,167,180k,Berth 04,MC1,Stern
 9.0,E,9,231,180k,Berth 04,MC1,Stern
 9.0,E,10,278,180k,Berth 04,MC1,Stern
+50.0,N,,59,180k,Berth 04,MC2,Bow
+50.0,NNE,,54,180k,Berth 04,MC2,Bow
+50.0,NE,,81,180k,Berth 04,MC2,Bow
+50.0,ENE,,62,180k,Berth 04,MC2,Bow
+50.0,E,,75,180k,Berth 04,MC2,Bow
+50.0,ESE,,246,180k,Berth 04,MC2,Bow
+50.0,SE,,497,180k,Berth 04,MC2,Bow
+50.0,SSE,,705,180k,Berth 04,MC2,Bow
+50.0,S,,838,180k,Berth 04,MC2,Bow
+50.0,SSW,,868,180k,Berth 04,MC2,Bow
+50.0,SW,,699,180k,Berth 04,MC2,Bow
+50.0,WSW,,417,180k,Berth 04,MC2,Bow
+50.0,W,,135,180k,Berth 04,MC2,Bow
+50.0,WNW,,79,180k,Berth 04,MC2,Bow
+50.0,NW,,65,180k,Berth 04,MC2,Bow
+50.0,NNW,,61,180k,Berth 04,MC2,Bow
 30.0,N,,83,180k,Berth 04,MC2,Bow
 30.0,NNE,,88,180k,Berth 04,MC2,Bow
 30.0,NE,,107,180k,Berth 04,MC2,Bow
@@ -881,6 +1217,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,156,180k,Berth 04,MC2,Bow
 9.0,E,9,229,180k,Berth 04,MC2,Bow
 9.0,E,10,279,180k,Berth 04,MC2,Bow
+50.0,N,,48,180k,Berth 04,MC2,Fwd Spring
+50.0,NNE,,58,180k,Berth 04,MC2,Fwd Spring
+50.0,NE,,73,180k,Berth 04,MC2,Fwd Spring
+50.0,ENE,,81,180k,Berth 04,MC2,Fwd Spring
+50.0,E,,90,180k,Berth 04,MC2,Fwd Spring
+50.0,ESE,,127,180k,Berth 04,MC2,Fwd Spring
+50.0,SE,,243,180k,Berth 04,MC2,Fwd Spring
+50.0,SSE,,269,180k,Berth 04,MC2,Fwd Spring
+50.0,S,,284,180k,Berth 04,MC2,Fwd Spring
+50.0,SSW,,255,180k,Berth 04,MC2,Fwd Spring
+50.0,SW,,221,180k,Berth 04,MC2,Fwd Spring
+50.0,WSW,,156,180k,Berth 04,MC2,Fwd Spring
+50.0,W,,47,180k,Berth 04,MC2,Fwd Spring
+50.0,WNW,,27,180k,Berth 04,MC2,Fwd Spring
+50.0,NW,,33,180k,Berth 04,MC2,Fwd Spring
+50.0,NNW,,40,180k,Berth 04,MC2,Fwd Spring
 30.0,N,,51,180k,Berth 04,MC2,Fwd Spring
 30.0,NNE,,57,180k,Berth 04,MC2,Fwd Spring
 30.0,NE,,73,180k,Berth 04,MC2,Fwd Spring
@@ -923,6 +1275,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,102,180k,Berth 04,MC2,Fwd Spring
 9.0,E,9,131,180k,Berth 04,MC2,Fwd Spring
 9.0,E,10,163,180k,Berth 04,MC2,Fwd Spring
+50.0,N,,43,180k,Berth 04,MC2,Aft Spring
+50.0,NNE,,35,180k,Berth 04,MC2,Aft Spring
+50.0,NE,,27,180k,Berth 04,MC2,Aft Spring
+50.0,ENE,,25,180k,Berth 04,MC2,Aft Spring
+50.0,E,,41,180k,Berth 04,MC2,Aft Spring
+50.0,ESE,,185,180k,Berth 04,MC2,Aft Spring
+50.0,SE,,344,180k,Berth 04,MC2,Aft Spring
+50.0,SSE,,359,180k,Berth 04,MC2,Aft Spring
+50.0,S,,262,180k,Berth 04,MC2,Aft Spring
+50.0,SSW,,163,180k,Berth 04,MC2,Aft Spring
+50.0,SW,,150,180k,Berth 04,MC2,Aft Spring
+50.0,WSW,,154,180k,Berth 04,MC2,Aft Spring
+50.0,W,,129,180k,Berth 04,MC2,Aft Spring
+50.0,WNW,,74,180k,Berth 04,MC2,Aft Spring
+50.0,NW,,60,180k,Berth 04,MC2,Aft Spring
+50.0,NNW,,51,180k,Berth 04,MC2,Aft Spring
 30.0,N,,54,180k,Berth 04,MC2,Aft Spring
 30.0,NNE,,47,180k,Berth 04,MC2,Aft Spring
 30.0,NE,,43,180k,Berth 04,MC2,Aft Spring
@@ -965,6 +1333,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,82,180k,Berth 04,MC2,Aft Spring
 9.0,E,9,115,180k,Berth 04,MC2,Aft Spring
 9.0,E,10,143,180k,Berth 04,MC2,Aft Spring
+50.0,N,,60,180k,Berth 04,MC2,Stern
+50.0,NNE,,63,180k,Berth 04,MC2,Stern
+50.0,NE,,80,180k,Berth 04,MC2,Stern
+50.0,ENE,,77,180k,Berth 04,MC2,Stern
+50.0,E,,99,180k,Berth 04,MC2,Stern
+50.0,ESE,,442,180k,Berth 04,MC2,Stern
+50.0,SE,,668,180k,Berth 04,MC2,Stern
+50.0,SSE,,734,180k,Berth 04,MC2,Stern
+50.0,S,,655,180k,Berth 04,MC2,Stern
+50.0,SSW,,596,180k,Berth 04,MC2,Stern
+50.0,SW,,488,180k,Berth 04,MC2,Stern
+50.0,WSW,,279,180k,Berth 04,MC2,Stern
+50.0,W,,90,180k,Berth 04,MC2,Stern
+50.0,WNW,,61,180k,Berth 04,MC2,Stern
+50.0,NW,,64,180k,Berth 04,MC2,Stern
+50.0,NNW,,64,180k,Berth 04,MC2,Stern
 30.0,N,,96,180k,Berth 04,MC2,Stern
 30.0,NNE,,86,180k,Berth 04,MC2,Stern
 30.0,NE,,92,180k,Berth 04,MC2,Stern
@@ -1007,6 +1391,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,163,180k,Berth 04,MC2,Stern
 9.0,E,9,231,180k,Berth 04,MC2,Stern
 9.0,E,10,280,180k,Berth 04,MC2,Stern
+50.0,N,,705,180k,Berth 05,MC1,Bow
+50.0,NNE,,574,180k,Berth 05,MC1,Bow
+50.0,NE,,366,180k,Berth 05,MC1,Bow
+50.0,ENE,,182,180k,Berth 05,MC1,Bow
+50.0,E,,64,180k,Berth 05,MC1,Bow
+50.0,ESE,,52,180k,Berth 05,MC1,Bow
+50.0,SE,,52,180k,Berth 05,MC1,Bow
+50.0,SSE,,48,180k,Berth 05,MC1,Bow
+50.0,S,,46,180k,Berth 05,MC1,Bow
+50.0,SSW,,53,180k,Berth 05,MC1,Bow
+50.0,SW,,59,180k,Berth 05,MC1,Bow
+50.0,WSW,,77,180k,Berth 05,MC1,Bow
+50.0,W,,132,180k,Berth 05,MC1,Bow
+50.0,WNW,,311,180k,Berth 05,MC1,Bow
+50.0,NW,,524,180k,Berth 05,MC1,Bow
+50.0,NNW,,715,180k,Berth 05,MC1,Bow
 30.0,N,,314,180k,Berth 05,MC1,Bow
 30.0,NNE,,264,180k,Berth 05,MC1,Bow
 30.0,NE,,207,180k,Berth 05,MC1,Bow
@@ -1049,6 +1449,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,161,180k,Berth 05,MC1,Bow
 9.0,E,9,215,180k,Berth 05,MC1,Bow
 9.0,E,10,261,180k,Berth 05,MC1,Bow
+50.0,N,,218,180k,Berth 05,MC1,Fwd Spring
+50.0,NNE,,230,180k,Berth 05,MC1,Fwd Spring
+50.0,NE,,163,180k,Berth 05,MC1,Fwd Spring
+50.0,ENE,,106,180k,Berth 05,MC1,Fwd Spring
+50.0,E,,87,180k,Berth 05,MC1,Fwd Spring
+50.0,ESE,,77,180k,Berth 05,MC1,Fwd Spring
+50.0,SE,,65,180k,Berth 05,MC1,Fwd Spring
+50.0,SSE,,53,180k,Berth 05,MC1,Fwd Spring
+50.0,S,,44,180k,Berth 05,MC1,Fwd Spring
+50.0,SSW,,37,180k,Berth 05,MC1,Fwd Spring
+50.0,SW,,30,180k,Berth 05,MC1,Fwd Spring
+50.0,WSW,,25,180k,Berth 05,MC1,Fwd Spring
+50.0,W,,34,180k,Berth 05,MC1,Fwd Spring
+50.0,WNW,,102,180k,Berth 05,MC1,Fwd Spring
+50.0,NW,,158,180k,Berth 05,MC1,Fwd Spring
+50.0,NNW,,209,180k,Berth 05,MC1,Fwd Spring
 30.0,N,,120,180k,Berth 05,MC1,Fwd Spring
 30.0,NNE,,94,180k,Berth 05,MC1,Fwd Spring
 30.0,NE,,99,180k,Berth 05,MC1,Fwd Spring
@@ -1091,6 +1507,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,90,180k,Berth 05,MC1,Fwd Spring
 9.0,E,9,104,180k,Berth 05,MC1,Fwd Spring
 9.0,E,10,112,180k,Berth 05,MC1,Fwd Spring
+50.0,N,,265,180k,Berth 05,MC1,Aft Spring
+50.0,NNE,,389,180k,Berth 05,MC1,Aft Spring
+50.0,NE,,328,180k,Berth 05,MC1,Aft Spring
+50.0,ENE,,209,180k,Berth 05,MC1,Aft Spring
+50.0,E,,44,180k,Berth 05,MC1,Aft Spring
+50.0,ESE,,25,180k,Berth 05,MC1,Aft Spring
+50.0,SE,,26,180k,Berth 05,MC1,Aft Spring
+50.0,SSE,,32,180k,Berth 05,MC1,Aft Spring
+50.0,S,,39,180k,Berth 05,MC1,Aft Spring
+50.0,SSW,,46,180k,Berth 05,MC1,Aft Spring
+50.0,SW,,56,180k,Berth 05,MC1,Aft Spring
+50.0,WSW,,74,180k,Berth 05,MC1,Aft Spring
+50.0,W,,134,180k,Berth 05,MC1,Aft Spring
+50.0,WNW,,148,180k,Berth 05,MC1,Aft Spring
+50.0,NW,,156,180k,Berth 05,MC1,Aft Spring
+50.0,NNW,,182,180k,Berth 05,MC1,Aft Spring
 30.0,N,,173,180k,Berth 05,MC1,Aft Spring
 30.0,NNE,,169,180k,Berth 05,MC1,Aft Spring
 30.0,NE,,192,180k,Berth 05,MC1,Aft Spring
@@ -1133,6 +1565,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,82,180k,Berth 05,MC1,Aft Spring
 9.0,E,9,108,180k,Berth 05,MC1,Aft Spring
 9.0,E,10,159,180k,Berth 05,MC1,Aft Spring
+50.0,N,,776,180k,Berth 05,MC1,Stern
+50.0,NNE,,774,180k,Berth 05,MC1,Stern
+50.0,NE,,635,180k,Berth 05,MC1,Stern
+50.0,ENE,,434,180k,Berth 05,MC1,Stern
+50.0,E,,99,180k,Berth 05,MC1,Stern
+50.0,ESE,,78,180k,Berth 05,MC1,Stern
+50.0,SE,,69,180k,Berth 05,MC1,Stern
+50.0,SSE,,59,180k,Berth 05,MC1,Stern
+50.0,S,,54,180k,Berth 05,MC1,Stern
+50.0,SSW,,49,180k,Berth 05,MC1,Stern
+50.0,SW,,53,180k,Berth 05,MC1,Stern
+50.0,WSW,,58,180k,Berth 05,MC1,Stern
+50.0,W,,96,180k,Berth 05,MC1,Stern
+50.0,WNW,,292,180k,Berth 05,MC1,Stern
+50.0,NW,,517,180k,Berth 05,MC1,Stern
+50.0,NNW,,680,180k,Berth 05,MC1,Stern
 30.0,N,,357,180k,Berth 05,MC1,Stern
 30.0,NNE,,362,180k,Berth 05,MC1,Stern
 30.0,NE,,334,180k,Berth 05,MC1,Stern
@@ -1175,6 +1623,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,152,180k,Berth 05,MC1,Stern
 9.0,E,9,216,180k,Berth 05,MC1,Stern
 9.0,E,10,261,180k,Berth 05,MC1,Stern
+50.0,N,,877,180k,Berth 05,MC2,Bow
+50.0,NNE,,752,180k,Berth 05,MC2,Bow
+50.0,NE,,502,180k,Berth 05,MC2,Bow
+50.0,ENE,,246,180k,Berth 05,MC2,Bow
+50.0,E,,80,180k,Berth 05,MC2,Bow
+50.0,ESE,,57,180k,Berth 05,MC2,Bow
+50.0,SE,,57,180k,Berth 05,MC2,Bow
+50.0,SSE,,48,180k,Berth 05,MC2,Bow
+50.0,S,,48,180k,Berth 05,MC2,Bow
+50.0,SSW,,51,180k,Berth 05,MC2,Bow
+50.0,SW,,59,180k,Berth 05,MC2,Bow
+50.0,WSW,,76,180k,Berth 05,MC2,Bow
+50.0,W,,128,180k,Berth 05,MC2,Bow
+50.0,WNW,,438,180k,Berth 05,MC2,Bow
+50.0,NW,,732,180k,Berth 05,MC2,Bow
+50.0,NNW,,910,180k,Berth 05,MC2,Bow
 30.0,N,,442,180k,Berth 05,MC2,Bow
 30.0,NNE,,345,180k,Berth 05,MC2,Bow
 30.0,NE,,261,180k,Berth 05,MC2,Bow
@@ -1217,6 +1681,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,169,180k,Berth 05,MC2,Bow
 9.0,E,9,232,180k,Berth 05,MC2,Bow
 9.0,E,10,264,180k,Berth 05,MC2,Bow
+50.0,N,,294,180k,Berth 05,MC2,Fwd Spring
+50.0,NNE,,279,180k,Berth 05,MC2,Fwd Spring
+50.0,NE,,237,180k,Berth 05,MC2,Fwd Spring
+50.0,ENE,,131,180k,Berth 05,MC2,Fwd Spring
+50.0,E,,88,180k,Berth 05,MC2,Fwd Spring
+50.0,ESE,,77,180k,Berth 05,MC2,Fwd Spring
+50.0,SE,,65,180k,Berth 05,MC2,Fwd Spring
+50.0,SSE,,54,180k,Berth 05,MC2,Fwd Spring
+50.0,S,,45,180k,Berth 05,MC2,Fwd Spring
+50.0,SSW,,39,180k,Berth 05,MC2,Fwd Spring
+50.0,SW,,32,180k,Berth 05,MC2,Fwd Spring
+50.0,WSW,,28,180k,Berth 05,MC2,Fwd Spring
+50.0,W,,43,180k,Berth 05,MC2,Fwd Spring
+50.0,WNW,,156,180k,Berth 05,MC2,Fwd Spring
+50.0,NW,,215,180k,Berth 05,MC2,Fwd Spring
+50.0,NNW,,268,180k,Berth 05,MC2,Fwd Spring
 30.0,N,,145,180k,Berth 05,MC2,Fwd Spring
 30.0,NNE,,152,180k,Berth 05,MC2,Fwd Spring
 30.0,NE,,123,180k,Berth 05,MC2,Fwd Spring
@@ -1259,6 +1739,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,101,180k,Berth 05,MC2,Fwd Spring
 9.0,E,9,144,180k,Berth 05,MC2,Fwd Spring
 9.0,E,10,133,180k,Berth 05,MC2,Fwd Spring
+50.0,N,,266,180k,Berth 05,MC2,Aft Spring
+50.0,NNE,,362,180k,Berth 05,MC2,Aft Spring
+50.0,NE,,368,180k,Berth 05,MC2,Aft Spring
+50.0,ENE,,188,180k,Berth 05,MC2,Aft Spring
+50.0,E,,39,180k,Berth 05,MC2,Aft Spring
+50.0,ESE,,24,180k,Berth 05,MC2,Aft Spring
+50.0,SE,,25,180k,Berth 05,MC2,Aft Spring
+50.0,SSE,,31,180k,Berth 05,MC2,Aft Spring
+50.0,S,,38,180k,Berth 05,MC2,Aft Spring
+50.0,SSW,,44,180k,Berth 05,MC2,Aft Spring
+50.0,SW,,54,180k,Berth 05,MC2,Aft Spring
+50.0,WSW,,69,180k,Berth 05,MC2,Aft Spring
+50.0,W,,122,180k,Berth 05,MC2,Aft Spring
+50.0,WNW,,143,180k,Berth 05,MC2,Aft Spring
+50.0,NW,,143,180k,Berth 05,MC2,Aft Spring
+50.0,NNW,,177,180k,Berth 05,MC2,Aft Spring
 30.0,N,,142,180k,Berth 05,MC2,Aft Spring
 30.0,NNE,,202,180k,Berth 05,MC2,Aft Spring
 30.0,NE,,185,180k,Berth 05,MC2,Aft Spring
@@ -1301,6 +1797,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,86,180k,Berth 05,MC2,Aft Spring
 9.0,E,9,115,180k,Berth 05,MC2,Aft Spring
 9.0,E,10,141,180k,Berth 05,MC2,Aft Spring
+50.0,N,,716,180k,Berth 05,MC2,Stern
+50.0,NNE,,762,180k,Berth 05,MC2,Stern
+50.0,NE,,713,180k,Berth 05,MC2,Stern
+50.0,ENE,,451,180k,Berth 05,MC2,Stern
+50.0,E,,101,180k,Berth 05,MC2,Stern
+50.0,ESE,,75,180k,Berth 05,MC2,Stern
+50.0,SE,,69,180k,Berth 05,MC2,Stern
+50.0,SSE,,60,180k,Berth 05,MC2,Stern
+50.0,S,,54,180k,Berth 05,MC2,Stern
+50.0,SSW,,51,180k,Berth 05,MC2,Stern
+50.0,SW,,58,180k,Berth 05,MC2,Stern
+50.0,WSW,,58,180k,Berth 05,MC2,Stern
+50.0,W,,81,180k,Berth 05,MC2,Stern
+50.0,WNW,,290,180k,Berth 05,MC2,Stern
+50.0,NW,,503,180k,Berth 05,MC2,Stern
+50.0,NNW,,654,180k,Berth 05,MC2,Stern
 30.0,N,,353,180k,Berth 05,MC2,Stern
 30.0,NNE,,394,180k,Berth 05,MC2,Stern
 30.0,NE,,357,180k,Berth 05,MC2,Stern
@@ -1343,6 +1855,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,152,180k,Berth 05,MC2,Stern
 9.0,E,9,246,180k,Berth 05,MC2,Stern
 9.0,E,10,327,180k,Berth 05,MC2,Stern
+50.0,N,,59,210k,Berth 02,MC1,Bow
+50.0,NNE,,67,210k,Berth 02,MC1,Bow
+50.0,NE,,81,210k,Berth 02,MC1,Bow
+50.0,ENE,,78,210k,Berth 02,MC1,Bow
+50.0,E,,60,210k,Berth 02,MC1,Bow
+50.0,ESE,,293,210k,Berth 02,MC1,Bow
+50.0,SE,,427,210k,Berth 02,MC1,Bow
+50.0,SSE,,557,210k,Berth 02,MC1,Bow
+50.0,S,,643,210k,Berth 02,MC1,Bow
+50.0,SSW,,650,210k,Berth 02,MC1,Bow
+50.0,SW,,512,210k,Berth 02,MC1,Bow
+50.0,WSW,,299,210k,Berth 02,MC1,Bow
+50.0,W,,150,210k,Berth 02,MC1,Bow
+50.0,WNW,,86,210k,Berth 02,MC1,Bow
+50.0,NW,,70,210k,Berth 02,MC1,Bow
+50.0,NNW,,60,210k,Berth 02,MC1,Bow
 30.0,N,,96,210k,Berth 02,MC1,Bow
 30.0,NNE,,99,210k,Berth 02,MC1,Bow
 30.0,NE,,108,210k,Berth 02,MC1,Bow
@@ -1385,6 +1913,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,127,210k,Berth 02,MC1,Bow
 9.0,E,9,161,210k,Berth 02,MC1,Bow
 9.0,E,10,184,210k,Berth 02,MC1,Bow
+50.0,N,,48,210k,Berth 02,MC1,Fwd Spring
+50.0,NNE,,67,210k,Berth 02,MC1,Fwd Spring
+50.0,NE,,93,210k,Berth 02,MC1,Fwd Spring
+50.0,ENE,,119,210k,Berth 02,MC1,Fwd Spring
+50.0,E,,108,210k,Berth 02,MC1,Fwd Spring
+50.0,ESE,,100,210k,Berth 02,MC1,Fwd Spring
+50.0,SE,,148,210k,Berth 02,MC1,Fwd Spring
+50.0,SSE,,269,210k,Berth 02,MC1,Fwd Spring
+50.0,S,,282,210k,Berth 02,MC1,Fwd Spring
+50.0,SSW,,257,210k,Berth 02,MC1,Fwd Spring
+50.0,SW,,220,210k,Berth 02,MC1,Fwd Spring
+50.0,WSW,,99,210k,Berth 02,MC1,Fwd Spring
+50.0,W,,36,210k,Berth 02,MC1,Fwd Spring
+50.0,WNW,,21,210k,Berth 02,MC1,Fwd Spring
+50.0,NW,,30,210k,Berth 02,MC1,Fwd Spring
+50.0,NNW,,38,210k,Berth 02,MC1,Fwd Spring
 30.0,N,,59,210k,Berth 02,MC1,Fwd Spring
 30.0,NNE,,76,210k,Berth 02,MC1,Fwd Spring
 30.0,NE,,93,210k,Berth 02,MC1,Fwd Spring
@@ -1427,6 +1971,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,105,210k,Berth 02,MC1,Fwd Spring
 9.0,E,9,133,210k,Berth 02,MC1,Fwd Spring
 9.0,E,10,167,210k,Berth 02,MC1,Fwd Spring
+50.0,N,,42,210k,Berth 02,MC1,Aft Spring
+50.0,NNE,,33,210k,Berth 02,MC1,Aft Spring
+50.0,NE,,25,210k,Berth 02,MC1,Aft Spring
+50.0,ENE,,22,210k,Berth 02,MC1,Aft Spring
+50.0,E,,41,210k,Berth 02,MC1,Aft Spring
+50.0,ESE,,249,210k,Berth 02,MC1,Aft Spring
+50.0,SE,,295,210k,Berth 02,MC1,Aft Spring
+50.0,SSE,,372,210k,Berth 02,MC1,Aft Spring
+50.0,S,,279,210k,Berth 02,MC1,Aft Spring
+50.0,SSW,,227,210k,Berth 02,MC1,Aft Spring
+50.0,SW,,211,210k,Berth 02,MC1,Aft Spring
+50.0,WSW,,167,210k,Berth 02,MC1,Aft Spring
+50.0,W,,128,210k,Berth 02,MC1,Aft Spring
+50.0,WNW,,69,210k,Berth 02,MC1,Aft Spring
+50.0,NW,,58,210k,Berth 02,MC1,Aft Spring
+50.0,NNW,,49,210k,Berth 02,MC1,Aft Spring
 30.0,N,,47,210k,Berth 02,MC1,Aft Spring
 30.0,NNE,,46,210k,Berth 02,MC1,Aft Spring
 30.0,NE,,44,210k,Berth 02,MC1,Aft Spring
@@ -1469,6 +2029,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,86,210k,Berth 02,MC1,Aft Spring
 9.0,E,9,109,210k,Berth 02,MC1,Aft Spring
 9.0,E,10,122,210k,Berth 02,MC1,Aft Spring
+50.0,N,,47,210k,Berth 02,MC1,Stern
+50.0,NNE,,60,210k,Berth 02,MC1,Stern
+50.0,NE,,70,210k,Berth 02,MC1,Stern
+50.0,ENE,,76,210k,Berth 02,MC1,Stern
+50.0,E,,89,210k,Berth 02,MC1,Stern
+50.0,ESE,,511,210k,Berth 02,MC1,Stern
+50.0,SE,,683,210k,Berth 02,MC1,Stern
+50.0,SSE,,798,210k,Berth 02,MC1,Stern
+50.0,S,,751,210k,Berth 02,MC1,Stern
+50.0,SSW,,702,210k,Berth 02,MC1,Stern
+50.0,SW,,558,210k,Berth 02,MC1,Stern
+50.0,WSW,,307,210k,Berth 02,MC1,Stern
+50.0,W,,84,210k,Berth 02,MC1,Stern
+50.0,WNW,,38,210k,Berth 02,MC1,Stern
+50.0,NW,,43,210k,Berth 02,MC1,Stern
+50.0,NNW,,44,210k,Berth 02,MC1,Stern
 30.0,N,,76,210k,Berth 02,MC1,Stern
 30.0,NNE,,80,210k,Berth 02,MC1,Stern
 30.0,NE,,81,210k,Berth 02,MC1,Stern
@@ -1511,6 +2087,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,146,210k,Berth 02,MC1,Stern
 9.0,E,9,197,210k,Berth 02,MC1,Stern
 9.0,E,10,211,210k,Berth 02,MC1,Stern
+50.0,N,,64,210k,Berth 02,MC2,Bow
+50.0,NNE,,87,210k,Berth 02,MC2,Bow
+50.0,NE,,99,210k,Berth 02,MC2,Bow
+50.0,ENE,,109,210k,Berth 02,MC2,Bow
+50.0,E,,73,210k,Berth 02,MC2,Bow
+50.0,ESE,,297,210k,Berth 02,MC2,Bow
+50.0,SE,,460,210k,Berth 02,MC2,Bow
+50.0,SSE,,707,210k,Berth 02,MC2,Bow
+50.0,S,,814,210k,Berth 02,MC2,Bow
+50.0,SSW,,775,210k,Berth 02,MC2,Bow
+50.0,SW,,648,210k,Berth 02,MC2,Bow
+50.0,WSW,,390,210k,Berth 02,MC2,Bow
+50.0,W,,140,210k,Berth 02,MC2,Bow
+50.0,WNW,,83,210k,Berth 02,MC2,Bow
+50.0,NW,,66,210k,Berth 02,MC2,Bow
+50.0,NNW,,59,210k,Berth 02,MC2,Bow
 30.0,N,,110,210k,Berth 02,MC2,Bow
 30.0,NNE,,135,210k,Berth 02,MC2,Bow
 30.0,NE,,116,210k,Berth 02,MC2,Bow
@@ -1553,6 +2145,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,142,210k,Berth 02,MC2,Bow
 9.0,E,9,198,210k,Berth 02,MC2,Bow
 9.0,E,10,253,210k,Berth 02,MC2,Bow
+50.0,N,,49,210k,Berth 02,MC2,Fwd Spring
+50.0,NNE,,74,210k,Berth 02,MC2,Fwd Spring
+50.0,NE,,97,210k,Berth 02,MC2,Fwd Spring
+50.0,ENE,,132,210k,Berth 02,MC2,Fwd Spring
+50.0,E,,110,210k,Berth 02,MC2,Fwd Spring
+50.0,ESE,,174,210k,Berth 02,MC2,Fwd Spring
+50.0,SE,,244,210k,Berth 02,MC2,Fwd Spring
+50.0,SSE,,379,210k,Berth 02,MC2,Fwd Spring
+50.0,S,,358,210k,Berth 02,MC2,Fwd Spring
+50.0,SSW,,284,210k,Berth 02,MC2,Fwd Spring
+50.0,SW,,243,210k,Berth 02,MC2,Fwd Spring
+50.0,WSW,,161,210k,Berth 02,MC2,Fwd Spring
+50.0,W,,48,210k,Berth 02,MC2,Fwd Spring
+50.0,WNW,,24,210k,Berth 02,MC2,Fwd Spring
+50.0,NW,,31,210k,Berth 02,MC2,Fwd Spring
+50.0,NNW,,39,210k,Berth 02,MC2,Fwd Spring
 30.0,N,,67,210k,Berth 02,MC2,Fwd Spring
 30.0,NNE,,88,210k,Berth 02,MC2,Fwd Spring
 30.0,NE,,96,210k,Berth 02,MC2,Fwd Spring
@@ -1595,6 +2203,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,119,210k,Berth 02,MC2,Fwd Spring
 9.0,E,9,170,210k,Berth 02,MC2,Fwd Spring
 9.0,E,10,195,210k,Berth 02,MC2,Fwd Spring
+50.0,N,,41,210k,Berth 02,MC2,Aft Spring
+50.0,NNE,,32,210k,Berth 02,MC2,Aft Spring
+50.0,NE,,24,210k,Berth 02,MC2,Aft Spring
+50.0,ENE,,19,210k,Berth 02,MC2,Aft Spring
+50.0,E,,40,210k,Berth 02,MC2,Aft Spring
+50.0,ESE,,210,210k,Berth 02,MC2,Aft Spring
+50.0,SE,,291,210k,Berth 02,MC2,Aft Spring
+50.0,SSE,,342,210k,Berth 02,MC2,Aft Spring
+50.0,S,,256,210k,Berth 02,MC2,Aft Spring
+50.0,SSW,,197,210k,Berth 02,MC2,Aft Spring
+50.0,SW,,177,210k,Berth 02,MC2,Aft Spring
+50.0,WSW,,159,210k,Berth 02,MC2,Aft Spring
+50.0,W,,109,210k,Berth 02,MC2,Aft Spring
+50.0,WNW,,68,210k,Berth 02,MC2,Aft Spring
+50.0,NW,,56,210k,Berth 02,MC2,Aft Spring
+50.0,NNW,,48,210k,Berth 02,MC2,Aft Spring
 30.0,N,,46,210k,Berth 02,MC2,Aft Spring
 30.0,NNE,,41,210k,Berth 02,MC2,Aft Spring
 30.0,NE,,39,210k,Berth 02,MC2,Aft Spring
@@ -1637,6 +2261,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,75,210k,Berth 02,MC2,Aft Spring
 9.0,E,9,97,210k,Berth 02,MC2,Aft Spring
 9.0,E,10,109,210k,Berth 02,MC2,Aft Spring
+50.0,N,,48,210k,Berth 02,MC2,Stern
+50.0,NNE,,62,210k,Berth 02,MC2,Stern
+50.0,NE,,70,210k,Berth 02,MC2,Stern
+50.0,ENE,,78,210k,Berth 02,MC2,Stern
+50.0,E,,92,210k,Berth 02,MC2,Stern
+50.0,ESE,,519,210k,Berth 02,MC2,Stern
+50.0,SE,,689,210k,Berth 02,MC2,Stern
+50.0,SSE,,778,210k,Berth 02,MC2,Stern
+50.0,S,,747,210k,Berth 02,MC2,Stern
+50.0,SSW,,633,210k,Berth 02,MC2,Stern
+50.0,SW,,547,210k,Berth 02,MC2,Stern
+50.0,WSW,,311,210k,Berth 02,MC2,Stern
+50.0,W,,68,210k,Berth 02,MC2,Stern
+50.0,WNW,,41,210k,Berth 02,MC2,Stern
+50.0,NW,,43,210k,Berth 02,MC2,Stern
+50.0,NNW,,44,210k,Berth 02,MC2,Stern
 30.0,N,,71,210k,Berth 02,MC2,Stern
 30.0,NNE,,74,210k,Berth 02,MC2,Stern
 30.0,NE,,70,210k,Berth 02,MC2,Stern
@@ -1679,6 +2319,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,121,210k,Berth 02,MC2,Stern
 9.0,E,9,153,210k,Berth 02,MC2,Stern
 9.0,E,10,202,210k,Berth 02,MC2,Stern
+50.0,N,,570,210k,Berth 03,MC1,Bow
+50.0,NNE,,579,210k,Berth 03,MC1,Bow
+50.0,NE,,407,210k,Berth 03,MC1,Bow
+50.0,ENE,,188,210k,Berth 03,MC1,Bow
+50.0,E,,70,210k,Berth 03,MC1,Bow
+50.0,ESE,,77,210k,Berth 03,MC1,Bow
+50.0,SE,,76,210k,Berth 03,MC1,Bow
+50.0,SSE,,64,210k,Berth 03,MC1,Bow
+50.0,S,,53,210k,Berth 03,MC1,Bow
+50.0,SSW,,55,210k,Berth 03,MC1,Bow
+50.0,SW,,62,210k,Berth 03,MC1,Bow
+50.0,WSW,,78,210k,Berth 03,MC1,Bow
+50.0,W,,125,210k,Berth 03,MC1,Bow
+50.0,WNW,,288,210k,Berth 03,MC1,Bow
+50.0,NW,,521,210k,Berth 03,MC1,Bow
+50.0,NNW,,609,210k,Berth 03,MC1,Bow
 30.0,N,,291,210k,Berth 03,MC1,Bow
 30.0,NNE,,249,210k,Berth 03,MC1,Bow
 30.0,NE,,185,210k,Berth 03,MC1,Bow
@@ -1721,6 +2377,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,120,210k,Berth 03,MC1,Bow
 9.0,E,9,157,210k,Berth 03,MC1,Bow
 9.0,E,10,189,210k,Berth 03,MC1,Bow
+50.0,N,,392,210k,Berth 03,MC1,Fwd Spring
+50.0,NNE,,361,210k,Berth 03,MC1,Fwd Spring
+50.0,NE,,299,210k,Berth 03,MC1,Fwd Spring
+50.0,ENE,,140,210k,Berth 03,MC1,Fwd Spring
+50.0,E,,106,210k,Berth 03,MC1,Fwd Spring
+50.0,ESE,,117,210k,Berth 03,MC1,Fwd Spring
+50.0,SE,,85,210k,Berth 03,MC1,Fwd Spring
+50.0,SSE,,59,210k,Berth 03,MC1,Fwd Spring
+50.0,S,,44,210k,Berth 03,MC1,Fwd Spring
+50.0,SSW,,37,210k,Berth 03,MC1,Fwd Spring
+50.0,SW,,29,210k,Berth 03,MC1,Fwd Spring
+50.0,WSW,,24,210k,Berth 03,MC1,Fwd Spring
+50.0,W,,35,210k,Berth 03,MC1,Fwd Spring
+50.0,WNW,,130,210k,Berth 03,MC1,Fwd Spring
+50.0,NW,,279,210k,Berth 03,MC1,Fwd Spring
+50.0,NNW,,373,210k,Berth 03,MC1,Fwd Spring
 30.0,N,,200,210k,Berth 03,MC1,Fwd Spring
 30.0,NNE,,190,210k,Berth 03,MC1,Fwd Spring
 30.0,NE,,144,210k,Berth 03,MC1,Fwd Spring
@@ -1763,6 +2435,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,81,210k,Berth 03,MC1,Fwd Spring
 9.0,E,9,126,210k,Berth 03,MC1,Fwd Spring
 9.0,E,10,159,210k,Berth 03,MC1,Fwd Spring
+50.0,N,,710,210k,Berth 03,MC1,Aft Spring
+50.0,NNE,,847,210k,Berth 03,MC1,Aft Spring
+50.0,NE,,731,210k,Berth 03,MC1,Aft Spring
+50.0,ENE,,398,210k,Berth 03,MC1,Aft Spring
+50.0,E,,44,210k,Berth 03,MC1,Aft Spring
+50.0,ESE,,15,210k,Berth 03,MC1,Aft Spring
+50.0,SE,,17,210k,Berth 03,MC1,Aft Spring
+50.0,SSE,,27,210k,Berth 03,MC1,Aft Spring
+50.0,S,,40,210k,Berth 03,MC1,Aft Spring
+50.0,SSW,,50,210k,Berth 03,MC1,Aft Spring
+50.0,SW,,64,210k,Berth 03,MC1,Aft Spring
+50.0,WSW,,91,210k,Berth 03,MC1,Aft Spring
+50.0,W,,175,210k,Berth 03,MC1,Aft Spring
+50.0,WNW,,310,210k,Berth 03,MC1,Aft Spring
+50.0,NW,,472,210k,Berth 03,MC1,Aft Spring
+50.0,NNW,,598,210k,Berth 03,MC1,Aft Spring
 30.0,N,,403,210k,Berth 03,MC1,Aft Spring
 30.0,NNE,,440,210k,Berth 03,MC1,Aft Spring
 30.0,NE,,360,210k,Berth 03,MC1,Aft Spring
@@ -1805,6 +2493,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,119,210k,Berth 03,MC1,Aft Spring
 9.0,E,9,154,210k,Berth 03,MC1,Aft Spring
 9.0,E,10,209,210k,Berth 03,MC1,Aft Spring
+50.0,N,,632,210k,Berth 03,MC1,Stern
+50.0,NNE,,646,210k,Berth 03,MC1,Stern
+50.0,NE,,642,210k,Berth 03,MC1,Stern
+50.0,ENE,,420,210k,Berth 03,MC1,Stern
+50.0,E,,90,210k,Berth 03,MC1,Stern
+50.0,ESE,,74,210k,Berth 03,MC1,Stern
+50.0,SE,,64,210k,Berth 03,MC1,Stern
+50.0,SSE,,53,210k,Berth 03,MC1,Stern
+50.0,S,,44,210k,Berth 03,MC1,Stern
+50.0,SSW,,43,210k,Berth 03,MC1,Stern
+50.0,SW,,39,210k,Berth 03,MC1,Stern
+50.0,WSW,,37,210k,Berth 03,MC1,Stern
+50.0,W,,63,210k,Berth 03,MC1,Stern
+50.0,WNW,,251,210k,Berth 03,MC1,Stern
+50.0,NW,,490,210k,Berth 03,MC1,Stern
+50.0,NNW,,616,210k,Berth 03,MC1,Stern
 30.0,N,,329,210k,Berth 03,MC1,Stern
 30.0,NNE,,334,210k,Berth 03,MC1,Stern
 30.0,NE,,313,210k,Berth 03,MC1,Stern
@@ -1847,6 +2551,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,141,210k,Berth 03,MC1,Stern
 9.0,E,9,179,210k,Berth 03,MC1,Stern
 9.0,E,10,222,210k,Berth 03,MC1,Stern
+50.0,N,,822,210k,Berth 03,MC2,Bow
+50.0,NNE,,662,210k,Berth 03,MC2,Bow
+50.0,NE,,492,210k,Berth 03,MC2,Bow
+50.0,ENE,,254,210k,Berth 03,MC2,Bow
+50.0,E,,66,210k,Berth 03,MC2,Bow
+50.0,ESE,,109,210k,Berth 03,MC2,Bow
+50.0,SE,,81,210k,Berth 03,MC2,Bow
+50.0,SSE,,67,210k,Berth 03,MC2,Bow
+50.0,S,,54,210k,Berth 03,MC2,Bow
+50.0,SSW,,55,210k,Berth 03,MC2,Bow
+50.0,SW,,62,210k,Berth 03,MC2,Bow
+50.0,WSW,,81,210k,Berth 03,MC2,Bow
+50.0,W,,130,210k,Berth 03,MC2,Bow
+50.0,WNW,,381,210k,Berth 03,MC2,Bow
+50.0,NW,,629,210k,Berth 03,MC2,Bow
+50.0,NNW,,848,210k,Berth 03,MC2,Bow
 30.0,N,,428,210k,Berth 03,MC2,Bow
 30.0,NNE,,355,210k,Berth 03,MC2,Bow
 30.0,NE,,243,210k,Berth 03,MC2,Bow
@@ -1889,6 +2609,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,167,210k,Berth 03,MC2,Bow
 9.0,E,9,194,210k,Berth 03,MC2,Bow
 9.0,E,10,225,210k,Berth 03,MC2,Bow
+50.0,N,,470,210k,Berth 03,MC2,Fwd Spring
+50.0,NNE,,474,210k,Berth 03,MC2,Fwd Spring
+50.0,NE,,401,210k,Berth 03,MC2,Fwd Spring
+50.0,ENE,,188,210k,Berth 03,MC2,Fwd Spring
+50.0,E,,102,210k,Berth 03,MC2,Fwd Spring
+50.0,ESE,,133,210k,Berth 03,MC2,Fwd Spring
+50.0,SE,,88,210k,Berth 03,MC2,Fwd Spring
+50.0,SSE,,60,210k,Berth 03,MC2,Fwd Spring
+50.0,S,,45,210k,Berth 03,MC2,Fwd Spring
+50.0,SSW,,38,210k,Berth 03,MC2,Fwd Spring
+50.0,SW,,31,210k,Berth 03,MC2,Fwd Spring
+50.0,WSW,,27,210k,Berth 03,MC2,Fwd Spring
+50.0,W,,45,210k,Berth 03,MC2,Fwd Spring
+50.0,WNW,,176,210k,Berth 03,MC2,Fwd Spring
+50.0,NW,,350,210k,Berth 03,MC2,Fwd Spring
+50.0,NNW,,491,210k,Berth 03,MC2,Fwd Spring
 30.0,N,,245,210k,Berth 03,MC2,Fwd Spring
 30.0,NNE,,237,210k,Berth 03,MC2,Fwd Spring
 30.0,NE,,182,210k,Berth 03,MC2,Fwd Spring
@@ -1931,6 +2667,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,108,210k,Berth 03,MC2,Fwd Spring
 9.0,E,9,149,210k,Berth 03,MC2,Fwd Spring
 9.0,E,10,194,210k,Berth 03,MC2,Fwd Spring
+50.0,N,,826,210k,Berth 03,MC2,Aft Spring
+50.0,NNE,,835,210k,Berth 03,MC2,Aft Spring
+50.0,NE,,814,210k,Berth 03,MC2,Aft Spring
+50.0,ENE,,440,210k,Berth 03,MC2,Aft Spring
+50.0,E,,50,210k,Berth 03,MC2,Aft Spring
+50.0,ESE,,9,210k,Berth 03,MC2,Aft Spring
+50.0,SE,,15,210k,Berth 03,MC2,Aft Spring
+50.0,SSE,,27,210k,Berth 03,MC2,Aft Spring
+50.0,S,,39,210k,Berth 03,MC2,Aft Spring
+50.0,SSW,,49,210k,Berth 03,MC2,Aft Spring
+50.0,SW,,63,210k,Berth 03,MC2,Aft Spring
+50.0,WSW,,90,210k,Berth 03,MC2,Aft Spring
+50.0,W,,167,210k,Berth 03,MC2,Aft Spring
+50.0,WNW,,296,210k,Berth 03,MC2,Aft Spring
+50.0,NW,,464,210k,Berth 03,MC2,Aft Spring
+50.0,NNW,,754,210k,Berth 03,MC2,Aft Spring
 30.0,N,,396,210k,Berth 03,MC2,Aft Spring
 30.0,NNE,,444,210k,Berth 03,MC2,Aft Spring
 30.0,NE,,377,210k,Berth 03,MC2,Aft Spring
@@ -1973,6 +2725,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,112,210k,Berth 03,MC2,Aft Spring
 9.0,E,9,152,210k,Berth 03,MC2,Aft Spring
 9.0,E,10,230,210k,Berth 03,MC2,Aft Spring
+50.0,N,,643,210k,Berth 03,MC2,Stern
+50.0,NNE,,662,210k,Berth 03,MC2,Stern
+50.0,NE,,660,210k,Berth 03,MC2,Stern
+50.0,ENE,,455,210k,Berth 03,MC2,Stern
+50.0,E,,92,210k,Berth 03,MC2,Stern
+50.0,ESE,,77,210k,Berth 03,MC2,Stern
+50.0,SE,,60,210k,Berth 03,MC2,Stern
+50.0,SSE,,52,210k,Berth 03,MC2,Stern
+50.0,S,,44,210k,Berth 03,MC2,Stern
+50.0,SSW,,42,210k,Berth 03,MC2,Stern
+50.0,SW,,39,210k,Berth 03,MC2,Stern
+50.0,WSW,,41,210k,Berth 03,MC2,Stern
+50.0,W,,67,210k,Berth 03,MC2,Stern
+50.0,WNW,,259,210k,Berth 03,MC2,Stern
+50.0,NW,,454,210k,Berth 03,MC2,Stern
+50.0,NNW,,588,210k,Berth 03,MC2,Stern
 30.0,N,,355,210k,Berth 03,MC2,Stern
 30.0,NNE,,356,210k,Berth 03,MC2,Stern
 30.0,NE,,302,210k,Berth 03,MC2,Stern
@@ -2015,6 +2783,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,127,210k,Berth 03,MC2,Stern
 9.0,E,9,159,210k,Berth 03,MC2,Stern
 9.0,E,10,169,210k,Berth 03,MC2,Stern
+50.0,N,,48,210k,Berth 04,MC1,Bow
+50.0,NNE,,48,210k,Berth 04,MC1,Bow
+50.0,NE,,58,210k,Berth 04,MC1,Bow
+50.0,ENE,,62,210k,Berth 04,MC1,Bow
+50.0,E,,63,210k,Berth 04,MC1,Bow
+50.0,ESE,,198,210k,Berth 04,MC1,Bow
+50.0,SE,,349,210k,Berth 04,MC1,Bow
+50.0,SSE,,525,210k,Berth 04,MC1,Bow
+50.0,S,,661,210k,Berth 04,MC1,Bow
+50.0,SSW,,666,210k,Berth 04,MC1,Bow
+50.0,SW,,518,210k,Berth 04,MC1,Bow
+50.0,WSW,,252,210k,Berth 04,MC1,Bow
+50.0,W,,144,210k,Berth 04,MC1,Bow
+50.0,WNW,,89,210k,Berth 04,MC1,Bow
+50.0,NW,,68,210k,Berth 04,MC1,Bow
+50.0,NNW,,61,210k,Berth 04,MC1,Bow
 30.0,N,,78,210k,Berth 04,MC1,Bow
 30.0,NNE,,84,210k,Berth 04,MC1,Bow
 30.0,NE,,86,210k,Berth 04,MC1,Bow
@@ -2057,6 +2841,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,153,210k,Berth 04,MC1,Bow
 9.0,E,9,241,210k,Berth 04,MC1,Bow
 9.0,E,10,285,210k,Berth 04,MC1,Bow
+50.0,N,,48,210k,Berth 04,MC1,Fwd Spring
+50.0,NNE,,61,210k,Berth 04,MC1,Fwd Spring
+50.0,NE,,79,210k,Berth 04,MC1,Fwd Spring
+50.0,ENE,,93,210k,Berth 04,MC1,Fwd Spring
+50.0,E,,99,210k,Berth 04,MC1,Fwd Spring
+50.0,ESE,,95,210k,Berth 04,MC1,Fwd Spring
+50.0,SE,,153,210k,Berth 04,MC1,Fwd Spring
+50.0,SSE,,257,210k,Berth 04,MC1,Fwd Spring
+50.0,S,,265,210k,Berth 04,MC1,Fwd Spring
+50.0,SSW,,240,210k,Berth 04,MC1,Fwd Spring
+50.0,SW,,178,210k,Berth 04,MC1,Fwd Spring
+50.0,WSW,,84,210k,Berth 04,MC1,Fwd Spring
+50.0,W,,20,210k,Berth 04,MC1,Fwd Spring
+50.0,WNW,,18,210k,Berth 04,MC1,Fwd Spring
+50.0,NW,,27,210k,Berth 04,MC1,Fwd Spring
+50.0,NNW,,36,210k,Berth 04,MC1,Fwd Spring
 30.0,N,,49,210k,Berth 04,MC1,Fwd Spring
 30.0,NNE,,58,210k,Berth 04,MC1,Fwd Spring
 30.0,NE,,69,210k,Berth 04,MC1,Fwd Spring
@@ -2099,6 +2899,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,81,210k,Berth 04,MC1,Fwd Spring
 9.0,E,9,104,210k,Berth 04,MC1,Fwd Spring
 9.0,E,10,134,210k,Berth 04,MC1,Fwd Spring
+50.0,N,,43,210k,Berth 04,MC1,Aft Spring
+50.0,NNE,,35,210k,Berth 04,MC1,Aft Spring
+50.0,NE,,27,210k,Berth 04,MC1,Aft Spring
+50.0,ENE,,24,210k,Berth 04,MC1,Aft Spring
+50.0,E,,38,210k,Berth 04,MC1,Aft Spring
+50.0,ESE,,169,210k,Berth 04,MC1,Aft Spring
+50.0,SE,,307,210k,Berth 04,MC1,Aft Spring
+50.0,SSE,,389,210k,Berth 04,MC1,Aft Spring
+50.0,S,,287,210k,Berth 04,MC1,Aft Spring
+50.0,SSW,,184,210k,Berth 04,MC1,Aft Spring
+50.0,SW,,151,210k,Berth 04,MC1,Aft Spring
+50.0,WSW,,151,210k,Berth 04,MC1,Aft Spring
+50.0,W,,141,210k,Berth 04,MC1,Aft Spring
+50.0,WNW,,81,210k,Berth 04,MC1,Aft Spring
+50.0,NW,,64,210k,Berth 04,MC1,Aft Spring
+50.0,NNW,,53,210k,Berth 04,MC1,Aft Spring
 30.0,N,,53,210k,Berth 04,MC1,Aft Spring
 30.0,NNE,,46,210k,Berth 04,MC1,Aft Spring
 30.0,NE,,45,210k,Berth 04,MC1,Aft Spring
@@ -2141,6 +2957,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,85,210k,Berth 04,MC1,Aft Spring
 9.0,E,9,103,210k,Berth 04,MC1,Aft Spring
 9.0,E,10,134,210k,Berth 04,MC1,Aft Spring
+50.0,N,,53,210k,Berth 04,MC1,Stern
+50.0,NNE,,63,210k,Berth 04,MC1,Stern
+50.0,NE,,78,210k,Berth 04,MC1,Stern
+50.0,ENE,,88,210k,Berth 04,MC1,Stern
+50.0,E,,110,210k,Berth 04,MC1,Stern
+50.0,ESE,,443,210k,Berth 04,MC1,Stern
+50.0,SE,,652,210k,Berth 04,MC1,Stern
+50.0,SSE,,730,210k,Berth 04,MC1,Stern
+50.0,S,,735,210k,Berth 04,MC1,Stern
+50.0,SSW,,656,210k,Berth 04,MC1,Stern
+50.0,SW,,502,210k,Berth 04,MC1,Stern
+50.0,WSW,,249,210k,Berth 04,MC1,Stern
+50.0,W,,94,210k,Berth 04,MC1,Stern
+50.0,WNW,,61,210k,Berth 04,MC1,Stern
+50.0,NW,,56,210k,Berth 04,MC1,Stern
+50.0,NNW,,56,210k,Berth 04,MC1,Stern
 30.0,N,,87,210k,Berth 04,MC1,Stern
 30.0,NNE,,82,210k,Berth 04,MC1,Stern
 30.0,NE,,89,210k,Berth 04,MC1,Stern
@@ -2183,6 +3015,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,184,210k,Berth 04,MC1,Stern
 9.0,E,9,257,210k,Berth 04,MC1,Stern
 9.0,E,10,350,210k,Berth 04,MC1,Stern
+50.0,N,,49,210k,Berth 04,MC2,Bow
+50.0,NNE,,51,210k,Berth 04,MC2,Bow
+50.0,NE,,67,210k,Berth 04,MC2,Bow
+50.0,ENE,,61,210k,Berth 04,MC2,Bow
+50.0,E,,70,210k,Berth 04,MC2,Bow
+50.0,ESE,,225,210k,Berth 04,MC2,Bow
+50.0,SE,,418,210k,Berth 04,MC2,Bow
+50.0,SSE,,654,210k,Berth 04,MC2,Bow
+50.0,S,,753,210k,Berth 04,MC2,Bow
+50.0,SSW,,768,210k,Berth 04,MC2,Bow
+50.0,SW,,651,210k,Berth 04,MC2,Bow
+50.0,WSW,,372,210k,Berth 04,MC2,Bow
+50.0,W,,147,210k,Berth 04,MC2,Bow
+50.0,WNW,,83,210k,Berth 04,MC2,Bow
+50.0,NW,,66,210k,Berth 04,MC2,Bow
+50.0,NNW,,58,210k,Berth 04,MC2,Bow
 30.0,N,,78,210k,Berth 04,MC2,Bow
 30.0,NNE,,78,210k,Berth 04,MC2,Bow
 30.0,NE,,102,210k,Berth 04,MC2,Bow
@@ -2225,6 +3073,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,147,210k,Berth 04,MC2,Bow
 9.0,E,9,227,210k,Berth 04,MC2,Bow
 9.0,E,10,315,210k,Berth 04,MC2,Bow
+50.0,N,,49,210k,Berth 04,MC2,Fwd Spring
+50.0,NNE,,62,210k,Berth 04,MC2,Fwd Spring
+50.0,NE,,79,210k,Berth 04,MC2,Fwd Spring
+50.0,ENE,,95,210k,Berth 04,MC2,Fwd Spring
+50.0,E,,104,210k,Berth 04,MC2,Fwd Spring
+50.0,ESE,,137,210k,Berth 04,MC2,Fwd Spring
+50.0,SE,,194,210k,Berth 04,MC2,Fwd Spring
+50.0,SSE,,245,210k,Berth 04,MC2,Fwd Spring
+50.0,S,,375,210k,Berth 04,MC2,Fwd Spring
+50.0,SSW,,305,210k,Berth 04,MC2,Fwd Spring
+50.0,SW,,274,210k,Berth 04,MC2,Fwd Spring
+50.0,WSW,,151,210k,Berth 04,MC2,Fwd Spring
+50.0,W,,35,210k,Berth 04,MC2,Fwd Spring
+50.0,WNW,,22,210k,Berth 04,MC2,Fwd Spring
+50.0,NW,,30,210k,Berth 04,MC2,Fwd Spring
+50.0,NNW,,39,210k,Berth 04,MC2,Fwd Spring
 30.0,N,,52,210k,Berth 04,MC2,Fwd Spring
 30.0,NNE,,60,210k,Berth 04,MC2,Fwd Spring
 30.0,NE,,74,210k,Berth 04,MC2,Fwd Spring
@@ -2267,6 +3131,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,79,210k,Berth 04,MC2,Fwd Spring
 9.0,E,9,129,210k,Berth 04,MC2,Fwd Spring
 9.0,E,10,150,210k,Berth 04,MC2,Fwd Spring
+50.0,N,,42,210k,Berth 04,MC2,Aft Spring
+50.0,NNE,,34,210k,Berth 04,MC2,Aft Spring
+50.0,NE,,26,210k,Berth 04,MC2,Aft Spring
+50.0,ENE,,23,210k,Berth 04,MC2,Aft Spring
+50.0,E,,37,210k,Berth 04,MC2,Aft Spring
+50.0,ESE,,164,210k,Berth 04,MC2,Aft Spring
+50.0,SE,,249,210k,Berth 04,MC2,Aft Spring
+50.0,SSE,,259,210k,Berth 04,MC2,Aft Spring
+50.0,S,,288,210k,Berth 04,MC2,Aft Spring
+50.0,SSW,,171,210k,Berth 04,MC2,Aft Spring
+50.0,SW,,156,210k,Berth 04,MC2,Aft Spring
+50.0,WSW,,145,210k,Berth 04,MC2,Aft Spring
+50.0,W,,130,210k,Berth 04,MC2,Aft Spring
+50.0,WNW,,75,210k,Berth 04,MC2,Aft Spring
+50.0,NW,,60,210k,Berth 04,MC2,Aft Spring
+50.0,NNW,,51,210k,Berth 04,MC2,Aft Spring
 30.0,N,,51,210k,Berth 04,MC2,Aft Spring
 30.0,NNE,,45,210k,Berth 04,MC2,Aft Spring
 30.0,NE,,41,210k,Berth 04,MC2,Aft Spring
@@ -2309,6 +3189,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,69,210k,Berth 04,MC2,Aft Spring
 9.0,E,9,110,210k,Berth 04,MC2,Aft Spring
 9.0,E,10,131,210k,Berth 04,MC2,Aft Spring
+50.0,N,,55,210k,Berth 04,MC2,Stern
+50.0,NNE,,63,210k,Berth 04,MC2,Stern
+50.0,NE,,78,210k,Berth 04,MC2,Stern
+50.0,ENE,,83,210k,Berth 04,MC2,Stern
+50.0,E,,104,210k,Berth 04,MC2,Stern
+50.0,ESE,,413,210k,Berth 04,MC2,Stern
+50.0,SE,,664,210k,Berth 04,MC2,Stern
+50.0,SSE,,721,210k,Berth 04,MC2,Stern
+50.0,S,,685,210k,Berth 04,MC2,Stern
+50.0,SSW,,583,210k,Berth 04,MC2,Stern
+50.0,SW,,503,210k,Berth 04,MC2,Stern
+50.0,WSW,,258,210k,Berth 04,MC2,Stern
+50.0,W,,95,210k,Berth 04,MC2,Stern
+50.0,WNW,,59,210k,Berth 04,MC2,Stern
+50.0,NW,,57,210k,Berth 04,MC2,Stern
+50.0,NNW,,57,210k,Berth 04,MC2,Stern
 30.0,N,,92,210k,Berth 04,MC2,Stern
 30.0,NNE,,86,210k,Berth 04,MC2,Stern
 30.0,NE,,95,210k,Berth 04,MC2,Stern
@@ -2351,6 +3247,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,154,210k,Berth 04,MC2,Stern
 9.0,E,9,261,210k,Berth 04,MC2,Stern
 9.0,E,10,320,210k,Berth 04,MC2,Stern
+50.0,N,,631,210k,Berth 05,MC1,Bow
+50.0,NNE,,542,210k,Berth 05,MC1,Bow
+50.0,NE,,362,210k,Berth 05,MC1,Bow
+50.0,ENE,,200,210k,Berth 05,MC1,Bow
+50.0,E,,59,210k,Berth 05,MC1,Bow
+50.0,ESE,,46,210k,Berth 05,MC1,Bow
+50.0,SE,,50,210k,Berth 05,MC1,Bow
+50.0,SSE,,43,210k,Berth 05,MC1,Bow
+50.0,S,,42,210k,Berth 05,MC1,Bow
+50.0,SSW,,51,210k,Berth 05,MC1,Bow
+50.0,SW,,63,210k,Berth 05,MC1,Bow
+50.0,WSW,,86,210k,Berth 05,MC1,Bow
+50.0,W,,143,210k,Berth 05,MC1,Bow
+50.0,WNW,,274,210k,Berth 05,MC1,Bow
+50.0,NW,,505,210k,Berth 05,MC1,Bow
+50.0,NNW,,602,210k,Berth 05,MC1,Bow
 30.0,N,,305,210k,Berth 05,MC1,Bow
 30.0,NNE,,234,210k,Berth 05,MC1,Bow
 30.0,NE,,199,210k,Berth 05,MC1,Bow
@@ -2393,6 +3305,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,143,210k,Berth 05,MC1,Bow
 9.0,E,9,220,210k,Berth 05,MC1,Bow
 9.0,E,10,256,210k,Berth 05,MC1,Bow
+50.0,N,,256,210k,Berth 05,MC1,Fwd Spring
+50.0,NNE,,251,210k,Berth 05,MC1,Fwd Spring
+50.0,NE,,186,210k,Berth 05,MC1,Fwd Spring
+50.0,ENE,,87,210k,Berth 05,MC1,Fwd Spring
+50.0,E,,96,210k,Berth 05,MC1,Fwd Spring
+50.0,ESE,,85,210k,Berth 05,MC1,Fwd Spring
+50.0,SE,,71,210k,Berth 05,MC1,Fwd Spring
+50.0,SSE,,56,210k,Berth 05,MC1,Fwd Spring
+50.0,S,,45,210k,Berth 05,MC1,Fwd Spring
+50.0,SSW,,37,210k,Berth 05,MC1,Fwd Spring
+50.0,SW,,27,210k,Berth 05,MC1,Fwd Spring
+50.0,WSW,,20,210k,Berth 05,MC1,Fwd Spring
+50.0,W,,22,210k,Berth 05,MC1,Fwd Spring
+50.0,WNW,,100,210k,Berth 05,MC1,Fwd Spring
+50.0,NW,,181,210k,Berth 05,MC1,Fwd Spring
+50.0,NNW,,218,210k,Berth 05,MC1,Fwd Spring
 30.0,N,,134,210k,Berth 05,MC1,Fwd Spring
 30.0,NNE,,126,210k,Berth 05,MC1,Fwd Spring
 30.0,NE,,92,210k,Berth 05,MC1,Fwd Spring
@@ -2435,6 +3363,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,82,210k,Berth 05,MC1,Fwd Spring
 9.0,E,9,105,210k,Berth 05,MC1,Fwd Spring
 9.0,E,10,121,210k,Berth 05,MC1,Fwd Spring
+50.0,N,,295,210k,Berth 05,MC1,Aft Spring
+50.0,NNE,,375,210k,Berth 05,MC1,Aft Spring
+50.0,NE,,350,210k,Berth 05,MC1,Aft Spring
+50.0,ENE,,162,210k,Berth 05,MC1,Aft Spring
+50.0,E,,40,210k,Berth 05,MC1,Aft Spring
+50.0,ESE,,23,210k,Berth 05,MC1,Aft Spring
+50.0,SE,,25,210k,Berth 05,MC1,Aft Spring
+50.0,SSE,,31,210k,Berth 05,MC1,Aft Spring
+50.0,S,,38,210k,Berth 05,MC1,Aft Spring
+50.0,SSW,,46,210k,Berth 05,MC1,Aft Spring
+50.0,SW,,58,210k,Berth 05,MC1,Aft Spring
+50.0,WSW,,77,210k,Berth 05,MC1,Aft Spring
+50.0,W,,138,210k,Berth 05,MC1,Aft Spring
+50.0,WNW,,187,210k,Berth 05,MC1,Aft Spring
+50.0,NW,,186,210k,Berth 05,MC1,Aft Spring
+50.0,NNW,,175,210k,Berth 05,MC1,Aft Spring
 30.0,N,,159,210k,Berth 05,MC1,Aft Spring
 30.0,NNE,,198,210k,Berth 05,MC1,Aft Spring
 30.0,NE,,178,210k,Berth 05,MC1,Aft Spring
@@ -2477,6 +3421,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,92,210k,Berth 05,MC1,Aft Spring
 9.0,E,9,104,210k,Berth 05,MC1,Aft Spring
 9.0,E,10,114,210k,Berth 05,MC1,Aft Spring
+50.0,N,,685,210k,Berth 05,MC1,Stern
+50.0,NNE,,707,210k,Berth 05,MC1,Stern
+50.0,NE,,652,210k,Berth 05,MC1,Stern
+50.0,ENE,,432,210k,Berth 05,MC1,Stern
+50.0,E,,106,210k,Berth 05,MC1,Stern
+50.0,ESE,,81,210k,Berth 05,MC1,Stern
+50.0,SE,,70,210k,Berth 05,MC1,Stern
+50.0,SSE,,60,210k,Berth 05,MC1,Stern
+50.0,S,,51,210k,Berth 05,MC1,Stern
+50.0,SSW,,52,210k,Berth 05,MC1,Stern
+50.0,SW,,47,210k,Berth 05,MC1,Stern
+50.0,WSW,,53,210k,Berth 05,MC1,Stern
+50.0,W,,91,210k,Berth 05,MC1,Stern
+50.0,WNW,,261,210k,Berth 05,MC1,Stern
+50.0,NW,,491,210k,Berth 05,MC1,Stern
+50.0,NNW,,625,210k,Berth 05,MC1,Stern
 30.0,N,,333,210k,Berth 05,MC1,Stern
 30.0,NNE,,342,210k,Berth 05,MC1,Stern
 30.0,NE,,303,210k,Berth 05,MC1,Stern
@@ -2519,6 +3479,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,177,210k,Berth 05,MC1,Stern
 9.0,E,9,233,210k,Berth 05,MC1,Stern
 9.0,E,10,314,210k,Berth 05,MC1,Stern
+50.0,N,,740,210k,Berth 05,MC2,Bow
+50.0,NNE,,690,210k,Berth 05,MC2,Bow
+50.0,NE,,457,210k,Berth 05,MC2,Bow
+50.0,ENE,,237,210k,Berth 05,MC2,Bow
+50.0,E,,60,210k,Berth 05,MC2,Bow
+50.0,ESE,,56,210k,Berth 05,MC2,Bow
+50.0,SE,,57,210k,Berth 05,MC2,Bow
+50.0,SSE,,47,210k,Berth 05,MC2,Bow
+50.0,S,,42,210k,Berth 05,MC2,Bow
+50.0,SSW,,48,210k,Berth 05,MC2,Bow
+50.0,SW,,62,210k,Berth 05,MC2,Bow
+50.0,WSW,,82,210k,Berth 05,MC2,Bow
+50.0,W,,146,210k,Berth 05,MC2,Bow
+50.0,WNW,,370,210k,Berth 05,MC2,Bow
+50.0,NW,,693,210k,Berth 05,MC2,Bow
+50.0,NNW,,788,210k,Berth 05,MC2,Bow
 30.0,N,,384,210k,Berth 05,MC2,Bow
 30.0,NNE,,299,210k,Berth 05,MC2,Bow
 30.0,NE,,227,210k,Berth 05,MC2,Bow
@@ -2561,6 +3537,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,132,210k,Berth 05,MC2,Bow
 9.0,E,9,230,210k,Berth 05,MC2,Bow
 9.0,E,10,294,210k,Berth 05,MC2,Bow
+50.0,N,,351,210k,Berth 05,MC2,Fwd Spring
+50.0,NNE,,297,210k,Berth 05,MC2,Fwd Spring
+50.0,NE,,240,210k,Berth 05,MC2,Fwd Spring
+50.0,ENE,,119,210k,Berth 05,MC2,Fwd Spring
+50.0,E,,95,210k,Berth 05,MC2,Fwd Spring
+50.0,ESE,,89,210k,Berth 05,MC2,Fwd Spring
+50.0,SE,,72,210k,Berth 05,MC2,Fwd Spring
+50.0,SSE,,57,210k,Berth 05,MC2,Fwd Spring
+50.0,S,,47,210k,Berth 05,MC2,Fwd Spring
+50.0,SSW,,39,210k,Berth 05,MC2,Fwd Spring
+50.0,SW,,29,210k,Berth 05,MC2,Fwd Spring
+50.0,WSW,,24,210k,Berth 05,MC2,Fwd Spring
+50.0,W,,43,210k,Berth 05,MC2,Fwd Spring
+50.0,WNW,,149,210k,Berth 05,MC2,Fwd Spring
+50.0,NW,,244,210k,Berth 05,MC2,Fwd Spring
+50.0,NNW,,312,210k,Berth 05,MC2,Fwd Spring
 30.0,N,,181,210k,Berth 05,MC2,Fwd Spring
 30.0,NNE,,158,210k,Berth 05,MC2,Fwd Spring
 30.0,NE,,133,210k,Berth 05,MC2,Fwd Spring
@@ -2603,6 +3595,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,75,210k,Berth 05,MC2,Fwd Spring
 9.0,E,9,105,210k,Berth 05,MC2,Fwd Spring
 9.0,E,10,148,210k,Berth 05,MC2,Fwd Spring
+50.0,N,,292,210k,Berth 05,MC2,Aft Spring
+50.0,NNE,,334,210k,Berth 05,MC2,Aft Spring
+50.0,NE,,282,210k,Berth 05,MC2,Aft Spring
+50.0,ENE,,136,210k,Berth 05,MC2,Aft Spring
+50.0,E,,38,210k,Berth 05,MC2,Aft Spring
+50.0,ESE,,22,210k,Berth 05,MC2,Aft Spring
+50.0,SE,,25,210k,Berth 05,MC2,Aft Spring
+50.0,SSE,,30,210k,Berth 05,MC2,Aft Spring
+50.0,S,,37,210k,Berth 05,MC2,Aft Spring
+50.0,SSW,,44,210k,Berth 05,MC2,Aft Spring
+50.0,SW,,56,210k,Berth 05,MC2,Aft Spring
+50.0,WSW,,73,210k,Berth 05,MC2,Aft Spring
+50.0,W,,135,210k,Berth 05,MC2,Aft Spring
+50.0,WNW,,148,210k,Berth 05,MC2,Aft Spring
+50.0,NW,,156,210k,Berth 05,MC2,Aft Spring
+50.0,NNW,,173,210k,Berth 05,MC2,Aft Spring
 30.0,N,,131,210k,Berth 05,MC2,Aft Spring
 30.0,NNE,,175,210k,Berth 05,MC2,Aft Spring
 30.0,NE,,157,210k,Berth 05,MC2,Aft Spring
@@ -2645,6 +3653,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,76,210k,Berth 05,MC2,Aft Spring
 9.0,E,9,97,210k,Berth 05,MC2,Aft Spring
 9.0,E,10,129,210k,Berth 05,MC2,Aft Spring
+50.0,N,,674,210k,Berth 05,MC2,Stern
+50.0,NNE,,801,210k,Berth 05,MC2,Stern
+50.0,NE,,652,210k,Berth 05,MC2,Stern
+50.0,ENE,,422,210k,Berth 05,MC2,Stern
+50.0,E,,104,210k,Berth 05,MC2,Stern
+50.0,ESE,,80,210k,Berth 05,MC2,Stern
+50.0,SE,,72,210k,Berth 05,MC2,Stern
+50.0,SSE,,60,210k,Berth 05,MC2,Stern
+50.0,S,,53,210k,Berth 05,MC2,Stern
+50.0,SSW,,52,210k,Berth 05,MC2,Stern
+50.0,SW,,51,210k,Berth 05,MC2,Stern
+50.0,WSW,,53,210k,Berth 05,MC2,Stern
+50.0,W,,93,210k,Berth 05,MC2,Stern
+50.0,WNW,,277,210k,Berth 05,MC2,Stern
+50.0,NW,,519,210k,Berth 05,MC2,Stern
+50.0,NNW,,587,210k,Berth 05,MC2,Stern
 30.0,N,,333,210k,Berth 05,MC2,Stern
 30.0,NNE,,351,210k,Berth 05,MC2,Stern
 30.0,NE,,328,210k,Berth 05,MC2,Stern
@@ -2687,6 +3711,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,156,210k,Berth 05,MC2,Stern
 9.0,E,9,243,210k,Berth 05,MC2,Stern
 9.0,E,10,283,210k,Berth 05,MC2,Stern
+50.0,N,,49,230k,Berth 04,MC1,Bow
+50.0,NNE,,54,230k,Berth 04,MC1,Bow
+50.0,NE,,72,230k,Berth 04,MC1,Bow
+50.0,ENE,,61,230k,Berth 04,MC1,Bow
+50.0,E,,54,230k,Berth 04,MC1,Bow
+50.0,ESE,,202,230k,Berth 04,MC1,Bow
+50.0,SE,,363,230k,Berth 04,MC1,Bow
+50.0,SSE,,464,230k,Berth 04,MC1,Bow
+50.0,S,,526,230k,Berth 04,MC1,Bow
+50.0,SSW,,518,230k,Berth 04,MC1,Bow
+50.0,SW,,468,230k,Berth 04,MC1,Bow
+50.0,WSW,,221,230k,Berth 04,MC1,Bow
+50.0,W,,164,230k,Berth 04,MC1,Bow
+50.0,WNW,,105,230k,Berth 04,MC1,Bow
+50.0,NW,,76,230k,Berth 04,MC1,Bow
+50.0,NNW,,63,230k,Berth 04,MC1,Bow
 30.0,N,,82,230k,Berth 04,MC1,Bow
 30.0,NNE,,88,230k,Berth 04,MC1,Bow
 30.0,NE,,83,230k,Berth 04,MC1,Bow
@@ -2729,6 +3769,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,167,230k,Berth 04,MC1,Bow
 9.0,E,9,225,230k,Berth 04,MC1,Bow
 9.0,E,10,272,230k,Berth 04,MC1,Bow
+50.0,N,,44,230k,Berth 04,MC1,Fwd Spring
+50.0,NNE,,58,230k,Berth 04,MC1,Fwd Spring
+50.0,NE,,77,230k,Berth 04,MC1,Fwd Spring
+50.0,ENE,,91,230k,Berth 04,MC1,Fwd Spring
+50.0,E,,96,230k,Berth 04,MC1,Fwd Spring
+50.0,ESE,,72,230k,Berth 04,MC1,Fwd Spring
+50.0,SE,,110,230k,Berth 04,MC1,Fwd Spring
+50.0,SSE,,160,230k,Berth 04,MC1,Fwd Spring
+50.0,S,,237,230k,Berth 04,MC1,Fwd Spring
+50.0,SSW,,193,230k,Berth 04,MC1,Fwd Spring
+50.0,SW,,132,230k,Berth 04,MC1,Fwd Spring
+50.0,WSW,,48,230k,Berth 04,MC1,Fwd Spring
+50.0,W,,11,230k,Berth 04,MC1,Fwd Spring
+50.0,WNW,,15,230k,Berth 04,MC1,Fwd Spring
+50.0,NW,,24,230k,Berth 04,MC1,Fwd Spring
+50.0,NNW,,33,230k,Berth 04,MC1,Fwd Spring
 30.0,N,,47,230k,Berth 04,MC1,Fwd Spring
 30.0,NNE,,56,230k,Berth 04,MC1,Fwd Spring
 30.0,NE,,63,230k,Berth 04,MC1,Fwd Spring
@@ -2771,6 +3827,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,68,230k,Berth 04,MC1,Fwd Spring
 9.0,E,9,79,230k,Berth 04,MC1,Fwd Spring
 9.0,E,10,87,230k,Berth 04,MC1,Fwd Spring
+50.0,N,,45,230k,Berth 04,MC1,Aft Spring
+50.0,NNE,,33,230k,Berth 04,MC1,Aft Spring
+50.0,NE,,21,230k,Berth 04,MC1,Aft Spring
+50.0,ENE,,17,230k,Berth 04,MC1,Aft Spring
+50.0,E,,34,230k,Berth 04,MC1,Aft Spring
+50.0,ESE,,103,230k,Berth 04,MC1,Aft Spring
+50.0,SE,,260,230k,Berth 04,MC1,Aft Spring
+50.0,SSE,,332,230k,Berth 04,MC1,Aft Spring
+50.0,S,,369,230k,Berth 04,MC1,Aft Spring
+50.0,SSW,,240,230k,Berth 04,MC1,Aft Spring
+50.0,SW,,205,230k,Berth 04,MC1,Aft Spring
+50.0,WSW,,172,230k,Berth 04,MC1,Aft Spring
+50.0,W,,164,230k,Berth 04,MC1,Aft Spring
+50.0,WNW,,97,230k,Berth 04,MC1,Aft Spring
+50.0,NW,,71,230k,Berth 04,MC1,Aft Spring
+50.0,NNW,,56,230k,Berth 04,MC1,Aft Spring
 30.0,N,,53,230k,Berth 04,MC1,Aft Spring
 30.0,NNE,,46,230k,Berth 04,MC1,Aft Spring
 30.0,NE,,43,230k,Berth 04,MC1,Aft Spring
@@ -2813,6 +3885,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,82,230k,Berth 04,MC1,Aft Spring
 9.0,E,9,98,230k,Berth 04,MC1,Aft Spring
 9.0,E,10,106,230k,Berth 04,MC1,Aft Spring
+50.0,N,,49,230k,Berth 04,MC1,Stern
+50.0,NNE,,62,230k,Berth 04,MC1,Stern
+50.0,NE,,81,230k,Berth 04,MC1,Stern
+50.0,ENE,,90,230k,Berth 04,MC1,Stern
+50.0,E,,114,230k,Berth 04,MC1,Stern
+50.0,ESE,,383,230k,Berth 04,MC1,Stern
+50.0,SE,,620,230k,Berth 04,MC1,Stern
+50.0,SSE,,695,230k,Berth 04,MC1,Stern
+50.0,S,,613,230k,Berth 04,MC1,Stern
+50.0,SSW,,582,230k,Berth 04,MC1,Stern
+50.0,SW,,465,230k,Berth 04,MC1,Stern
+50.0,WSW,,235,230k,Berth 04,MC1,Stern
+50.0,W,,96,230k,Berth 04,MC1,Stern
+50.0,WNW,,65,230k,Berth 04,MC1,Stern
+50.0,NW,,55,230k,Berth 04,MC1,Stern
+50.0,NNW,,52,230k,Berth 04,MC1,Stern
 30.0,N,,80,230k,Berth 04,MC1,Stern
 30.0,NNE,,83,230k,Berth 04,MC1,Stern
 30.0,NE,,93,230k,Berth 04,MC1,Stern
@@ -2855,6 +3943,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,184,230k,Berth 04,MC1,Stern
 9.0,E,9,247,230k,Berth 04,MC1,Stern
 9.0,E,10,303,230k,Berth 04,MC1,Stern
+50.0,N,,46,230k,Berth 04,MC2,Bow
+50.0,NNE,,56,230k,Berth 04,MC2,Bow
+50.0,NE,,69,230k,Berth 04,MC2,Bow
+50.0,ENE,,70,230k,Berth 04,MC2,Bow
+50.0,E,,70,230k,Berth 04,MC2,Bow
+50.0,ESE,,214,230k,Berth 04,MC2,Bow
+50.0,SE,,445,230k,Berth 04,MC2,Bow
+50.0,SSE,,580,230k,Berth 04,MC2,Bow
+50.0,S,,714,230k,Berth 04,MC2,Bow
+50.0,SSW,,703,230k,Berth 04,MC2,Bow
+50.0,SW,,625,230k,Berth 04,MC2,Bow
+50.0,WSW,,276,230k,Berth 04,MC2,Bow
+50.0,W,,149,230k,Berth 04,MC2,Bow
+50.0,WNW,,94,230k,Berth 04,MC2,Bow
+50.0,NW,,72,230k,Berth 04,MC2,Bow
+50.0,NNW,,59,230k,Berth 04,MC2,Bow
 30.0,N,,78,230k,Berth 04,MC2,Bow
 30.0,NNE,,82,230k,Berth 04,MC2,Bow
 30.0,NE,,103,230k,Berth 04,MC2,Bow
@@ -2897,6 +4001,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,181,230k,Berth 04,MC2,Bow
 9.0,E,9,257,230k,Berth 04,MC2,Bow
 9.0,E,10,325,230k,Berth 04,MC2,Bow
+50.0,N,,47,230k,Berth 04,MC2,Fwd Spring
+50.0,NNE,,61,230k,Berth 04,MC2,Fwd Spring
+50.0,NE,,77,230k,Berth 04,MC2,Fwd Spring
+50.0,ENE,,94,230k,Berth 04,MC2,Fwd Spring
+50.0,E,,97,230k,Berth 04,MC2,Fwd Spring
+50.0,ESE,,95,230k,Berth 04,MC2,Fwd Spring
+50.0,SE,,179,230k,Berth 04,MC2,Fwd Spring
+50.0,SSE,,209,230k,Berth 04,MC2,Fwd Spring
+50.0,S,,227,230k,Berth 04,MC2,Fwd Spring
+50.0,SSW,,243,230k,Berth 04,MC2,Fwd Spring
+50.0,SW,,195,230k,Berth 04,MC2,Fwd Spring
+50.0,WSW,,90,230k,Berth 04,MC2,Fwd Spring
+50.0,W,,29,230k,Berth 04,MC2,Fwd Spring
+50.0,WNW,,21,230k,Berth 04,MC2,Fwd Spring
+50.0,NW,,29,230k,Berth 04,MC2,Fwd Spring
+50.0,NNW,,38,230k,Berth 04,MC2,Fwd Spring
 30.0,N,,51,230k,Berth 04,MC2,Fwd Spring
 30.0,NNE,,56,230k,Berth 04,MC2,Fwd Spring
 30.0,NE,,69,230k,Berth 04,MC2,Fwd Spring
@@ -2939,6 +4059,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,78,230k,Berth 04,MC2,Fwd Spring
 9.0,E,9,97,230k,Berth 04,MC2,Fwd Spring
 9.0,E,10,102,230k,Berth 04,MC2,Fwd Spring
+50.0,N,,42,230k,Berth 04,MC2,Aft Spring
+50.0,NNE,,31,230k,Berth 04,MC2,Aft Spring
+50.0,NE,,20,230k,Berth 04,MC2,Aft Spring
+50.0,ENE,,16,230k,Berth 04,MC2,Aft Spring
+50.0,E,,28,230k,Berth 04,MC2,Aft Spring
+50.0,ESE,,112,230k,Berth 04,MC2,Aft Spring
+50.0,SE,,255,230k,Berth 04,MC2,Aft Spring
+50.0,SSE,,261,230k,Berth 04,MC2,Aft Spring
+50.0,S,,219,230k,Berth 04,MC2,Aft Spring
+50.0,SSW,,178,230k,Berth 04,MC2,Aft Spring
+50.0,SW,,157,230k,Berth 04,MC2,Aft Spring
+50.0,WSW,,153,230k,Berth 04,MC2,Aft Spring
+50.0,W,,140,230k,Berth 04,MC2,Aft Spring
+50.0,WNW,,86,230k,Berth 04,MC2,Aft Spring
+50.0,NW,,65,230k,Berth 04,MC2,Aft Spring
+50.0,NNW,,52,230k,Berth 04,MC2,Aft Spring
 30.0,N,,48,230k,Berth 04,MC2,Aft Spring
 30.0,NNE,,42,230k,Berth 04,MC2,Aft Spring
 30.0,NE,,37,230k,Berth 04,MC2,Aft Spring
@@ -2981,6 +4117,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,74,230k,Berth 04,MC2,Aft Spring
 9.0,E,9,87,230k,Berth 04,MC2,Aft Spring
 9.0,E,10,106,230k,Berth 04,MC2,Aft Spring
+50.0,N,,52,230k,Berth 04,MC2,Stern
+50.0,NNE,,63,230k,Berth 04,MC2,Stern
+50.0,NE,,79,230k,Berth 04,MC2,Stern
+50.0,ENE,,90,230k,Berth 04,MC2,Stern
+50.0,E,,108,230k,Berth 04,MC2,Stern
+50.0,ESE,,411,230k,Berth 04,MC2,Stern
+50.0,SE,,634,230k,Berth 04,MC2,Stern
+50.0,SSE,,706,230k,Berth 04,MC2,Stern
+50.0,S,,682,230k,Berth 04,MC2,Stern
+50.0,SSW,,643,230k,Berth 04,MC2,Stern
+50.0,SW,,490,230k,Berth 04,MC2,Stern
+50.0,WSW,,229,230k,Berth 04,MC2,Stern
+50.0,W,,80,230k,Berth 04,MC2,Stern
+50.0,WNW,,60,230k,Berth 04,MC2,Stern
+50.0,NW,,56,230k,Berth 04,MC2,Stern
+50.0,NNW,,53,230k,Berth 04,MC2,Stern
 30.0,N,,77,230k,Berth 04,MC2,Stern
 30.0,NNE,,80,230k,Berth 04,MC2,Stern
 30.0,NE,,91,230k,Berth 04,MC2,Stern
@@ -3023,6 +4175,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,187,230k,Berth 04,MC2,Stern
 9.0,E,9,237,230k,Berth 04,MC2,Stern
 9.0,E,10,298,230k,Berth 04,MC2,Stern
+50.0,N,,47,250k,Berth 04,MC1,Bow
+50.0,NNE,,50,250k,Berth 04,MC1,Bow
+50.0,NE,,65,250k,Berth 04,MC1,Bow
+50.0,ENE,,64,250k,Berth 04,MC1,Bow
+50.0,E,,55,250k,Berth 04,MC1,Bow
+50.0,ESE,,200,250k,Berth 04,MC1,Bow
+50.0,SE,,325,250k,Berth 04,MC1,Bow
+50.0,SSE,,462,250k,Berth 04,MC1,Bow
+50.0,S,,520,250k,Berth 04,MC1,Bow
+50.0,SSW,,488,250k,Berth 04,MC1,Bow
+50.0,SW,,398,250k,Berth 04,MC1,Bow
+50.0,WSW,,204,250k,Berth 04,MC1,Bow
+50.0,W,,152,250k,Berth 04,MC1,Bow
+50.0,WNW,,102,250k,Berth 04,MC1,Bow
+50.0,NW,,75,250k,Berth 04,MC1,Bow
+50.0,NNW,,57,250k,Berth 04,MC1,Bow
 30.0,N,,75,250k,Berth 04,MC1,Bow
 30.0,NNE,,71,250k,Berth 04,MC1,Bow
 30.0,NE,,77,250k,Berth 04,MC1,Bow
@@ -3065,6 +4233,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,142,250k,Berth 04,MC1,Bow
 9.0,E,9,197,250k,Berth 04,MC1,Bow
 9.0,E,10,230,250k,Berth 04,MC1,Bow
+50.0,N,,46,250k,Berth 04,MC1,Fwd Spring
+50.0,NNE,,65,250k,Berth 04,MC1,Fwd Spring
+50.0,NE,,89,250k,Berth 04,MC1,Fwd Spring
+50.0,ENE,,110,250k,Berth 04,MC1,Fwd Spring
+50.0,E,,113,250k,Berth 04,MC1,Fwd Spring
+50.0,ESE,,79,250k,Berth 04,MC1,Fwd Spring
+50.0,SE,,74,250k,Berth 04,MC1,Fwd Spring
+50.0,SSE,,93,250k,Berth 04,MC1,Fwd Spring
+50.0,S,,88,250k,Berth 04,MC1,Fwd Spring
+50.0,SSW,,85,250k,Berth 04,MC1,Fwd Spring
+50.0,SW,,75,250k,Berth 04,MC1,Fwd Spring
+50.0,WSW,,44,250k,Berth 04,MC1,Fwd Spring
+50.0,W,,2,250k,Berth 04,MC1,Fwd Spring
+50.0,WNW,,3,250k,Berth 04,MC1,Fwd Spring
+50.0,NW,,17,250k,Berth 04,MC1,Fwd Spring
+50.0,NNW,,32,250k,Berth 04,MC1,Fwd Spring
 30.0,N,,47,250k,Berth 04,MC1,Fwd Spring
 30.0,NNE,,56,250k,Berth 04,MC1,Fwd Spring
 30.0,NE,,68,250k,Berth 04,MC1,Fwd Spring
@@ -3107,6 +4291,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,61,250k,Berth 04,MC1,Fwd Spring
 9.0,E,9,72,250k,Berth 04,MC1,Fwd Spring
 9.0,E,10,78,250k,Berth 04,MC1,Fwd Spring
+50.0,N,,45,250k,Berth 04,MC1,Aft Spring
+50.0,NNE,,32,250k,Berth 04,MC1,Aft Spring
+50.0,NE,,21,250k,Berth 04,MC1,Aft Spring
+50.0,ENE,,14,250k,Berth 04,MC1,Aft Spring
+50.0,E,,28,250k,Berth 04,MC1,Aft Spring
+50.0,ESE,,75,250k,Berth 04,MC1,Aft Spring
+50.0,SE,,161,250k,Berth 04,MC1,Aft Spring
+50.0,SSE,,207,250k,Berth 04,MC1,Aft Spring
+50.0,S,,181,250k,Berth 04,MC1,Aft Spring
+50.0,SSW,,159,250k,Berth 04,MC1,Aft Spring
+50.0,SW,,179,250k,Berth 04,MC1,Aft Spring
+50.0,WSW,,211,250k,Berth 04,MC1,Aft Spring
+50.0,W,,193,250k,Berth 04,MC1,Aft Spring
+50.0,WNW,,108,250k,Berth 04,MC1,Aft Spring
+50.0,NW,,76,250k,Berth 04,MC1,Aft Spring
+50.0,NNW,,57,250k,Berth 04,MC1,Aft Spring
 30.0,N,,53,250k,Berth 04,MC1,Aft Spring
 30.0,NNE,,45,250k,Berth 04,MC1,Aft Spring
 30.0,NE,,39,250k,Berth 04,MC1,Aft Spring
@@ -3149,6 +4349,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,72,250k,Berth 04,MC1,Aft Spring
 9.0,E,9,82,250k,Berth 04,MC1,Aft Spring
 9.0,E,10,99,250k,Berth 04,MC1,Aft Spring
+50.0,N,,50,250k,Berth 04,MC1,Stern
+50.0,NNE,,63,250k,Berth 04,MC1,Stern
+50.0,NE,,82,250k,Berth 04,MC1,Stern
+50.0,ENE,,96,250k,Berth 04,MC1,Stern
+50.0,E,,119,250k,Berth 04,MC1,Stern
+50.0,ESE,,463,250k,Berth 04,MC1,Stern
+50.0,SE,,622,250k,Berth 04,MC1,Stern
+50.0,SSE,,746,250k,Berth 04,MC1,Stern
+50.0,S,,714,250k,Berth 04,MC1,Stern
+50.0,SSW,,612,250k,Berth 04,MC1,Stern
+50.0,SW,,453,250k,Berth 04,MC1,Stern
+50.0,WSW,,209,250k,Berth 04,MC1,Stern
+50.0,W,,106,250k,Berth 04,MC1,Stern
+50.0,WNW,,65,250k,Berth 04,MC1,Stern
+50.0,NW,,47,250k,Berth 04,MC1,Stern
+50.0,NNW,,46,250k,Berth 04,MC1,Stern
 30.0,N,,77,250k,Berth 04,MC1,Stern
 30.0,NNE,,79,250k,Berth 04,MC1,Stern
 30.0,NE,,86,250k,Berth 04,MC1,Stern
@@ -3191,6 +4407,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,177,250k,Berth 04,MC1,Stern
 9.0,E,9,244,250k,Berth 04,MC1,Stern
 9.0,E,10,327,250k,Berth 04,MC1,Stern
+50.0,N,,46,250k,Berth 04,MC2,Bow
+50.0,NNE,,50,250k,Berth 04,MC2,Bow
+50.0,NE,,72,250k,Berth 04,MC2,Bow
+50.0,ENE,,63,250k,Berth 04,MC2,Bow
+50.0,E,,55,250k,Berth 04,MC2,Bow
+50.0,ESE,,214,250k,Berth 04,MC2,Bow
+50.0,SE,,377,250k,Berth 04,MC2,Bow
+50.0,SSE,,543,250k,Berth 04,MC2,Bow
+50.0,S,,683,250k,Berth 04,MC2,Bow
+50.0,SSW,,655,250k,Berth 04,MC2,Bow
+50.0,SW,,515,250k,Berth 04,MC2,Bow
+50.0,WSW,,260,250k,Berth 04,MC2,Bow
+50.0,W,,150,250k,Berth 04,MC2,Bow
+50.0,WNW,,91,250k,Berth 04,MC2,Bow
+50.0,NW,,70,250k,Berth 04,MC2,Bow
+50.0,NNW,,52,250k,Berth 04,MC2,Bow
 30.0,N,,71,250k,Berth 04,MC2,Bow
 30.0,NNE,,75,250k,Berth 04,MC2,Bow
 30.0,NE,,89,250k,Berth 04,MC2,Bow
@@ -3233,6 +4465,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,179,250k,Berth 04,MC2,Bow
 9.0,E,9,258,250k,Berth 04,MC2,Bow
 9.0,E,10,341,250k,Berth 04,MC2,Bow
+50.0,N,,50,250k,Berth 04,MC2,Fwd Spring
+50.0,NNE,,66,250k,Berth 04,MC2,Fwd Spring
+50.0,NE,,89,250k,Berth 04,MC2,Fwd Spring
+50.0,ENE,,110,250k,Berth 04,MC2,Fwd Spring
+50.0,E,,116,250k,Berth 04,MC2,Fwd Spring
+50.0,ESE,,87,250k,Berth 04,MC2,Fwd Spring
+50.0,SE,,131,250k,Berth 04,MC2,Fwd Spring
+50.0,SSE,,211,250k,Berth 04,MC2,Fwd Spring
+50.0,S,,214,250k,Berth 04,MC2,Fwd Spring
+50.0,SSW,,200,250k,Berth 04,MC2,Fwd Spring
+50.0,SW,,187,250k,Berth 04,MC2,Fwd Spring
+50.0,WSW,,80,250k,Berth 04,MC2,Fwd Spring
+50.0,W,,18,250k,Berth 04,MC2,Fwd Spring
+50.0,WNW,,13,250k,Berth 04,MC2,Fwd Spring
+50.0,NW,,24,250k,Berth 04,MC2,Fwd Spring
+50.0,NNW,,37,250k,Berth 04,MC2,Fwd Spring
 30.0,N,,51,250k,Berth 04,MC2,Fwd Spring
 30.0,NNE,,59,250k,Berth 04,MC2,Fwd Spring
 30.0,NE,,71,250k,Berth 04,MC2,Fwd Spring
@@ -3275,6 +4523,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,73,250k,Berth 04,MC2,Fwd Spring
 9.0,E,9,84,250k,Berth 04,MC2,Fwd Spring
 9.0,E,10,95,250k,Berth 04,MC2,Fwd Spring
+50.0,N,,41,250k,Berth 04,MC2,Aft Spring
+50.0,NNE,,30,250k,Berth 04,MC2,Aft Spring
+50.0,NE,,19,250k,Berth 04,MC2,Aft Spring
+50.0,ENE,,14,250k,Berth 04,MC2,Aft Spring
+50.0,E,,28,250k,Berth 04,MC2,Aft Spring
+50.0,ESE,,65,250k,Berth 04,MC2,Aft Spring
+50.0,SE,,155,250k,Berth 04,MC2,Aft Spring
+50.0,SSE,,242,250k,Berth 04,MC2,Aft Spring
+50.0,S,,196,250k,Berth 04,MC2,Aft Spring
+50.0,SSW,,160,250k,Berth 04,MC2,Aft Spring
+50.0,SW,,194,250k,Berth 04,MC2,Aft Spring
+50.0,WSW,,170,250k,Berth 04,MC2,Aft Spring
+50.0,W,,153,250k,Berth 04,MC2,Aft Spring
+50.0,WNW,,91,250k,Berth 04,MC2,Aft Spring
+50.0,NW,,67,250k,Berth 04,MC2,Aft Spring
+50.0,NNW,,51,250k,Berth 04,MC2,Aft Spring
 30.0,N,,48,250k,Berth 04,MC2,Aft Spring
 30.0,NNE,,41,250k,Berth 04,MC2,Aft Spring
 30.0,NE,,36,250k,Berth 04,MC2,Aft Spring
@@ -3317,6 +4581,22 @@ WindSpeed,WindDirection,WaveCondition,Tension,Vessel,Berth,MC,ML
 9.0,E,8,61,250k,Berth 04,MC2,Aft Spring
 9.0,E,9,76,250k,Berth 04,MC2,Aft Spring
 9.0,E,10,89,250k,Berth 04,MC2,Aft Spring
+50.0,N,,52,250k,Berth 04,MC2,Stern
+50.0,NNE,,61,250k,Berth 04,MC2,Stern
+50.0,NE,,81,250k,Berth 04,MC2,Stern
+50.0,ENE,,90,250k,Berth 04,MC2,Stern
+50.0,E,,113,250k,Berth 04,MC2,Stern
+50.0,ESE,,463,250k,Berth 04,MC2,Stern
+50.0,SE,,652,250k,Berth 04,MC2,Stern
+50.0,SSE,,773,250k,Berth 04,MC2,Stern
+50.0,S,,771,250k,Berth 04,MC2,Stern
+50.0,SSW,,670,250k,Berth 04,MC2,Stern
+50.0,SW,,489,250k,Berth 04,MC2,Stern
+50.0,WSW,,212,250k,Berth 04,MC2,Stern
+50.0,W,,87,250k,Berth 04,MC2,Stern
+50.0,WNW,,61,250k,Berth 04,MC2,Stern
+50.0,NW,,49,250k,Berth 04,MC2,Stern
+50.0,NNW,,48,250k,Berth 04,MC2,Stern
 30.0,N,,83,250k,Berth 04,MC2,Stern
 30.0,NNE,,83,250k,Berth 04,MC2,Stern
 30.0,NE,,93,250k,Berth 04,MC2,Stern

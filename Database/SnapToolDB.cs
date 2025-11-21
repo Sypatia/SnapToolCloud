@@ -7,7 +7,7 @@ namespace SnapToolCloud.Database
 {
     public class SnapToolDB
     {
-        private static string ConnectionString => Globals.Config.GetConnectionString("Postgres");
+        public static string ConnectionString => Globals.Config.GetConnectionString("Postgres");
 
         // ------------------ INITIALIZATION ------------------
         public static async Task InitializeAsync()
@@ -35,43 +35,61 @@ namespace SnapToolCloud.Database
                     weatherNote TEXT,
                     confidence TEXT,
                     dateTimeUploaded TIMESTAMP,
+
                     recordIntervalHrs REAL,
                     recordHash TEXT,
-                    blobUrl TEXT
+                    blobUrl TEXT,
+                    isLatest BOOLEAN
                 );
                 CREATE UNIQUE INDEX IF NOT EXISTS idx_weather_forecast_recordhash 
                     ON weather_forecast(recordHash);
+                CREATE INDEX IF NOT EXISTS idx_weather_forecast_localdatetime 
+                    ON weather_forecast(localDateTime);
             ");
 
-            await EnsureTableExists(conn, "granular_activation", @"
-                CREATE TABLE granular_activation (
+            await EnsureTableExists(conn, "grid_activation", @"
+                CREATE TABLE grid_activation (
                     id SERIAL PRIMARY KEY,
-                    forecastId INT REFERENCES weather_forecast(id),
-                    dockingId INT,
-                    activePileDolphins TEXT[],
-                    activeRegions TEXT[],
-                    dateTimeUploaded TIMESTAMP
-                )");
+                    forecastHash TEXT,
+                    dockingHashes TEXT[],
+                    name TEXT,
+                    activeStatus BOOLEAN,
+                    dateTimeUploaded TIMESTAMP,
+                    triggeringTension REAL,
+                    timestampFrom TIMESTAMP,
+                    timestampTo TIMESTAMP,
+                    isLatest BOOLEAN
+                );
+            ");
 
-            await EnsureTableExists(conn, "consolidated_activation", @"
-                CREATE TABLE consolidated_activation (
+            await EnsureTableExists(conn, "pd_activation", @"
+                CREATE TABLE pd_activation (
                     id SERIAL PRIMARY KEY,
-                    granularIds INT[],
-                    activePileDolphins TEXT[],
-                    activeRegions TEXT[]
-                )");
+                    forecastHash TEXT,
+                    dockingHashes TEXT[],
+                    name TEXT,
+                    activeStatus BOOLEAN,
+                    triggeringTension REAL,
+                    dateTimeUploaded TIMESTAMP,
+                    timestampFrom TIMESTAMP,
+                    timestampTo TIMESTAMP,
+                    isLatest BOOLEAN
+                );
+            ");
 
             await EnsureTableExists(conn, "docking_arrangements", @"
-                CREATE TABLE docking_arrangements (
+               CREATE TABLE docking_arrangements (
                     id SERIAL PRIMARY KEY,
                     dateTimeUploaded TIMESTAMP,
                     berth TEXT,
                     vessel TEXT,
+                    MC TEXT,
                     eventType TEXT,
-                    personOnBoard TIMESTAMP,
-                    pilotOff TIMESTAMP,
-                    lastModifiedPortsDB TIMESTAMP,
-                    recordHash TEXT
+                    allSecureDateTime TIMESTAMP,
+                    sailDateTime TIMESTAMP,
+
+                    recordHash TEXT,
+                    isLatest BOOLEAN
                 );
                 CREATE UNIQUE INDEX IF NOT EXISTS idx_docking_arrangements_recordhash
                     ON docking_arrangements(recordHash);
@@ -116,17 +134,17 @@ namespace SnapToolCloud.Database
                     swell1Direction, swell1Period, swell1Height,
                     swell2Direction, swell2Period, swell2Height,
                     totalWaveSig, totalWaveMax, weatherNote, confidence, recordIntervalHrs, recordHash,
-                    dateTimeUploaded, blobUrl)
+                    dateTimeUploaded, blobUrl, isLatest)
                 VALUES (
                     @localDateTime, @windDir, @windSpd, @windGust, @wind50, @seaHt,
                     @swell1Direction, @swell1Period, @swell1Height,
                     @swell2Direction, @swell2Period, @swell2Height,
                     @totalWaveSig, @totalWaveMax, @weatherNote, @confidence, @recordIntervalHrs, @recordHash,
-                    NOW(), @blobUrl)
+                    NOW(), @blobUrl, @isLatest)
                 RETURNING id";
 
             using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("localDateTime", record.DateTime);
+            cmd.Parameters.AddWithValue("localDateTime", TimeZoneParser.AsPerthLocal(record.DateTimeForecast));
             cmd.Parameters.AddWithValue("windDir", (object?)record.WindDirection ?? DBNull.Value);
             cmd.Parameters.AddWithValue("windSpd", record.WindSpeed);
             cmd.Parameters.AddWithValue("windGust", record.WindGustSpeed);
@@ -145,107 +163,9 @@ namespace SnapToolCloud.Database
             cmd.Parameters.AddWithValue("recordIntervalHrs", (object?)record.RecordIntervalHours ?? DBNull.Value);
             cmd.Parameters.AddWithValue("recordHash", record.RecordHash);
             cmd.Parameters.AddWithValue("blobUrl", (object?)blobUrl ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("isLatest", true);
 
             return Convert.ToInt32(await cmd.ExecuteScalarAsync());
-        }
-        public static async Task UpdateWeatherForecastAsync(int id, WeatherRecord record, string blobUrl)
-        {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            const string sql = @"
-                UPDATE weather_forecast SET
-                    localDateTime=@localDateTime,
-                    windDir=@windDir,
-                    windSpd=@windSpd,
-                    windGust=@windGust,
-                    wind50=@wind50,
-                    seaHt=@seaHt,
-                    swell1Direction=@swell1Direction,
-                    swell1Period=@swell1Period,
-                    swell1Height=@swell1Height,
-                    swell2Direction=@swell2Direction,
-                    swell2Period=@swell2Period,
-                    swell2Height=@swell2Height,
-                    totalWaveSig=@totalWaveSig,
-                    totalWaveMax=@totalWaveMax,
-                    weatherNote=@weatherNote,
-                    confidence=@confidence,
-                    recordIntervalHrs=@recordIntervalHrs,  
-                    recordHash=@recordHash,
-                    blobUrl=@blobUrl
-                WHERE id=@id";
-
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
-            cmd.Parameters.AddWithValue("localDateTime", record.DateTime);
-            cmd.Parameters.AddWithValue("windDir", (object?)record.WindDirection ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("windSpd", record.WindSpeed);
-            cmd.Parameters.AddWithValue("windGust", record.WindGustSpeed);
-            cmd.Parameters.AddWithValue("wind50", record.Wind50Speed);
-            cmd.Parameters.AddWithValue("seaHt", record.SeaHeight);
-            cmd.Parameters.AddWithValue("swell1Direction", (object?)record.SwellDirection1 ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("swell1Period", record.SwellPeriod1);
-            cmd.Parameters.AddWithValue("swell1Height", record.SwellHeight1);
-            cmd.Parameters.AddWithValue("swell2Direction", (object?)record.SwellDirection2 ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("swell2Period", record.SwellPeriod2);
-            cmd.Parameters.AddWithValue("swell2Height", record.SwellHeight2);
-            cmd.Parameters.AddWithValue("totalWaveSig", record.TotalWaveSig);
-            cmd.Parameters.AddWithValue("totalWaveMax", record.TotalWaveMax);
-            cmd.Parameters.AddWithValue("weatherNote", (object?)record.WeatherDescription ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("confidence", (object?)record.ForecastConfidence ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("recordIntervalHrs", (object?)record.RecordIntervalHours ?? DBNull.Value);
-            cmd.Parameters.AddWithValue("recordHash", record.RecordHash);
-            cmd.Parameters.AddWithValue("blobUrl", (object?)blobUrl ?? DBNull.Value);
-
-            await cmd.ExecuteNonQueryAsync();
-        }
-
-        public static async Task<WeatherRecord?> GetWeatherForecastByIdAsync(int id)
-        {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            const string sql = "SELECT * FROM weather_forecast WHERE id=@id";
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
-
-            using var reader = await cmd.ExecuteReaderAsync();
-            if (!await reader.ReadAsync())
-                return null;
-
-            return new WeatherRecord
-            {
-                DateTime = reader.GetDateTime(reader.GetOrdinal("localDateTime")),
-                WindDirection = reader["windDir"] as string ?? "",
-                WindSpeed = reader.GetDouble(reader.GetOrdinal("windSpd")),
-                WindGustSpeed = reader.GetDouble(reader.GetOrdinal("windGust")),
-                Wind50Speed = reader.GetDouble(reader.GetOrdinal("wind50")),
-                SeaHeight = reader.GetDouble(reader.GetOrdinal("seaHt")),
-                SwellDirection1 = reader["swell1Direction"] as string ?? "",
-                SwellPeriod1 = reader.GetDouble(reader.GetOrdinal("swell1Period")),
-                SwellHeight1 = reader.GetDouble(reader.GetOrdinal("swell1Height")),
-                SwellDirection2 = reader["swell2Direction"] as string ?? "",
-                SwellPeriod2 = reader.GetDouble(reader.GetOrdinal("swell2Period")),
-                SwellHeight2 = reader.GetDouble(reader.GetOrdinal("swell2Height")),
-                TotalWaveSig = reader.GetDouble(reader.GetOrdinal("totalWaveSig")),
-                TotalWaveMax = reader.GetDouble(reader.GetOrdinal("totalWaveMax")),
-                RecordIntervalHours = reader.GetDouble(reader.GetOrdinal("recordIntervalHrs")),
-                WeatherDescription = reader["weatherNote"] as string ?? "",
-                ForecastConfidence = reader["confidence"] as string ?? ""
-            };
-        }
-
-        public static async Task DeleteWeatherForecastAsync(int id)
-        {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            const string sql = "DELETE FROM weather_forecast WHERE id=@id";
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
-
-            await cmd.ExecuteNonQueryAsync();
         }
 
         public static async Task<bool> WeatherForecastExistsAsync(string recordHash)
@@ -260,96 +180,40 @@ namespace SnapToolCloud.Database
             return (bool)await cmd.ExecuteScalarAsync();
         }
 
-        // ------------------ CONSOLIDATED ACTIVATION CRUD ------------------
-        public static async Task<int> InsertConsolidatedActivationAsync(
-            int[] granularIds, string[] activePiles, string[] activeDolphins, string[] activeRegions)
+        public static async Task<bool> WeatherTimestampExistsAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    DateTime localDateTime)
         {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
             const string sql = @"
-                INSERT INTO consolidated_activation (
-                    granularIds, activePiles, activeDolphins, activeRegions)
-                VALUES (@granularIds, @activePiles, @activeDolphins, @activeRegions)
-                RETURNING id";
+        SELECT EXISTS (
+            SELECT 1 FROM weather_forecast
+            WHERE localDateTime = @dt
+        )";
 
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("granularIds", granularIds);
-            cmd.Parameters.AddWithValue("activePiles", activePiles);
-            cmd.Parameters.AddWithValue("activeDolphins", activeDolphins);
-            cmd.Parameters.AddWithValue("activeRegions", activeRegions);
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("dt", localDateTime);
 
-            return Convert.ToInt32(await cmd.ExecuteScalarAsync());
+            return (bool)await cmd.ExecuteScalarAsync();
         }
 
-        // ------------------ GRANULAR ACTIVATION CRUD ------------------
-        public static async Task<int> InsertGranularActivationAsync(
-            int forecastId,
-            int dockingId,
-            List<GridRecord> activeRegions,
-            List<PileDolphinRecord> activePiles,
-            List<PileDolphinRecord> activeDolphins)
+        public static async Task<int> ClearWeatherByDateTimeAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    DateTime dateTime)
         {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            // Serialize record lists to JSON
-            string pilesJson = JsonSerializer.Serialize(activePiles);
-            string dolphinsJson = JsonSerializer.Serialize(activeDolphins);
-            string regionsJson = JsonSerializer.Serialize(activeRegions);
-
             const string sql = @"
-                INSERT INTO granular_activation (
-                    forecastId, dockingId, activePiles, activeDolphins, activeRegions, dateTimeUploaded)
-                VALUES (@forecastId, @dockingId, @activePiles, @activeDolphins, @activeRegions, NOW())
-                RETURNING id";
+        UPDATE weather_forecast
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE
+          AND localDateTime = @dt";
 
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("forecastId", forecastId);
-            cmd.Parameters.AddWithValue("dockingId", dockingId);
-            cmd.Parameters.AddWithValue("activePiles", pilesJson);
-            cmd.Parameters.AddWithValue("activeDolphins", dolphinsJson);
-            cmd.Parameters.AddWithValue("activeRegions", regionsJson);
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("dt", dateTime);
 
-            return Convert.ToInt32(await cmd.ExecuteScalarAsync());
+            return await cmd.ExecuteNonQueryAsync();
         }
 
-        public static async Task<(List<GridRecord> Regions, List<PileDolphinRecord> Piles, List<PileDolphinRecord> Dolphins)?>
-            GetGranularActivationAsync(int id)
-        {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            const string sql = @"
-                SELECT activePiles, activeDolphins, activeRegions
-                FROM granular_activation
-                WHERE id=@id";
-
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
-
-            using var reader = await cmd.ExecuteReaderAsync();
-            if (!await reader.ReadAsync())
-                return null;
-
-            var piles = JsonSerializer.Deserialize<List<PileDolphinRecord>>(reader["activePiles"]?.ToString() ?? "[]");
-            var dolphins = JsonSerializer.Deserialize<List<PileDolphinRecord>>(reader["activeDolphins"]?.ToString() ?? "[]");
-            var regions = JsonSerializer.Deserialize<List<GridRecord>>(reader["activeRegions"]?.ToString() ?? "[]");
-
-            return (regions ?? new(), piles ?? new(), dolphins ?? new());
-        }
-
-        public static async Task DeleteGranularActivationAsync(int id)
-        {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
-            const string sql = "DELETE FROM granular_activation WHERE id=@id";
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
-
-            await cmd.ExecuteNonQueryAsync();
-        }
 
         // ------------------ DOCKING ARRANGEMENTS CRUD ------------------
         public static async Task<int> InsertDockingArrangementAsync(DockingArrangementRecord record)
@@ -359,73 +223,353 @@ namespace SnapToolCloud.Database
 
             const string sql = @"
                 INSERT INTO docking_arrangements (
-                    dateTimeUploaded, berth, vessel, eventType, personOnBoard, pilotOff, recordHash, lastModifiedPortsDB)
-                VALUES (NOW(), @berth, @vessel, @eventType, @personOnBoard, @pilotOff, @recordHash, NOW())
+                    dateTimeUploaded,
+                    berth,
+                    vessel,
+                    MC,
+                    eventType,
+                    allSecureDateTime,
+                    sailDateTime,
+                    recordHash
+                )
+                VALUES (
+                    NOW(),
+                    @berth,
+                    @vessel,
+                    @MC,
+                    @eventType,
+                    @allSecureDateTime,
+                    @sailDateTime,
+                    @recordHash
+                )
                 RETURNING id";
 
             using var cmd = new NpgsqlCommand(sql, conn);
+
             cmd.Parameters.AddWithValue("berth", record.Berth);
             cmd.Parameters.AddWithValue("vessel", record.Vessel);
-            cmd.Parameters.AddWithValue("eventType", record.MC ?? "Unknown");
-            cmd.Parameters.AddWithValue("personOnBoard", record.PlanToBerth);
-            cmd.Parameters.AddWithValue("pilotOff", record.PlanToSail);
+            cmd.Parameters.AddWithValue("MC", record.MC ?? "Unknown");
+            cmd.Parameters.AddWithValue("eventType", record.EventType ?? "Unknown");
+            cmd.Parameters.AddWithValue("allSecureDateTime", TimeZoneParser.AsPerthLocal(record.AllSecureDateTime));
+            cmd.Parameters.AddWithValue("sailDateTime", TimeZoneParser.AsPerthLocal(record.SailDateTime));
             cmd.Parameters.AddWithValue("recordHash", record.RecordHash);
+            cmd.Parameters.AddWithValue("isLatest", true);
 
             return Convert.ToInt32(await cmd.ExecuteScalarAsync());
         }
 
-        public static async Task<DockingArrangementRecord?> GetDockingArrangementAsync(int id)
+        public static async Task<int> ClearScenarioAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction tx,
+            TableDef table,
+            DateTime weatherStart,
+            DateTime weatherEnd,
+            string[] berths)
         {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
-
             const string sql = @"
-                SELECT berth, vessel, eventType, personOnBoard, pilotOff
-                FROM docking_arrangements
-                WHERE id=@id";
+        UPDATE {0}
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE
+          AND timestampFrom <= @end
+          AND timestampTo   >= @start
+          AND (dockingHashes && @berths)";
 
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
+            string finalSql = string.Format(sql, table.Name);
 
-            using var reader = await cmd.ExecuteReaderAsync();
-            if (!await reader.ReadAsync())
-                return null;
+            using var cmd = new NpgsqlCommand(finalSql, conn, tx);
+            cmd.Parameters.AddWithValue("start", weatherStart);
+            cmd.Parameters.AddWithValue("end", weatherEnd);
+            cmd.Parameters.AddWithValue("berths", berths);
 
-            return new DockingArrangementRecord
-            {
-                Berth = reader["berth"] as string ?? "",
-                Vessel = reader["vessel"] as string ?? "",
-                MC = reader["eventType"] as string ?? "",
-                VesselName = reader["vessel"] as string ?? "",
-                PlanToBerth = reader.GetDateTime(reader.GetOrdinal("personOnBoard")),
-                PlanToSail = reader.GetDateTime(reader.GetOrdinal("pilotOff"))
-            };
+            return await cmd.ExecuteNonQueryAsync();
         }
 
-        public static async Task DeleteDockingArrangementAsync(int id)
+        public static async Task<bool> ScenarioExistsAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    TableDef table,
+    DateTime weatherStart,
+    DateTime weatherEnd,
+    string[] berths)
         {
-            using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
+            const string sql = @"
+        SELECT EXISTS (
+            SELECT 1 
+            FROM {0}
+            WHERE isLatest = TRUE
+              AND timestampFrom <= @end
+              AND timestampTo   >= @start
+              AND (dockingHashes && @berths)
+        )";
 
-            const string sql = "DELETE FROM docking_arrangements WHERE id=@id";
-            using var cmd = new NpgsqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("id", id);
+            string finalSql = string.Format(sql, table.Name);
 
-            await cmd.ExecuteNonQueryAsync();
+            using var cmd = new NpgsqlCommand(finalSql, conn, tx);
+            cmd.Parameters.AddWithValue("start", weatherStart);
+            cmd.Parameters.AddWithValue("end", weatherEnd);
+            cmd.Parameters.AddWithValue("berths", berths);
+
+            return (bool)await cmd.ExecuteScalarAsync();
         }
 
 
-        public static async Task<bool> DockingArrangementExistsAsync(string recordHash)
+        public static async Task<bool> DockingArrangementExistsAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction? tx,
+            string recordHash)
         {
-            await using var conn = new NpgsqlConnection(ConnectionString);
-            await conn.OpenAsync();
+            const string sql = @"
+        SELECT EXISTS (
+            SELECT 1
+            FROM docking_arrangements
+            WHERE recordHash = @hash
+        )";
 
-            const string sql = "SELECT EXISTS (SELECT 1 FROM docking_arrangements WHERE recordHash=@hash)";
-            await using var cmd = new NpgsqlCommand(sql, conn);
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
             cmd.Parameters.AddWithValue("hash", recordHash);
 
             return (bool)await cmd.ExecuteScalarAsync();
         }
 
+        public static async Task<bool> DockingBerthExistsAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    string berth)
+        {
+            const string sql = @"
+        SELECT EXISTS (
+            SELECT 1 FROM docking_arrangements
+            WHERE berth = @berth
+        )";
+
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("berth", berth);
+
+            return (bool)await cmd.ExecuteScalarAsync();
+        }
+
+        // ------------------ BULK INSERT HELPERS ------------------
+        public static async Task BulkInsertGridActivationsAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction tx,
+            IEnumerable<(string ForecastHash, string[] DockingHashes, string Name, bool ActiveStatus, double TriggeringTension, DateTime TimestampFrom, DateTime TimestampTo)> records)
+        {
+            using var writer = conn.BeginBinaryImport(
+                "COPY grid_activation (forecastHash, dockingHashes, name, activeStatus, triggeringTension, dateTimeUploaded, timestampFrom, timestampTo, isLatest) FROM STDIN (FORMAT BINARY)"
+            );
+
+            foreach (var r in records)
+            {
+                await writer.StartRowAsync();
+                await writer.WriteAsync(r.ForecastHash, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.DockingHashes, NpgsqlTypes.NpgsqlDbType.Array | NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.Name, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.ActiveStatus, NpgsqlTypes.NpgsqlDbType.Boolean);
+                await writer.WriteAsync(r.TriggeringTension, NpgsqlTypes.NpgsqlDbType.Real);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(DateTime.UtcNow), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.TimestampFrom), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.TimestampTo), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(true, NpgsqlTypes.NpgsqlDbType.Boolean);
+            }
+
+            await writer.CompleteAsync();
+        }
+
+        public static async Task BulkInsertPdActivationsAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction tx,
+            IEnumerable<(string ForecastHash, string[] DockingHashes, string Name, bool ActiveStatus, double TriggeringTension, DateTime TimestampFrom, DateTime TimestampTo)> records)
+        {
+
+            using var writer = conn.BeginBinaryImport(@"
+        COPY pd_activation (forecastHash, dockingHashes, name, activeStatus, triggeringTension, dateTimeUploaded, timestampFrom, timestampTo, isLatest)
+        FROM STDIN (FORMAT BINARY)");
+
+            foreach (var r in records)
+            {
+                await writer.StartRowAsync();
+                await writer.WriteAsync(r.ForecastHash, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.DockingHashes, NpgsqlTypes.NpgsqlDbType.Array | NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.Name, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.ActiveStatus, NpgsqlTypes.NpgsqlDbType.Boolean);
+                await writer.WriteAsync(r.TriggeringTension, NpgsqlTypes.NpgsqlDbType.Real);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(DateTime.UtcNow), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.TimestampFrom), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.TimestampTo), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(true, NpgsqlTypes.NpgsqlDbType.Boolean);
+            }
+
+            await writer.CompleteAsync();
+            Console.WriteLine($"✅ Bulk inserted {records.Count()} pd_activation records");
+        }
+
+        public static async Task BulkInsertDockingArrangementsAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction tx,
+            IEnumerable<DockingArrangementRecord> records)
+        {
+
+            using var writer = conn.BeginBinaryImport(@"
+            COPY docking_arrangements (
+                dateTimeUploaded,
+                berth,
+                vessel,
+                MC,
+                eventType,
+                allSecureDateTime,
+                sailDateTime,
+                recordHash,
+                isLatest
+            ) FROM STDIN (FORMAT BINARY)");
+
+            foreach (var r in records)
+            {
+                await writer.StartRowAsync();
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(DateTime.UtcNow), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(r.Berth, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.Vessel, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.MC ?? "Unknown", NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(r.EventType ?? "Unknown", NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.AllSecureDateTime), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(TimeZoneParser.AsPerthLocal(r.SailDateTime), NpgsqlTypes.NpgsqlDbType.Timestamp);
+                await writer.WriteAsync(r.RecordHash, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(true, NpgsqlTypes.NpgsqlDbType.Boolean);
+            }
+
+            await writer.CompleteAsync();
+        }
+        public static async Task<int> ClearAllLatestAsync(
+            NpgsqlConnection conn,
+            NpgsqlTransaction tx,
+            TableDef table)
+        {
+            string sql = $@"
+        UPDATE {table.Name}
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE";
+
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            return await cmd.ExecuteNonQueryAsync();
+        }
+
+
+        public static async Task<int> ClearByForecastAndDockingAsync(
+        NpgsqlConnection conn,
+        NpgsqlTransaction tx,
+        TableDef table,
+        string forecastHash,
+        string[] dockingHashes)
+        {
+            string sql = $@"
+        UPDATE {table.Name}
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE
+          AND {table.HashColumn} = @forecastHash
+          AND dockingHashes @> @hashes";
+
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("forecastHash", forecastHash);
+            cmd.Parameters.AddWithValue("hashes", dockingHashes);
+
+            return await cmd.ExecuteNonQueryAsync();
+        }
+
+        public static async Task<int> ClearByBerthAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    string berth)
+        {
+            const string sql = @"
+        UPDATE docking_arrangements
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE
+          AND berth = @berth";
+
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("berth", berth);
+
+            return await cmd.ExecuteNonQueryAsync();
+        }
+
+        public static async Task<bool> ActivationExistsAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    TableDef table,
+    string forecastHash,
+    string[] dockingHashes)
+        {
+            // order-insensitive check using array comparison
+            const string sql = @"
+        SELECT EXISTS (
+            SELECT 1
+            FROM {0}
+            WHERE forecastHash = @forecastHash
+              AND dockingHashes @> @docking
+              AND dockingHashes <@ @docking
+        )";
+
+            string finalSql = string.Format(sql, table.Name);
+
+            using var cmd = new NpgsqlCommand(finalSql, conn, tx);
+            cmd.Parameters.AddWithValue("forecastHash", forecastHash);
+            cmd.Parameters.AddWithValue("docking", dockingHashes);
+
+            return (bool)await cmd.ExecuteScalarAsync();
+        }
+
+        public static async Task<int> ClearByRecordHashAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    TableDef table,
+    string recordHash)
+        {
+            string sql = $@"
+        UPDATE {table.Name}
+        SET isLatest = FALSE
+        WHERE isLatest = TRUE
+          AND {table.HashColumn} = @recordHash";
+
+            using var cmd = new NpgsqlCommand(sql, conn, tx);
+            cmd.Parameters.AddWithValue("recordHash", recordHash);
+
+            return await cmd.ExecuteNonQueryAsync();
+        }
+
+        public static string CanonicalActivationKey(string forecastHash, string[] dockingHashes)
+        {
+            var sorted = dockingHashes.OrderBy(x => x).ToArray();
+            return $"{forecastHash}::{string.Join("|", sorted)}";
+        }
     }
-}
+
+        public readonly struct TableDef
+        {
+            public string Name { get; }
+            public string HashColumn { get; }
+
+            public TableDef(string name, string hashColumn)
+            {
+                Name = name;
+                HashColumn = hashColumn;
+            }
+
+            public override string ToString() => Name;
+        }
+
+
+        public static class Tables
+        {
+            public static readonly TableDef WeatherForecasts =
+                new("weather_forecast", "recordHash");
+
+            public static readonly TableDef ActivationsGrids =
+                new("grid_activation", "forecastHash");
+
+            public static readonly TableDef ActivationsPD =
+                new("pd_activation", "forecastHash");
+
+            public static readonly TableDef Docking =
+                new("docking_arrangements", "recordHash");
+        }
+    }
+

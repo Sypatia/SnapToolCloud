@@ -104,12 +104,12 @@ namespace SnapTool.PdfGenerator
             {
                 sb.AppendLine(string.Format(
                     "{0,-20} {1,-13} {2,-10} {3,-6} {4,-18} {5,-9} {6,-12} {7,-12} {8,-17} {9,-15}",
-                    record.WeatherDateTime ?? "N/A",
+                    record.WeatherDateTime?.ToString("yyyy-MM-dd HH:mm") ?? "N/A",
                     record.Berth ?? "N/A",
                     record.Vessel ?? "N/A",
                     record.MC ?? "N/A",
                     record.ML ?? "N/A",
-                    record.Active ?? "N/A",
+                    record.IsActive ? "True" : "N/A",
                     record.Type ?? "N/A",
                     (record.TriggeringTension?.ToString("0.#") ?? "N/A"),
                     record.CombinedLocation ?? "N/A",
@@ -204,7 +204,7 @@ namespace SnapTool.PdfGenerator
                 AddSelectedVesselsToPage(pdfDocument, 1, arrangements, timeSlots);
 
                 // --- Add tables ---
-                var selectedWeather = weatherForecast.Where(x => timeSlots.Contains(x.DateTime)).ToList();
+                var selectedWeather = weatherForecast.Where(x => timeSlots.Contains(x.DateTimeForecast)).ToList();
                 AddWeatherForecastTableToPage(selectedWeather, pdfDocument, 1);
                 AddDolphinTableToPagePdfDocument(pdfDocument, 1, arrangements, timeSlots, weatherForecast);
             }
@@ -330,8 +330,8 @@ namespace SnapTool.PdfGenerator
 
                 text += $" using {arrangement.MC}";
 
-                var ptbInfo = !string.IsNullOrEmpty(arrangement.PlanToBerth.ToString()) ? $" | PTB: {arrangement.PlanToBerth.ToString()}" : "";
-                var ptsInfo = !string.IsNullOrEmpty(arrangement.PlanToSail.ToString()) ? $" | PTS: {arrangement.PlanToSail.ToString()}" : "";
+                var ptbInfo = !string.IsNullOrEmpty(arrangement.AllSecureDateTime.ToString()) ? $" | AllSec: {arrangement.AllSecureDateTime.ToString()}" : "";
+                var ptsInfo = !string.IsNullOrEmpty(arrangement.SailDateTime.ToString()) ? $" | Sail: {arrangement.SailDateTime.ToString()}" : "";
 
                 canvas.ShowText(text + ptbInfo + ptsInfo);
                 canvas.MoveText(0, -lineHeight);

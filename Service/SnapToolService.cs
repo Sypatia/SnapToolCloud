@@ -1,4 +1,6 @@
-﻿using SnapToolCloud.Data;
+﻿using Npgsql;
+using SnapToolCloud.Data;
+using SnapToolCloud.Database;
 using System.Data;
 using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
@@ -7,59 +9,300 @@ namespace SnapToolCloud.Service
 {
     public class SnapToolService
     {
-        public static (List<PileDolphinRecord> PileDolphinActivations, List<GridRecord> GridActivations) GetActiveElements(List<WeatherRecord> weatherForecast, List<DockingArrangementRecord> dockingArrangements)
+        private static void RunNewAnalyses()
         {
-            List<PileDolphinRecord> activePileDolphins = new();
-            List<GridRecord> activeGrids = new();
 
+        }
+        private static (List<PileDolphinRecord> PileDolphinActivations, List<GridRecord> GridActivations) ConsolidateActivations(List<PileDolphinRecord> activePileDolphins, List<GridRecord> activeGrids)
+        {
+
+            // ---- Helpers ----
+            string Key(string s) => s?.Trim().ToUpperInvariant();
+
+            // -------------------------------------------------------------
+            // 1. LOAD UNIQUE MASTER LISTS
+            // -------------------------------------------------------------
+            var masterPiles =
+                PileDolphinDataLoader.ParseRecords()
+                    .GroupBy(m => Key(m.CombinedLocation))
+                    .Select(g => g.First() with { TriggeringTension = 0 })
+                    .ToDictionary(m => Key(m.CombinedLocation), m => m);
+
+            var masterGrids =
+                GridDataLoader.ParseRecords()
+                    .GroupBy(m => Key(m.CombinedLocation))
+                    .Select(g => g.First() with { TriggeringTension = 0 })
+                    .ToDictionary(m => Key(m.CombinedLocation), m => m);
+
+            // -------------------------------------------------------------
+            // 2. GROUP ACTIVE RECORDS BY UNIQUE CombinedLocation
+            // -------------------------------------------------------------
+            var pileGroups =
+                activePileDolphins
+                    .GroupBy(p => Key(p.CombinedLocation))
+                    .ToDictionary(g => g.Key, g => g.ToList());
+
+            var gridGroups =
+                activeGrids
+                    .GroupBy(g => Key(g.CombinedLocation))
+                    .ToDictionary(g => g.Key, g => g.ToList());
+
+            // -------------------------------------------------------------
+            // 3. FINAL MERGE PER UNIQUE CombinedLocation
+            // -------------------------------------------------------------
+            List<PileDolphinRecord> finalPiles = new();
+            List<GridRecord> finalGrids = new();
+
+            // ---- PILES ----
+            foreach (var key in masterPiles.Keys)
+            {
+                if (pileGroups.TryGetValue(key, out var matches))
+                {
+                    var actives = matches.Where(x => x.InEnvelope).ToList();
+
+                    if (actives.Any())
+                    {
+                        // case 1: ACTIVE exists → highest tension ACTIVE
+                        finalPiles.Add(
+                            actives.OrderByDescending(x => x.TriggeringTension).First()
+                        );
+                    }
+                    else
+                    {
+                        // case 2: No active → highest tension INACTIVE
+                        finalPiles.Add(
+                            matches.OrderByDescending(x => x.TriggeringTension).First()
+                        );
+                    }
+                }
+                else
+                {
+                    // nothing at all for this location → master fallback
+                    finalPiles.Add(masterPiles[key]);
+                }
+            }
+
+            // ---- GRIDS ----
+            foreach (var key in masterGrids.Keys)
+            {
+                if (gridGroups.TryGetValue(key, out var matches))
+                {
+                    var actives = matches.Where(x => x.InEnvelope).ToList();
+
+                    if (actives.Any())
+                    {
+                        finalGrids.Add(
+                            actives.OrderByDescending(x => x.TriggeringTension).First()
+                        );
+                    }
+                    else
+                    {
+                        finalGrids.Add(
+                            matches.OrderByDescending(x => x.TriggeringTension).First()
+                        );
+                    }
+                }
+                else
+                {
+                    finalGrids.Add(masterGrids[key]);
+                }
+            }
+
+            return (finalPiles, finalGrids);
+        }
+
+        public static (List<PileDolphinRecord> PileDolphinActivations, List<GridRecord> GridActivations)
+            GetActiveElements(List<WeatherRecord> weatherForecast, List<DockingArrangementRecord> dockingArrangements)
+        {
+
+            var activePileDolphins = new List<PileDolphinRecord>();
+            var activeGrids = new List<GridRecord>();
+
+            // -------------------------------------------------------------
+            // 1. COLLECT ACTIVE RECORDS
+            // -------------------------------------------------------------
             foreach (var weatherRecord in weatherForecast)
             {
                 foreach (var dockingArrangement in dockingArrangements)
                 {
-                    var filteredWindRecords = DataFilter.FilterDMADataWindOnly(dockingArrangement, weatherRecord.DateTime, weatherForecast);
+                    var wind = DataFilter.FilterDMADataWindOnly(dockingArrangement, weatherRecord.DateTimeForecast, weatherForecast);
+                    var wave = DataFilter.FilterDMADataWaveOnly(dockingArrangement, weatherRecord.DateTimeForecast, weatherForecast);
 
-                    var filteredWaveRecords = DataFilter.FilterDMADataWaveOnly(dockingArrangement, weatherRecord.DateTime, weatherForecast);
+                    activePileDolphins.AddRange(DataFilter.FilterActiveRecords(wind, PileDolphinDataLoader.ParseRecords));
+                    activePileDolphins.AddRange(DataFilter.FilterActiveRecords(wave, PileDolphinDataLoader.ParseRecords));
 
-                    activePileDolphins.AddRange(DataFilter.FilterActiveRecords(filteredWindRecords, PileDolphinDataLoader.ParseRecords));
-                    activePileDolphins.AddRange(DataFilter.FilterActiveRecords(filteredWaveRecords, PileDolphinDataLoader.ParseRecords));
-                    activeGrids.AddRange(DataFilter.FilterActiveRecords(filteredWaveRecords, GridDataLoader.ParseRecords));
-                    activeGrids.AddRange(DataFilter.FilterActiveRecords(filteredWindRecords, GridDataLoader.ParseRecords));
+                    activeGrids.AddRange(DataFilter.FilterActiveRecords(wave, GridDataLoader.ParseRecords));
+                    activeGrids.AddRange(DataFilter.FilterActiveRecords(wind, GridDataLoader.ParseRecords));
                 }
             }
 
-            // Deduplicate based on meaningful composite key
-            activePileDolphins = activePileDolphins
-                .GroupBy(p => $"{p.Berth}|{p.Vessel}|{p.MC}|{p.ML}|{p.CombinedLocation}")
-                .Select(g => g.First())
-                .ToList();
+            var (finalPiles, finalGrids) = ConsolidateActivations(activePileDolphins, activeGrids);
 
-            activeGrids = activeGrids
-                .GroupBy(g => $"{g.Berth}|{g.Vessel}|{g.MC}|{g.ML}|{g.CombinedLocation}")
-                .Select(g => g.First())
-                .ToList();
-
-            return (activePileDolphins, activeGrids);
+            return (finalPiles, finalGrids);
         }
-
-        public async static void RunWorkflow(DateTime startDate, DateTime endDate)
+        public async static Task RunWorkflow(DateTime? startDate = null, DateTime? endDate = null)
         {
-            // Get today's date
-            // Generate active piles and dolphins for every line in forecast
-            List<WeatherRecord> weatherForecast = await WeatherService.GetRTIOB10ForecastAsync();
-            List<DockingArrangementRecord> dockingArrangement = await DockingService.GetDockingArrangementAsync();
+            startDate ??= new DateTime(2025, 11, 15);
+            endDate ??= new DateTime(2025, 11, 25);
 
-            // For each weather forecast ROW
-            foreach (var weatherRecord in weatherForecast)
+            await using var conn = new NpgsqlConnection(SnapToolDB.ConnectionString);
+            await conn.OpenAsync();
+
+            await using var tx = await conn.BeginTransactionAsync();
+
+            try
             {
-                List<WeatherRecord> tempRecordList = new List<WeatherRecord>();
-                tempRecordList.Add(weatherRecord);
+                // --------------------------------------------------
+                // FETCH FORECASTS & DOCKING
+                // --------------------------------------------------
+                List<WeatherRecord> weatherForecast =
+                    await WeatherService.GetRTIOB10ForecastAsync(from: startDate, to: endDate);
 
-                var (pileDolphinActivations, gridActivations) = GetActiveElements(tempRecordList, dockingArrangement);
+                List<DockingArrangementRecord> dockingArrangement =
+                    await DockingService.GetDockingArrangementAsync();
+
+                // Pre-calculate berths once (stable scenario identity)
+                var berths = dockingArrangement
+                    .Select(d => d.Berth)
+                    .Distinct()
+                    .ToArray();
+
+                // --------------------------------------------------
+                // INSERT WEATHER FORECASTS (Clear first)
+                // --------------------------------------------------
+                foreach (var record in weatherForecast)
+                {
+                    var dt = TimeZoneParser.AsPerthLocal(record.DateTimeForecast);
+
+                    bool hashExists = await SnapToolDB.WeatherForecastExistsAsync(record.RecordHash);
+
+                    if (!hashExists)
+                    {
+                        bool timestampExists = await SnapToolDB.WeatherTimestampExistsAsync(conn, tx, dt);
+
+                        if (timestampExists)
+                            await SnapToolDB.ClearWeatherByDateTimeAsync(conn, tx, dt);
+
+                        await SnapToolDB.InsertWeatherForecastAsync(record, blobUrl: null);
+                    }
+                }
+
+                // --------------------------------------------------
+                // INSERT DOCKING ARRANGEMENTS (Clear by berth)
+                // --------------------------------------------------
+                foreach (var record in dockingArrangement)
+                {
+                    bool hashExists = await SnapToolDB.DockingArrangementExistsAsync(conn, tx, record.RecordHash);
+
+                    if (!hashExists)
+                    {
+                        bool berthExists = await SnapToolDB.DockingBerthExistsAsync(conn, tx, record.Berth);
+
+                        if (berthExists)
+                            await SnapToolDB.ClearByBerthAsync(conn, tx, record.Berth);
+
+                        await SnapToolDB.InsertDockingArrangementAsync(record);
+                    }
+                }
+
+                // --------------------------------------------------
+                // PROCESS + BUILD OUTPUT LISTS
+                // --------------------------------------------------
+                var gridsForDB = new List<(string ForecastHash,
+                                           string[] DockingHashes,
+                                           string Name,
+                                           bool ActiveStatus,
+                                           double TriggeringTension,
+                                           DateTime TimeStampFrom,
+                                           DateTime TimeStampTo)>();
+
+                var pilesForDB = new List<(string ForecastHash,
+                                           string[] DockingHashes,
+                                           string Name,
+                                           bool ActiveStatus,
+                                           double TriggeringTension,
+                                           DateTime TimeStampFrom,
+                                           DateTime TimeStampTo)>();
+
+
+                foreach (var weatherRecord in weatherForecast)
+                {
+                    // Define the scenario window
+                    var ws = weatherRecord.DateTimeForecast;
+                    var we = weatherRecord.DateTimeForecast.AddHours(weatherRecord.RecordIntervalHours);
+
+                    // -------------------------------
+                    // CHECK SCENARIO FOR GRIDS
+                    // -------------------------------
+                    bool gridScenarioExists =
+                        await SnapToolDB.ScenarioExistsAsync(conn, tx, Tables.ActivationsGrids, ws, we, berths);
+
+                    if (!gridScenarioExists)
+                    {
+                        await SnapToolDB.ClearScenarioAsync(conn, tx, Tables.ActivationsGrids, ws, we, berths);
+
+                        var (pileDolphinActivations, gridActivations) =
+                            GetActiveElements([weatherRecord], dockingArrangement);
+
+                        foreach (var grid in gridActivations)
+                        {
+                            gridsForDB.Add((
+                                weatherRecord.RecordHash,
+                                dockingArrangement.Select(x => x.RecordHash).ToArray(),
+                                grid.CombinedLocation!,
+                                grid.IsActive,
+                                grid.TriggeringTension ?? -1d,
+                                ws,
+                                we
+                            ));
+                        }
+
+                        // -------------------------------
+                        // CHECK SCENARIO FOR PD
+                        // -------------------------------
+                        bool pdScenarioExists =
+                            await SnapToolDB.ScenarioExistsAsync(conn, tx, Tables.ActivationsPD, ws, we, berths);
+
+                        if (!pdScenarioExists)
+                        {
+                            await SnapToolDB.ClearScenarioAsync(conn, tx, Tables.ActivationsPD, ws, we, berths);
+
+                            foreach (var pd in pileDolphinActivations)
+                            {
+                                pilesForDB.Add((
+                                    weatherRecord.RecordHash,
+                                    dockingArrangement.Select(x => x.RecordHash).ToArray(),
+                                    pd.CombinedLocation!,
+                                    pd.IsActive,
+                                    pd.TriggeringTension ?? -1d,
+                                    ws,
+                                    we
+                                ));
+                            }
+                        }
+                    }
+                }
+
+                // --------------------------------------------------
+                // BULK INSERTS (grid + PD)
+                // --------------------------------------------------
+                if (gridsForDB.Count > 0)
+                    await SnapToolDB.BulkInsertGridActivationsAsync(conn, tx, gridsForDB);
+
+                if (pilesForDB.Count > 0)
+                    await SnapToolDB.BulkInsertPdActivationsAsync(conn, tx, pilesForDB);
+
+                // --------------------------------------------------
+                // COMMIT
+                // --------------------------------------------------
+                await tx.CommitAsync();
             }
-            // For a given docking arrangement
-            // run activation, store activations in database
-
+            catch
+            {
+                await tx.RollbackAsync();
+                throw;
+            }
         }
-
     }
-}
+    }
+    
