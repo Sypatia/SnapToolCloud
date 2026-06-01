@@ -15,6 +15,22 @@ namespace SnapToolCloud.Database
             await using var conn = new NpgsqlConnection(ConnectionString);
             await conn.OpenAsync();
 
+            await EnsureTableExists(conn, "mooring_configs", @"
+                CREATE TABLE mooring_configs (
+                    id SERIAL PRIMARY KEY,
+                    berth TEXT,
+                    vessel TEXT,
+                    mc TEXT,
+                    bow TEXT,
+                    fwdspring TEXT,
+                    aftspring TEXT,
+                    stern TEXT,
+                    isLatest BOOLEAN
+                );
+                CREATE INDEX IF NOT EXISTS idx_mooring_configs_berth
+                    ON mooring_configs(berth);
+            ");
+
             await EnsureTableExists(conn, "weather_forecast", @"
                 CREATE TABLE weather_forecast (
                     id SERIAL PRIMARY KEY,
@@ -96,6 +112,32 @@ namespace SnapToolCloud.Database
             ");
 
             Console.WriteLine("✅ All tables ensured.");
+        }
+
+        public static async Task BulkInsertMooringConfigsAsync(
+    NpgsqlConnection conn,
+    NpgsqlTransaction tx,
+    IEnumerable<(string Berth, string Vessel, string MC, string Bow, string FwdSpring, string AftSpring, string Stern)> configs)
+        {
+            using var writer = conn.BeginBinaryImport(@"
+        COPY mooring_configs (
+            berth, vessel, mc, bow, fwdspring, aftspring, stern, isLatest
+        ) FROM STDIN (FORMAT BINARY)");
+
+            foreach (var c in configs)
+            {
+                await writer.StartRowAsync();
+                await writer.WriteAsync(c.Berth, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.Vessel, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.MC, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.Bow, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.FwdSpring, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.AftSpring, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(c.Stern, NpgsqlTypes.NpgsqlDbType.Text);
+                await writer.WriteAsync(true, NpgsqlTypes.NpgsqlDbType.Boolean);
+            }
+
+            await writer.CompleteAsync();
         }
 
         private static async Task EnsureTableExists(NpgsqlConnection conn, string tableName, string createSql)

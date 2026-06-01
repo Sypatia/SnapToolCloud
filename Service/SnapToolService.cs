@@ -188,22 +188,10 @@ namespace SnapToolCloud.Service
                 }
 
                 // --------------------------------------------------
-                // INSERT DOCKING ARRANGEMENTS (Clear by berth)
+                // DOCKING ARRANGEMENTS: full refresh each run
                 // --------------------------------------------------
-                foreach (var record in dockingArrangement)
-                {
-                    bool hashExists = await SnapToolDB.DockingArrangementExistsAsync(conn, tx, record.RecordHash);
-
-                    if (!hashExists)
-                    {
-                        bool berthExists = await SnapToolDB.DockingBerthExistsAsync(conn, tx, record.Berth);
-
-                        if (berthExists)
-                            await SnapToolDB.ClearByBerthAsync(conn, tx, record.Berth);
-
-                        await SnapToolDB.InsertDockingArrangementAsync(record);
-                    }
-                }
+                await SnapToolDB.ClearAllLatestAsync(conn, tx, Tables.Docking);
+                await SnapToolDB.BulkInsertDockingArrangementsAsync(conn, tx, dockingArrangement);
 
                 // --------------------------------------------------
                 // PROCESS + BUILD OUTPUT LISTS

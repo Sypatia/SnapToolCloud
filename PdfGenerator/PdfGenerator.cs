@@ -15,7 +15,7 @@ using System.Text;
 
 namespace SnapTool.PdfGenerator
 {
-    internal class Definitions
+    internal class PdfGenerator
     {
         // Locations of relevant piles and dolphins on PDF P-0504300-PPT-SK-001 - PPT Wharf Plans.pdf, noting reference is top-left corner of the file
         // Units are in centimetres
@@ -24,7 +24,7 @@ namespace SnapTool.PdfGenerator
         public static Dictionary<string, (float X, float Y, float Width, float Height, int Page)> GridPdfLocations { get; private set; }
 
         // Static constructor to initialize the dictionary
-        static Definitions()
+        static PdfGenerator()
         {
             PileDolphinPdfLocations = new Dictionary<string, (float X, float Y, int Page)>();
             GridPdfLocations = new Dictionary<string, (float X, float Y, float Width, float Height, int Page)>();
@@ -159,8 +159,8 @@ namespace SnapTool.PdfGenerator
                     ? new HashSet<string>(distinctGrids.Select(r => r.CombinedLocation), StringComparer.OrdinalIgnoreCase)
                     : new HashSet<string>();
 
-                var pileDolphinLocations = Definitions.PileDolphinPdfLocations;
-                var gridLocations = Definitions.GridPdfLocations;
+                var pileDolphinLocations = PdfGenerator.PileDolphinPdfLocations;
+                var gridLocations = PdfGenerator.GridPdfLocations;
 
                 // --- Draw pile/dolphins ---
                 foreach (var (name, value) in pileDolphinLocations)

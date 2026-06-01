@@ -10,7 +10,6 @@ using System.Security.Cryptography;
 using System.Text.Json.Serialization;
 namespace SnapToolCloud.Data
 {
-
     public static class TimeZoneParser
     {
         public static DateTime AsPerthLocal(DateTimeOffset dto)
@@ -513,9 +512,6 @@ namespace SnapToolCloud.Data
 
             return filtered;
         }
-
-
-
 
         public static List<DMARecord> FilterDMADataWaveOnly(
     DockingArrangementRecord dockingArrangement,
