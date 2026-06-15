@@ -1,6 +1,53 @@
 @SnapToolCloud_HostAddress = http://localhost:5024
+@SnapToolCloud_ApiKey = replace-with-your-api-key
 
-GET {{SnapToolCloud_HostAddress}}/weatherforecast/
+POST {{SnapToolCloud_HostAddress}}/api/assessments/wind
 Accept: application/json
+Content-Type: application/json
+X-API-Key: {{SnapToolCloud_ApiKey}}
+
+{
+  "assessmentDateTime": "2026-06-01T10:00:00",
+  "vessel": {
+    "berth": "Berth 02",
+    "vessel": "180k",
+    "mc": "MC1",
+    "vesselName": "Manual Vessel"
+  }
+}
 
 ###
+
+POST {{SnapToolCloud_HostAddress}}/api/assessments/wave
+Accept: application/json
+Content-Type: application/json
+X-API-Key: {{SnapToolCloud_ApiKey}}
+
+{
+  "assessmentDateTime": "2026-06-01T10:00:00",
+  "vesselMovementObserved": false,
+  "vessel": {
+    "berth": "Berth 02",
+    "vessel": "180k",
+    "mc": "MC1",
+    "vesselName": "Manual Vessel"
+  }
+}
+
+###
+
+POST {{SnapToolCloud_HostAddress}}/api/assessments/passing-vessels
+Accept: application/json
+Content-Type: application/json
+X-API-Key: {{SnapToolCloud_ApiKey}}
+
+{
+  "passingVessels": [
+    {
+      "vesselName": "Example Vessel",
+      "location": "PPT4",
+      "movementType": "Berthing",
+      "scheduledDateTime": "2026-06-01T11:00:00"
+    }
+  ]
+}
